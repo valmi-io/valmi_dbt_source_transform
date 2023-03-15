@@ -24,3 +24,15 @@ models:
       materialized: table
       staging:
         materialized: view
+
+# Define variables here
+vars:
+  source: "customers"
+  snapshot:  "finalized_snapshot"
+  stg_snapshot: "stg_snapshot"
+  ignored_snapshot: "ignored_snapshot"
+  transit_snapshot: "transit_snapshot"
+
+  full_refresh: "true"
+  columns: ["customer_id","first_name", "last_name"]
+  id_key: "customer_id" 

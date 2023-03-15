@@ -1,31 +1,17 @@
 version: 2
 
+sources:
+  - name: jaffle_shop
+    database: citus
+    schema: dbt_rvarkala
+    tables:
+      - name: customers 
+  - name: scratch
+    database: citus
+    schema: dbt_rvarkala
+    tables:
+      - name: finalized_snapshot 
+
 models:
-  - name: stg_customers
-    columns:
-      - name: customer_id
-        tests:
-          - unique
-          - not_null
-
-  - name: stg_orders
-    columns:
-      - name: order_id
-        tests:
-          - unique
-          - not_null
-      - name: status
-        tests:
-          - accepted_values:
-              values: ['placed', 'shipped', 'completed', 'return_pending', 'returned']
-
-  - name: stg_payments
-    columns:
-      - name: payment_id
-        tests:
-          - unique
-          - not_null
-      - name: payment_method
-        tests:
-          - accepted_values:
-              values: ['credit_card', 'coupon', 'bank_transfer', 'gift_card']
+  - name: stg_snapshot
+    description: This table has basic information about a customer, as well as some derived facts based on a customer's orders
