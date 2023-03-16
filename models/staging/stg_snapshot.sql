@@ -19,7 +19,7 @@
 {% if do_full_refresh %}
 
  select {{ ",".join(var("columns")) }}
-        from {{ source("aliased_source", var("source")) }}
+        from {{ source("aliased_source", var("source_table")) }}
 {% else %}
 
 
@@ -32,7 +32,7 @@ Also, In case of full_refresh, clean up all temporary tables -  transit , sync_m
 If there is a mode change to mirror mode, we need to get full_refresh flag to clean up stuff.
  */
 select {{ ".".join(var("columns")) }}
-from {{ source("aliased_source", var("source")) }}
+from {{ source("aliased_source", var("source_table")) }}
 
 except
 
