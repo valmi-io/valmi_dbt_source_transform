@@ -1,7 +1,7 @@
 version: 2
 
 sources:
-  - name: jaffle_shop
+  - name: aliased_source
     database: citus
     schema: dbt_rvarkala
     tables:
