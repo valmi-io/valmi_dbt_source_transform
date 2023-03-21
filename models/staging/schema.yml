@@ -2,15 +2,16 @@ version: 2
 
 sources:
   - name: aliased_source
-    database: citus
-    schema: dbt_rvarkala
+    database: dvdrental
+    schema: public
     tables:
-      - name: customers 
+      - name: rental_all 
   - name: scratch
-    database: citus
-    schema: dbt_rvarkala
+    database: dvdrental
+    schema: valmi_scratch_computed_
     tables:
       - name: finalized_snapshot 
+      - name: transit_snapshot 
 
 models:
   - name: stg_snapshot
