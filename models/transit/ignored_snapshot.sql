@@ -1,5 +1,7 @@
 with stg_snapshot as (select * from {{  ref(var("stg_snapshot")) }})
-select {{ ",".join(var("columns")) }}, 400 AS ignored_code
+
+{# Duplicate keys : Code -100 #}
+select {{ ",".join(var("columns")) }}, -100 AS ignored_code 
 from stg_snapshot
 where
     {{ var("id_key") }}  in (
@@ -12,3 +14,15 @@ where
                 having count(*) > 1
             ) AS ID_COUNTS
     )
+    and 
+    {{ var("id_key") }} IS NOT NULL 
+
+UNION ALL
+
+{# Null Keys : Code -120 #}
+select {{ ",".join(var("columns")) }}, -120 AS ignored_code 
+from stg_snapshot
+where  {{ var("id_key") }} IS  NULL
+
+
+
