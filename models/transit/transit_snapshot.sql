@@ -6,4 +6,7 @@ select
     row_number() over (order by {{ var("id_key") }}) _valmi_row_num,
     {{ ",".join(var("columns")) }}
 from stg_snapshot
-where {{ var("id_key") }} not in (select {{ var("id_key") }} from ignored_snapshot)
+where {{ var("id_key") }} not in 
+    (select {{ var("id_key") }} 
+    from ignored_snapshot 
+    where  {{ var("id_key") }} is not NULL)
