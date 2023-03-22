@@ -4,7 +4,7 @@ with init as (
 select {{ ",".join(var("columns")) }}
 from {{ source("aliased_source", var("source_table")) }}
 
-except
+except all
 
 select {{ ",".join(var("columns")) }}
 from {{ source("scratch", var("finalized_snapshot")) }}
