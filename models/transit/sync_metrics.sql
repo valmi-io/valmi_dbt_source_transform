@@ -4,9 +4,9 @@ with
     source_table as (select * from {{ source("aliased_source", var("source_table")) }}),
     stg_snapshot as (select * from  {{ ref(var("stg_snapshot")) }})
 
-select count(*), 'invalid' as kind, ignored_code as error_code
+select count(*), 'invalid' as kind, error_code
 from ignored_snapshot
-group by ignored_code
+group by error_code
 
 UNION ALL
 
