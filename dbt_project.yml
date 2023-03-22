@@ -34,7 +34,7 @@ vars:
   ignored_snapshot: "ignored_snapshot"
   transit_snapshot: "transit_snapshot"
 
-  full_refresh: "false"
+  full_refresh: "true"
   previous_run_status: "success"
 
   columns: ["rental_id","email","first_name","activebool","last_update"]
