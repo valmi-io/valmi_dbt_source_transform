@@ -2165,3 +2165,10 @@ drop table if exists "dvdrental"."valmi_scratch_computed_"."sync_metrics__dbt_ba
 2023-03-22 06:05:14.572591 (Thread-214): handling status request
 2023-03-22 06:05:14.573096 (Thread-214): 06:05:14  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '4397ac96-ddca-48a7-882c-0501a54942ae', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f1c09fdaf70>]}
 2023-03-22 06:05:14.573662 (Thread-214): sending response (<Response 4799 bytes [200 OK]>) to 10.0.188.194
+2023-03-22 06:05:26.699222 (Thread-215): 06:05:26  checksum: 9f5971860ea7956c5d0d162f1c96671df61b5ad9db5c4152918680483cec5347, vars: {}, profile: user, target: None, version: 1.4.5
+2023-03-22 06:05:26.732632 (Thread-215): 06:05:26  Partial parsing enabled: 0 files deleted, 0 files added, 0 files changed.
+2023-03-22 06:05:26.732897 (Thread-215): 06:05:26  Partial parsing enabled, no changes found, skipping parsing
+2023-03-22 06:05:26.738434 (Thread-215): 06:05:26  Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '4397ac96-ddca-48a7-882c-0501a54942ae', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f1c078bf280>]}
+2023-03-22 06:05:27.299552 (Thread-216): handling status request
+2023-03-22 06:05:27.300090 (Thread-216): 06:05:27  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '4397ac96-ddca-48a7-882c-0501a54942ae', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f1c09fb24f0>]}
+2023-03-22 06:05:27.300597 (Thread-216): sending response (<Response 1610 bytes [200 OK]>) to 10.0.188.194
