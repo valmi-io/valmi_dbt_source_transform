@@ -12,6 +12,7 @@ sources:
     tables:
       - name: finalized_snapshot 
       - name: transit_snapshot 
+      - name: ignored_snapshot 
 
 models:
   - name: stg_snapshot

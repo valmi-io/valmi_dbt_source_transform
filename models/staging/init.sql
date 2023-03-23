@@ -34,7 +34,10 @@
         {# delete the last transit snapshot keys#}
         {% set query %}
             DELETE FROM {{ source('scratch', var('finalized_snapshot')) }} WHERE {{ var("id_key") }} in 
-            (SELECT  {{ var("id_key") }}   FROM  {{ source('scratch', var('transit_snapshot')) }})
+                (SELECT  {{ var("id_key") }}   FROM  {{ source('scratch', var('transit_snapshot')) }}
+                UNION 
+                SELECT  {{ var("id_key") }}   FROM  {{ source('scratch', var('ignored_snapshot')) }}
+                )
         {% endset %}
         {% do run_query(query) %}
 
