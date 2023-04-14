@@ -1,15 +1,40 @@
-with stg_snapshot as (select * from {{  ref(var("stg_snapshot")) }})
+/*
+ * Copyright (c) 2023 valmi.io <https://github.com/valmi-io>
+ * 
+ * Created Date: Wednesday, March 22nd 2023, 12:15:26 pm
+ * Author: Rajashekar Varkala @ valmi.io
+ * 
+ * Permission is hereby granted, free of charge, to any person obtaining a copy
+ * of this software and associated documentation files (the "Software"), to deal
+ * in the Software without restriction, including without limitation the rights
+ * to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+ * copies of the Software, and to permit persons to whom the Software is
+ * furnished to do so, subject to the following conditions:
+ * 
+ * The above copyright notice and this permission notice shall be included in all
+ * copies or substantial portions of the Software.
+ * 
+ * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+ * IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+ * FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+ * AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+ * LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+ * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+ * SOFTWARE.
+ */
+
+with source as (select * from {{ source("aliased_source", var("source_table")) }})
 
 {# Duplicate keys : Code -100 #}
 select {{ ",".join(var("columns")) }}, -100 AS error_code 
-from stg_snapshot
+from source
 where
     {{ var("id_key") }}  in (
         select {{ var("id_key") }}
         from
             (
                 select count(*), {{ var("id_key") }}
-                from stg_snapshot
+                from source
                 group by {{ var("id_key") }}
                 having count(*) > 1
             ) AS ID_COUNTS
@@ -21,7 +46,7 @@ UNION ALL
 
 {# Null Keys : Code -120 #}
 select {{ ",".join(var("columns")) }}, -120 AS error_code 
-from stg_snapshot
+from source
 where  {{ var("id_key") }} IS  NULL
 
 
