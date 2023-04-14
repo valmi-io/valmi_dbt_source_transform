@@ -5,13 +5,15 @@ sources:
     database: dvdrental
     schema: public
     tables:
-      - name: rental_all 
+      - name: customer 
   - name: scratch
     database: dvdrental
     schema: valmi_scratch_computed_
     tables:
       - name: finalized_snapshot 
       - name: transit_snapshot 
+      - name: stg_snapshot
+      - name: delete_snapshot
 
 models:
   - name: stg_snapshot

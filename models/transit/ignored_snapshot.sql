@@ -10,6 +10,7 @@ where
             (
                 select count(*), {{ var("id_key") }}
                 from stg_snapshot
+                where _valmi_sync_op IN ('upsert')
                 group by {{ var("id_key") }}
                 having count(*) > 1
             ) AS ID_COUNTS

@@ -23,19 +23,22 @@ models:
   valmi_postgres:
       materialized: table
       staging:
-        materialized: view
+        materialized: table
 
 # Define variables here
 vars:
-  source_table: "rental_all"
+  source_table: "customer"
   init: "init"
   finalized_snapshot:  "finalized_snapshot"
   stg_snapshot: "stg_snapshot"
   ignored_snapshot: "ignored_snapshot"
   transit_snapshot: "transit_snapshot"
+  delete_snapshot: "delete_snapshot"
 
   full_refresh: "true"
-  previous_run_status: "success"
+  previous_run_status: "failed"
 
-  columns: ["rental_id","email","first_name","activebool","last_update"]
-  id_key: "email" 
+  destination_sync_mode: "upsert"
+
+  columns: ["customer_id","email","first_name","activebool","last_update"]
+  id_key: "customer_id" 

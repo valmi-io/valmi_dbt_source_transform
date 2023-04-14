@@ -22,3 +22,4 @@ UNION ALL
 
 select count(*), 'new' as kind,0 as error_code
 from stg_snapshot
+where _valmi_sync_op IN ('upsert')
