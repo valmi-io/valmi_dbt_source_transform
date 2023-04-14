@@ -35,10 +35,10 @@ vars:
   transit_snapshot: "transit_snapshot"
   delete_snapshot: "delete_snapshot"
 
-  full_refresh: "true"
-  previous_run_status: "failed"
+  full_refresh: "false"
+  previous_run_status: "success"
 
-  destination_sync_mode: "upsert"
+  destination_sync_mode: "mirror"
 
   columns: ["customer_id","email","first_name","activebool","last_update"]
   id_key: "customer_id" 

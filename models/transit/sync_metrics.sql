@@ -37,6 +37,7 @@ UNION ALL
 
 select count(*), 'valid' as kind,0 as error_code
 from transit_snapshot
+where _valmi_sync_op IN ('upsert')
 
 UNION ALL
 
