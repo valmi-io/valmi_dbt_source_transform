@@ -24561,3 +24561,2067 @@ drop table if exists "dvdrental"."valmi_scratch_computed_"."sync_metrics__dbt_ba
 2023-04-15 07:10:09.563521 (Thread-257): handling poll request
 2023-04-15 07:10:09.564060 (Thread-257): 07:10:09  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '8e56c7fc-6ef3-42f7-ae13-0513b6153959', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fc4fc11eb80>]}
 2023-04-15 07:10:09.564596 (Thread-257): sending response (<Response 303 bytes [200 OK]>) to 10.0.191.177
+2023-04-15 07:10:47.897700 (Thread-258): 07:10:47  checksum: 9f5971860ea7956c5d0d162f1c96671df61b5ad9db5c4152918680483cec5347, vars: {}, profile: user, target: None, version: 1.4.5
+2023-04-15 07:10:47.932175 (Thread-258): 07:10:47  Partial parsing enabled: 0 files deleted, 0 files added, 0 files changed.
+2023-04-15 07:10:47.932407 (Thread-258): 07:10:47  Partial parsing enabled, no changes found, skipping parsing
+2023-04-15 07:10:47.937607 (Thread-258): 07:10:47  Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '8e56c7fc-6ef3-42f7-ae13-0513b6153959', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fc4db638430>]}
+2023-04-15 07:10:48.260612 (Thread-259): handling status request
+2023-04-15 07:10:48.261027 (Thread-259): 07:10:48  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '8e56c7fc-6ef3-42f7-ae13-0513b6153959', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fc4db6d1610>]}
+2023-04-15 07:10:48.261471 (Thread-259): sending response (<Response 1593 bytes [200 OK]>) to 10.0.191.177
+2023-04-15 07:11:05.089870 (Thread-260): handling status request
+2023-04-15 07:11:05.090393 (Thread-260): 07:11:05  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '8e56c7fc-6ef3-42f7-ae13-0513b6153959', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fc4db6d13a0>]}
+2023-04-15 07:11:05.090883 (Thread-260): sending response (<Response 1593 bytes [200 OK]>) to 10.0.191.177
+2023-04-15 07:14:40.831831 (Thread-261): handling status request
+2023-04-15 07:14:40.833684 (Thread-261): 07:14:40  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '8e56c7fc-6ef3-42f7-ae13-0513b6153959', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fc4db6d1460>]}
+2023-04-15 07:14:40.834167 (Thread-261): sending response (<Response 1593 bytes [200 OK]>) to 10.0.191.177
+2023-04-15 07:14:45.116272 (Thread-262): handling status request
+2023-04-15 07:14:45.116832 (Thread-262): 07:14:45  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '8e56c7fc-6ef3-42f7-ae13-0513b6153959', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fc4db6d1400>]}
+2023-04-15 07:14:45.117312 (Thread-262): sending response (<Response 1593 bytes [200 OK]>) to 10.0.191.177
+2023-04-15 07:14:45.198265 (Thread-263): handling ps request
+2023-04-15 07:14:45.198739 (Thread-263): 07:14:45  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '8e56c7fc-6ef3-42f7-ae13-0513b6153959', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fc4db6d19d0>]}
+2023-04-15 07:14:45.200181 (Thread-263): sending response (<Response 15213 bytes [200 OK]>) to 10.0.191.177
+2023-04-15 07:14:45.351404 (Thread-264): handling ps request
+2023-04-15 07:14:45.351912 (Thread-264): 07:14:45  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '8e56c7fc-6ef3-42f7-ae13-0513b6153959', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fc4db62daf0>]}
+2023-04-15 07:14:45.353366 (Thread-264): sending response (<Response 15213 bytes [200 OK]>) to 10.0.191.177
+2023-04-15 07:14:45.440823 (Thread-265): handling status request
+2023-04-15 07:14:45.441260 (Thread-265): 07:14:45  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '8e56c7fc-6ef3-42f7-ae13-0513b6153959', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fc4db6d11c0>]}
+2023-04-15 07:14:45.441716 (Thread-265): sending response (<Response 1593 bytes [200 OK]>) to 10.0.191.177
+2023-04-15 07:14:45.446421 (Thread-266): handling list request
+2023-04-15 07:14:45.446776 (Thread-266): 07:14:45  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '8e56c7fc-6ef3-42f7-ae13-0513b6153959', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fc4db6d10d0>]}
+2023-04-15 07:14:45.483795 (Thread-266): 07:14:45  Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '8e56c7fc-6ef3-42f7-ae13-0513b6153959', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fc4fc170850>]}
+2023-04-15 07:14:45.484383 (Thread-266): 07:14:45  Found 5 models, 0 tests, 0 snapshots, 0 analyses, 292 macros, 0 operations, 0 seed files, 6 sources, 0 exposures, 0 metrics
+2023-04-15 07:14:45.484713 (Thread-266): 07:14:45  Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '8e56c7fc-6ef3-42f7-ae13-0513b6153959', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fc4acd37fd0>]}
+2023-04-15 07:14:45.487210 (Thread-266): sending response (<Response 5472 bytes [200 OK]>) to 10.0.191.177
+2023-04-15 07:14:45.710348 (Thread-267): handling status request
+2023-04-15 07:14:45.710825 (Thread-267): 07:14:45  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '8e56c7fc-6ef3-42f7-ae13-0513b6153959', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fc4e2e1c700>]}
+2023-04-15 07:14:45.711297 (Thread-267): sending response (<Response 1593 bytes [200 OK]>) to 10.0.191.177
+2023-04-15 07:15:06.275317 (Thread-268): handling status request
+2023-04-15 07:15:06.275814 (Thread-268): 07:15:06  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '8e56c7fc-6ef3-42f7-ae13-0513b6153959', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fc4fc125e80>]}
+2023-04-15 07:15:06.303305 (Thread-268): sending response (<Response 1593 bytes [200 OK]>) to 10.0.191.177
+2023-04-15 07:15:08.060882 (Thread-269): handling status request
+2023-04-15 07:15:08.061398 (Thread-269): 07:15:08  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '8e56c7fc-6ef3-42f7-ae13-0513b6153959', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fc4db638ee0>]}
+2023-04-15 07:15:08.061881 (Thread-269): sending response (<Response 1593 bytes [200 OK]>) to 10.0.191.177
+2023-04-15 07:15:08.137210 (Thread-270): handling ps request
+2023-04-15 07:15:08.137610 (Thread-270): 07:15:08  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '8e56c7fc-6ef3-42f7-ae13-0513b6153959', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fc4db638e50>]}
+2023-04-15 07:15:08.139155 (Thread-270): sending response (<Response 15504 bytes [200 OK]>) to 10.0.191.177
+2023-04-15 07:15:08.329997 (Thread-271): handling status request
+2023-04-15 07:15:08.330520 (Thread-271): 07:15:08  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '8e56c7fc-6ef3-42f7-ae13-0513b6153959', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fc4db638370>]}
+2023-04-15 07:15:08.331018 (Thread-271): sending response (<Response 1593 bytes [200 OK]>) to 10.0.191.177
+2023-04-15 07:15:08.335515 (Thread-272): handling list request
+2023-04-15 07:15:08.335912 (Thread-272): 07:15:08  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '8e56c7fc-6ef3-42f7-ae13-0513b6153959', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fc4db6384f0>]}
+2023-04-15 07:15:08.376772 (Thread-272): 07:15:08  Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '8e56c7fc-6ef3-42f7-ae13-0513b6153959', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fc4fc125730>]}
+2023-04-15 07:15:08.377443 (Thread-272): 07:15:08  Found 5 models, 0 tests, 0 snapshots, 0 analyses, 292 macros, 0 operations, 0 seed files, 6 sources, 0 exposures, 0 metrics
+2023-04-15 07:15:08.377796 (Thread-272): 07:15:08  Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '8e56c7fc-6ef3-42f7-ae13-0513b6153959', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fc4fc11e400>]}
+2023-04-15 07:15:08.379819 (Thread-272): sending response (<Response 4217 bytes [200 OK]>) to 10.0.191.177
+2023-04-15 07:15:08.516371 (Thread-273): handling ps request
+2023-04-15 07:15:08.516870 (Thread-273): 07:15:08  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '8e56c7fc-6ef3-42f7-ae13-0513b6153959', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fc4db6d18b0>]}
+2023-04-15 07:15:08.518391 (Thread-273): sending response (<Response 15796 bytes [200 OK]>) to 10.0.191.177
+2023-04-15 07:15:08.896387 (Thread-274): handling status request
+2023-04-15 07:15:08.896875 (Thread-274): 07:15:08  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '8e56c7fc-6ef3-42f7-ae13-0513b6153959', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fc4db638f70>]}
+2023-04-15 07:15:08.897357 (Thread-274): sending response (<Response 1593 bytes [200 OK]>) to 10.0.191.177
+2023-04-15 07:15:09.002967 (Thread-275): handling poll request
+2023-04-15 07:15:09.003432 (Thread-275): 07:15:09  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '8e56c7fc-6ef3-42f7-ae13-0513b6153959', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fc4db6382e0>]}
+2023-04-15 07:15:09.003966 (Thread-275): sending response (<Response 303 bytes [200 OK]>) to 10.0.191.177
+2023-04-15 07:15:39.949917 (Thread-276): handling status request
+2023-04-15 07:15:39.950482 (Thread-276): 07:15:39  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '8e56c7fc-6ef3-42f7-ae13-0513b6153959', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fc4ef74ef10>]}
+2023-04-15 07:15:39.950962 (Thread-276): sending response (<Response 1593 bytes [200 OK]>) to 10.0.191.177
+2023-04-15 07:16:52.104773 (Thread-277): handling status request
+2023-04-15 07:16:52.106494 (Thread-277): 07:16:52  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '8e56c7fc-6ef3-42f7-ae13-0513b6153959', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fc4db6381f0>]}
+2023-04-15 07:16:52.106974 (Thread-277): sending response (<Response 1593 bytes [200 OK]>) to 10.0.191.177
+2023-04-15 07:17:13.307778 (Thread-278): handling status request
+2023-04-15 07:17:13.308339 (Thread-278): 07:17:13  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '8e56c7fc-6ef3-42f7-ae13-0513b6153959', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fc4db6d15e0>]}
+2023-04-15 07:17:13.308833 (Thread-278): sending response (<Response 1593 bytes [200 OK]>) to 10.0.191.177
+2023-04-15 07:18:27.328977 (Thread-279): handling status request
+2023-04-15 07:18:27.330700 (Thread-279): 07:18:27  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '8e56c7fc-6ef3-42f7-ae13-0513b6153959', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fc4db6d13a0>]}
+2023-04-15 07:18:27.331184 (Thread-279): sending response (<Response 1593 bytes [200 OK]>) to 10.0.191.177
+2023-04-15 07:18:58.693452 (Thread-280): handling status request
+2023-04-15 07:18:58.693956 (Thread-280): 07:18:58  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '8e56c7fc-6ef3-42f7-ae13-0513b6153959', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fc4db6d12b0>]}
+2023-04-15 07:18:58.694454 (Thread-280): sending response (<Response 1593 bytes [200 OK]>) to 10.0.191.177
+2023-04-15 07:24:26.565360 (Thread-281): handling status request
+2023-04-15 07:24:26.567230 (Thread-281): 07:24:26  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '8e56c7fc-6ef3-42f7-ae13-0513b6153959', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fc4db63a3a0>]}
+2023-04-15 07:24:26.567729 (Thread-281): sending response (<Response 1593 bytes [200 OK]>) to 10.0.191.177
+2023-04-15 07:25:34.344918 (Thread-282): handling status request
+2023-04-15 07:25:34.345434 (Thread-282): 07:25:34  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '8e56c7fc-6ef3-42f7-ae13-0513b6153959', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fc4db63ab50>]}
+2023-04-15 07:25:34.345938 (Thread-282): sending response (<Response 1593 bytes [200 OK]>) to 10.0.191.177
+2023-04-15 07:48:34.750255 (Thread-283): handling status request
+2023-04-15 07:48:34.752030 (Thread-283): 07:48:34  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '8e56c7fc-6ef3-42f7-ae13-0513b6153959', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fc4db63a970>]}
+2023-04-15 07:48:34.752525 (Thread-283): sending response (<Response 1593 bytes [200 OK]>) to 10.0.191.177
+2023-04-15 07:48:37.242041 (Thread-284): handling status request
+2023-04-15 07:48:37.242527 (Thread-284): 07:48:37  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '8e56c7fc-6ef3-42f7-ae13-0513b6153959', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fc4db63ae50>]}
+2023-04-15 07:48:37.242992 (Thread-284): sending response (<Response 1593 bytes [200 OK]>) to 10.0.191.177
+2023-04-15 07:50:49.118751 (Thread-285): handling status request
+2023-04-15 07:50:49.120707 (Thread-285): 07:50:49  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '8e56c7fc-6ef3-42f7-ae13-0513b6153959', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fc4db6d4040>]}
+2023-04-15 07:50:49.121182 (Thread-285): sending response (<Response 1593 bytes [200 OK]>) to 10.0.191.177
+2023-04-15 07:50:51.248506 (Thread-286): handling status request
+2023-04-15 07:50:51.249023 (Thread-286): 07:50:51  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '8e56c7fc-6ef3-42f7-ae13-0513b6153959', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fc4db6d4130>]}
+2023-04-15 07:50:51.249523 (Thread-286): sending response (<Response 1593 bytes [200 OK]>) to 10.0.191.177
+2023-04-15 07:54:46.504688 (Thread-287): handling status request
+2023-04-15 07:54:46.506545 (Thread-287): 07:54:46  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '8e56c7fc-6ef3-42f7-ae13-0513b6153959', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fc4db6d44c0>]}
+2023-04-15 07:54:46.507032 (Thread-287): sending response (<Response 1593 bytes [200 OK]>) to 10.0.191.177
+2023-04-15 10:14:15.966679 (Thread-288): handling status request
+2023-04-15 10:14:15.968597 (Thread-288): 10:14:15  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '8e56c7fc-6ef3-42f7-ae13-0513b6153959', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fc4db662040>]}
+2023-04-15 10:14:15.969086 (Thread-288): sending response (<Response 1593 bytes [200 OK]>) to 10.0.191.177
+2023-04-15 10:14:16.059567 (Thread-289): handling ps request
+2023-04-15 10:14:16.059981 (Thread-289): 10:14:16  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '8e56c7fc-6ef3-42f7-ae13-0513b6153959', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fc4db662130>]}
+2023-04-15 10:14:16.061426 (Thread-289): sending response (<Response 15796 bytes [200 OK]>) to 10.0.191.177
+2023-04-15 10:14:16.225768 (Thread-290): handling ps request
+2023-04-15 10:14:16.226241 (Thread-290): 10:14:16  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '8e56c7fc-6ef3-42f7-ae13-0513b6153959', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fc4db6623a0>]}
+2023-04-15 10:14:16.227741 (Thread-290): sending response (<Response 15796 bytes [200 OK]>) to 10.0.191.177
+2023-04-15 10:14:16.919603 (Thread-291): handling status request
+2023-04-15 10:14:16.920131 (Thread-291): 10:14:16  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '8e56c7fc-6ef3-42f7-ae13-0513b6153959', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fc4db662580>]}
+2023-04-15 10:14:16.920622 (Thread-291): sending response (<Response 1593 bytes [200 OK]>) to 10.0.191.177
+2023-04-15 12:46:03.693091 (Thread-292): handling status request
+2023-04-15 12:46:03.694749 (Thread-292): 12:46:03  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '8e56c7fc-6ef3-42f7-ae13-0513b6153959', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fc4db662ca0>]}
+2023-04-15 12:46:03.695245 (Thread-292): sending response (<Response 1593 bytes [200 OK]>) to 10.0.191.177
+2023-04-15 12:46:06.908153 (Thread-293): handling status request
+2023-04-15 12:46:06.908657 (Thread-293): 12:46:06  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '8e56c7fc-6ef3-42f7-ae13-0513b6153959', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fc4db6d4ca0>]}
+2023-04-15 12:46:06.909148 (Thread-293): sending response (<Response 1593 bytes [200 OK]>) to 10.0.191.177
+2023-04-15 12:53:39.610772 (Thread-294): handling status request
+2023-04-15 12:53:39.612617 (Thread-294): 12:53:39  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '8e56c7fc-6ef3-42f7-ae13-0513b6153959', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fc4db6d4d60>]}
+2023-04-15 12:53:39.613121 (Thread-294): sending response (<Response 1593 bytes [200 OK]>) to 10.0.191.177
+2023-04-15 12:53:43.313617 (Thread-295): handling status request
+2023-04-15 12:53:43.314169 (Thread-295): 12:53:43  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '8e56c7fc-6ef3-42f7-ae13-0513b6153959', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fc4db6d4a00>]}
+2023-04-15 12:53:43.314686 (Thread-295): sending response (<Response 1593 bytes [200 OK]>) to 10.0.191.177
+2023-04-15 12:53:43.321133 (Thread-296): handling list request
+2023-04-15 12:53:43.321464 (Thread-296): 12:53:43  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '8e56c7fc-6ef3-42f7-ae13-0513b6153959', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fc4db6d4d30>]}
+2023-04-15 12:53:43.383524 (Thread-296): 12:53:43  Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '8e56c7fc-6ef3-42f7-ae13-0513b6153959', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fc4ef60c400>]}
+2023-04-15 12:53:43.384100 (Thread-296): 12:53:43  Found 5 models, 0 tests, 0 snapshots, 0 analyses, 292 macros, 0 operations, 0 seed files, 6 sources, 0 exposures, 0 metrics
+2023-04-15 12:53:43.384424 (Thread-296): 12:53:43  Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '8e56c7fc-6ef3-42f7-ae13-0513b6153959', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fc4fc11e4c0>]}
+2023-04-15 12:53:43.385078 (Thread-296): 12:53:43  The selection criterion '2+finalize_transit_snapshot+2' does not match any nodes
+2023-04-15 12:53:43.385375 (Thread-296): 12:53:43  No nodes selected!
+2023-04-15 12:53:43.386909 (Thread-296): sending response (<Response 2504 bytes [200 OK]>) to 10.0.191.177
+2023-04-15 12:54:44.636846 (Thread-297): 12:54:44  checksum: 9f5971860ea7956c5d0d162f1c96671df61b5ad9db5c4152918680483cec5347, vars: {}, profile: user, target: None, version: 1.4.5
+2023-04-15 12:54:44.674166 (Thread-297): 12:54:44  Partial parsing enabled: 0 files deleted, 0 files added, 1 files changed.
+2023-04-15 12:54:44.674562 (Thread-297): 12:54:44  Partial parsing: updated file: valmi_postgres://macros/finalize_transit_snapshot.sql
+2023-04-15 12:54:44.739786 (Thread-297): 12:54:44  Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '8e56c7fc-6ef3-42f7-ae13-0513b6153959', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fc4d8f61a00>]}
+2023-04-15 12:54:45.065292 (Thread-298): handling status request
+2023-04-15 12:54:45.065749 (Thread-298): 12:54:45  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '8e56c7fc-6ef3-42f7-ae13-0513b6153959', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fc4db615820>]}
+2023-04-15 12:54:45.066364 (Thread-298): sending response (<Response 1618 bytes [200 OK]>) to 10.0.191.177
+2023-04-15 12:54:45.066969 (Thread-299): handling status request
+2023-04-15 12:54:45.067713 (Thread-299): 12:54:45  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '8e56c7fc-6ef3-42f7-ae13-0513b6153959', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fc4db6154f0>]}
+2023-04-15 12:54:45.068169 (Thread-299): sending response (<Response 1618 bytes [200 OK]>) to 10.0.191.177
+2023-04-15 12:54:45.071725 (Thread-300): handling list request
+2023-04-15 12:54:45.072064 (Thread-300): 12:54:45  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '8e56c7fc-6ef3-42f7-ae13-0513b6153959', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fc4db6155e0>]}
+2023-04-15 12:54:45.101856 (Thread-300): 12:54:45  Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '8e56c7fc-6ef3-42f7-ae13-0513b6153959', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fc4d8f4aa90>]}
+2023-04-15 12:54:45.102316 (Thread-300): 12:54:45  Found 5 models, 0 tests, 0 snapshots, 0 analyses, 292 macros, 0 operations, 0 seed files, 6 sources, 0 exposures, 0 metrics
+2023-04-15 12:54:45.102623 (Thread-300): 12:54:45  Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '8e56c7fc-6ef3-42f7-ae13-0513b6153959', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fc4d8f4aaf0>]}
+2023-04-15 12:54:45.103251 (Thread-300): 12:54:45  The selection criterion '2+finalize_transit_snapshot+2' does not match any nodes
+2023-04-15 12:54:45.103546 (Thread-300): 12:54:45  No nodes selected!
+2023-04-15 12:54:45.104989 (Thread-300): sending response (<Response 2504 bytes [200 OK]>) to 10.0.191.177
+2023-04-15 12:54:56.937891 (Thread-301): handling status request
+2023-04-15 12:54:56.938408 (Thread-301): 12:54:56  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '8e56c7fc-6ef3-42f7-ae13-0513b6153959', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fc4d8f4ac70>]}
+2023-04-15 12:54:56.938892 (Thread-301): sending response (<Response 1618 bytes [200 OK]>) to 10.0.191.177
+2023-04-15 12:56:05.091143 (Thread-302): handling status request
+2023-04-15 12:56:05.091740 (Thread-302): 12:56:05  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '8e56c7fc-6ef3-42f7-ae13-0513b6153959', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fc4d8f4a160>]}
+2023-04-15 12:56:05.092247 (Thread-302): sending response (<Response 1618 bytes [200 OK]>) to 10.0.191.177
+2023-04-15 12:56:18.318682 (Thread-303): handling status request
+2023-04-15 12:56:18.320477 (Thread-303): 12:56:18  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '8e56c7fc-6ef3-42f7-ae13-0513b6153959', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fc4db63a6d0>]}
+2023-04-15 12:56:18.320950 (Thread-303): sending response (<Response 1618 bytes [200 OK]>) to 10.0.191.177
+2023-04-15 12:56:18.325415 (Thread-304): handling list request
+2023-04-15 12:56:18.325731 (Thread-304): 12:56:18  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '8e56c7fc-6ef3-42f7-ae13-0513b6153959', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fc4db63ae80>]}
+2023-04-15 12:56:18.353969 (Thread-304): 12:56:18  Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '8e56c7fc-6ef3-42f7-ae13-0513b6153959', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fc4d8f60e20>]}
+2023-04-15 12:56:18.354482 (Thread-304): 12:56:18  Found 5 models, 0 tests, 0 snapshots, 0 analyses, 292 macros, 0 operations, 0 seed files, 6 sources, 0 exposures, 0 metrics
+2023-04-15 12:56:18.354791 (Thread-304): 12:56:18  Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '8e56c7fc-6ef3-42f7-ae13-0513b6153959', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fc4d8f4aa30>]}
+2023-04-15 12:56:18.356726 (Thread-304): sending response (<Response 4779 bytes [200 OK]>) to 10.0.191.177
+2023-04-15 12:56:53.287696 (Thread-305): handling status request
+2023-04-15 12:56:53.288224 (Thread-305): 12:56:53  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '8e56c7fc-6ef3-42f7-ae13-0513b6153959', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fc4d8f61940>]}
+2023-04-15 12:56:53.288703 (Thread-305): sending response (<Response 1618 bytes [200 OK]>) to 10.0.191.177
+2023-04-15 12:57:39.539355 (Thread-306): handling status request
+2023-04-15 12:57:39.539917 (Thread-306): 12:57:39  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '8e56c7fc-6ef3-42f7-ae13-0513b6153959', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fc4d8f60640>]}
+2023-04-15 12:57:39.540406 (Thread-306): sending response (<Response 1618 bytes [200 OK]>) to 10.0.191.177
+2023-04-15 12:57:39.678874 (Thread-307): handling ps request
+2023-04-15 12:57:39.679237 (Thread-307): 12:57:39  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '8e56c7fc-6ef3-42f7-ae13-0513b6153959', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fc4d8f60280>]}
+2023-04-15 12:57:39.680983 (Thread-307): sending response (<Response 16672 bytes [200 OK]>) to 10.0.191.177
+2023-04-15 12:57:40.086673 (Thread-308): handling compile_sql request
+2023-04-15 12:57:40.087060 (Thread-308): 12:57:40  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '8e56c7fc-6ef3-42f7-ae13-0513b6153959', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fc4d8f60fa0>]}
+2023-04-15 12:57:40.124846 (Thread-309): handling ps request
+2023-04-15 12:57:40.128592 (Thread-309): 12:57:40  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '8e56c7fc-6ef3-42f7-ae13-0513b6153959', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fc4d8f61940>]}
+2023-04-15 12:57:40.141011 (Thread-309): sending response (<Response 17212 bytes [200 OK]>) to 10.0.191.177
+2023-04-15 12:57:40.677444 (Thread-310): handling poll request
+2023-04-15 12:57:40.678030 (Thread-310): 12:57:40  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '8e56c7fc-6ef3-42f7-ae13-0513b6153959', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fc4d8f617f0>]}
+2023-04-15 12:57:40.678584 (Thread-310): sending response (<Response 445 bytes [200 OK]>) to 10.0.191.177
+2023-04-15 12:57:41.139318 (Thread-311): handling status request
+2023-04-15 12:57:41.139802 (Thread-311): 12:57:41  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '8e56c7fc-6ef3-42f7-ae13-0513b6153959', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fc4d8f6fb50>]}
+2023-04-15 12:57:41.140339 (Thread-311): sending response (<Response 1618 bytes [200 OK]>) to 10.0.191.177
+2023-04-15 12:57:42.331832 (Thread-308): sending response (<Response 133 bytes [200 OK]>) to 10.0.191.177
+2023-04-15 12:57:42.367595 (MainThread): 12:57:42  Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': 'b85c661c-7bcb-470b-a5c7-7d07cb4dfeec', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f7d703e4a00>]}
+2023-04-15 12:57:42.368334 (MainThread): 12:57:42  Found 5 models, 0 tests, 0 snapshots, 0 analyses, 292 macros, 0 operations, 0 seed files, 6 sources, 0 exposures, 0 metrics
+2023-04-15 12:57:42.369707 (Thread-1): 12:57:42  Acquiring new postgres connection 'rpc.valmi_postgres.request'
+2023-04-15 12:57:42.369961 (Thread-1): 12:57:42  Began compiling node rpc.valmi_postgres.request
+2023-04-15 12:57:42.374204 (Thread-1): 12:57:42  Timing info for rpc.valmi_postgres.request (compile): 2023-04-15 12:57:42.370009 => 2023-04-15 12:57:42.374035
+2023-04-15 12:57:42.374417 (Thread-1): 12:57:42  Began executing node rpc.valmi_postgres.request
+2023-04-15 12:57:42.374576 (Thread-1): 12:57:42  Timing info for rpc.valmi_postgres.request (execute): 2023-04-15 12:57:42.374462 => 2023-04-15 12:57:42.374478
+2023-04-15 12:57:42.766316 (Thread-312): handling ps request
+2023-04-15 12:57:42.766795 (Thread-312): 12:57:42  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '8e56c7fc-6ef3-42f7-ae13-0513b6153959', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fc4d8f6f340>]}
+2023-04-15 12:57:42.768350 (Thread-312): sending response (<Response 17232 bytes [200 OK]>) to 10.0.191.177
+2023-04-15 12:57:42.814751 (Thread-313): handling ps request
+2023-04-15 12:57:42.815104 (Thread-313): 12:57:42  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '8e56c7fc-6ef3-42f7-ae13-0513b6153959', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fc4d8f6f610>]}
+2023-04-15 12:57:42.816441 (Thread-313): sending response (<Response 17232 bytes [200 OK]>) to 10.0.191.177
+2023-04-15 12:57:43.192630 (Thread-314): handling poll request
+2023-04-15 12:57:43.193113 (Thread-314): 12:57:43  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '8e56c7fc-6ef3-42f7-ae13-0513b6153959', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fc4d8f6f820>]}
+2023-04-15 12:57:43.194067 (Thread-314): sending response (<Response 12526 bytes [200 OK]>) to 10.0.191.177
+2023-04-15 12:57:43.199008 (Thread-315): handling status request
+2023-04-15 12:57:43.199333 (Thread-315): 12:57:43  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '8e56c7fc-6ef3-42f7-ae13-0513b6153959', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fc4d8f6f8b0>]}
+2023-04-15 12:57:43.199705 (Thread-315): sending response (<Response 1618 bytes [200 OK]>) to 10.0.191.177
+2023-04-15 12:57:43.299713 (Thread-316): handling poll request
+2023-04-15 12:57:43.300115 (Thread-316): 12:57:43  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '8e56c7fc-6ef3-42f7-ae13-0513b6153959', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fc4d8f6f8e0>]}
+2023-04-15 12:57:43.300806 (Thread-316): sending response (<Response 12526 bytes [200 OK]>) to 10.0.191.177
+2023-04-15 12:57:56.134967 (Thread-317): handling status request
+2023-04-15 12:57:56.135461 (Thread-317): 12:57:56  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '8e56c7fc-6ef3-42f7-ae13-0513b6153959', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fc4d8f6fbb0>]}
+2023-04-15 12:57:56.135963 (Thread-317): sending response (<Response 1618 bytes [200 OK]>) to 10.0.191.177
+2023-04-15 12:57:56.280203 (Thread-318): handling ps request
+2023-04-15 12:57:56.280674 (Thread-318): 12:57:56  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '8e56c7fc-6ef3-42f7-ae13-0513b6153959', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fc4d8f6faf0>]}
+2023-04-15 12:57:56.282213 (Thread-318): sending response (<Response 17232 bytes [200 OK]>) to 10.0.191.177
+2023-04-15 12:57:56.423809 (Thread-319): handling ps request
+2023-04-15 12:57:56.424315 (Thread-319): 12:57:56  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '8e56c7fc-6ef3-42f7-ae13-0513b6153959', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fc4d8f6fee0>]}
+2023-04-15 12:57:56.425806 (Thread-319): sending response (<Response 17232 bytes [200 OK]>) to 10.0.191.177
+2023-04-15 12:57:56.648045 (Thread-320): handling status request
+2023-04-15 12:57:56.648529 (Thread-320): 12:57:56  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '8e56c7fc-6ef3-42f7-ae13-0513b6153959', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fc4d8f6f760>]}
+2023-04-15 12:57:56.679194 (Thread-320): sending response (<Response 1618 bytes [200 OK]>) to 10.0.191.177
+2023-04-15 12:57:59.160850 (Thread-321): handling status request
+2023-04-15 12:57:59.161355 (Thread-321): 12:57:59  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '8e56c7fc-6ef3-42f7-ae13-0513b6153959', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fc4d8f6ff70>]}
+2023-04-15 12:57:59.161838 (Thread-321): sending response (<Response 1618 bytes [200 OK]>) to 10.0.191.177
+2023-04-15 12:57:59.388026 (Thread-322): handling cli_args request
+2023-04-15 12:57:59.388487 (Thread-322): 12:57:59  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '8e56c7fc-6ef3-42f7-ae13-0513b6153959', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fc4d8f6ffa0>]}
+2023-04-15 12:58:01.592148 (Thread-322): sending response (<Response 133 bytes [200 OK]>) to 10.0.191.177
+2023-04-15 12:58:01.629308 (MainThread): 12:58:01  checksum: e05dd7cee44d39ae8ac27965cacd8a6d8d0ab4e8185101e0db84e98f79bee0b6, vars: {}, profile: None, target: None, version: 1.4.5
+2023-04-15 12:58:01.638360 (MainThread): 12:58:01  Unable to do partial parsing because config vars, config profile, or config target have changed
+2023-04-15 12:58:01.638547 (MainThread): 12:58:01  previous checksum: 9f5971860ea7956c5d0d162f1c96671df61b5ad9db5c4152918680483cec5347, current checksum: e05dd7cee44d39ae8ac27965cacd8a6d8d0ab4e8185101e0db84e98f79bee0b6
+2023-04-15 12:58:01.638722 (MainThread): 12:58:01  Sending event: {'category': 'dbt', 'action': 'partial_parser', 'label': '742480c3-b102-4b1b-b3b0-940f18922c2b', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fdb6653b5b0>]}
+2023-04-15 12:58:02.202275 (MainThread): 12:58:02  1603: static parser failed on transit/transit_snapshot.sql
+2023-04-15 12:58:02.216476 (MainThread): 12:58:02  1602: parser fallback to jinja rendering on transit/transit_snapshot.sql
+2023-04-15 12:58:02.219425 (MainThread): 12:58:02  1603: static parser failed on transit/sync_metrics.sql
+2023-04-15 12:58:02.224912 (MainThread): 12:58:02  1602: parser fallback to jinja rendering on transit/sync_metrics.sql
+2023-04-15 12:58:02.226318 (MainThread): 12:58:02  1603: static parser failed on transit/ignored_snapshot.sql
+2023-04-15 12:58:02.279077 (MainThread): 12:58:02  1602: parser fallback to jinja rendering on transit/ignored_snapshot.sql
+2023-04-15 12:58:02.280769 (MainThread): 12:58:02  1603: static parser failed on staging/init.sql
+2023-04-15 12:58:02.303930 (MainThread): 12:58:02  1602: parser fallback to jinja rendering on staging/init.sql
+2023-04-15 12:58:02.305575 (MainThread): 12:58:02  1603: static parser failed on staging/stg_snapshot.sql
+2023-04-15 12:58:02.318330 (MainThread): 12:58:02  1602: parser fallback to jinja rendering on staging/stg_snapshot.sql
+2023-04-15 12:58:02.338989 (MainThread): 12:58:02  [WARNING]: Did not find matching node for patch with name 'cleanup_snapshot' in the 'models' section of file 'models/schema.yml'
+2023-04-15 12:58:02.394208 (Thread-323): handling ps request
+2023-04-15 12:58:02.394826 (Thread-323): 12:58:02  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '8e56c7fc-6ef3-42f7-ae13-0513b6153959', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fc4d8f53370>]}
+2023-04-15 12:58:02.397244 (Thread-323): sending response (<Response 17621 bytes [200 OK]>) to 10.0.191.177
+2023-04-15 12:58:02.406301 (MainThread): 12:58:02  Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '742480c3-b102-4b1b-b3b0-940f18922c2b', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fdb6b9785e0>]}
+2023-04-15 12:58:02.436533 (MainThread): 12:58:02  Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '742480c3-b102-4b1b-b3b0-940f18922c2b', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fdb663d8370>]}
+2023-04-15 12:58:02.436861 (MainThread): 12:58:02  Found 5 models, 0 tests, 0 snapshots, 0 analyses, 292 macros, 0 operations, 0 seed files, 6 sources, 0 exposures, 0 metrics
+2023-04-15 12:58:02.437006 (MainThread): 12:58:02  Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '742480c3-b102-4b1b-b3b0-940f18922c2b', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fdb663cedc0>]}
+2023-04-15 12:58:02.438462 (MainThread): 12:58:02  
+2023-04-15 12:58:02.439652 (MainThread): 12:58:02  Acquiring new postgres connection 'master'
+2023-04-15 12:58:02.440920 (ThreadPoolExecutor-0_0): 12:58:02  Acquiring new postgres connection 'list_dvdrental'
+2023-04-15 12:58:02.446707 (ThreadPoolExecutor-0_0): 12:58:02  Using postgres connection "list_dvdrental"
+2023-04-15 12:58:02.446881 (ThreadPoolExecutor-0_0): 12:58:02  On list_dvdrental: /* {"app": "dbt", "dbt_version": "1.4.5", "profile_name": "user", "target_name": "default", "connection_name": "list_dvdrental"} */
+
+    select distinct nspname from pg_namespace
+  
+2023-04-15 12:58:02.447033 (ThreadPoolExecutor-0_0): 12:58:02  Opening a new connection, currently in state init
+2023-04-15 12:58:02.785131 (Thread-324): handling status request
+2023-04-15 12:58:02.785619 (Thread-324): 12:58:02  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '8e56c7fc-6ef3-42f7-ae13-0513b6153959', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fc4d8f6f160>]}
+2023-04-15 12:58:02.786158 (Thread-324): sending response (<Response 1618 bytes [200 OK]>) to 10.0.191.177
+2023-04-15 12:58:02.965391 (Thread-325): handling poll request
+2023-04-15 12:58:02.965843 (Thread-325): 12:58:02  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '8e56c7fc-6ef3-42f7-ae13-0513b6153959', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fc4d8f6fe20>]}
+2023-04-15 12:58:02.966578 (Thread-325): sending response (<Response 8984 bytes [200 OK]>) to 10.0.191.177
+2023-04-15 12:58:03.074742 (ThreadPoolExecutor-0_0): 12:58:03  SQL status: SELECT 5 in 1 seconds
+2023-04-15 12:58:03.076158 (ThreadPoolExecutor-0_0): 12:58:03  On list_dvdrental: Close
+2023-04-15 12:58:03.078033 (ThreadPoolExecutor-1_0): 12:58:03  Acquiring new postgres connection 'list_dvdrental_valmi_scratch_computed_'
+2023-04-15 12:58:03.084187 (ThreadPoolExecutor-1_0): 12:58:03  Using postgres connection "list_dvdrental_valmi_scratch_computed_"
+2023-04-15 12:58:03.084358 (ThreadPoolExecutor-1_0): 12:58:03  On list_dvdrental_valmi_scratch_computed_: BEGIN
+2023-04-15 12:58:03.084506 (ThreadPoolExecutor-1_0): 12:58:03  Opening a new connection, currently in state closed
+2023-04-15 12:58:03.709401 (ThreadPoolExecutor-1_0): 12:58:03  SQL status: BEGIN in 1 seconds
+2023-04-15 12:58:03.709657 (ThreadPoolExecutor-1_0): 12:58:03  Using postgres connection "list_dvdrental_valmi_scratch_computed_"
+2023-04-15 12:58:03.709823 (ThreadPoolExecutor-1_0): 12:58:03  On list_dvdrental_valmi_scratch_computed_: /* {"app": "dbt", "dbt_version": "1.4.5", "profile_name": "user", "target_name": "default", "connection_name": "list_dvdrental_valmi_scratch_computed_"} */
+select
+      'dvdrental' as database,
+      tablename as name,
+      schemaname as schema,
+      'table' as type
+    from pg_tables
+    where schemaname ilike 'valmi_scratch_computed_'
+    union all
+    select
+      'dvdrental' as database,
+      viewname as name,
+      schemaname as schema,
+      'view' as type
+    from pg_views
+    where schemaname ilike 'valmi_scratch_computed_'
+  
+2023-04-15 12:58:03.822316 (ThreadPoolExecutor-1_0): 12:58:03  SQL status: SELECT 109 in 0 seconds
+2023-04-15 12:58:03.825395 (ThreadPoolExecutor-1_0): 12:58:03  On list_dvdrental_valmi_scratch_computed_: ROLLBACK
+2023-04-15 12:58:03.928873 (ThreadPoolExecutor-1_0): 12:58:03  On list_dvdrental_valmi_scratch_computed_: Close
+2023-04-15 12:58:03.942284 (MainThread): 12:58:03  Using postgres connection "master"
+2023-04-15 12:58:03.942496 (MainThread): 12:58:03  On master: BEGIN
+2023-04-15 12:58:03.942653 (MainThread): 12:58:03  Opening a new connection, currently in state init
+2023-04-15 12:58:04.460578 (Thread-326): handling poll request
+2023-04-15 12:58:04.461094 (Thread-326): 12:58:04  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '8e56c7fc-6ef3-42f7-ae13-0513b6153959', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fc4db665190>]}
+2023-04-15 12:58:04.461715 (Thread-326): sending response (<Response 5367 bytes [200 OK]>) to 10.0.191.177
+2023-04-15 12:58:04.570538 (MainThread): 12:58:04  SQL status: BEGIN in 1 seconds
+2023-04-15 12:58:04.570791 (MainThread): 12:58:04  Using postgres connection "master"
+2023-04-15 12:58:04.570945 (MainThread): 12:58:04  On master: /* {"app": "dbt", "dbt_version": "1.4.5", "profile_name": "user", "target_name": "default", "connection_name": "master"} */
+with relation as (
+        select
+            pg_rewrite.ev_class as class,
+            pg_rewrite.oid as id
+        from pg_rewrite
+    ),
+    class as (
+        select
+            oid as id,
+            relname as name,
+            relnamespace as schema,
+            relkind as kind
+        from pg_class
+    ),
+    dependency as (
+        select distinct
+            pg_depend.objid as id,
+            pg_depend.refobjid as ref
+        from pg_depend
+    ),
+    schema as (
+        select
+            pg_namespace.oid as id,
+            pg_namespace.nspname as name
+        from pg_namespace
+        where nspname != 'information_schema' and nspname not like 'pg\_%'
+    ),
+    referenced as (
+        select
+            relation.id AS id,
+            referenced_class.name ,
+            referenced_class.schema ,
+            referenced_class.kind
+        from relation
+        join class as referenced_class on relation.class=referenced_class.id
+        where referenced_class.kind in ('r', 'v')
+    ),
+    relationships as (
+        select
+            referenced.name as referenced_name,
+            referenced.schema as referenced_schema_id,
+            dependent_class.name as dependent_name,
+            dependent_class.schema as dependent_schema_id,
+            referenced.kind as kind
+        from referenced
+        join dependency on referenced.id=dependency.id
+        join class as dependent_class on dependency.ref=dependent_class.id
+        where
+            (referenced.name != dependent_class.name or
+             referenced.schema != dependent_class.schema)
+    )
+
+    select
+        referenced_schema.name as referenced_schema,
+        relationships.referenced_name as referenced_name,
+        dependent_schema.name as dependent_schema,
+        relationships.dependent_name as dependent_name
+    from relationships
+    join schema as dependent_schema on relationships.dependent_schema_id=dependent_schema.id
+    join schema as referenced_schema on relationships.referenced_schema_id=referenced_schema.id
+    group by referenced_schema, referenced_name, dependent_schema, dependent_name
+    order by referenced_schema, referenced_name, dependent_schema, dependent_name;
+2023-04-15 12:58:04.686168 (MainThread): 12:58:04  SQL status: SELECT 91 in 0 seconds
+2023-04-15 12:58:04.692202 (MainThread): 12:58:04  Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '742480c3-b102-4b1b-b3b0-940f18922c2b', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fdb65afb130>]}
+2023-04-15 12:58:04.692640 (MainThread): 12:58:04  On master: ROLLBACK
+2023-04-15 12:58:04.796161 (MainThread): 12:58:04  Using postgres connection "master"
+2023-04-15 12:58:04.796401 (MainThread): 12:58:04  On master: BEGIN
+2023-04-15 12:58:04.861669 (Thread-327): handling ps request
+2023-04-15 12:58:04.862151 (Thread-327): 12:58:04  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '8e56c7fc-6ef3-42f7-ae13-0513b6153959', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fc4db639580>]}
+2023-04-15 12:58:04.863669 (Thread-327): sending response (<Response 17621 bytes [200 OK]>) to 10.0.191.177
+2023-04-15 12:58:05.003254 (MainThread): 12:58:05  SQL status: BEGIN in 0 seconds
+2023-04-15 12:58:05.003519 (MainThread): 12:58:05  On master: COMMIT
+2023-04-15 12:58:05.003673 (MainThread): 12:58:05  Using postgres connection "master"
+2023-04-15 12:58:05.003818 (MainThread): 12:58:05  On master: COMMIT
+2023-04-15 12:58:05.107465 (MainThread): 12:58:05  SQL status: COMMIT in 0 seconds
+2023-04-15 12:58:05.107728 (MainThread): 12:58:05  On master: Close
+2023-04-15 12:58:05.108488 (MainThread): 12:58:05  Concurrency: 4 threads (target='default')
+2023-04-15 12:58:05.108654 (MainThread): 12:58:05  
+2023-04-15 12:58:05.111754 (Thread-1): 12:58:05  Began running node model.valmi_postgres.ignored_snapshot
+2023-04-15 12:58:05.112182 (Thread-1): 12:58:05  1 of 5 START sql table model valmi_scratch_computed_.ignored_snapshot .......... [RUN]
+2023-04-15 12:58:05.112702 (Thread-1): 12:58:05  Acquiring new postgres connection 'model.valmi_postgres.ignored_snapshot'
+2023-04-15 12:58:05.112897 (Thread-1): 12:58:05  Began compiling node model.valmi_postgres.ignored_snapshot
+2023-04-15 12:58:05.116777 (Thread-2): 12:58:05  Began running node model.valmi_postgres.init
+2023-04-15 12:58:05.117075 (Thread-2): 12:58:05  2 of 5 START sql table model valmi_scratch_computed_.init ...................... [RUN]
+2023-04-15 12:58:05.117552 (Thread-2): 12:58:05  Acquiring new postgres connection 'model.valmi_postgres.init'
+2023-04-15 12:58:05.117729 (Thread-2): 12:58:05  Began compiling node model.valmi_postgres.init
+2023-04-15 12:58:05.128547 (Thread-1): 12:58:05  Writing injected SQL for node "model.valmi_postgres.ignored_snapshot"
+2023-04-15 12:58:05.144747 (Thread-2): 12:58:05  Using postgres connection "model.valmi_postgres.init"
+2023-04-15 12:58:05.144905 (Thread-2): 12:58:05  On model.valmi_postgres.init: /* {"app": "dbt", "dbt_version": "1.4.5", "profile_name": "user", "target_name": "default", "node_id": "model.valmi_postgres.init"} */
+
+    
+            DELETE FROM "dvdrental"."valmi_scratch_computed_"."finalized_snapshot" WHERE customer_id in 
+            (SELECT  customer_id   
+                FROM  "dvdrental"."valmi_scratch_computed_"."transit_snapshot"
+                WHERE _valmi_sync_op IN ('upsert')
+            )
+        
+  
+2023-04-15 12:58:05.145034 (Thread-2): 12:58:05  Opening a new connection, currently in state init
+2023-04-15 12:58:05.150722 (Thread-1): 12:58:05  Timing info for model.valmi_postgres.ignored_snapshot (compile): 2023-04-15 12:58:05.112945 => 2023-04-15 12:58:05.150558
+2023-04-15 12:58:05.150948 (Thread-1): 12:58:05  Began executing node model.valmi_postgres.ignored_snapshot
+2023-04-15 12:58:05.189521 (Thread-1): 12:58:05  Writing runtime sql for node "model.valmi_postgres.ignored_snapshot"
+2023-04-15 12:58:05.204616 (Thread-1): 12:58:05  Using postgres connection "model.valmi_postgres.ignored_snapshot"
+2023-04-15 12:58:05.204784 (Thread-1): 12:58:05  On model.valmi_postgres.ignored_snapshot: BEGIN
+2023-04-15 12:58:05.204928 (Thread-1): 12:58:05  Opening a new connection, currently in state closed
+2023-04-15 12:58:05.460461 (Thread-328): handling status request
+2023-04-15 12:58:05.460953 (Thread-328): 12:58:05  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '8e56c7fc-6ef3-42f7-ae13-0513b6153959', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fc4d8f5ba60>]}
+2023-04-15 12:58:05.461415 (Thread-328): sending response (<Response 1618 bytes [200 OK]>) to 10.0.191.177
+2023-04-15 12:58:05.768907 (Thread-2): 12:58:05  SQL status: DELETE 0 in 1 seconds
+2023-04-15 12:58:05.770605 (Thread-2): 12:58:05  Using postgres connection "model.valmi_postgres.init"
+2023-04-15 12:58:05.770775 (Thread-2): 12:58:05  On model.valmi_postgres.init: /* {"app": "dbt", "dbt_version": "1.4.5", "profile_name": "user", "target_name": "default", "node_id": "model.valmi_postgres.init"} */
+
+    
+            INSERT INTO "dvdrental"."valmi_scratch_computed_"."finalized_snapshot" 
+            SELECT customer_id,email,first_name,activebool,last_update 
+            FROM "dvdrental"."valmi_scratch_computed_"."transit_snapshot"
+            WHERE _valmi_sync_op IN ('upsert')
+        
+  
+2023-04-15 12:58:05.828886 (Thread-1): 12:58:05  SQL status: BEGIN in 1 seconds
+2023-04-15 12:58:05.829070 (Thread-1): 12:58:05  Using postgres connection "model.valmi_postgres.ignored_snapshot"
+2023-04-15 12:58:05.829199 (Thread-1): 12:58:05  On model.valmi_postgres.ignored_snapshot: /* {"app": "dbt", "dbt_version": "1.4.5", "profile_name": "user", "target_name": "default", "node_id": "model.valmi_postgres.ignored_snapshot"} */
+
+  
+    
+
+  create  table "dvdrental"."valmi_scratch_computed_"."ignored_snapshot__dbt_tmp"
+  as (
+    /*
+ * Copyright (c) 2023 valmi.io <https://github.com/valmi-io>
+ * 
+ * Created Date: Wednesday, March 22nd 2023, 12:15:26 pm
+ * Author: Rajashekar Varkala @ valmi.io
+ * 
+ * Permission is hereby granted, free of charge, to any person obtaining a copy
+ * of this software and associated documentation files (the "Software"), to deal
+ * in the Software without restriction, including without limitation the rights
+ * to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+ * copies of the Software, and to permit persons to whom the Software is
+ * furnished to do so, subject to the following conditions:
+ * 
+ * The above copyright notice and this permission notice shall be included in all
+ * copies or substantial portions of the Software.
+ * 
+ * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+ * IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+ * FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+ * AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+ * LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+ * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+ * SOFTWARE.
+ */
+
+with source as (select * from "dvdrental"."public"."customer")
+
+
+select customer_id,email,first_name,activebool,last_update, -100 AS error_code 
+from source
+where
+    customer_id  in (
+        select customer_id
+        from
+            (
+                select count(*), customer_id
+                from source
+                group by customer_id
+                having count(*) > 1
+            ) AS ID_COUNTS
+    )
+    and 
+    customer_id IS NOT NULL 
+
+UNION ALL
+
+
+select customer_id,email,first_name,activebool,last_update, -120 AS error_code 
+from source
+where  customer_id IS  NULL
+  );
+  
+2023-04-15 12:58:05.874380 (Thread-2): 12:58:05  SQL status: INSERT 0 1 in 0 seconds
+2023-04-15 12:58:05.875996 (Thread-2): 12:58:05  Using postgres connection "model.valmi_postgres.init"
+2023-04-15 12:58:05.876154 (Thread-2): 12:58:05  On model.valmi_postgres.init: /* {"app": "dbt", "dbt_version": "1.4.5", "profile_name": "user", "target_name": "default", "node_id": "model.valmi_postgres.init"} */
+
+    
+        DROP TABLE IF EXISTS "dvdrental"."valmi_scratch_computed_"."cleanup_snapshot" CASCADE
+    
+  
+2023-04-15 12:58:05.934359 (Thread-1): 12:58:05  SQL status: SELECT 0 in 0 seconds
+2023-04-15 12:58:05.940815 (Thread-1): 12:58:05  Using postgres connection "model.valmi_postgres.ignored_snapshot"
+2023-04-15 12:58:05.940963 (Thread-1): 12:58:05  On model.valmi_postgres.ignored_snapshot: /* {"app": "dbt", "dbt_version": "1.4.5", "profile_name": "user", "target_name": "default", "node_id": "model.valmi_postgres.ignored_snapshot"} */
+alter table "dvdrental"."valmi_scratch_computed_"."ignored_snapshot" rename to "ignored_snapshot__dbt_backup"
+2023-04-15 12:58:05.972417 (Thread-329): handling poll request
+2023-04-15 12:58:05.972840 (Thread-329): 12:58:05  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '8e56c7fc-6ef3-42f7-ae13-0513b6153959', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fc4d8f5b220>]}
+2023-04-15 12:58:05.973721 (Thread-329): sending response (<Response 22397 bytes [200 OK]>) to 10.0.191.177
+2023-04-15 12:58:05.979642 (Thread-2): 12:58:05  SQL status: DROP TABLE in 0 seconds
+2023-04-15 12:58:05.982151 (Thread-2): 12:58:05  Using postgres connection "model.valmi_postgres.init"
+2023-04-15 12:58:05.982297 (Thread-2): 12:58:05  On model.valmi_postgres.init: /* {"app": "dbt", "dbt_version": "1.4.5", "profile_name": "user", "target_name": "default", "node_id": "model.valmi_postgres.init"} */
+
+    
+                CREATE TABLE "dvdrental"."valmi_scratch_computed_"."cleanup_snapshot"  
+                AS SELECT row_number() over (order by customer_id) _valmi_row_num,
+                'delete' AS _valmi_sync_op, customer_id
+                FROM "dvdrental"."valmi_scratch_computed_"."finalized_snapshot"
+            
+  
+2023-04-15 12:58:06.044253 (Thread-1): 12:58:06  SQL status: ALTER TABLE in 0 seconds
+2023-04-15 12:58:06.046865 (Thread-1): 12:58:06  Using postgres connection "model.valmi_postgres.ignored_snapshot"
+2023-04-15 12:58:06.047009 (Thread-1): 12:58:06  On model.valmi_postgres.ignored_snapshot: /* {"app": "dbt", "dbt_version": "1.4.5", "profile_name": "user", "target_name": "default", "node_id": "model.valmi_postgres.ignored_snapshot"} */
+alter table "dvdrental"."valmi_scratch_computed_"."ignored_snapshot__dbt_tmp" rename to "ignored_snapshot"
+2023-04-15 12:58:06.087831 (Thread-2): 12:58:06  SQL status: SELECT 602 in 0 seconds
+2023-04-15 12:58:06.089078 (Thread-2): 12:58:06  Using postgres connection "model.valmi_postgres.init"
+2023-04-15 12:58:06.089222 (Thread-2): 12:58:06  On model.valmi_postgres.init: /* {"app": "dbt", "dbt_version": "1.4.5", "profile_name": "user", "target_name": "default", "node_id": "model.valmi_postgres.init"} */
+
+    
+        DROP TABLE IF EXISTS "dvdrental"."valmi_scratch_computed_"."finalized_snapshot" CASCADE
+    
+  
+2023-04-15 12:58:06.150894 (Thread-1): 12:58:06  SQL status: ALTER TABLE in 0 seconds
+2023-04-15 12:58:06.171691 (Thread-1): 12:58:06  On model.valmi_postgres.ignored_snapshot: COMMIT
+2023-04-15 12:58:06.171859 (Thread-1): 12:58:06  Using postgres connection "model.valmi_postgres.ignored_snapshot"
+2023-04-15 12:58:06.172007 (Thread-1): 12:58:06  On model.valmi_postgres.ignored_snapshot: COMMIT
+2023-04-15 12:58:06.192996 (Thread-2): 12:58:06  SQL status: DROP TABLE in 0 seconds
+2023-04-15 12:58:06.194309 (Thread-2): 12:58:06  Using postgres connection "model.valmi_postgres.init"
+2023-04-15 12:58:06.194452 (Thread-2): 12:58:06  On model.valmi_postgres.init: /* {"app": "dbt", "dbt_version": "1.4.5", "profile_name": "user", "target_name": "default", "node_id": "model.valmi_postgres.init"} */
+
+    
+            CREATE TABLE "dvdrental"."valmi_scratch_computed_"."finalized_snapshot"  
+            AS SELECT customer_id,email,first_name,activebool,last_update 
+            FROM "dvdrental"."public"."customer" 
+            LIMIT 0
+    
+  
+2023-04-15 12:58:06.275362 (Thread-1): 12:58:06  SQL status: COMMIT in 0 seconds
+2023-04-15 12:58:06.280259 (Thread-1): 12:58:06  Using postgres connection "model.valmi_postgres.ignored_snapshot"
+2023-04-15 12:58:06.280405 (Thread-1): 12:58:06  On model.valmi_postgres.ignored_snapshot: /* {"app": "dbt", "dbt_version": "1.4.5", "profile_name": "user", "target_name": "default", "node_id": "model.valmi_postgres.ignored_snapshot"} */
+drop table if exists "dvdrental"."valmi_scratch_computed_"."ignored_snapshot__dbt_backup" cascade
+2023-04-15 12:58:06.298744 (Thread-2): 12:58:06  SQL status: SELECT 0 in 0 seconds
+2023-04-15 12:58:06.299666 (Thread-2): 12:58:06  Writing injected SQL for node "model.valmi_postgres.init"
+2023-04-15 12:58:06.313420 (Thread-2): 12:58:06  Timing info for model.valmi_postgres.init (compile): 2023-04-15 12:58:05.117786 => 2023-04-15 12:58:06.313261
+2023-04-15 12:58:06.313661 (Thread-2): 12:58:06  Began executing node model.valmi_postgres.init
+2023-04-15 12:58:06.319768 (Thread-2): 12:58:06  Writing runtime sql for node "model.valmi_postgres.init"
+2023-04-15 12:58:06.335393 (Thread-2): 12:58:06  Using postgres connection "model.valmi_postgres.init"
+2023-04-15 12:58:06.335555 (Thread-2): 12:58:06  On model.valmi_postgres.init: BEGIN
+2023-04-15 12:58:06.386686 (Thread-1): 12:58:06  SQL status: DROP TABLE in 0 seconds
+2023-04-15 12:58:06.387822 (Thread-1): 12:58:06  Timing info for model.valmi_postgres.ignored_snapshot (execute): 2023-04-15 12:58:05.150996 => 2023-04-15 12:58:06.387658
+2023-04-15 12:58:06.388039 (Thread-1): 12:58:06  On model.valmi_postgres.ignored_snapshot: Close
+2023-04-15 12:58:06.388696 (Thread-1): 12:58:06  Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '742480c3-b102-4b1b-b3b0-940f18922c2b', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fdb3d156e20>]}
+2023-04-15 12:58:06.389175 (Thread-1): 12:58:06  1 of 5 OK created sql table model valmi_scratch_computed_.ignored_snapshot ..... [SELECT 0 in 1.28s]
+2023-04-15 12:58:06.390277 (Thread-1): 12:58:06  Finished running node model.valmi_postgres.ignored_snapshot
+2023-04-15 12:58:06.438840 (Thread-2): 12:58:06  SQL status: BEGIN in 0 seconds
+2023-04-15 12:58:06.439010 (Thread-2): 12:58:06  Using postgres connection "model.valmi_postgres.init"
+2023-04-15 12:58:06.439138 (Thread-2): 12:58:06  On model.valmi_postgres.init: /* {"app": "dbt", "dbt_version": "1.4.5", "profile_name": "user", "target_name": "default", "node_id": "model.valmi_postgres.init"} */
+
+  
+    
+
+  create  table "dvdrental"."valmi_scratch_computed_"."init__dbt_tmp"
+  as (
+    /*
+ * Copyright (c) 2023 valmi.io <https://github.com/valmi-io>
+ * 
+ * Created Date: Wednesday, March 22nd 2023, 12:49:11 am
+ * Author: Rajashekar Varkala @ valmi.io
+ * 
+ * Permission is hereby granted, free of charge, to any person obtaining a copy
+ * of this software and associated documentation files (the "Software"), to deal
+ * in the Software without restriction, including without limitation the rights
+ * to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+ * copies of the Software, and to permit persons to whom the Software is
+ * furnished to do so, subject to the following conditions:
+ * 
+ * The above copyright notice and this permission notice shall be included in all
+ * copies or substantial portions of the Software.
+ * 
+ * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+ * IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+ * FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+ * AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+ * LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+ * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+ * SOFTWARE.
+ */
+
+
+    
+
+
+
+
+
+    
+    
+    
+        
+
+            
+
+        
+        
+        
+
+        
+        
+        
+
+        
+            DELETE FROM "dvdrental"."valmi_scratch_computed_"."finalized_snapshot" WHERE customer_id in 
+            (SELECT  customer_id   
+                FROM  "dvdrental"."valmi_scratch_computed_"."transit_snapshot"
+                WHERE _valmi_sync_op IN ('delete')
+            )
+        
+
+        
+    
+
+
+    
+    
+    
+
+
+            
+            
+            
+        
+    
+
+
+    
+    
+    
+ 
+    
+    
+
+
+
+SELECT 0
+  );
+  
+2023-04-15 12:58:06.542792 (Thread-2): 12:58:06  Postgres adapter: Postgres error: syntax error at or near "DELETE"
+LINE 56:             DELETE FROM "dvdrental"."valmi_scratch_computed_...
+                     ^
+
+2023-04-15 12:58:06.542985 (Thread-2): 12:58:06  On model.valmi_postgres.init: ROLLBACK
+2023-04-15 12:58:06.646596 (Thread-2): 12:58:06  Timing info for model.valmi_postgres.init (execute): 2023-04-15 12:58:06.313715 => 2023-04-15 12:58:06.646404
+2023-04-15 12:58:06.646834 (Thread-2): 12:58:06  On model.valmi_postgres.init: Close
+2023-04-15 12:58:06.649163 (Thread-2): 12:58:06  Database Error in model init (models/staging/init.sql)
+  syntax error at or near "DELETE"
+  LINE 56:             DELETE FROM "dvdrental"."valmi_scratch_computed_...
+                       ^
+  compiled Code at target/run/valmi_postgres/models/staging/init.sql
+2023-04-15 12:58:06.649618 (Thread-2): 12:58:06  Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '742480c3-b102-4b1b-b3b0-940f18922c2b', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fdb3d156d00>]}
+2023-04-15 12:58:06.650059 (Thread-2): 12:58:06  2 of 5 ERROR creating sql table model valmi_scratch_computed_.init ............. [ERROR in 1.53s]
+2023-04-15 12:58:06.650275 (Thread-2): 12:58:06  Finished running node model.valmi_postgres.init
+2023-04-15 12:58:06.651306 (Thread-4): 12:58:06  Began running node model.valmi_postgres.stg_snapshot
+2023-04-15 12:58:06.651562 (Thread-4): 12:58:06  3 of 5 SKIP relation valmi_scratch_computed_.stg_snapshot ...................... [SKIP]
+2023-04-15 12:58:06.651757 (Thread-4): 12:58:06  Finished running node model.valmi_postgres.stg_snapshot
+2023-04-15 12:58:06.652595 (Thread-1): 12:58:06  Began running node model.valmi_postgres.transit_snapshot
+2023-04-15 12:58:06.652840 (Thread-1): 12:58:06  4 of 5 SKIP relation valmi_scratch_computed_.transit_snapshot .................. [SKIP]
+2023-04-15 12:58:06.653027 (Thread-1): 12:58:06  Finished running node model.valmi_postgres.transit_snapshot
+2023-04-15 12:58:06.653861 (Thread-4): 12:58:06  Began running node model.valmi_postgres.sync_metrics
+2023-04-15 12:58:06.654093 (Thread-4): 12:58:06  5 of 5 SKIP relation valmi_scratch_computed_.sync_metrics ...................... [SKIP]
+2023-04-15 12:58:06.654273 (Thread-4): 12:58:06  Finished running node model.valmi_postgres.sync_metrics
+2023-04-15 12:58:06.655730 (MainThread): 12:58:06  Acquiring new postgres connection 'master'
+2023-04-15 12:58:06.655988 (MainThread): 12:58:06  Using postgres connection "master"
+2023-04-15 12:58:06.656165 (MainThread): 12:58:06  On master: BEGIN
+2023-04-15 12:58:06.656311 (MainThread): 12:58:06  Opening a new connection, currently in state closed
+2023-04-15 12:58:07.096480 (Thread-330): 12:58:07  checksum: 9f5971860ea7956c5d0d162f1c96671df61b5ad9db5c4152918680483cec5347, vars: {}, profile: user, target: None, version: 1.4.5
+2023-04-15 12:58:07.107266 (Thread-330): 12:58:07  Unable to do partial parsing because config vars, config profile, or config target have changed
+2023-04-15 12:58:07.107645 (Thread-330): 12:58:07  previous checksum: e05dd7cee44d39ae8ac27965cacd8a6d8d0ab4e8185101e0db84e98f79bee0b6, current checksum: 9f5971860ea7956c5d0d162f1c96671df61b5ad9db5c4152918680483cec5347
+2023-04-15 12:58:07.107846 (Thread-330): 12:58:07  Sending event: {'category': 'dbt', 'action': 'partial_parser', 'label': '8e56c7fc-6ef3-42f7-ae13-0513b6153959', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fc4e56a9160>]}
+2023-04-15 12:58:07.283929 (MainThread): 12:58:07  SQL status: BEGIN in 1 seconds
+2023-04-15 12:58:07.284220 (MainThread): 12:58:07  On master: COMMIT
+2023-04-15 12:58:07.284379 (MainThread): 12:58:07  Using postgres connection "master"
+2023-04-15 12:58:07.284526 (MainThread): 12:58:07  On master: COMMIT
+2023-04-15 12:58:07.388285 (MainThread): 12:58:07  SQL status: COMMIT in 0 seconds
+2023-04-15 12:58:07.388584 (MainThread): 12:58:07  On master: Close
+2023-04-15 12:58:07.389260 (MainThread): 12:58:07  Connection 'master' was properly closed.
+2023-04-15 12:58:07.389399 (MainThread): 12:58:07  Connection 'model.valmi_postgres.ignored_snapshot' was properly closed.
+2023-04-15 12:58:07.389505 (MainThread): 12:58:07  Connection 'model.valmi_postgres.init' was properly closed.
+2023-04-15 12:58:07.389730 (MainThread): 12:58:07  
+2023-04-15 12:58:07.389891 (MainThread): 12:58:07  Finished running 5 table models in 0 hours 0 minutes and 4.95 seconds (4.95s).
+2023-04-15 12:58:07.479571 (Thread-331): handling poll request
+2023-04-15 12:58:07.462442 (MainThread): 12:58:07  
+2023-04-15 12:58:07.495509 (Thread-331): 12:58:07  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '8e56c7fc-6ef3-42f7-ae13-0513b6153959', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fc4d8e6dc10>]}
+2023-04-15 12:58:07.462699 (MainThread): 12:58:07  Completed with 1 error and 0 warnings:
+2023-04-15 12:58:07.501655 (Thread-332): handling status request
+2023-04-15 12:58:07.508182 (Thread-331): sending response (<Response 30067 bytes [200 OK]>) to 10.0.191.177
+2023-04-15 12:58:07.462848 (MainThread): 12:58:07  
+2023-04-15 12:58:07.534410 (Thread-332): 12:58:07  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '8e56c7fc-6ef3-42f7-ae13-0513b6153959', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fc4d8e82250>]}
+2023-04-15 12:58:07.462993 (MainThread): 12:58:07  Database Error in model init (models/staging/init.sql)
+2023-04-15 12:58:07.581363 (Thread-332): sending response (<Response 163 bytes [200 OK]>) to 10.0.191.177
+2023-04-15 12:58:07.463121 (MainThread): 12:58:07    syntax error at or near "DELETE"
+2023-04-15 12:58:07.463231 (MainThread): 12:58:07    LINE 56:             DELETE FROM "dvdrental"."valmi_scratch_computed_...
+2023-04-15 12:58:07.463338 (MainThread): 12:58:07                         ^
+2023-04-15 12:58:07.463443 (MainThread): 12:58:07    compiled Code at target/run/valmi_postgres/models/staging/init.sql
+2023-04-15 12:58:07.463562 (MainThread): 12:58:07  
+2023-04-15 12:58:07.463691 (MainThread): 12:58:07  Done. PASS=1 WARN=0 ERROR=1 SKIP=3 TOTAL=5
+2023-04-15 12:58:07.705231 (Thread-330): 12:58:07  1603: static parser failed on transit/transit_snapshot.sql
+2023-04-15 12:58:07.711344 (Thread-330): 12:58:07  1602: parser fallback to jinja rendering on transit/transit_snapshot.sql
+2023-04-15 12:58:07.713006 (Thread-330): 12:58:07  1603: static parser failed on transit/sync_metrics.sql
+2023-04-15 12:58:07.718204 (Thread-330): 12:58:07  1602: parser fallback to jinja rendering on transit/sync_metrics.sql
+2023-04-15 12:58:07.719626 (Thread-330): 12:58:07  1603: static parser failed on transit/ignored_snapshot.sql
+2023-04-15 12:58:07.725514 (Thread-330): 12:58:07  1602: parser fallback to jinja rendering on transit/ignored_snapshot.sql
+2023-04-15 12:58:07.727598 (Thread-330): 12:58:07  1603: static parser failed on staging/init.sql
+2023-04-15 12:58:07.744318 (Thread-330): 12:58:07  1602: parser fallback to jinja rendering on staging/init.sql
+2023-04-15 12:58:07.745910 (Thread-330): 12:58:07  1603: static parser failed on staging/stg_snapshot.sql
+2023-04-15 12:58:07.757926 (Thread-330): 12:58:07  1602: parser fallback to jinja rendering on staging/stg_snapshot.sql
+2023-04-15 12:58:07.775923 (Thread-330): 12:58:07  [WARNING]: Did not find matching node for patch with name 'cleanup_snapshot' in the 'models' section of file 'models/schema.yml'
+2023-04-15 12:58:07.837445 (Thread-330): 12:58:07  Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '8e56c7fc-6ef3-42f7-ae13-0513b6153959', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fc4d8e03fa0>]}
+2023-04-15 12:58:07.939863 (Thread-333): handling ps request
+2023-04-15 12:58:07.940381 (Thread-333): 12:58:07  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '8e56c7fc-6ef3-42f7-ae13-0513b6153959', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fc4d8e037c0>]}
+2023-04-15 12:58:07.942009 (Thread-333): sending response (<Response 17645 bytes [200 OK]>) to 10.0.191.177
+2023-04-15 12:58:08.425696 (Thread-334): handling status request
+2023-04-15 12:58:08.426208 (Thread-334): 12:58:08  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '8e56c7fc-6ef3-42f7-ae13-0513b6153959', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fc4d8e03310>]}
+2023-04-15 12:58:08.426799 (Thread-334): sending response (<Response 5594 bytes [200 OK]>) to 10.0.191.177
+2023-04-15 12:58:09.038076 (Thread-335): handling poll request
+2023-04-15 12:58:09.038598 (Thread-335): 12:58:09  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '8e56c7fc-6ef3-42f7-ae13-0513b6153959', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fc4d8e03e50>]}
+2023-04-15 12:58:09.039753 (Thread-335): sending response (<Response 31797 bytes [200 OK]>) to 10.0.191.177
+2023-04-15 12:58:12.498807 (Thread-336): 12:58:12  checksum: 9f5971860ea7956c5d0d162f1c96671df61b5ad9db5c4152918680483cec5347, vars: {}, profile: user, target: None, version: 1.4.5
+2023-04-15 12:58:12.534638 (Thread-336): 12:58:12  Partial parsing enabled: 0 files deleted, 0 files added, 1 files changed.
+2023-04-15 12:58:12.535104 (Thread-336): 12:58:12  Partial parsing: updated file: valmi_postgres://models/transit/transit_snapshot.sql
+2023-04-15 12:58:12.540028 (Thread-336): 12:58:12  1603: static parser failed on transit/transit_snapshot.sql
+2023-04-15 12:58:12.545520 (Thread-336): 12:58:12  1602: parser fallback to jinja rendering on transit/transit_snapshot.sql
+2023-04-15 12:58:12.590601 (Thread-336): 12:58:12  Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '8e56c7fc-6ef3-42f7-ae13-0513b6153959', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fc4ac199f40>]}
+2023-04-15 12:58:12.966333 (Thread-337): handling status request
+2023-04-15 12:58:12.966817 (Thread-337): 12:58:12  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '8e56c7fc-6ef3-42f7-ae13-0513b6153959', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fc4ac27aa30>]}
+2023-04-15 12:58:12.967305 (Thread-337): sending response (<Response 2231 bytes [200 OK]>) to 10.0.191.177
+2023-04-15 12:58:13.530423 (Thread-338): handling ps request
+2023-04-15 12:58:13.530922 (Thread-338): 12:58:13  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '8e56c7fc-6ef3-42f7-ae13-0513b6153959', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fc4ac27a910>]}
+2023-04-15 12:58:13.532654 (Thread-338): sending response (<Response 17645 bytes [200 OK]>) to 10.0.191.177
+2023-04-15 12:58:13.557922 (Thread-339): handling ps request
+2023-04-15 12:58:13.558364 (Thread-339): 12:58:13  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '8e56c7fc-6ef3-42f7-ae13-0513b6153959', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fc4ac27a640>]}
+2023-04-15 12:58:13.559877 (Thread-339): sending response (<Response 17645 bytes [200 OK]>) to 10.0.191.177
+2023-04-15 12:58:13.934845 (Thread-340): handling status request
+2023-04-15 12:58:13.935338 (Thread-340): 12:58:13  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '8e56c7fc-6ef3-42f7-ae13-0513b6153959', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fc4ac1d7790>]}
+2023-04-15 12:58:13.935829 (Thread-340): sending response (<Response 2231 bytes [200 OK]>) to 10.0.191.177
+2023-04-15 12:58:16.198662 (Thread-341): handling status request
+2023-04-15 12:58:16.199164 (Thread-341): 12:58:16  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '8e56c7fc-6ef3-42f7-ae13-0513b6153959', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fc4ac27ab80>]}
+2023-04-15 12:58:16.199665 (Thread-341): sending response (<Response 2231 bytes [200 OK]>) to 10.0.191.177
+2023-04-15 12:58:16.481726 (Thread-342): handling cli_args request
+2023-04-15 12:58:16.482266 (Thread-342): 12:58:16  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '8e56c7fc-6ef3-42f7-ae13-0513b6153959', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fc4ac1d7f70>]}
+2023-04-15 12:58:18.690425 (Thread-342): sending response (<Response 133 bytes [200 OK]>) to 10.0.191.177
+2023-04-15 12:58:18.728762 (MainThread): 12:58:18  checksum: e05dd7cee44d39ae8ac27965cacd8a6d8d0ab4e8185101e0db84e98f79bee0b6, vars: {}, profile: None, target: None, version: 1.4.5
+2023-04-15 12:58:18.738074 (MainThread): 12:58:18  Unable to do partial parsing because config vars, config profile, or config target have changed
+2023-04-15 12:58:18.738245 (MainThread): 12:58:18  previous checksum: 9f5971860ea7956c5d0d162f1c96671df61b5ad9db5c4152918680483cec5347, current checksum: e05dd7cee44d39ae8ac27965cacd8a6d8d0ab4e8185101e0db84e98f79bee0b6
+2023-04-15 12:58:18.738392 (MainThread): 12:58:18  Sending event: {'category': 'dbt', 'action': 'partial_parser', 'label': 'a0b07f72-68d7-4fd4-b8c2-4f6a7d753c84', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f87cfb355b0>]}
+2023-04-15 12:58:19.272767 (Thread-343): handling ps request
+2023-04-15 12:58:19.273395 (Thread-343): 12:58:19  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '8e56c7fc-6ef3-42f7-ae13-0513b6153959', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fc4ac27ae20>]}
+2023-04-15 12:58:19.275948 (Thread-343): sending response (<Response 18034 bytes [200 OK]>) to 10.0.191.177
+2023-04-15 12:58:19.306598 (MainThread): 12:58:19  1603: static parser failed on transit/transit_snapshot.sql
+2023-04-15 12:58:19.320790 (MainThread): 12:58:19  1602: parser fallback to jinja rendering on transit/transit_snapshot.sql
+2023-04-15 12:58:19.323754 (MainThread): 12:58:19  1603: static parser failed on transit/sync_metrics.sql
+2023-04-15 12:58:19.329015 (MainThread): 12:58:19  1602: parser fallback to jinja rendering on transit/sync_metrics.sql
+2023-04-15 12:58:19.330407 (MainThread): 12:58:19  1603: static parser failed on transit/ignored_snapshot.sql
+2023-04-15 12:58:19.378220 (MainThread): 12:58:19  1602: parser fallback to jinja rendering on transit/ignored_snapshot.sql
+2023-04-15 12:58:19.379810 (MainThread): 12:58:19  1603: static parser failed on staging/init.sql
+2023-04-15 12:58:19.401972 (MainThread): 12:58:19  1602: parser fallback to jinja rendering on staging/init.sql
+2023-04-15 12:58:19.403499 (MainThread): 12:58:19  1603: static parser failed on staging/stg_snapshot.sql
+2023-04-15 12:58:19.415331 (MainThread): 12:58:19  1602: parser fallback to jinja rendering on staging/stg_snapshot.sql
+2023-04-15 12:58:19.434991 (MainThread): 12:58:19  [WARNING]: Did not find matching node for patch with name 'cleanup_snapshot' in the 'models' section of file 'models/schema.yml'
+2023-04-15 12:58:19.500351 (MainThread): 12:58:19  Sending event: {'category': 'dbt', 'action': 'load_project', 'label': 'a0b07f72-68d7-4fd4-b8c2-4f6a7d753c84', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f87cf11b730>]}
+2023-04-15 12:58:19.528195 (MainThread): 12:58:19  Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': 'a0b07f72-68d7-4fd4-b8c2-4f6a7d753c84', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f87cf9cf280>]}
+2023-04-15 12:58:19.528490 (MainThread): 12:58:19  Found 5 models, 0 tests, 0 snapshots, 0 analyses, 292 macros, 0 operations, 0 seed files, 6 sources, 0 exposures, 0 metrics
+2023-04-15 12:58:19.528630 (MainThread): 12:58:19  Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': 'a0b07f72-68d7-4fd4-b8c2-4f6a7d753c84', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f87cfa45e20>]}
+2023-04-15 12:58:19.529973 (MainThread): 12:58:19  
+2023-04-15 12:58:19.531118 (MainThread): 12:58:19  Acquiring new postgres connection 'master'
+2023-04-15 12:58:19.532306 (ThreadPoolExecutor-0_0): 12:58:19  Acquiring new postgres connection 'list_dvdrental'
+2023-04-15 12:58:19.537550 (ThreadPoolExecutor-0_0): 12:58:19  Using postgres connection "list_dvdrental"
+2023-04-15 12:58:19.537724 (ThreadPoolExecutor-0_0): 12:58:19  On list_dvdrental: /* {"app": "dbt", "dbt_version": "1.4.5", "profile_name": "user", "target_name": "default", "connection_name": "list_dvdrental"} */
+
+    select distinct nspname from pg_namespace
+  
+2023-04-15 12:58:19.537889 (ThreadPoolExecutor-0_0): 12:58:19  Opening a new connection, currently in state init
+2023-04-15 12:58:19.649030 (Thread-344): handling status request
+2023-04-15 12:58:19.649434 (Thread-344): 12:58:19  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '8e56c7fc-6ef3-42f7-ae13-0513b6153959', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fc4ac27a190>]}
+2023-04-15 12:58:19.649966 (Thread-344): sending response (<Response 2231 bytes [200 OK]>) to 10.0.191.177
+2023-04-15 12:58:19.791935 (Thread-345): handling poll request
+2023-04-15 12:58:19.792289 (Thread-345): 12:58:19  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '8e56c7fc-6ef3-42f7-ae13-0513b6153959', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fc4ac27a040>]}
+2023-04-15 12:58:19.792994 (Thread-345): sending response (<Response 8985 bytes [200 OK]>) to 10.0.191.177
+2023-04-15 12:58:20.162974 (ThreadPoolExecutor-0_0): 12:58:20  SQL status: SELECT 5 in 1 seconds
+2023-04-15 12:58:20.164307 (ThreadPoolExecutor-0_0): 12:58:20  On list_dvdrental: Close
+2023-04-15 12:58:20.166086 (ThreadPoolExecutor-1_0): 12:58:20  Acquiring new postgres connection 'list_dvdrental_valmi_scratch_computed_'
+2023-04-15 12:58:20.172006 (ThreadPoolExecutor-1_0): 12:58:20  Using postgres connection "list_dvdrental_valmi_scratch_computed_"
+2023-04-15 12:58:20.172178 (ThreadPoolExecutor-1_0): 12:58:20  On list_dvdrental_valmi_scratch_computed_: BEGIN
+2023-04-15 12:58:20.172326 (ThreadPoolExecutor-1_0): 12:58:20  Opening a new connection, currently in state closed
+2023-04-15 12:58:20.499040 (Thread-346): handling status request
+2023-04-15 12:58:20.499479 (Thread-346): 12:58:20  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '8e56c7fc-6ef3-42f7-ae13-0513b6153959', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fc4ac29ec40>]}
+2023-04-15 12:58:20.499971 (Thread-346): sending response (<Response 2231 bytes [200 OK]>) to 10.0.191.177
+2023-04-15 12:58:20.606236 (Thread-347): handling ps request
+2023-04-15 12:58:20.606626 (Thread-347): 12:58:20  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '8e56c7fc-6ef3-42f7-ae13-0513b6153959', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fc4ac27a3d0>]}
+2023-04-15 12:58:20.608185 (Thread-347): sending response (<Response 18034 bytes [200 OK]>) to 10.0.191.177
+2023-04-15 12:58:20.796399 (ThreadPoolExecutor-1_0): 12:58:20  SQL status: BEGIN in 1 seconds
+2023-04-15 12:58:20.796665 (ThreadPoolExecutor-1_0): 12:58:20  Using postgres connection "list_dvdrental_valmi_scratch_computed_"
+2023-04-15 12:58:20.796817 (ThreadPoolExecutor-1_0): 12:58:20  On list_dvdrental_valmi_scratch_computed_: /* {"app": "dbt", "dbt_version": "1.4.5", "profile_name": "user", "target_name": "default", "connection_name": "list_dvdrental_valmi_scratch_computed_"} */
+select
+      'dvdrental' as database,
+      tablename as name,
+      schemaname as schema,
+      'table' as type
+    from pg_tables
+    where schemaname ilike 'valmi_scratch_computed_'
+    union all
+    select
+      'dvdrental' as database,
+      viewname as name,
+      schemaname as schema,
+      'view' as type
+    from pg_views
+    where schemaname ilike 'valmi_scratch_computed_'
+  
+2023-04-15 12:58:20.813239 (Thread-348): handling ps request
+2023-04-15 12:58:20.813700 (Thread-348): 12:58:20  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '8e56c7fc-6ef3-42f7-ae13-0513b6153959', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fc4ac286400>]}
+2023-04-15 12:58:20.815526 (Thread-348): sending response (<Response 18033 bytes [200 OK]>) to 10.0.191.177
+2023-04-15 12:58:20.903782 (ThreadPoolExecutor-1_0): 12:58:20  SQL status: SELECT 109 in 0 seconds
+2023-04-15 12:58:20.906855 (ThreadPoolExecutor-1_0): 12:58:20  On list_dvdrental_valmi_scratch_computed_: ROLLBACK
+2023-04-15 12:58:21.009986 (ThreadPoolExecutor-1_0): 12:58:21  On list_dvdrental_valmi_scratch_computed_: Close
+2023-04-15 12:58:21.022530 (MainThread): 12:58:21  Using postgres connection "master"
+2023-04-15 12:58:21.022731 (MainThread): 12:58:21  On master: BEGIN
+2023-04-15 12:58:21.022885 (MainThread): 12:58:21  Opening a new connection, currently in state init
+2023-04-15 12:58:21.216882 (Thread-349): handling status request
+2023-04-15 12:58:21.217400 (Thread-349): 12:58:21  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '8e56c7fc-6ef3-42f7-ae13-0513b6153959', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fc4ac286c10>]}
+2023-04-15 12:58:21.242096 (Thread-349): sending response (<Response 2231 bytes [200 OK]>) to 10.0.191.177
+2023-04-15 12:58:21.389801 (Thread-350): handling poll request
+2023-04-15 12:58:21.390236 (Thread-350): 12:58:21  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '8e56c7fc-6ef3-42f7-ae13-0513b6153959', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fc4ac286eb0>]}
+2023-04-15 12:58:21.390827 (Thread-350): sending response (<Response 5367 bytes [200 OK]>) to 10.0.191.177
+2023-04-15 12:58:21.645619 (MainThread): 12:58:21  SQL status: BEGIN in 1 seconds
+2023-04-15 12:58:21.645903 (MainThread): 12:58:21  Using postgres connection "master"
+2023-04-15 12:58:21.646061 (MainThread): 12:58:21  On master: /* {"app": "dbt", "dbt_version": "1.4.5", "profile_name": "user", "target_name": "default", "connection_name": "master"} */
+with relation as (
+        select
+            pg_rewrite.ev_class as class,
+            pg_rewrite.oid as id
+        from pg_rewrite
+    ),
+    class as (
+        select
+            oid as id,
+            relname as name,
+            relnamespace as schema,
+            relkind as kind
+        from pg_class
+    ),
+    dependency as (
+        select distinct
+            pg_depend.objid as id,
+            pg_depend.refobjid as ref
+        from pg_depend
+    ),
+    schema as (
+        select
+            pg_namespace.oid as id,
+            pg_namespace.nspname as name
+        from pg_namespace
+        where nspname != 'information_schema' and nspname not like 'pg\_%'
+    ),
+    referenced as (
+        select
+            relation.id AS id,
+            referenced_class.name ,
+            referenced_class.schema ,
+            referenced_class.kind
+        from relation
+        join class as referenced_class on relation.class=referenced_class.id
+        where referenced_class.kind in ('r', 'v')
+    ),
+    relationships as (
+        select
+            referenced.name as referenced_name,
+            referenced.schema as referenced_schema_id,
+            dependent_class.name as dependent_name,
+            dependent_class.schema as dependent_schema_id,
+            referenced.kind as kind
+        from referenced
+        join dependency on referenced.id=dependency.id
+        join class as dependent_class on dependency.ref=dependent_class.id
+        where
+            (referenced.name != dependent_class.name or
+             referenced.schema != dependent_class.schema)
+    )
+
+    select
+        referenced_schema.name as referenced_schema,
+        relationships.referenced_name as referenced_name,
+        dependent_schema.name as dependent_schema,
+        relationships.dependent_name as dependent_name
+    from relationships
+    join schema as dependent_schema on relationships.dependent_schema_id=dependent_schema.id
+    join schema as referenced_schema on relationships.referenced_schema_id=referenced_schema.id
+    group by referenced_schema, referenced_name, dependent_schema, dependent_name
+    order by referenced_schema, referenced_name, dependent_schema, dependent_name;
+2023-04-15 12:58:21.757338 (MainThread): 12:58:21  SQL status: SELECT 91 in 0 seconds
+2023-04-15 12:58:21.762942 (MainThread): 12:58:21  Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': 'a0b07f72-68d7-4fd4-b8c2-4f6a7d753c84', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f87cc05fd90>]}
+2023-04-15 12:58:21.763277 (MainThread): 12:58:21  On master: ROLLBACK
+2023-04-15 12:58:21.866499 (MainThread): 12:58:21  Using postgres connection "master"
+2023-04-15 12:58:21.866686 (MainThread): 12:58:21  On master: BEGIN
+2023-04-15 12:58:22.072668 (MainThread): 12:58:22  SQL status: BEGIN in 0 seconds
+2023-04-15 12:58:22.072870 (MainThread): 12:58:22  On master: COMMIT
+2023-04-15 12:58:22.073013 (MainThread): 12:58:22  Using postgres connection "master"
+2023-04-15 12:58:22.073148 (MainThread): 12:58:22  On master: COMMIT
+2023-04-15 12:58:22.176491 (MainThread): 12:58:22  SQL status: COMMIT in 0 seconds
+2023-04-15 12:58:22.176696 (MainThread): 12:58:22  On master: Close
+2023-04-15 12:58:22.177297 (MainThread): 12:58:22  Concurrency: 4 threads (target='default')
+2023-04-15 12:58:22.177447 (MainThread): 12:58:22  
+2023-04-15 12:58:22.180327 (Thread-1): 12:58:22  Began running node model.valmi_postgres.ignored_snapshot
+2023-04-15 12:58:22.180686 (Thread-1): 12:58:22  1 of 5 START sql table model valmi_scratch_computed_.ignored_snapshot .......... [RUN]
+2023-04-15 12:58:22.181184 (Thread-1): 12:58:22  Acquiring new postgres connection 'model.valmi_postgres.ignored_snapshot'
+2023-04-15 12:58:22.181377 (Thread-1): 12:58:22  Began compiling node model.valmi_postgres.ignored_snapshot
+2023-04-15 12:58:22.185387 (Thread-2): 12:58:22  Began running node model.valmi_postgres.init
+2023-04-15 12:58:22.185681 (Thread-2): 12:58:22  2 of 5 START sql table model valmi_scratch_computed_.init ...................... [RUN]
+2023-04-15 12:58:22.186168 (Thread-2): 12:58:22  Acquiring new postgres connection 'model.valmi_postgres.init'
+2023-04-15 12:58:22.186342 (Thread-2): 12:58:22  Began compiling node model.valmi_postgres.init
+2023-04-15 12:58:22.196973 (Thread-1): 12:58:22  Writing injected SQL for node "model.valmi_postgres.ignored_snapshot"
+2023-04-15 12:58:22.212907 (Thread-2): 12:58:22  Using postgres connection "model.valmi_postgres.init"
+2023-04-15 12:58:22.213051 (Thread-2): 12:58:22  On model.valmi_postgres.init: /* {"app": "dbt", "dbt_version": "1.4.5", "profile_name": "user", "target_name": "default", "node_id": "model.valmi_postgres.init"} */
+
+    
+            DELETE FROM "dvdrental"."valmi_scratch_computed_"."finalized_snapshot" WHERE customer_id in 
+            (SELECT  customer_id   
+                FROM  "dvdrental"."valmi_scratch_computed_"."transit_snapshot"
+                WHERE _valmi_sync_op IN ('upsert')
+            )
+        
+  
+2023-04-15 12:58:22.213178 (Thread-2): 12:58:22  Opening a new connection, currently in state init
+2023-04-15 12:58:22.219361 (Thread-1): 12:58:22  Timing info for model.valmi_postgres.ignored_snapshot (compile): 2023-04-15 12:58:22.181425 => 2023-04-15 12:58:22.219191
+2023-04-15 12:58:22.219587 (Thread-1): 12:58:22  Began executing node model.valmi_postgres.ignored_snapshot
+2023-04-15 12:58:22.258197 (Thread-1): 12:58:22  Writing runtime sql for node "model.valmi_postgres.ignored_snapshot"
+2023-04-15 12:58:22.271766 (Thread-1): 12:58:22  Using postgres connection "model.valmi_postgres.ignored_snapshot"
+2023-04-15 12:58:22.271945 (Thread-1): 12:58:22  On model.valmi_postgres.ignored_snapshot: BEGIN
+2023-04-15 12:58:22.272077 (Thread-1): 12:58:22  Opening a new connection, currently in state closed
+2023-04-15 12:58:22.842732 (Thread-2): 12:58:22  SQL status: DELETE 0 in 1 seconds
+2023-04-15 12:58:22.844174 (Thread-2): 12:58:22  Using postgres connection "model.valmi_postgres.init"
+2023-04-15 12:58:22.844319 (Thread-2): 12:58:22  On model.valmi_postgres.init: /* {"app": "dbt", "dbt_version": "1.4.5", "profile_name": "user", "target_name": "default", "node_id": "model.valmi_postgres.init"} */
+
+    
+            INSERT INTO "dvdrental"."valmi_scratch_computed_"."finalized_snapshot" 
+            SELECT customer_id,email,first_name,activebool,last_update 
+            FROM "dvdrental"."valmi_scratch_computed_"."transit_snapshot"
+            WHERE _valmi_sync_op IN ('upsert')
+        
+  
+2023-04-15 12:58:22.851223 (Thread-351): handling poll request
+2023-04-15 12:58:22.851667 (Thread-351): 12:58:22  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '8e56c7fc-6ef3-42f7-ae13-0513b6153959', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fc4ac27c190>]}
+2023-04-15 12:58:22.852499 (Thread-351): sending response (<Response 16621 bytes [200 OK]>) to 10.0.191.177
+2023-04-15 12:58:22.897628 (Thread-1): 12:58:22  SQL status: BEGIN in 1 seconds
+2023-04-15 12:58:22.897811 (Thread-1): 12:58:22  Using postgres connection "model.valmi_postgres.ignored_snapshot"
+2023-04-15 12:58:22.897938 (Thread-1): 12:58:22  On model.valmi_postgres.ignored_snapshot: /* {"app": "dbt", "dbt_version": "1.4.5", "profile_name": "user", "target_name": "default", "node_id": "model.valmi_postgres.ignored_snapshot"} */
+
+  
+    
+
+  create  table "dvdrental"."valmi_scratch_computed_"."ignored_snapshot__dbt_tmp"
+  as (
+    /*
+ * Copyright (c) 2023 valmi.io <https://github.com/valmi-io>
+ * 
+ * Created Date: Wednesday, March 22nd 2023, 12:15:26 pm
+ * Author: Rajashekar Varkala @ valmi.io
+ * 
+ * Permission is hereby granted, free of charge, to any person obtaining a copy
+ * of this software and associated documentation files (the "Software"), to deal
+ * in the Software without restriction, including without limitation the rights
+ * to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+ * copies of the Software, and to permit persons to whom the Software is
+ * furnished to do so, subject to the following conditions:
+ * 
+ * The above copyright notice and this permission notice shall be included in all
+ * copies or substantial portions of the Software.
+ * 
+ * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+ * IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+ * FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+ * AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+ * LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+ * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+ * SOFTWARE.
+ */
+
+with source as (select * from "dvdrental"."public"."customer")
+
+
+select customer_id,email,first_name,activebool,last_update, -100 AS error_code 
+from source
+where
+    customer_id  in (
+        select customer_id
+        from
+            (
+                select count(*), customer_id
+                from source
+                group by customer_id
+                having count(*) > 1
+            ) AS ID_COUNTS
+    )
+    and 
+    customer_id IS NOT NULL 
+
+UNION ALL
+
+
+select customer_id,email,first_name,activebool,last_update, -120 AS error_code 
+from source
+where  customer_id IS  NULL
+  );
+  
+2023-04-15 12:58:22.947782 (Thread-2): 12:58:22  SQL status: INSERT 0 1 in 0 seconds
+2023-04-15 12:58:22.949225 (Thread-2): 12:58:22  Using postgres connection "model.valmi_postgres.init"
+2023-04-15 12:58:22.949367 (Thread-2): 12:58:22  On model.valmi_postgres.init: /* {"app": "dbt", "dbt_version": "1.4.5", "profile_name": "user", "target_name": "default", "node_id": "model.valmi_postgres.init"} */
+
+    
+        DROP TABLE IF EXISTS "dvdrental"."valmi_scratch_computed_"."cleanup_snapshot" CASCADE
+    
+  
+2023-04-15 12:58:23.004215 (Thread-1): 12:58:23  SQL status: SELECT 0 in 0 seconds
+2023-04-15 12:58:23.010137 (Thread-1): 12:58:23  Using postgres connection "model.valmi_postgres.ignored_snapshot"
+2023-04-15 12:58:23.010285 (Thread-1): 12:58:23  On model.valmi_postgres.ignored_snapshot: /* {"app": "dbt", "dbt_version": "1.4.5", "profile_name": "user", "target_name": "default", "node_id": "model.valmi_postgres.ignored_snapshot"} */
+alter table "dvdrental"."valmi_scratch_computed_"."ignored_snapshot" rename to "ignored_snapshot__dbt_backup"
+2023-04-15 12:58:23.052899 (Thread-2): 12:58:23  SQL status: DROP TABLE in 0 seconds
+2023-04-15 12:58:23.055283 (Thread-2): 12:58:23  Using postgres connection "model.valmi_postgres.init"
+2023-04-15 12:58:23.055426 (Thread-2): 12:58:23  On model.valmi_postgres.init: /* {"app": "dbt", "dbt_version": "1.4.5", "profile_name": "user", "target_name": "default", "node_id": "model.valmi_postgres.init"} */
+
+    
+                CREATE TABLE "dvdrental"."valmi_scratch_computed_"."cleanup_snapshot"  
+                AS SELECT row_number() over (order by customer_id) _valmi_row_num,
+                'delete' AS _valmi_sync_op, customer_id
+                FROM "dvdrental"."valmi_scratch_computed_"."finalized_snapshot"
+            
+  
+2023-04-15 12:58:23.113989 (Thread-1): 12:58:23  SQL status: ALTER TABLE in 0 seconds
+2023-04-15 12:58:23.116351 (Thread-1): 12:58:23  Using postgres connection "model.valmi_postgres.ignored_snapshot"
+2023-04-15 12:58:23.116492 (Thread-1): 12:58:23  On model.valmi_postgres.ignored_snapshot: /* {"app": "dbt", "dbt_version": "1.4.5", "profile_name": "user", "target_name": "default", "node_id": "model.valmi_postgres.ignored_snapshot"} */
+alter table "dvdrental"."valmi_scratch_computed_"."ignored_snapshot__dbt_tmp" rename to "ignored_snapshot"
+2023-04-15 12:58:23.162384 (Thread-2): 12:58:23  SQL status: SELECT 602 in 0 seconds
+2023-04-15 12:58:23.163574 (Thread-2): 12:58:23  Using postgres connection "model.valmi_postgres.init"
+2023-04-15 12:58:23.163806 (Thread-2): 12:58:23  On model.valmi_postgres.init: /* {"app": "dbt", "dbt_version": "1.4.5", "profile_name": "user", "target_name": "default", "node_id": "model.valmi_postgres.init"} */
+
+    
+        DROP TABLE IF EXISTS "dvdrental"."valmi_scratch_computed_"."finalized_snapshot" CASCADE
+    
+  
+2023-04-15 12:58:23.220510 (Thread-1): 12:58:23  SQL status: ALTER TABLE in 0 seconds
+2023-04-15 12:58:23.240825 (Thread-1): 12:58:23  On model.valmi_postgres.ignored_snapshot: COMMIT
+2023-04-15 12:58:23.240989 (Thread-1): 12:58:23  Using postgres connection "model.valmi_postgres.ignored_snapshot"
+2023-04-15 12:58:23.241109 (Thread-1): 12:58:23  On model.valmi_postgres.ignored_snapshot: COMMIT
+2023-04-15 12:58:23.269655 (Thread-2): 12:58:23  SQL status: DROP TABLE in 0 seconds
+2023-04-15 12:58:23.271681 (Thread-2): 12:58:23  Using postgres connection "model.valmi_postgres.init"
+2023-04-15 12:58:23.271927 (Thread-2): 12:58:23  On model.valmi_postgres.init: /* {"app": "dbt", "dbt_version": "1.4.5", "profile_name": "user", "target_name": "default", "node_id": "model.valmi_postgres.init"} */
+
+    
+            CREATE TABLE "dvdrental"."valmi_scratch_computed_"."finalized_snapshot"  
+            AS SELECT customer_id,email,first_name,activebool,last_update 
+            FROM "dvdrental"."public"."customer" 
+            LIMIT 0
+    
+  
+2023-04-15 12:58:23.292461 (Thread-352): handling ps request
+2023-04-15 12:58:23.292862 (Thread-352): 12:58:23  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '8e56c7fc-6ef3-42f7-ae13-0513b6153959', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fc4ac2085b0>]}
+2023-04-15 12:58:23.294436 (Thread-352): sending response (<Response 18034 bytes [200 OK]>) to 10.0.191.177
+2023-04-15 12:58:23.344634 (Thread-1): 12:58:23  SQL status: COMMIT in 0 seconds
+2023-04-15 12:58:23.349286 (Thread-1): 12:58:23  Using postgres connection "model.valmi_postgres.ignored_snapshot"
+2023-04-15 12:58:23.349430 (Thread-1): 12:58:23  On model.valmi_postgres.ignored_snapshot: /* {"app": "dbt", "dbt_version": "1.4.5", "profile_name": "user", "target_name": "default", "node_id": "model.valmi_postgres.ignored_snapshot"} */
+drop table if exists "dvdrental"."valmi_scratch_computed_"."ignored_snapshot__dbt_backup" cascade
+2023-04-15 12:58:23.376156 (Thread-2): 12:58:23  SQL status: SELECT 0 in 0 seconds
+2023-04-15 12:58:23.377074 (Thread-2): 12:58:23  Writing injected SQL for node "model.valmi_postgres.init"
+2023-04-15 12:58:23.391430 (Thread-2): 12:58:23  Timing info for model.valmi_postgres.init (compile): 2023-04-15 12:58:22.186386 => 2023-04-15 12:58:23.391270
+2023-04-15 12:58:23.391666 (Thread-2): 12:58:23  Began executing node model.valmi_postgres.init
+2023-04-15 12:58:23.397497 (Thread-2): 12:58:23  Writing runtime sql for node "model.valmi_postgres.init"
+2023-04-15 12:58:23.410972 (Thread-2): 12:58:23  Using postgres connection "model.valmi_postgres.init"
+2023-04-15 12:58:23.411124 (Thread-2): 12:58:23  On model.valmi_postgres.init: BEGIN
+2023-04-15 12:58:23.453746 (Thread-1): 12:58:23  SQL status: DROP TABLE in 0 seconds
+2023-04-15 12:58:23.454800 (Thread-1): 12:58:23  Timing info for model.valmi_postgres.ignored_snapshot (execute): 2023-04-15 12:58:22.219637 => 2023-04-15 12:58:23.454676
+2023-04-15 12:58:23.454983 (Thread-1): 12:58:23  On model.valmi_postgres.ignored_snapshot: Close
+2023-04-15 12:58:23.455615 (Thread-1): 12:58:23  Sending event: {'category': 'dbt', 'action': 'run_model', 'label': 'a0b07f72-68d7-4fd4-b8c2-4f6a7d753c84', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f87cc0444c0>]}
+2023-04-15 12:58:23.456105 (Thread-1): 12:58:23  1 of 5 OK created sql table model valmi_scratch_computed_.ignored_snapshot ..... [SELECT 0 in 1.27s]
+2023-04-15 12:58:23.457159 (Thread-1): 12:58:23  Finished running node model.valmi_postgres.ignored_snapshot
+2023-04-15 12:58:23.514382 (Thread-2): 12:58:23  SQL status: BEGIN in 0 seconds
+2023-04-15 12:58:23.514571 (Thread-2): 12:58:23  Using postgres connection "model.valmi_postgres.init"
+2023-04-15 12:58:23.514697 (Thread-2): 12:58:23  On model.valmi_postgres.init: /* {"app": "dbt", "dbt_version": "1.4.5", "profile_name": "user", "target_name": "default", "node_id": "model.valmi_postgres.init"} */
+
+  
+    
+
+  create  table "dvdrental"."valmi_scratch_computed_"."init__dbt_tmp"
+  as (
+    /*
+ * Copyright (c) 2023 valmi.io <https://github.com/valmi-io>
+ * 
+ * Created Date: Wednesday, March 22nd 2023, 12:49:11 am
+ * Author: Rajashekar Varkala @ valmi.io
+ * 
+ * Permission is hereby granted, free of charge, to any person obtaining a copy
+ * of this software and associated documentation files (the "Software"), to deal
+ * in the Software without restriction, including without limitation the rights
+ * to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+ * copies of the Software, and to permit persons to whom the Software is
+ * furnished to do so, subject to the following conditions:
+ * 
+ * The above copyright notice and this permission notice shall be included in all
+ * copies or substantial portions of the Software.
+ * 
+ * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+ * IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+ * FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+ * AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+ * LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+ * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+ * SOFTWARE.
+ */
+
+
+    
+
+
+
+
+
+    
+    
+    
+        
+
+            
+
+        
+        
+        
+
+        
+        
+        
+
+        
+            DELETE FROM "dvdrental"."valmi_scratch_computed_"."finalized_snapshot" WHERE customer_id in 
+            (SELECT  customer_id   
+                FROM  "dvdrental"."valmi_scratch_computed_"."transit_snapshot"
+                WHERE _valmi_sync_op IN ('delete')
+            )
+        
+
+        
+    
+
+
+    
+    
+    
+
+
+            
+            
+            
+        
+    
+
+
+    
+    
+    
+ 
+    
+    
+
+
+
+SELECT 0
+  );
+  
+2023-04-15 12:58:23.620135 (Thread-2): 12:58:23  Postgres adapter: Postgres error: syntax error at or near "DELETE"
+LINE 56:             DELETE FROM "dvdrental"."valmi_scratch_computed_...
+                     ^
+
+2023-04-15 12:58:23.620351 (Thread-2): 12:58:23  On model.valmi_postgres.init: ROLLBACK
+2023-04-15 12:58:23.690397 (Thread-353): handling status request
+2023-04-15 12:58:23.690838 (Thread-353): 12:58:23  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '8e56c7fc-6ef3-42f7-ae13-0513b6153959', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fc4ac208fa0>]}
+2023-04-15 12:58:23.691329 (Thread-353): sending response (<Response 2231 bytes [200 OK]>) to 10.0.191.177
+2023-04-15 12:58:23.724156 (Thread-2): 12:58:23  Timing info for model.valmi_postgres.init (execute): 2023-04-15 12:58:23.391717 => 2023-04-15 12:58:23.723971
+2023-04-15 12:58:23.724376 (Thread-2): 12:58:23  On model.valmi_postgres.init: Close
+2023-04-15 12:58:23.726500 (Thread-2): 12:58:23  Database Error in model init (models/staging/init.sql)
+  syntax error at or near "DELETE"
+  LINE 56:             DELETE FROM "dvdrental"."valmi_scratch_computed_...
+                       ^
+  compiled Code at target/run/valmi_postgres/models/staging/init.sql
+2023-04-15 12:58:23.726901 (Thread-2): 12:58:23  Sending event: {'category': 'dbt', 'action': 'run_model', 'label': 'a0b07f72-68d7-4fd4-b8c2-4f6a7d753c84', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f87a46c0b50>]}
+2023-04-15 12:58:23.727317 (Thread-2): 12:58:23  2 of 5 ERROR creating sql table model valmi_scratch_computed_.init ............. [ERROR in 1.54s]
+2023-04-15 12:58:23.727514 (Thread-2): 12:58:23  Finished running node model.valmi_postgres.init
+2023-04-15 12:58:23.728285 (Thread-4): 12:58:23  Began running node model.valmi_postgres.stg_snapshot
+2023-04-15 12:58:23.728542 (Thread-4): 12:58:23  3 of 5 SKIP relation valmi_scratch_computed_.stg_snapshot ...................... [SKIP]
+2023-04-15 12:58:23.728731 (Thread-4): 12:58:23  Finished running node model.valmi_postgres.stg_snapshot
+2023-04-15 12:58:23.729610 (Thread-1): 12:58:23  Began running node model.valmi_postgres.transit_snapshot
+2023-04-15 12:58:23.729867 (Thread-1): 12:58:23  4 of 5 SKIP relation valmi_scratch_computed_.transit_snapshot .................. [SKIP]
+2023-04-15 12:58:23.730051 (Thread-1): 12:58:23  Finished running node model.valmi_postgres.transit_snapshot
+2023-04-15 12:58:23.730728 (Thread-4): 12:58:23  Began running node model.valmi_postgres.sync_metrics
+2023-04-15 12:58:23.730959 (Thread-4): 12:58:23  5 of 5 SKIP relation valmi_scratch_computed_.sync_metrics ...................... [SKIP]
+2023-04-15 12:58:23.731135 (Thread-4): 12:58:23  Finished running node model.valmi_postgres.sync_metrics
+2023-04-15 12:58:23.732602 (MainThread): 12:58:23  Acquiring new postgres connection 'master'
+2023-04-15 12:58:23.732822 (MainThread): 12:58:23  Using postgres connection "master"
+2023-04-15 12:58:23.732968 (MainThread): 12:58:23  On master: BEGIN
+2023-04-15 12:58:23.733113 (MainThread): 12:58:23  Opening a new connection, currently in state closed
+2023-04-15 12:58:24.357623 (MainThread): 12:58:24  SQL status: BEGIN in 1 seconds
+2023-04-15 12:58:24.357898 (MainThread): 12:58:24  On master: COMMIT
+2023-04-15 12:58:24.358053 (MainThread): 12:58:24  Using postgres connection "master"
+2023-04-15 12:58:24.358192 (MainThread): 12:58:24  On master: COMMIT
+2023-04-15 12:58:24.374624 (Thread-354): handling poll request
+2023-04-15 12:58:24.375081 (Thread-354): 12:58:24  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '8e56c7fc-6ef3-42f7-ae13-0513b6153959', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fc4ac2068e0>]}
+2023-04-15 12:58:24.376239 (Thread-354): sending response (<Response 32976 bytes [200 OK]>) to 10.0.191.177
+2023-04-15 12:58:24.461346 (MainThread): 12:58:24  SQL status: COMMIT in 0 seconds
+2023-04-15 12:58:24.461565 (MainThread): 12:58:24  On master: Close
+2023-04-15 12:58:24.462223 (MainThread): 12:58:24  Connection 'master' was properly closed.
+2023-04-15 12:58:24.462356 (MainThread): 12:58:24  Connection 'model.valmi_postgres.ignored_snapshot' was properly closed.
+2023-04-15 12:58:24.462460 (MainThread): 12:58:24  Connection 'model.valmi_postgres.init' was properly closed.
+2023-04-15 12:58:24.462682 (MainThread): 12:58:24  
+2023-04-15 12:58:24.462824 (MainThread): 12:58:24  Finished running 5 table models in 0 hours 0 minutes and 4.93 seconds (4.93s).
+2023-04-15 12:58:24.520751 (MainThread): 12:58:24  
+2023-04-15 12:58:24.520963 (MainThread): 12:58:24  Completed with 1 error and 0 warnings:
+2023-04-15 12:58:24.521094 (MainThread): 12:58:24  
+2023-04-15 12:58:24.521234 (MainThread): 12:58:24  Database Error in model init (models/staging/init.sql)
+2023-04-15 12:58:24.521358 (MainThread): 12:58:24    syntax error at or near "DELETE"
+2023-04-15 12:58:24.521464 (MainThread): 12:58:24    LINE 56:             DELETE FROM "dvdrental"."valmi_scratch_computed_...
+2023-04-15 12:58:24.521567 (MainThread): 12:58:24                         ^
+2023-04-15 12:58:24.521668 (MainThread): 12:58:24    compiled Code at target/run/valmi_postgres/models/staging/init.sql
+2023-04-15 12:58:24.521798 (MainThread): 12:58:24  
+2023-04-15 12:58:24.521927 (MainThread): 12:58:24  Done. PASS=1 WARN=0 ERROR=1 SKIP=3 TOTAL=5
+2023-04-15 12:58:25.746308 (Thread-355): handling ps request
+2023-04-15 12:58:25.746793 (Thread-355): 12:58:25  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '8e56c7fc-6ef3-42f7-ae13-0513b6153959', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fc4ac1fefa0>]}
+2023-04-15 12:58:25.748637 (Thread-355): sending response (<Response 18058 bytes [200 OK]>) to 10.0.191.177
+2023-04-15 12:58:25.873238 (Thread-356): handling poll request
+2023-04-15 12:58:25.873605 (Thread-356): 12:58:25  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '8e56c7fc-6ef3-42f7-ae13-0513b6153959', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fc4ac1febe0>]}
+2023-04-15 12:58:25.874765 (Thread-356): sending response (<Response 34790 bytes [200 OK]>) to 10.0.191.177
+2023-04-15 12:58:26.122936 (Thread-357): handling status request
+2023-04-15 12:58:26.123269 (Thread-357): 12:58:26  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '8e56c7fc-6ef3-42f7-ae13-0513b6153959', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fc4ac208400>]}
+2023-04-15 12:58:26.123674 (Thread-357): sending response (<Response 2231 bytes [200 OK]>) to 10.0.191.177
+2023-04-15 12:59:19.570806 (Thread-358): 12:59:19  checksum: 9f5971860ea7956c5d0d162f1c96671df61b5ad9db5c4152918680483cec5347, vars: {}, profile: user, target: None, version: 1.4.5
+2023-04-15 12:59:19.580659 (Thread-358): 12:59:19  Unable to do partial parsing because config vars, config profile, or config target have changed
+2023-04-15 12:59:19.581029 (Thread-358): 12:59:19  previous checksum: e05dd7cee44d39ae8ac27965cacd8a6d8d0ab4e8185101e0db84e98f79bee0b6, current checksum: 9f5971860ea7956c5d0d162f1c96671df61b5ad9db5c4152918680483cec5347
+2023-04-15 12:59:19.581226 (Thread-358): 12:59:19  Sending event: {'category': 'dbt', 'action': 'partial_parser', 'label': '8e56c7fc-6ef3-42f7-ae13-0513b6153959', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fc4d8efed00>]}
+2023-04-15 12:59:20.014889 (Thread-359): handling status request
+2023-04-15 12:59:20.035694 (Thread-359): 12:59:20  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '8e56c7fc-6ef3-42f7-ae13-0513b6153959', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fc4ac1c9e80>]}
+2023-04-15 12:59:20.041268 (Thread-359): sending response (<Response 163 bytes [200 OK]>) to 10.0.191.177
+2023-04-15 12:59:20.140110 (Thread-358): 12:59:20  1603: static parser failed on transit/transit_snapshot.sql
+2023-04-15 12:59:20.146135 (Thread-358): 12:59:20  1602: parser fallback to jinja rendering on transit/transit_snapshot.sql
+2023-04-15 12:59:20.147781 (Thread-358): 12:59:20  1603: static parser failed on transit/sync_metrics.sql
+2023-04-15 12:59:20.152750 (Thread-358): 12:59:20  1602: parser fallback to jinja rendering on transit/sync_metrics.sql
+2023-04-15 12:59:20.154187 (Thread-358): 12:59:20  1603: static parser failed on transit/ignored_snapshot.sql
+2023-04-15 12:59:20.160055 (Thread-358): 12:59:20  1602: parser fallback to jinja rendering on transit/ignored_snapshot.sql
+2023-04-15 12:59:20.161593 (Thread-358): 12:59:20  1603: static parser failed on staging/init.sql
+2023-04-15 12:59:20.177507 (Thread-358): 12:59:20  1602: parser fallback to jinja rendering on staging/init.sql
+2023-04-15 12:59:20.179071 (Thread-358): 12:59:20  1603: static parser failed on staging/stg_snapshot.sql
+2023-04-15 12:59:20.191762 (Thread-358): 12:59:20  1602: parser fallback to jinja rendering on staging/stg_snapshot.sql
+2023-04-15 12:59:20.209769 (Thread-358): 12:59:20  [WARNING]: Did not find matching node for patch with name 'cleanup_snapshot' in the 'models' section of file 'models/schema.yml'
+2023-04-15 12:59:20.266717 (Thread-358): 12:59:20  Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '8e56c7fc-6ef3-42f7-ae13-0513b6153959', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fc4ac1753d0>]}
+2023-04-15 12:59:20.945097 (Thread-360): handling status request
+2023-04-15 12:59:20.945595 (Thread-360): 12:59:20  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '8e56c7fc-6ef3-42f7-ae13-0513b6153959', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fc4ac170220>]}
+2023-04-15 12:59:20.946198 (Thread-360): sending response (<Response 5594 bytes [200 OK]>) to 10.0.191.177
+2023-04-15 13:00:36.019101 (Thread-361): handling status request
+2023-04-15 13:00:36.019605 (Thread-361): 13:00:36  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '8e56c7fc-6ef3-42f7-ae13-0513b6153959', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fc4ac1707f0>]}
+2023-04-15 13:00:36.020214 (Thread-361): sending response (<Response 5594 bytes [200 OK]>) to 10.0.191.177
+2023-04-15 13:00:36.987672 (Thread-362): handling status request
+2023-04-15 13:00:36.988186 (Thread-362): 13:00:36  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '8e56c7fc-6ef3-42f7-ae13-0513b6153959', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fc4ac170760>]}
+2023-04-15 13:00:36.988756 (Thread-362): sending response (<Response 5594 bytes [200 OK]>) to 10.0.191.177
+2023-04-15 13:00:40.365500 (Thread-363): handling status request
+2023-04-15 13:00:40.366002 (Thread-363): 13:00:40  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '8e56c7fc-6ef3-42f7-ae13-0513b6153959', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fc4ac170310>]}
+2023-04-15 13:00:40.366572 (Thread-363): sending response (<Response 5594 bytes [200 OK]>) to 10.0.191.177
+2023-04-15 13:00:40.536431 (Thread-364): handling ps request
+2023-04-15 13:00:40.536868 (Thread-364): 13:00:40  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '8e56c7fc-6ef3-42f7-ae13-0513b6153959', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fc4ac1706d0>]}
+2023-04-15 13:00:40.538416 (Thread-364): sending response (<Response 18058 bytes [200 OK]>) to 10.0.191.177
+2023-04-15 13:00:40.608422 (Thread-365): handling ps request
+2023-04-15 13:00:40.608831 (Thread-365): 13:00:40  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '8e56c7fc-6ef3-42f7-ae13-0513b6153959', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fc4ac170640>]}
+2023-04-15 13:00:40.610321 (Thread-365): sending response (<Response 18058 bytes [200 OK]>) to 10.0.191.177
+2023-04-15 13:00:40.921134 (Thread-366): handling status request
+2023-04-15 13:00:40.921613 (Thread-366): 13:00:40  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '8e56c7fc-6ef3-42f7-ae13-0513b6153959', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fc4ac170c10>]}
+2023-04-15 13:00:40.922192 (Thread-366): sending response (<Response 5594 bytes [200 OK]>) to 10.0.191.177
+2023-04-15 13:00:43.291812 (Thread-367): handling status request
+2023-04-15 13:00:43.292363 (Thread-367): 13:00:43  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '8e56c7fc-6ef3-42f7-ae13-0513b6153959', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fc4ac170940>]}
+2023-04-15 13:00:43.292965 (Thread-367): sending response (<Response 5594 bytes [200 OK]>) to 10.0.191.177
+2023-04-15 13:00:43.544216 (Thread-368): handling ps request
+2023-04-15 13:00:43.544711 (Thread-368): 13:00:43  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '8e56c7fc-6ef3-42f7-ae13-0513b6153959', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fc4ac170bb0>]}
+2023-04-15 13:00:43.546270 (Thread-368): sending response (<Response 18058 bytes [200 OK]>) to 10.0.191.177
+2023-04-15 13:00:43.672114 (Thread-369): handling cli_args request
+2023-04-15 13:00:43.672592 (Thread-369): 13:00:43  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '8e56c7fc-6ef3-42f7-ae13-0513b6153959', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fc4ac170af0>]}
+2023-04-15 13:00:43.945415 (Thread-370): handling status request
+2023-04-15 13:00:43.946429 (Thread-370): 13:00:43  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '8e56c7fc-6ef3-42f7-ae13-0513b6153959', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fc4ac0d9940>]}
+2023-04-15 13:00:43.947422 (Thread-370): sending response (<Response 5594 bytes [200 OK]>) to 10.0.191.177
+2023-04-15 13:00:45.947775 (Thread-369): sending response (<Response 133 bytes [200 OK]>) to 10.0.191.177
+2023-04-15 13:00:45.984919 (MainThread): 13:00:45  checksum: e05dd7cee44d39ae8ac27965cacd8a6d8d0ab4e8185101e0db84e98f79bee0b6, vars: {}, profile: None, target: None, version: 1.4.5
+2023-04-15 13:00:45.994047 (MainThread): 13:00:45  Unable to do partial parsing because config vars, config profile, or config target have changed
+2023-04-15 13:00:45.994212 (MainThread): 13:00:45  previous checksum: 9f5971860ea7956c5d0d162f1c96671df61b5ad9db5c4152918680483cec5347, current checksum: e05dd7cee44d39ae8ac27965cacd8a6d8d0ab4e8185101e0db84e98f79bee0b6
+2023-04-15 13:00:45.994355 (MainThread): 13:00:45  Sending event: {'category': 'dbt', 'action': 'partial_parser', 'label': '5320129e-aae2-426b-9353-a5fa74190377', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f977e8185b0>]}
+2023-04-15 13:00:46.555319 (MainThread): 13:00:46  1603: static parser failed on transit/transit_snapshot.sql
+2023-04-15 13:00:46.569369 (MainThread): 13:00:46  1602: parser fallback to jinja rendering on transit/transit_snapshot.sql
+2023-04-15 13:00:46.572405 (MainThread): 13:00:46  1603: static parser failed on transit/sync_metrics.sql
+2023-04-15 13:00:46.577542 (MainThread): 13:00:46  1602: parser fallback to jinja rendering on transit/sync_metrics.sql
+2023-04-15 13:00:46.578922 (MainThread): 13:00:46  1603: static parser failed on transit/ignored_snapshot.sql
+2023-04-15 13:00:46.626742 (MainThread): 13:00:46  1602: parser fallback to jinja rendering on transit/ignored_snapshot.sql
+2023-04-15 13:00:46.628360 (MainThread): 13:00:46  1603: static parser failed on staging/init.sql
+2023-04-15 13:00:46.650481 (MainThread): 13:00:46  1602: parser fallback to jinja rendering on staging/init.sql
+2023-04-15 13:00:46.652017 (MainThread): 13:00:46  1603: static parser failed on staging/stg_snapshot.sql
+2023-04-15 13:00:46.663761 (MainThread): 13:00:46  1602: parser fallback to jinja rendering on staging/stg_snapshot.sql
+2023-04-15 13:00:46.670862 (Thread-371): handling ps request
+2023-04-15 13:00:46.671289 (Thread-371): 13:00:46  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '8e56c7fc-6ef3-42f7-ae13-0513b6153959', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fc4ac0d9280>]}
+2023-04-15 13:00:46.673868 (Thread-371): sending response (<Response 18447 bytes [200 OK]>) to 10.0.191.177
+2023-04-15 13:00:46.683179 (MainThread): 13:00:46  [WARNING]: Did not find matching node for patch with name 'cleanup_snapshot' in the 'models' section of file 'models/schema.yml'
+2023-04-15 13:00:46.702708 (Thread-372): handling poll request
+2023-04-15 13:00:46.703052 (Thread-372): 13:00:46  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '8e56c7fc-6ef3-42f7-ae13-0513b6153959', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fc4ac186be0>]}
+2023-04-15 13:00:46.703625 (Thread-372): sending response (<Response 5313 bytes [200 OK]>) to 10.0.191.177
+2023-04-15 13:00:46.750123 (MainThread): 13:00:46  Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '5320129e-aae2-426b-9353-a5fa74190377', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f977ddf2700>]}
+2023-04-15 13:00:46.778057 (MainThread): 13:00:46  Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '5320129e-aae2-426b-9353-a5fa74190377', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f977e70b040>]}
+2023-04-15 13:00:46.778353 (MainThread): 13:00:46  Found 5 models, 0 tests, 0 snapshots, 0 analyses, 292 macros, 0 operations, 0 seed files, 6 sources, 0 exposures, 0 metrics
+2023-04-15 13:00:46.778492 (MainThread): 13:00:46  Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '5320129e-aae2-426b-9353-a5fa74190377', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f977e768b80>]}
+2023-04-15 13:00:46.779836 (MainThread): 13:00:46  
+2023-04-15 13:00:46.780989 (MainThread): 13:00:46  Acquiring new postgres connection 'master'
+2023-04-15 13:00:46.782165 (ThreadPoolExecutor-0_0): 13:00:46  Acquiring new postgres connection 'list_dvdrental'
+2023-04-15 13:00:46.787574 (ThreadPoolExecutor-0_0): 13:00:46  Using postgres connection "list_dvdrental"
+2023-04-15 13:00:46.787744 (ThreadPoolExecutor-0_0): 13:00:46  On list_dvdrental: /* {"app": "dbt", "dbt_version": "1.4.5", "profile_name": "user", "target_name": "default", "connection_name": "list_dvdrental"} */
+
+    select distinct nspname from pg_namespace
+  
+2023-04-15 13:00:46.787923 (ThreadPoolExecutor-0_0): 13:00:46  Opening a new connection, currently in state init
+2023-04-15 13:00:47.323391 (Thread-373): handling status request
+2023-04-15 13:00:47.323831 (Thread-373): 13:00:47  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '8e56c7fc-6ef3-42f7-ae13-0513b6153959', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fc4ac16c220>]}
+2023-04-15 13:00:47.324411 (Thread-373): sending response (<Response 5594 bytes [200 OK]>) to 10.0.191.177
+2023-04-15 13:00:47.411199 (ThreadPoolExecutor-0_0): 13:00:47  SQL status: SELECT 5 in 1 seconds
+2023-04-15 13:00:47.412476 (ThreadPoolExecutor-0_0): 13:00:47  On list_dvdrental: Close
+2023-04-15 13:00:47.414227 (ThreadPoolExecutor-1_0): 13:00:47  Acquiring new postgres connection 'list_dvdrental_valmi_scratch_computed_'
+2023-04-15 13:00:47.420042 (ThreadPoolExecutor-1_0): 13:00:47  Using postgres connection "list_dvdrental_valmi_scratch_computed_"
+2023-04-15 13:00:47.420213 (ThreadPoolExecutor-1_0): 13:00:47  On list_dvdrental_valmi_scratch_computed_: BEGIN
+2023-04-15 13:00:47.420361 (ThreadPoolExecutor-1_0): 13:00:47  Opening a new connection, currently in state closed
+2023-04-15 13:00:48.039399 (ThreadPoolExecutor-1_0): 13:00:48  SQL status: BEGIN in 1 seconds
+2023-04-15 13:00:48.039590 (ThreadPoolExecutor-1_0): 13:00:48  Using postgres connection "list_dvdrental_valmi_scratch_computed_"
+2023-04-15 13:00:48.039734 (ThreadPoolExecutor-1_0): 13:00:48  On list_dvdrental_valmi_scratch_computed_: /* {"app": "dbt", "dbt_version": "1.4.5", "profile_name": "user", "target_name": "default", "connection_name": "list_dvdrental_valmi_scratch_computed_"} */
+select
+      'dvdrental' as database,
+      tablename as name,
+      schemaname as schema,
+      'table' as type
+    from pg_tables
+    where schemaname ilike 'valmi_scratch_computed_'
+    union all
+    select
+      'dvdrental' as database,
+      viewname as name,
+      schemaname as schema,
+      'view' as type
+    from pg_views
+    where schemaname ilike 'valmi_scratch_computed_'
+  
+2023-04-15 13:00:48.145807 (ThreadPoolExecutor-1_0): 13:00:48  SQL status: SELECT 109 in 0 seconds
+2023-04-15 13:00:48.148957 (ThreadPoolExecutor-1_0): 13:00:48  On list_dvdrental_valmi_scratch_computed_: ROLLBACK
+2023-04-15 13:00:48.252056 (ThreadPoolExecutor-1_0): 13:00:48  On list_dvdrental_valmi_scratch_computed_: Close
+2023-04-15 13:00:48.264710 (MainThread): 13:00:48  Using postgres connection "master"
+2023-04-15 13:00:48.264906 (MainThread): 13:00:48  On master: BEGIN
+2023-04-15 13:00:48.265057 (MainThread): 13:00:48  Opening a new connection, currently in state init
+2023-04-15 13:00:48.496132 (Thread-374): handling poll request
+2023-04-15 13:00:48.496632 (Thread-374): 13:00:48  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '8e56c7fc-6ef3-42f7-ae13-0513b6153959', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fc4ac175f70>]}
+2023-04-15 13:00:48.497333 (Thread-374): sending response (<Response 9038 bytes [200 OK]>) to 10.0.191.177
+2023-04-15 13:00:48.887868 (MainThread): 13:00:48  SQL status: BEGIN in 1 seconds
+2023-04-15 13:00:48.888150 (MainThread): 13:00:48  Using postgres connection "master"
+2023-04-15 13:00:48.888302 (MainThread): 13:00:48  On master: /* {"app": "dbt", "dbt_version": "1.4.5", "profile_name": "user", "target_name": "default", "connection_name": "master"} */
+with relation as (
+        select
+            pg_rewrite.ev_class as class,
+            pg_rewrite.oid as id
+        from pg_rewrite
+    ),
+    class as (
+        select
+            oid as id,
+            relname as name,
+            relnamespace as schema,
+            relkind as kind
+        from pg_class
+    ),
+    dependency as (
+        select distinct
+            pg_depend.objid as id,
+            pg_depend.refobjid as ref
+        from pg_depend
+    ),
+    schema as (
+        select
+            pg_namespace.oid as id,
+            pg_namespace.nspname as name
+        from pg_namespace
+        where nspname != 'information_schema' and nspname not like 'pg\_%'
+    ),
+    referenced as (
+        select
+            relation.id AS id,
+            referenced_class.name ,
+            referenced_class.schema ,
+            referenced_class.kind
+        from relation
+        join class as referenced_class on relation.class=referenced_class.id
+        where referenced_class.kind in ('r', 'v')
+    ),
+    relationships as (
+        select
+            referenced.name as referenced_name,
+            referenced.schema as referenced_schema_id,
+            dependent_class.name as dependent_name,
+            dependent_class.schema as dependent_schema_id,
+            referenced.kind as kind
+        from referenced
+        join dependency on referenced.id=dependency.id
+        join class as dependent_class on dependency.ref=dependent_class.id
+        where
+            (referenced.name != dependent_class.name or
+             referenced.schema != dependent_class.schema)
+    )
+
+    select
+        referenced_schema.name as referenced_schema,
+        relationships.referenced_name as referenced_name,
+        dependent_schema.name as dependent_schema,
+        relationships.dependent_name as dependent_name
+    from relationships
+    join schema as dependent_schema on relationships.dependent_schema_id=dependent_schema.id
+    join schema as referenced_schema on relationships.referenced_schema_id=referenced_schema.id
+    group by referenced_schema, referenced_name, dependent_schema, dependent_name
+    order by referenced_schema, referenced_name, dependent_schema, dependent_name;
+2023-04-15 13:00:49.050717 (MainThread): 13:00:49  SQL status: SELECT 91 in 0 seconds
+2023-04-15 13:00:49.056217 (MainThread): 13:00:49  Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '5320129e-aae2-426b-9353-a5fa74190377', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f977c0f50a0>]}
+2023-04-15 13:00:49.056561 (MainThread): 13:00:49  On master: ROLLBACK
+2023-04-15 13:00:49.159539 (MainThread): 13:00:49  Using postgres connection "master"
+2023-04-15 13:00:49.159710 (MainThread): 13:00:49  On master: BEGIN
+2023-04-15 13:00:49.365754 (MainThread): 13:00:49  SQL status: BEGIN in 0 seconds
+2023-04-15 13:00:49.366027 (MainThread): 13:00:49  On master: COMMIT
+2023-04-15 13:00:49.366181 (MainThread): 13:00:49  Using postgres connection "master"
+2023-04-15 13:00:49.366323 (MainThread): 13:00:49  On master: COMMIT
+2023-04-15 13:00:49.428075 (Thread-375): handling ps request
+2023-04-15 13:00:49.428566 (Thread-375): 13:00:49  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '8e56c7fc-6ef3-42f7-ae13-0513b6153959', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fc4ac15dd30>]}
+2023-04-15 13:00:49.430185 (Thread-375): sending response (<Response 18447 bytes [200 OK]>) to 10.0.191.177
+2023-04-15 13:00:49.469560 (MainThread): 13:00:49  SQL status: COMMIT in 0 seconds
+2023-04-15 13:00:49.469830 (MainThread): 13:00:49  On master: Close
+2023-04-15 13:00:49.470537 (MainThread): 13:00:49  Concurrency: 4 threads (target='default')
+2023-04-15 13:00:49.470697 (MainThread): 13:00:49  
+2023-04-15 13:00:49.473549 (Thread-1): 13:00:49  Began running node model.valmi_postgres.ignored_snapshot
+2023-04-15 13:00:49.473926 (Thread-1): 13:00:49  1 of 5 START sql table model valmi_scratch_computed_.ignored_snapshot .......... [RUN]
+2023-04-15 13:00:49.474422 (Thread-1): 13:00:49  Acquiring new postgres connection 'model.valmi_postgres.ignored_snapshot'
+2023-04-15 13:00:49.474618 (Thread-1): 13:00:49  Began compiling node model.valmi_postgres.ignored_snapshot
+2023-04-15 13:00:49.478695 (Thread-2): 13:00:49  Began running node model.valmi_postgres.init
+2023-04-15 13:00:49.478999 (Thread-2): 13:00:49  2 of 5 START sql table model valmi_scratch_computed_.init ...................... [RUN]
+2023-04-15 13:00:49.479470 (Thread-2): 13:00:49  Acquiring new postgres connection 'model.valmi_postgres.init'
+2023-04-15 13:00:49.479644 (Thread-2): 13:00:49  Began compiling node model.valmi_postgres.init
+2023-04-15 13:00:49.485178 (Thread-1): 13:00:49  Writing injected SQL for node "model.valmi_postgres.ignored_snapshot"
+2023-04-15 13:00:49.506779 (Thread-2): 13:00:49  Using postgres connection "model.valmi_postgres.init"
+2023-04-15 13:00:49.506932 (Thread-2): 13:00:49  On model.valmi_postgres.init: /* {"app": "dbt", "dbt_version": "1.4.5", "profile_name": "user", "target_name": "default", "node_id": "model.valmi_postgres.init"} */
+
+    
+            DELETE FROM "dvdrental"."valmi_scratch_computed_"."finalized_snapshot" WHERE customer_id in 
+            (SELECT  customer_id   
+                FROM  "dvdrental"."valmi_scratch_computed_"."transit_snapshot"
+                WHERE _valmi_sync_op IN ('upsert')
+            )
+        
+  
+2023-04-15 13:00:49.507058 (Thread-2): 13:00:49  Opening a new connection, currently in state init
+2023-04-15 13:00:49.513112 (Thread-1): 13:00:49  Timing info for model.valmi_postgres.ignored_snapshot (compile): 2023-04-15 13:00:49.474666 => 2023-04-15 13:00:49.512944
+2023-04-15 13:00:49.513337 (Thread-1): 13:00:49  Began executing node model.valmi_postgres.ignored_snapshot
+2023-04-15 13:00:49.551955 (Thread-1): 13:00:49  Writing runtime sql for node "model.valmi_postgres.ignored_snapshot"
+2023-04-15 13:00:49.565397 (Thread-1): 13:00:49  Using postgres connection "model.valmi_postgres.ignored_snapshot"
+2023-04-15 13:00:49.565556 (Thread-1): 13:00:49  On model.valmi_postgres.ignored_snapshot: BEGIN
+2023-04-15 13:00:49.565683 (Thread-1): 13:00:49  Opening a new connection, currently in state closed
+2023-04-15 13:00:49.847259 (Thread-376): handling status request
+2023-04-15 13:00:49.847721 (Thread-376): 13:00:49  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '8e56c7fc-6ef3-42f7-ae13-0513b6153959', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fc4ac15d5e0>]}
+2023-04-15 13:00:49.848316 (Thread-376): sending response (<Response 5594 bytes [200 OK]>) to 10.0.191.177
+2023-04-15 13:00:50.008393 (Thread-377): handling poll request
+2023-04-15 13:00:50.008800 (Thread-377): 13:00:50  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '8e56c7fc-6ef3-42f7-ae13-0513b6153959', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fc4ac0d9940>]}
+2023-04-15 13:00:50.009546 (Thread-377): sending response (<Response 15182 bytes [200 OK]>) to 10.0.191.177
+2023-04-15 13:00:50.131364 (Thread-2): 13:00:50  SQL status: DELETE 0 in 1 seconds
+2023-04-15 13:00:50.133043 (Thread-2): 13:00:50  Using postgres connection "model.valmi_postgres.init"
+2023-04-15 13:00:50.133212 (Thread-2): 13:00:50  On model.valmi_postgres.init: /* {"app": "dbt", "dbt_version": "1.4.5", "profile_name": "user", "target_name": "default", "node_id": "model.valmi_postgres.init"} */
+
+    
+            INSERT INTO "dvdrental"."valmi_scratch_computed_"."finalized_snapshot" 
+            SELECT customer_id,email,first_name,activebool,last_update 
+            FROM "dvdrental"."valmi_scratch_computed_"."transit_snapshot"
+            WHERE _valmi_sync_op IN ('upsert')
+        
+  
+2023-04-15 13:00:50.192439 (Thread-1): 13:00:50  SQL status: BEGIN in 1 seconds
+2023-04-15 13:00:50.192626 (Thread-1): 13:00:50  Using postgres connection "model.valmi_postgres.ignored_snapshot"
+2023-04-15 13:00:50.192760 (Thread-1): 13:00:50  On model.valmi_postgres.ignored_snapshot: /* {"app": "dbt", "dbt_version": "1.4.5", "profile_name": "user", "target_name": "default", "node_id": "model.valmi_postgres.ignored_snapshot"} */
+
+  
+    
+
+  create  table "dvdrental"."valmi_scratch_computed_"."ignored_snapshot__dbt_tmp"
+  as (
+    /*
+ * Copyright (c) 2023 valmi.io <https://github.com/valmi-io>
+ * 
+ * Created Date: Wednesday, March 22nd 2023, 12:15:26 pm
+ * Author: Rajashekar Varkala @ valmi.io
+ * 
+ * Permission is hereby granted, free of charge, to any person obtaining a copy
+ * of this software and associated documentation files (the "Software"), to deal
+ * in the Software without restriction, including without limitation the rights
+ * to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+ * copies of the Software, and to permit persons to whom the Software is
+ * furnished to do so, subject to the following conditions:
+ * 
+ * The above copyright notice and this permission notice shall be included in all
+ * copies or substantial portions of the Software.
+ * 
+ * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+ * IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+ * FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+ * AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+ * LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+ * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+ * SOFTWARE.
+ */
+
+with source as (select * from "dvdrental"."public"."customer")
+
+
+select customer_id,email,first_name,activebool,last_update, -100 AS error_code 
+from source
+where
+    customer_id  in (
+        select customer_id
+        from
+            (
+                select count(*), customer_id
+                from source
+                group by customer_id
+                having count(*) > 1
+            ) AS ID_COUNTS
+    )
+    and 
+    customer_id IS NOT NULL 
+
+UNION ALL
+
+
+select customer_id,email,first_name,activebool,last_update, -120 AS error_code 
+from source
+where  customer_id IS  NULL
+  );
+  
+2023-04-15 13:00:50.236752 (Thread-2): 13:00:50  SQL status: INSERT 0 1 in 0 seconds
+2023-04-15 13:00:50.238179 (Thread-2): 13:00:50  Using postgres connection "model.valmi_postgres.init"
+2023-04-15 13:00:50.238323 (Thread-2): 13:00:50  On model.valmi_postgres.init: /* {"app": "dbt", "dbt_version": "1.4.5", "profile_name": "user", "target_name": "default", "node_id": "model.valmi_postgres.init"} */
+
+    
+                DELETE FROM "dvdrental"."valmi_scratch_computed_"."finalized_snapshot" WHERE customer_id in 
+                (SELECT  customer_id   
+                    FROM  "dvdrental"."valmi_scratch_computed_"."transit_snapshot"
+                    WHERE _valmi_sync_op IN ('delete')
+                )
+            
+  
+2023-04-15 13:00:50.303580 (Thread-1): 13:00:50  SQL status: SELECT 0 in 0 seconds
+2023-04-15 13:00:50.309985 (Thread-1): 13:00:50  Using postgres connection "model.valmi_postgres.ignored_snapshot"
+2023-04-15 13:00:50.310135 (Thread-1): 13:00:50  On model.valmi_postgres.ignored_snapshot: /* {"app": "dbt", "dbt_version": "1.4.5", "profile_name": "user", "target_name": "default", "node_id": "model.valmi_postgres.ignored_snapshot"} */
+alter table "dvdrental"."valmi_scratch_computed_"."ignored_snapshot" rename to "ignored_snapshot__dbt_backup"
+2023-04-15 13:00:50.341424 (Thread-2): 13:00:50  SQL status: DELETE 1 in 0 seconds
+2023-04-15 13:00:50.343765 (Thread-2): 13:00:50  Using postgres connection "model.valmi_postgres.init"
+2023-04-15 13:00:50.343935 (Thread-2): 13:00:50  On model.valmi_postgres.init: /* {"app": "dbt", "dbt_version": "1.4.5", "profile_name": "user", "target_name": "default", "node_id": "model.valmi_postgres.init"} */
+
+    
+        DROP TABLE IF EXISTS "dvdrental"."valmi_scratch_computed_"."cleanup_snapshot" CASCADE
+    
+  
+2023-04-15 13:00:50.413753 (Thread-1): 13:00:50  SQL status: ALTER TABLE in 0 seconds
+2023-04-15 13:00:50.416163 (Thread-1): 13:00:50  Using postgres connection "model.valmi_postgres.ignored_snapshot"
+2023-04-15 13:00:50.416318 (Thread-1): 13:00:50  On model.valmi_postgres.ignored_snapshot: /* {"app": "dbt", "dbt_version": "1.4.5", "profile_name": "user", "target_name": "default", "node_id": "model.valmi_postgres.ignored_snapshot"} */
+alter table "dvdrental"."valmi_scratch_computed_"."ignored_snapshot__dbt_tmp" rename to "ignored_snapshot"
+2023-04-15 13:00:50.446902 (Thread-2): 13:00:50  SQL status: DROP TABLE in 0 seconds
+2023-04-15 13:00:50.448198 (Thread-2): 13:00:50  Using postgres connection "model.valmi_postgres.init"
+2023-04-15 13:00:50.448341 (Thread-2): 13:00:50  On model.valmi_postgres.init: /* {"app": "dbt", "dbt_version": "1.4.5", "profile_name": "user", "target_name": "default", "node_id": "model.valmi_postgres.init"} */
+
+    
+                CREATE TABLE "dvdrental"."valmi_scratch_computed_"."cleanup_snapshot"  
+                AS SELECT row_number() over (order by customer_id) _valmi_row_num,
+                'delete' AS _valmi_sync_op, customer_id
+                FROM "dvdrental"."valmi_scratch_computed_"."finalized_snapshot"
+            
+  
+2023-04-15 13:00:50.519797 (Thread-1): 13:00:50  SQL status: ALTER TABLE in 0 seconds
+2023-04-15 13:00:50.540783 (Thread-1): 13:00:50  On model.valmi_postgres.ignored_snapshot: COMMIT
+2023-04-15 13:00:50.540953 (Thread-1): 13:00:50  Using postgres connection "model.valmi_postgres.ignored_snapshot"
+2023-04-15 13:00:50.541075 (Thread-1): 13:00:50  On model.valmi_postgres.ignored_snapshot: COMMIT
+2023-04-15 13:00:50.554096 (Thread-2): 13:00:50  SQL status: SELECT 601 in 0 seconds
+2023-04-15 13:00:50.555389 (Thread-2): 13:00:50  Using postgres connection "model.valmi_postgres.init"
+2023-04-15 13:00:50.555533 (Thread-2): 13:00:50  On model.valmi_postgres.init: /* {"app": "dbt", "dbt_version": "1.4.5", "profile_name": "user", "target_name": "default", "node_id": "model.valmi_postgres.init"} */
+
+    
+        DROP TABLE IF EXISTS "dvdrental"."valmi_scratch_computed_"."finalized_snapshot" CASCADE
+    
+  
+2023-04-15 13:00:50.645794 (Thread-1): 13:00:50  SQL status: COMMIT in 0 seconds
+2023-04-15 13:00:50.651078 (Thread-1): 13:00:50  Using postgres connection "model.valmi_postgres.ignored_snapshot"
+2023-04-15 13:00:50.651250 (Thread-1): 13:00:50  On model.valmi_postgres.ignored_snapshot: /* {"app": "dbt", "dbt_version": "1.4.5", "profile_name": "user", "target_name": "default", "node_id": "model.valmi_postgres.ignored_snapshot"} */
+drop table if exists "dvdrental"."valmi_scratch_computed_"."ignored_snapshot__dbt_backup" cascade
+2023-04-15 13:00:50.659713 (Thread-2): 13:00:50  SQL status: DROP TABLE in 0 seconds
+2023-04-15 13:00:50.661132 (Thread-2): 13:00:50  Using postgres connection "model.valmi_postgres.init"
+2023-04-15 13:00:50.661274 (Thread-2): 13:00:50  On model.valmi_postgres.init: /* {"app": "dbt", "dbt_version": "1.4.5", "profile_name": "user", "target_name": "default", "node_id": "model.valmi_postgres.init"} */
+
+    
+            CREATE TABLE "dvdrental"."valmi_scratch_computed_"."finalized_snapshot"  
+            AS SELECT customer_id,email,first_name,activebool,last_update 
+            FROM "dvdrental"."public"."customer" 
+            LIMIT 0
+    
+  
+2023-04-15 13:00:50.758056 (Thread-1): 13:00:50  SQL status: DROP TABLE in 0 seconds
+2023-04-15 13:00:50.759172 (Thread-1): 13:00:50  Timing info for model.valmi_postgres.ignored_snapshot (execute): 2023-04-15 13:00:49.513386 => 2023-04-15 13:00:50.759039
+2023-04-15 13:00:50.759356 (Thread-1): 13:00:50  On model.valmi_postgres.ignored_snapshot: Close
+2023-04-15 13:00:50.760047 (Thread-1): 13:00:50  Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '5320129e-aae2-426b-9353-a5fa74190377', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f977c09fa30>]}
+2023-04-15 13:00:50.760461 (Thread-1): 13:00:50  1 of 5 OK created sql table model valmi_scratch_computed_.ignored_snapshot ..... [SELECT 0 in 1.29s]
+2023-04-15 13:00:50.761530 (Thread-1): 13:00:50  Finished running node model.valmi_postgres.ignored_snapshot
+2023-04-15 13:00:50.767422 (Thread-2): 13:00:50  SQL status: SELECT 0 in 0 seconds
+2023-04-15 13:00:50.768423 (Thread-2): 13:00:50  Writing injected SQL for node "model.valmi_postgres.init"
+2023-04-15 13:00:50.781825 (Thread-2): 13:00:50  Timing info for model.valmi_postgres.init (compile): 2023-04-15 13:00:49.479687 => 2023-04-15 13:00:50.781671
+2023-04-15 13:00:50.782063 (Thread-2): 13:00:50  Began executing node model.valmi_postgres.init
+2023-04-15 13:00:50.788055 (Thread-2): 13:00:50  Writing runtime sql for node "model.valmi_postgres.init"
+2023-04-15 13:00:50.801945 (Thread-2): 13:00:50  Using postgres connection "model.valmi_postgres.init"
+2023-04-15 13:00:50.802103 (Thread-2): 13:00:50  On model.valmi_postgres.init: BEGIN
+2023-04-15 13:00:50.905084 (Thread-2): 13:00:50  SQL status: BEGIN in 0 seconds
+2023-04-15 13:00:50.905240 (Thread-2): 13:00:50  Using postgres connection "model.valmi_postgres.init"
+2023-04-15 13:00:50.905359 (Thread-2): 13:00:50  On model.valmi_postgres.init: /* {"app": "dbt", "dbt_version": "1.4.5", "profile_name": "user", "target_name": "default", "node_id": "model.valmi_postgres.init"} */
+
+  
+    
+
+  create  table "dvdrental"."valmi_scratch_computed_"."init__dbt_tmp"
+  as (
+    /*
+ * Copyright (c) 2023 valmi.io <https://github.com/valmi-io>
+ * 
+ * Created Date: Wednesday, March 22nd 2023, 12:49:11 am
+ * Author: Rajashekar Varkala @ valmi.io
+ * 
+ * Permission is hereby granted, free of charge, to any person obtaining a copy
+ * of this software and associated documentation files (the "Software"), to deal
+ * in the Software without restriction, including without limitation the rights
+ * to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+ * copies of the Software, and to permit persons to whom the Software is
+ * furnished to do so, subject to the following conditions:
+ * 
+ * The above copyright notice and this permission notice shall be included in all
+ * copies or substantial portions of the Software.
+ * 
+ * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+ * IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+ * FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+ * AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+ * LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+ * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+ * SOFTWARE.
+ */
+
+
+    
+
+
+
+
+
+    
+    
+    
+        
+
+            
+
+        
+        
+        
+
+        
+        
+        
+
+        
+            
+            
+        
+
+        
+    
+
+
+    
+    
+    
+
+
+            
+            
+            
+        
+    
+
+
+    
+    
+    
+ 
+    
+    
+
+
+
+SELECT 0
+  );
+  
+2023-04-15 13:00:51.009747 (Thread-2): 13:00:51  SQL status: SELECT 1 in 0 seconds
+2023-04-15 13:00:51.012122 (Thread-2): 13:00:51  Using postgres connection "model.valmi_postgres.init"
+2023-04-15 13:00:51.012262 (Thread-2): 13:00:51  On model.valmi_postgres.init: /* {"app": "dbt", "dbt_version": "1.4.5", "profile_name": "user", "target_name": "default", "node_id": "model.valmi_postgres.init"} */
+alter table "dvdrental"."valmi_scratch_computed_"."init" rename to "init__dbt_backup"
+2023-04-15 13:00:51.115564 (Thread-2): 13:00:51  SQL status: ALTER TABLE in 0 seconds
+2023-04-15 13:00:51.117870 (Thread-2): 13:00:51  Using postgres connection "model.valmi_postgres.init"
+2023-04-15 13:00:51.118028 (Thread-2): 13:00:51  On model.valmi_postgres.init: /* {"app": "dbt", "dbt_version": "1.4.5", "profile_name": "user", "target_name": "default", "node_id": "model.valmi_postgres.init"} */
+alter table "dvdrental"."valmi_scratch_computed_"."init__dbt_tmp" rename to "init"
+2023-04-15 13:00:51.221559 (Thread-2): 13:00:51  SQL status: ALTER TABLE in 0 seconds
+2023-04-15 13:00:51.223151 (Thread-2): 13:00:51  On model.valmi_postgres.init: COMMIT
+2023-04-15 13:00:51.223291 (Thread-2): 13:00:51  Using postgres connection "model.valmi_postgres.init"
+2023-04-15 13:00:51.223411 (Thread-2): 13:00:51  On model.valmi_postgres.init: COMMIT
+2023-04-15 13:00:51.330387 (Thread-2): 13:00:51  SQL status: COMMIT in 0 seconds
+2023-04-15 13:00:51.332463 (Thread-2): 13:00:51  Using postgres connection "model.valmi_postgres.init"
+2023-04-15 13:00:51.332610 (Thread-2): 13:00:51  On model.valmi_postgres.init: /* {"app": "dbt", "dbt_version": "1.4.5", "profile_name": "user", "target_name": "default", "node_id": "model.valmi_postgres.init"} */
+drop table if exists "dvdrental"."valmi_scratch_computed_"."init__dbt_backup" cascade
+2023-04-15 13:00:51.437511 (Thread-2): 13:00:51  SQL status: DROP TABLE in 0 seconds
+2023-04-15 13:00:51.438582 (Thread-2): 13:00:51  Timing info for model.valmi_postgres.init (execute): 2023-04-15 13:00:50.782113 => 2023-04-15 13:00:51.438455
+2023-04-15 13:00:51.438761 (Thread-2): 13:00:51  On model.valmi_postgres.init: Close
+2023-04-15 13:00:51.439448 (Thread-2): 13:00:51  Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '5320129e-aae2-426b-9353-a5fa74190377', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f97543c7eb0>]}
+2023-04-15 13:00:51.439843 (Thread-2): 13:00:51  2 of 5 OK created sql table model valmi_scratch_computed_.init ................. [SELECT 1 in 1.96s]
+2023-04-15 13:00:51.440094 (Thread-2): 13:00:51  Finished running node model.valmi_postgres.init
+2023-04-15 13:00:51.441036 (Thread-4): 13:00:51  Began running node model.valmi_postgres.stg_snapshot
+2023-04-15 13:00:51.441368 (Thread-4): 13:00:51  3 of 5 START sql table model valmi_scratch_computed_.stg_snapshot .............. [RUN]
+2023-04-15 13:00:51.441843 (Thread-4): 13:00:51  Acquiring new postgres connection 'model.valmi_postgres.stg_snapshot'
+2023-04-15 13:00:51.442042 (Thread-4): 13:00:51  Began compiling node model.valmi_postgres.stg_snapshot
+2023-04-15 13:00:51.454294 (Thread-4): 13:00:51  Writing injected SQL for node "model.valmi_postgres.stg_snapshot"
+2023-04-15 13:00:51.469292 (Thread-4): 13:00:51  Timing info for model.valmi_postgres.stg_snapshot (compile): 2023-04-15 13:00:51.442087 => 2023-04-15 13:00:51.469141
+2023-04-15 13:00:51.469508 (Thread-4): 13:00:51  Began executing node model.valmi_postgres.stg_snapshot
+2023-04-15 13:00:51.474980 (Thread-4): 13:00:51  Writing runtime sql for node "model.valmi_postgres.stg_snapshot"
+2023-04-15 13:00:51.488313 (Thread-4): 13:00:51  Using postgres connection "model.valmi_postgres.stg_snapshot"
+2023-04-15 13:00:51.488467 (Thread-4): 13:00:51  On model.valmi_postgres.stg_snapshot: BEGIN
+2023-04-15 13:00:51.488596 (Thread-4): 13:00:51  Opening a new connection, currently in state init
+2023-04-15 13:00:51.516207 (Thread-378): handling poll request
+2023-04-15 13:00:51.516599 (Thread-378): 13:00:51  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '8e56c7fc-6ef3-42f7-ae13-0513b6153959', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fc4ac098d90>]}
+2023-04-15 13:00:51.546986 (Thread-378): sending response (<Response 37101 bytes [200 OK]>) to 10.0.191.177
+2023-04-15 13:00:52.006827 (Thread-379): handling ps request
+2023-04-15 13:00:52.007326 (Thread-379): 13:00:52  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '8e56c7fc-6ef3-42f7-ae13-0513b6153959', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fc4ac098c40>]}
+2023-04-15 13:00:52.008986 (Thread-379): sending response (<Response 18447 bytes [200 OK]>) to 10.0.191.177
+2023-04-15 13:00:52.114617 (Thread-4): 13:00:52  SQL status: BEGIN in 1 seconds
+2023-04-15 13:00:52.114847 (Thread-4): 13:00:52  Using postgres connection "model.valmi_postgres.stg_snapshot"
+2023-04-15 13:00:52.114981 (Thread-4): 13:00:52  On model.valmi_postgres.stg_snapshot: /* {"app": "dbt", "dbt_version": "1.4.5", "profile_name": "user", "target_name": "default", "node_id": "model.valmi_postgres.stg_snapshot"} */
+
+  
+    
+
+  create  table "dvdrental"."valmi_scratch_computed_"."stg_snapshot__dbt_tmp"
+  as (
+    /*
+ * Copyright (c) 2023 valmi.io <https://github.com/valmi-io>
+ * 
+ * Created Date: Wednesday, March 22nd 2023, 12:49:11 am
+ * Author: Rajashekar Varkala @ valmi.io
+ * 
+ * Permission is hereby granted, free of charge, to any person obtaining a copy
+ * of this software and associated documentation files (the "Software"), to deal
+ * in the Software without restriction, including without limitation the rights
+ * to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+ * copies of the Software, and to permit persons to whom the Software is
+ * furnished to do so, subject to the following conditions:
+ * 
+ * The above copyright notice and this permission notice shall be included in all
+ * copies or substantial portions of the Software.
+ * 
+ * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+ * IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+ * FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+ * AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+ * LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+ * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+ * SOFTWARE.
+ */
+ 
+
+
+    with init as (
+        select * from "dvdrental"."valmi_scratch_computed_"."init"
+    )
+
+    
+
+        select 'upsert'  AS _valmi_sync_op, ADDED.* from (
+            select customer_id,email,first_name,activebool,last_update
+            from "dvdrental"."public"."customer"
+
+            except
+
+            select customer_id,email,first_name,activebool,last_update
+            from "dvdrental"."valmi_scratch_computed_"."finalized_snapshot"
+            ) ADDED
+
+        UNION ALL
+        
+        select 'delete'  AS _valmi_sync_op, DELETED.* from (
+            select customer_id,email,first_name,activebool,last_update
+            from "dvdrental"."valmi_scratch_computed_"."finalized_snapshot"
+
+            except
+
+            select customer_id,email,first_name,activebool,last_update
+            from "dvdrental"."public"."customer"
+            
+            ) DELETED
+
+    
+
+
+  );
+  
+2023-04-15 13:00:52.224172 (Thread-4): 13:00:52  SQL status: SELECT 601 in 0 seconds
+2023-04-15 13:00:52.228770 (Thread-4): 13:00:52  Using postgres connection "model.valmi_postgres.stg_snapshot"
+2023-04-15 13:00:52.228925 (Thread-4): 13:00:52  On model.valmi_postgres.stg_snapshot: /* {"app": "dbt", "dbt_version": "1.4.5", "profile_name": "user", "target_name": "default", "node_id": "model.valmi_postgres.stg_snapshot"} */
+alter table "dvdrental"."valmi_scratch_computed_"."stg_snapshot" rename to "stg_snapshot__dbt_backup"
+2023-04-15 13:00:52.333000 (Thread-4): 13:00:52  SQL status: ALTER TABLE in 0 seconds
+2023-04-15 13:00:52.335541 (Thread-4): 13:00:52  Using postgres connection "model.valmi_postgres.stg_snapshot"
+2023-04-15 13:00:52.335685 (Thread-4): 13:00:52  On model.valmi_postgres.stg_snapshot: /* {"app": "dbt", "dbt_version": "1.4.5", "profile_name": "user", "target_name": "default", "node_id": "model.valmi_postgres.stg_snapshot"} */
+alter table "dvdrental"."valmi_scratch_computed_"."stg_snapshot__dbt_tmp" rename to "stg_snapshot"
+2023-04-15 13:00:52.394923 (Thread-380): handling status request
+2023-04-15 13:00:52.395300 (Thread-380): 13:00:52  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '8e56c7fc-6ef3-42f7-ae13-0513b6153959', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fc4ac098d60>]}
+2023-04-15 13:00:52.395836 (Thread-380): sending response (<Response 5594 bytes [200 OK]>) to 10.0.191.177
+2023-04-15 13:00:52.439188 (Thread-4): 13:00:52  SQL status: ALTER TABLE in 0 seconds
+2023-04-15 13:00:52.440736 (Thread-4): 13:00:52  On model.valmi_postgres.stg_snapshot: COMMIT
+2023-04-15 13:00:52.440879 (Thread-4): 13:00:52  Using postgres connection "model.valmi_postgres.stg_snapshot"
+2023-04-15 13:00:52.440994 (Thread-4): 13:00:52  On model.valmi_postgres.stg_snapshot: COMMIT
+2023-04-15 13:00:52.544493 (Thread-4): 13:00:52  SQL status: COMMIT in 0 seconds
+2023-04-15 13:00:52.546542 (Thread-4): 13:00:52  Using postgres connection "model.valmi_postgres.stg_snapshot"
+2023-04-15 13:00:52.546684 (Thread-4): 13:00:52  On model.valmi_postgres.stg_snapshot: /* {"app": "dbt", "dbt_version": "1.4.5", "profile_name": "user", "target_name": "default", "node_id": "model.valmi_postgres.stg_snapshot"} */
+drop table if exists "dvdrental"."valmi_scratch_computed_"."stg_snapshot__dbt_backup" cascade
+2023-04-15 13:00:52.653321 (Thread-4): 13:00:52  SQL status: DROP TABLE in 0 seconds
+2023-04-15 13:00:52.654406 (Thread-4): 13:00:52  Timing info for model.valmi_postgres.stg_snapshot (execute): 2023-04-15 13:00:51.469555 => 2023-04-15 13:00:52.654276
+2023-04-15 13:00:52.654590 (Thread-4): 13:00:52  On model.valmi_postgres.stg_snapshot: Close
+2023-04-15 13:00:52.655290 (Thread-4): 13:00:52  Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '5320129e-aae2-426b-9353-a5fa74190377', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f975436a880>]}
+2023-04-15 13:00:52.655701 (Thread-4): 13:00:52  3 of 5 OK created sql table model valmi_scratch_computed_.stg_snapshot ......... [SELECT 601 in 1.21s]
+2023-04-15 13:00:52.655968 (Thread-4): 13:00:52  Finished running node model.valmi_postgres.stg_snapshot
+2023-04-15 13:00:52.656951 (Thread-1): 13:00:52  Began running node model.valmi_postgres.transit_snapshot
+2023-04-15 13:00:52.657293 (Thread-1): 13:00:52  4 of 5 START sql table model valmi_scratch_computed_.transit_snapshot .......... [RUN]
+2023-04-15 13:00:52.657713 (Thread-1): 13:00:52  Acquiring new postgres connection 'model.valmi_postgres.transit_snapshot'
+2023-04-15 13:00:52.657891 (Thread-1): 13:00:52  Began compiling node model.valmi_postgres.transit_snapshot
+2023-04-15 13:00:52.662091 (Thread-1): 13:00:52  Writing injected SQL for node "model.valmi_postgres.transit_snapshot"
+2023-04-15 13:00:52.675912 (Thread-1): 13:00:52  Timing info for model.valmi_postgres.transit_snapshot (compile): 2023-04-15 13:00:52.657948 => 2023-04-15 13:00:52.675740
+2023-04-15 13:00:52.676134 (Thread-1): 13:00:52  Began executing node model.valmi_postgres.transit_snapshot
+2023-04-15 13:00:52.681668 (Thread-1): 13:00:52  Writing runtime sql for node "model.valmi_postgres.transit_snapshot"
+2023-04-15 13:00:52.697745 (Thread-1): 13:00:52  Using postgres connection "model.valmi_postgres.transit_snapshot"
+2023-04-15 13:00:52.697898 (Thread-1): 13:00:52  On model.valmi_postgres.transit_snapshot: BEGIN
+2023-04-15 13:00:52.698041 (Thread-1): 13:00:52  Opening a new connection, currently in state closed
+2023-04-15 13:00:53.052193 (Thread-381): handling poll request
+2023-04-15 13:00:53.052601 (Thread-381): 13:00:53  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '8e56c7fc-6ef3-42f7-ae13-0513b6153959', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fc4ac0d6640>]}
+2023-04-15 13:00:53.053371 (Thread-381): sending response (<Response 16057 bytes [200 OK]>) to 10.0.191.177
+2023-04-15 13:00:53.322078 (Thread-1): 13:00:53  SQL status: BEGIN in 1 seconds
+2023-04-15 13:00:53.322289 (Thread-1): 13:00:53  Using postgres connection "model.valmi_postgres.transit_snapshot"
+2023-04-15 13:00:53.322420 (Thread-1): 13:00:53  On model.valmi_postgres.transit_snapshot: /* {"app": "dbt", "dbt_version": "1.4.5", "profile_name": "user", "target_name": "default", "node_id": "model.valmi_postgres.transit_snapshot"} */
+
+  
+    
+
+  create  table "dvdrental"."valmi_scratch_computed_"."transit_snapshot__dbt_tmp"
+  as (
+    /*
+ * Copyright (c) 2023 valmi.io <https://github.com/valmi-io>
+ * 
+ * Created Date: Wednesday, March 22nd 2023, 12:49:11 am
+ * Author: Rajashekar Varkala @ valmi.io
+ * 
+ * Permission is hereby granted, free of charge, to any person obtaining a copy
+ * of this software and associated documentation files (the "Software"), to deal
+ * in the Software without restriction, including without limitation the rights
+ * to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+ * copies of the Software, and to permit persons to whom the Software is
+ * furnished to do so, subject to the following conditions:
+ * 
+ * The above copyright notice and this permission notice shall be included in all
+ * copies or substantial portions of the Software.
+ * 
+ * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+ * IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+ * FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+ * AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+ * LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+ * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+ * SOFTWARE.
+ */
+
+with
+    stg_snapshot as (select * from "dvdrental"."valmi_scratch_computed_"."stg_snapshot"),
+    ignored_snapshot as (select * from "dvdrental"."valmi_scratch_computed_"."ignored_snapshot")
+
+select
+    row_number() over (order by CASE WHEN _valmi_sync_op = 'delete' THEN 1
+              WHEN _valmi_sync_op = 'upsert' THEN 2 
+              ELSE 4 END, customer_id) _valmi_row_num,
+    _valmi_sync_op,
+    customer_id,email,first_name,activebool,last_update
+from stg_snapshot
+where customer_id not in 
+    (select customer_id 
+    from ignored_snapshot 
+    where  customer_id is not NULL)
+  );
+  
+2023-04-15 13:00:53.441304 (Thread-1): 13:00:53  SQL status: SELECT 601 in 0 seconds
+2023-04-15 13:00:53.444093 (Thread-1): 13:00:53  Using postgres connection "model.valmi_postgres.transit_snapshot"
+2023-04-15 13:00:53.444245 (Thread-1): 13:00:53  On model.valmi_postgres.transit_snapshot: /* {"app": "dbt", "dbt_version": "1.4.5", "profile_name": "user", "target_name": "default", "node_id": "model.valmi_postgres.transit_snapshot"} */
+alter table "dvdrental"."valmi_scratch_computed_"."transit_snapshot" rename to "transit_snapshot__dbt_backup"
+2023-04-15 13:00:53.548009 (Thread-1): 13:00:53  SQL status: ALTER TABLE in 0 seconds
+2023-04-15 13:00:53.550806 (Thread-1): 13:00:53  Using postgres connection "model.valmi_postgres.transit_snapshot"
+2023-04-15 13:00:53.550973 (Thread-1): 13:00:53  On model.valmi_postgres.transit_snapshot: /* {"app": "dbt", "dbt_version": "1.4.5", "profile_name": "user", "target_name": "default", "node_id": "model.valmi_postgres.transit_snapshot"} */
+alter table "dvdrental"."valmi_scratch_computed_"."transit_snapshot__dbt_tmp" rename to "transit_snapshot"
+2023-04-15 13:00:53.654560 (Thread-1): 13:00:53  SQL status: ALTER TABLE in 0 seconds
+2023-04-15 13:00:53.656459 (Thread-1): 13:00:53  On model.valmi_postgres.transit_snapshot: COMMIT
+2023-04-15 13:00:53.656627 (Thread-1): 13:00:53  Using postgres connection "model.valmi_postgres.transit_snapshot"
+2023-04-15 13:00:53.656750 (Thread-1): 13:00:53  On model.valmi_postgres.transit_snapshot: COMMIT
+2023-04-15 13:00:53.760185 (Thread-1): 13:00:53  SQL status: COMMIT in 0 seconds
+2023-04-15 13:00:53.762820 (Thread-1): 13:00:53  Using postgres connection "model.valmi_postgres.transit_snapshot"
+2023-04-15 13:00:53.763030 (Thread-1): 13:00:53  On model.valmi_postgres.transit_snapshot: /* {"app": "dbt", "dbt_version": "1.4.5", "profile_name": "user", "target_name": "default", "node_id": "model.valmi_postgres.transit_snapshot"} */
+drop table if exists "dvdrental"."valmi_scratch_computed_"."transit_snapshot__dbt_backup" cascade
+2023-04-15 13:00:53.867411 (Thread-1): 13:00:53  SQL status: DROP TABLE in 0 seconds
+2023-04-15 13:00:53.868724 (Thread-1): 13:00:53  Timing info for model.valmi_postgres.transit_snapshot (execute): 2023-04-15 13:00:52.676183 => 2023-04-15 13:00:53.868588
+2023-04-15 13:00:53.868919 (Thread-1): 13:00:53  On model.valmi_postgres.transit_snapshot: Close
+2023-04-15 13:00:53.869630 (Thread-1): 13:00:53  Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '5320129e-aae2-426b-9353-a5fa74190377', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f977c040d60>]}
+2023-04-15 13:00:53.870064 (Thread-1): 13:00:53  4 of 5 OK created sql table model valmi_scratch_computed_.transit_snapshot ..... [SELECT 601 in 1.21s]
+2023-04-15 13:00:53.870284 (Thread-1): 13:00:53  Finished running node model.valmi_postgres.transit_snapshot
+2023-04-15 13:00:53.871262 (Thread-3): 13:00:53  Began running node model.valmi_postgres.sync_metrics
+2023-04-15 13:00:53.871579 (Thread-3): 13:00:53  5 of 5 START sql table model valmi_scratch_computed_.sync_metrics .............. [RUN]
+2023-04-15 13:00:53.872083 (Thread-3): 13:00:53  Acquiring new postgres connection 'model.valmi_postgres.sync_metrics'
+2023-04-15 13:00:53.872264 (Thread-3): 13:00:53  Began compiling node model.valmi_postgres.sync_metrics
+2023-04-15 13:00:53.876534 (Thread-3): 13:00:53  Writing injected SQL for node "model.valmi_postgres.sync_metrics"
+2023-04-15 13:00:53.889904 (Thread-3): 13:00:53  Timing info for model.valmi_postgres.sync_metrics (compile): 2023-04-15 13:00:53.872308 => 2023-04-15 13:00:53.889755
+2023-04-15 13:00:53.890146 (Thread-3): 13:00:53  Began executing node model.valmi_postgres.sync_metrics
+2023-04-15 13:00:53.897222 (Thread-3): 13:00:53  Writing runtime sql for node "model.valmi_postgres.sync_metrics"
+2023-04-15 13:00:53.913809 (Thread-3): 13:00:53  Using postgres connection "model.valmi_postgres.sync_metrics"
+2023-04-15 13:00:53.913978 (Thread-3): 13:00:53  On model.valmi_postgres.sync_metrics: BEGIN
+2023-04-15 13:00:53.914109 (Thread-3): 13:00:53  Opening a new connection, currently in state init
+2023-04-15 13:00:54.516989 (Thread-382): handling ps request
+2023-04-15 13:00:54.517476 (Thread-382): 13:00:54  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '8e56c7fc-6ef3-42f7-ae13-0513b6153959', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fc4ac10c9d0>]}
+2023-04-15 13:00:54.519081 (Thread-382): sending response (<Response 18448 bytes [200 OK]>) to 10.0.191.177
+2023-04-15 13:00:54.539010 (Thread-3): 13:00:54  SQL status: BEGIN in 1 seconds
+2023-04-15 13:00:54.539241 (Thread-3): 13:00:54  Using postgres connection "model.valmi_postgres.sync_metrics"
+2023-04-15 13:00:54.539375 (Thread-3): 13:00:54  On model.valmi_postgres.sync_metrics: /* {"app": "dbt", "dbt_version": "1.4.5", "profile_name": "user", "target_name": "default", "node_id": "model.valmi_postgres.sync_metrics"} */
+
+  
+    
+
+  create  table "dvdrental"."valmi_scratch_computed_"."sync_metrics__dbt_tmp"
+  as (
+    /*
+ * Copyright (c) 2023 valmi.io <https://github.com/valmi-io>
+ * 
+ * Created Date: Wednesday, March 22nd 2023, 12:43:05 pm
+ * Author: Rajashekar Varkala @ valmi.io
+ * 
+ * Permission is hereby granted, free of charge, to any person obtaining a copy
+ * of this software and associated documentation files (the "Software"), to deal
+ * in the Software without restriction, including without limitation the rights
+ * to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+ * copies of the Software, and to permit persons to whom the Software is
+ * furnished to do so, subject to the following conditions:
+ * 
+ * The above copyright notice and this permission notice shall be included in all
+ * copies or substantial portions of the Software.
+ * 
+ * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+ * IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+ * FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+ * AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+ * LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+ * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+ * SOFTWARE.
+ */
+
+with
+    ignored_snapshot as (select * from "dvdrental"."valmi_scratch_computed_"."ignored_snapshot"),
+    transit_snapshot as (select * from "dvdrental"."valmi_scratch_computed_"."transit_snapshot"),
+    source_table as (select * from "dvdrental"."public"."customer"),
+    stg_snapshot as (select * from  "dvdrental"."valmi_scratch_computed_"."stg_snapshot")
+
+select count(*), 'invalid' as kind, error_code
+from ignored_snapshot
+group by error_code
+
+UNION ALL
+
+select count(*), 'valid' as kind,0 as error_code
+from transit_snapshot
+where _valmi_sync_op IN ('upsert')
+
+UNION ALL
+
+select count(*), 'total' as kind,0 as error_code
+from source_table
+
+UNION ALL
+
+select count(*), 'new' as kind,0 as error_code
+from stg_snapshot
+where _valmi_sync_op IN ('upsert')
+  );
+  
+2023-04-15 13:00:54.638072 (Thread-383): handling poll request
+2023-04-15 13:00:54.638456 (Thread-383): 13:00:54  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '8e56c7fc-6ef3-42f7-ae13-0513b6153959', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fc4ac10cd30>]}
+2023-04-15 13:00:54.639222 (Thread-383): sending response (<Response 19280 bytes [200 OK]>) to 10.0.191.177
+2023-04-15 13:00:54.648018 (Thread-3): 13:00:54  SQL status: SELECT 3 in 0 seconds
+2023-04-15 13:00:54.651036 (Thread-3): 13:00:54  Using postgres connection "model.valmi_postgres.sync_metrics"
+2023-04-15 13:00:54.651197 (Thread-3): 13:00:54  On model.valmi_postgres.sync_metrics: /* {"app": "dbt", "dbt_version": "1.4.5", "profile_name": "user", "target_name": "default", "node_id": "model.valmi_postgres.sync_metrics"} */
+alter table "dvdrental"."valmi_scratch_computed_"."sync_metrics" rename to "sync_metrics__dbt_backup"
+2023-04-15 13:00:54.755029 (Thread-3): 13:00:54  SQL status: ALTER TABLE in 0 seconds
+2023-04-15 13:00:54.757807 (Thread-3): 13:00:54  Using postgres connection "model.valmi_postgres.sync_metrics"
+2023-04-15 13:00:54.757981 (Thread-3): 13:00:54  On model.valmi_postgres.sync_metrics: /* {"app": "dbt", "dbt_version": "1.4.5", "profile_name": "user", "target_name": "default", "node_id": "model.valmi_postgres.sync_metrics"} */
+alter table "dvdrental"."valmi_scratch_computed_"."sync_metrics__dbt_tmp" rename to "sync_metrics"
+2023-04-15 13:00:54.861570 (Thread-3): 13:00:54  SQL status: ALTER TABLE in 0 seconds
+2023-04-15 13:00:54.863440 (Thread-3): 13:00:54  On model.valmi_postgres.sync_metrics: COMMIT
+2023-04-15 13:00:54.863608 (Thread-3): 13:00:54  Using postgres connection "model.valmi_postgres.sync_metrics"
+2023-04-15 13:00:54.863729 (Thread-3): 13:00:54  On model.valmi_postgres.sync_metrics: COMMIT
+2023-04-15 13:00:54.892595 (Thread-384): handling status request
+2023-04-15 13:00:54.893051 (Thread-384): 13:00:54  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '8e56c7fc-6ef3-42f7-ae13-0513b6153959', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fc4ac06b130>]}
+2023-04-15 13:00:54.893615 (Thread-384): sending response (<Response 5594 bytes [200 OK]>) to 10.0.191.177
+2023-04-15 13:00:54.968000 (Thread-3): 13:00:54  SQL status: COMMIT in 0 seconds
+2023-04-15 13:00:54.970550 (Thread-3): 13:00:54  Using postgres connection "model.valmi_postgres.sync_metrics"
+2023-04-15 13:00:54.970705 (Thread-3): 13:00:54  On model.valmi_postgres.sync_metrics: /* {"app": "dbt", "dbt_version": "1.4.5", "profile_name": "user", "target_name": "default", "node_id": "model.valmi_postgres.sync_metrics"} */
+drop table if exists "dvdrental"."valmi_scratch_computed_"."sync_metrics__dbt_backup" cascade
+2023-04-15 13:00:55.075198 (Thread-3): 13:00:55  SQL status: DROP TABLE in 0 seconds
+2023-04-15 13:00:55.076456 (Thread-3): 13:00:55  Timing info for model.valmi_postgres.sync_metrics (execute): 2023-04-15 13:00:53.890197 => 2023-04-15 13:00:55.076322
+2023-04-15 13:00:55.076647 (Thread-3): 13:00:55  On model.valmi_postgres.sync_metrics: Close
+2023-04-15 13:00:55.077293 (Thread-3): 13:00:55  Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '5320129e-aae2-426b-9353-a5fa74190377', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f977c09f5b0>]}
+2023-04-15 13:00:55.077777 (Thread-3): 13:00:55  5 of 5 OK created sql table model valmi_scratch_computed_.sync_metrics ......... [SELECT 3 in 1.21s]
+2023-04-15 13:00:55.078019 (Thread-3): 13:00:55  Finished running node model.valmi_postgres.sync_metrics
+2023-04-15 13:00:55.079701 (MainThread): 13:00:55  Acquiring new postgres connection 'master'
+2023-04-15 13:00:55.079953 (MainThread): 13:00:55  Using postgres connection "master"
+2023-04-15 13:00:55.080102 (MainThread): 13:00:55  On master: BEGIN
+2023-04-15 13:00:55.080247 (MainThread): 13:00:55  Opening a new connection, currently in state closed
+2023-04-15 13:00:55.702529 (MainThread): 13:00:55  SQL status: BEGIN in 1 seconds
+2023-04-15 13:00:55.702745 (MainThread): 13:00:55  On master: COMMIT
+2023-04-15 13:00:55.702891 (MainThread): 13:00:55  Using postgres connection "master"
+2023-04-15 13:00:55.703031 (MainThread): 13:00:55  On master: COMMIT
+2023-04-15 13:00:55.806250 (MainThread): 13:00:55  SQL status: COMMIT in 0 seconds
+2023-04-15 13:00:55.806475 (MainThread): 13:00:55  On master: Close
+2023-04-15 13:00:55.807031 (MainThread): 13:00:55  Connection 'master' was properly closed.
+2023-04-15 13:00:55.807161 (MainThread): 13:00:55  Connection 'model.valmi_postgres.transit_snapshot' was properly closed.
+2023-04-15 13:00:55.807266 (MainThread): 13:00:55  Connection 'model.valmi_postgres.init' was properly closed.
+2023-04-15 13:00:55.807366 (MainThread): 13:00:55  Connection 'model.valmi_postgres.stg_snapshot' was properly closed.
+2023-04-15 13:00:55.807464 (MainThread): 13:00:55  Connection 'model.valmi_postgres.sync_metrics' was properly closed.
+2023-04-15 13:00:55.807683 (MainThread): 13:00:55  
+2023-04-15 13:00:55.807837 (MainThread): 13:00:55  Finished running 5 table models in 0 hours 0 minutes and 9.03 seconds (9.03s).
+2023-04-15 13:00:55.863387 (MainThread): 13:00:55  
+2023-04-15 13:00:55.863610 (MainThread): 13:00:55  Completed successfully
+2023-04-15 13:00:55.863753 (MainThread): 13:00:55  
+2023-04-15 13:00:55.863910 (MainThread): 13:00:55  Done. PASS=5 WARN=0 ERROR=0 SKIP=0 TOTAL=5
+2023-04-15 13:00:56.185104 (Thread-385): handling poll request
+2023-04-15 13:00:56.185587 (Thread-385): 13:00:56  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '8e56c7fc-6ef3-42f7-ae13-0513b6153959', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fc4ac0783d0>]}
+2023-04-15 13:00:56.187383 (Thread-385): sending response (<Response 50192 bytes [200 OK]>) to 10.0.191.177
+2023-04-15 13:00:57.070303 (Thread-386): handling ps request
+2023-04-15 13:00:57.070801 (Thread-386): 13:00:57  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '8e56c7fc-6ef3-42f7-ae13-0513b6153959', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fc4ac10c850>]}
+2023-04-15 13:00:57.072443 (Thread-386): sending response (<Response 18473 bytes [200 OK]>) to 10.0.191.177
+2023-04-15 13:00:57.498861 (Thread-387): handling status request
+2023-04-15 13:00:57.499357 (Thread-387): 13:00:57  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '8e56c7fc-6ef3-42f7-ae13-0513b6153959', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fc4ac0d6be0>]}
+2023-04-15 13:00:57.499956 (Thread-387): sending response (<Response 5594 bytes [200 OK]>) to 10.0.191.177

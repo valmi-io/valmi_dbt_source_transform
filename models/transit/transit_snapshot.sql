@@ -28,7 +28,9 @@ with
     ignored_snapshot as (select * from {{ ref(var("ignored_snapshot")) }})
 
 select
-    row_number() over (order by {{ var("id_key") }}) _valmi_row_num,
+    row_number() over (order by CASE WHEN _valmi_sync_op = 'delete' THEN 1
+              WHEN _valmi_sync_op = 'upsert' THEN 2 
+              ELSE 4 END, {{ var("id_key") }}) _valmi_row_num,
     _valmi_sync_op,
     {{ ",".join(var("columns")) }}
 from stg_snapshot
