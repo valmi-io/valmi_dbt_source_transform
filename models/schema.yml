@@ -2,8 +2,10 @@ version: 2
  
 models:
   - name: ignored_snapshot
-    description: This table has basic information about a customer, as well as some derived facts based on a customer's orders
+    description: This table contains data that is invalid
   - name: sync_metrics
-    description: This table has basic information about a customer, as well as some derived facts based on a customer's orders
+    description: This table contains metrics of a particular sync
   - name: transit_snapshot
-    description: This table has basic information about a customer, as well as some derived facts based on a customer's orders
+    description: This table contains data that needs to be transferred
+  - name: cleanup_snapshot
+    description: This table contains that needs to be cleaned up before full sync in mirror mode

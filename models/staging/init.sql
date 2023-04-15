@@ -55,7 +55,7 @@
 
             {# ID key cannot be changed by editing a Sync :: other columns can be changed#}
             {% set query %}
-                CREATE TABLE {{ source('scratch', var('delete_snapshot')) }}  
+                CREATE TABLE {{ source('scratch', var('cleanup_snapshot')) }}  
                 AS SELECT row_number() over (order by {{ var("id_key") }}) _valmi_row_num,
                 'delete' AS _valmi_sync_op, {{ var("id_key") }}
                 FROM {{ source("scratch", var("finalized_snapshot")) }}
@@ -91,7 +91,7 @@
 
         {# Have the delete table #}
         {% set query %}
-            CREATE TABLE IF NOT EXISTS {{ source('scratch', var('delete_snapshot')) }}  
+            CREATE TABLE IF NOT EXISTS {{ source('scratch', var('cleanup_snapshot')) }}  
             AS 
             SELECT row_number() over (order by {{ var("id_key") }}) _valmi_row_num,
             'delete' AS _valmi_sync_op, {{ var("id_key") }}
