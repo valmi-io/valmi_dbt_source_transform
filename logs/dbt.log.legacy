@@ -23995,3 +23995,569 @@ drop table if exists "dvdrental"."valmi_scratch_computed_"."sync_metrics__dbt_ba
 2023-04-15 06:26:38.095528 (Thread-124): 06:26:38  Found 5 models, 0 tests, 0 snapshots, 0 analyses, 292 macros, 0 operations, 0 seed files, 6 sources, 0 exposures, 0 metrics
 2023-04-15 06:26:38.095846 (Thread-124): 06:26:38  Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '8e56c7fc-6ef3-42f7-ae13-0513b6153959', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fc4e7e56790>]}
 2023-04-15 06:26:38.097742 (Thread-124): sending response (<Response 4596 bytes [200 OK]>) to 10.0.191.177
+2023-04-15 06:26:57.046108 (Thread-125): 06:26:57  checksum: 9f5971860ea7956c5d0d162f1c96671df61b5ad9db5c4152918680483cec5347, vars: {}, profile: user, target: None, version: 1.4.5
+2023-04-15 06:26:57.082342 (Thread-125): 06:26:57  Partial parsing enabled: 0 files deleted, 0 files added, 0 files changed.
+2023-04-15 06:26:57.082574 (Thread-125): 06:26:57  Partial parsing enabled, no changes found, skipping parsing
+2023-04-15 06:26:57.087751 (Thread-125): 06:26:57  Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '8e56c7fc-6ef3-42f7-ae13-0513b6153959', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fc4e57109d0>]}
+2023-04-15 06:26:57.453313 (Thread-126): handling status request
+2023-04-15 06:26:57.453825 (Thread-126): 06:26:57  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '8e56c7fc-6ef3-42f7-ae13-0513b6153959', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fc4e576fbb0>]}
+2023-04-15 06:26:57.454314 (Thread-126): sending response (<Response 1593 bytes [200 OK]>) to 10.0.191.177
+2023-04-15 06:26:57.523697 (Thread-127): handling status request
+2023-04-15 06:26:57.524179 (Thread-127): 06:26:57  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '8e56c7fc-6ef3-42f7-ae13-0513b6153959', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fc4e576fac0>]}
+2023-04-15 06:26:57.524640 (Thread-127): sending response (<Response 1593 bytes [200 OK]>) to 10.0.191.177
+2023-04-15 06:26:57.530127 (Thread-128): handling list request
+2023-04-15 06:26:57.530487 (Thread-128): 06:26:57  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '8e56c7fc-6ef3-42f7-ae13-0513b6153959', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fc4e576f910>]}
+2023-04-15 06:26:57.560260 (Thread-128): 06:26:57  Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '8e56c7fc-6ef3-42f7-ae13-0513b6153959', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fc4e5707820>]}
+2023-04-15 06:26:57.560800 (Thread-128): 06:26:57  Found 5 models, 0 tests, 0 snapshots, 0 analyses, 292 macros, 0 operations, 0 seed files, 6 sources, 0 exposures, 0 metrics
+2023-04-15 06:26:57.561122 (Thread-128): 06:26:57  Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '8e56c7fc-6ef3-42f7-ae13-0513b6153959', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fc4e7f610d0>]}
+2023-04-15 06:26:57.563041 (Thread-128): sending response (<Response 4596 bytes [200 OK]>) to 10.0.191.177
+2023-04-15 06:48:15.794250 (Thread-129): handling status request
+2023-04-15 06:48:15.796268 (Thread-129): 06:48:15  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '8e56c7fc-6ef3-42f7-ae13-0513b6153959', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fc4e576fa60>]}
+2023-04-15 06:48:15.796738 (Thread-129): sending response (<Response 1593 bytes [200 OK]>) to 10.0.191.177
+2023-04-15 06:48:16.041091 (Thread-130): handling ps request
+2023-04-15 06:48:16.041599 (Thread-130): 06:48:16  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '8e56c7fc-6ef3-42f7-ae13-0513b6153959', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fc4e576f0d0>]}
+2023-04-15 06:48:16.042695 (Thread-130): sending response (<Response 9439 bytes [200 OK]>) to 10.0.191.177
+2023-04-15 06:48:16.054948 (Thread-131): handling ps request
+2023-04-15 06:48:16.055301 (Thread-131): 06:48:16  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '8e56c7fc-6ef3-42f7-ae13-0513b6153959', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fc4e576ff10>]}
+2023-04-15 06:48:16.056293 (Thread-131): sending response (<Response 9439 bytes [200 OK]>) to 10.0.191.177
+2023-04-15 06:48:16.411436 (Thread-132): handling status request
+2023-04-15 06:48:16.411942 (Thread-132): 06:48:16  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '8e56c7fc-6ef3-42f7-ae13-0513b6153959', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fc4e5711100>]}
+2023-04-15 06:48:16.412421 (Thread-132): sending response (<Response 1593 bytes [200 OK]>) to 10.0.191.177
+2023-04-15 06:48:16.525944 (Thread-133): handling poll request
+2023-04-15 06:48:16.526831 (Thread-133): 06:48:16  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '8e56c7fc-6ef3-42f7-ae13-0513b6153959', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fc4e5711160>]}
+2023-04-15 06:48:16.527677 (Thread-133): sending response (<Response 303 bytes [200 OK]>) to 10.0.191.177
+2023-04-15 06:48:20.046205 (Thread-134): handling status request
+2023-04-15 06:48:20.046715 (Thread-134): 06:48:20  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '8e56c7fc-6ef3-42f7-ae13-0513b6153959', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fc4e5711df0>]}
+2023-04-15 06:48:20.047196 (Thread-134): sending response (<Response 1593 bytes [200 OK]>) to 10.0.191.177
+2023-04-15 06:48:20.124794 (Thread-135): handling ps request
+2023-04-15 06:48:20.125236 (Thread-135): 06:48:20  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '8e56c7fc-6ef3-42f7-ae13-0513b6153959', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fc4e5711ee0>]}
+2023-04-15 06:48:20.126328 (Thread-135): sending response (<Response 9439 bytes [200 OK]>) to 10.0.191.177
+2023-04-15 06:48:20.283443 (Thread-136): handling ps request
+2023-04-15 06:48:20.283975 (Thread-136): 06:48:20  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '8e56c7fc-6ef3-42f7-ae13-0513b6153959', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fc4e5711ac0>]}
+2023-04-15 06:48:20.285101 (Thread-136): sending response (<Response 9439 bytes [200 OK]>) to 10.0.191.177
+2023-04-15 06:48:20.628129 (Thread-137): handling status request
+2023-04-15 06:48:20.628607 (Thread-137): 06:48:20  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '8e56c7fc-6ef3-42f7-ae13-0513b6153959', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fc4e5711670>]}
+2023-04-15 06:48:20.629073 (Thread-137): sending response (<Response 1593 bytes [200 OK]>) to 10.0.191.177
+2023-04-15 06:48:21.141600 (Thread-138): handling status request
+2023-04-15 06:48:21.142147 (Thread-138): 06:48:21  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '8e56c7fc-6ef3-42f7-ae13-0513b6153959', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fc4e5707df0>]}
+2023-04-15 06:48:21.142637 (Thread-138): sending response (<Response 1593 bytes [200 OK]>) to 10.0.191.177
+2023-04-15 06:48:51.281882 (Thread-139): handling status request
+2023-04-15 06:48:51.282393 (Thread-139): 06:48:51  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '8e56c7fc-6ef3-42f7-ae13-0513b6153959', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fc4e5711760>]}
+2023-04-15 06:48:51.282878 (Thread-139): sending response (<Response 1593 bytes [200 OK]>) to 10.0.191.177
+2023-04-15 06:48:55.392764 (Thread-140): handling status request
+2023-04-15 06:48:55.393257 (Thread-140): 06:48:55  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '8e56c7fc-6ef3-42f7-ae13-0513b6153959', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fc4e5711910>]}
+2023-04-15 06:48:55.393727 (Thread-140): sending response (<Response 1593 bytes [200 OK]>) to 10.0.191.177
+2023-04-15 06:48:55.399334 (Thread-141): handling list request
+2023-04-15 06:48:55.399667 (Thread-141): 06:48:55  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '8e56c7fc-6ef3-42f7-ae13-0513b6153959', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fc4e5711f70>]}
+2023-04-15 06:48:55.434948 (Thread-141): 06:48:55  Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '8e56c7fc-6ef3-42f7-ae13-0513b6153959', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fc4e5707e20>]}
+2023-04-15 06:48:55.435478 (Thread-141): 06:48:55  Found 5 models, 0 tests, 0 snapshots, 0 analyses, 292 macros, 0 operations, 0 seed files, 6 sources, 0 exposures, 0 metrics
+2023-04-15 06:48:55.435795 (Thread-141): 06:48:55  Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '8e56c7fc-6ef3-42f7-ae13-0513b6153959', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fc4e5707d60>]}
+2023-04-15 06:48:55.436465 (Thread-141): 06:48:55  The selection criterion '2+dbt_project.yml+2' does not match any nodes
+2023-04-15 06:48:55.436772 (Thread-141): 06:48:55  No nodes selected!
+2023-04-15 06:48:55.438236 (Thread-141): sending response (<Response 2494 bytes [200 OK]>) to 10.0.191.177
+2023-04-15 06:48:58.300163 (Thread-142): handling status request
+2023-04-15 06:48:58.300694 (Thread-142): 06:48:58  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '8e56c7fc-6ef3-42f7-ae13-0513b6153959', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fc4e5799040>]}
+2023-04-15 06:48:58.301228 (Thread-142): sending response (<Response 1593 bytes [200 OK]>) to 10.0.191.177
+2023-04-15 06:49:01.377866 (Thread-143): 06:49:01  checksum: 9f5971860ea7956c5d0d162f1c96671df61b5ad9db5c4152918680483cec5347, vars: {}, profile: user, target: None, version: 1.4.5
+2023-04-15 06:49:01.386115 (Thread-143): 06:49:01  Unable to do partial parsing because a project config has changed
+2023-04-15 06:49:01.386484 (Thread-143): 06:49:01  Sending event: {'category': 'dbt', 'action': 'partial_parser', 'label': '8e56c7fc-6ef3-42f7-ae13-0513b6153959', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fc4e7e2f040>]}
+2023-04-15 06:49:01.819980 (Thread-144): handling status request
+2023-04-15 06:49:01.840803 (Thread-144): 06:49:01  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '8e56c7fc-6ef3-42f7-ae13-0513b6153959', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fc4e5699bb0>]}
+2023-04-15 06:49:01.846371 (Thread-144): sending response (<Response 163 bytes [200 OK]>) to 10.0.191.177
+2023-04-15 06:49:01.925489 (Thread-145): handling status request
+2023-04-15 06:49:01.940824 (Thread-143): 06:49:01  1603: static parser failed on transit/transit_snapshot.sql
+2023-04-15 06:49:01.941290 (Thread-145): 06:49:01  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '8e56c7fc-6ef3-42f7-ae13-0513b6153959', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fc4e56a92e0>]}
+2023-04-15 06:49:01.947397 (Thread-143): 06:49:01  1602: parser fallback to jinja rendering on transit/transit_snapshot.sql
+2023-04-15 06:49:01.947862 (Thread-145): sending response (<Response 163 bytes [200 OK]>) to 10.0.191.177
+2023-04-15 06:49:01.949568 (Thread-143): 06:49:01  1603: static parser failed on transit/sync_metrics.sql
+2023-04-15 06:49:01.955067 (Thread-143): 06:49:01  1602: parser fallback to jinja rendering on transit/sync_metrics.sql
+2023-04-15 06:49:01.956561 (Thread-143): 06:49:01  1603: static parser failed on transit/ignored_snapshot.sql
+2023-04-15 06:49:01.962478 (Thread-143): 06:49:01  1602: parser fallback to jinja rendering on transit/ignored_snapshot.sql
+2023-04-15 06:49:01.964115 (Thread-143): 06:49:01  1603: static parser failed on staging/init.sql
+2023-04-15 06:49:01.979805 (Thread-143): 06:49:01  1602: parser fallback to jinja rendering on staging/init.sql
+2023-04-15 06:49:01.981367 (Thread-143): 06:49:01  1603: static parser failed on staging/stg_snapshot.sql
+2023-04-15 06:49:01.993490 (Thread-143): 06:49:01  1602: parser fallback to jinja rendering on staging/stg_snapshot.sql
+2023-04-15 06:49:02.011493 (Thread-143): 06:49:02  [WARNING]: Did not find matching node for patch with name 'cleanup_snapshot' in the 'models' section of file 'models/schema.yml'
+2023-04-15 06:49:02.017610 (Thread-146): handling status request
+2023-04-15 06:49:02.029050 (Thread-146): 06:49:02  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '8e56c7fc-6ef3-42f7-ae13-0513b6153959', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fc4e5628af0>]}
+2023-04-15 06:49:02.037876 (Thread-146): sending response (<Response 163 bytes [200 OK]>) to 10.0.191.177
+2023-04-15 06:49:02.092186 (Thread-143): 06:49:02  Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '8e56c7fc-6ef3-42f7-ae13-0513b6153959', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fc4e56dadf0>]}
+2023-04-15 06:49:02.094703 (Thread-147): handling status request
+2023-04-15 06:49:02.095091 (Thread-147): 06:49:02  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '8e56c7fc-6ef3-42f7-ae13-0513b6153959', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fc4e56b61c0>]}
+2023-04-15 06:49:02.095613 (Thread-147): sending response (<Response 5155 bytes [200 OK]>) to 10.0.191.177
+2023-04-15 06:49:02.100077 (Thread-148): handling list request
+2023-04-15 06:49:02.100395 (Thread-148): 06:49:02  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '8e56c7fc-6ef3-42f7-ae13-0513b6153959', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fc4e56b65b0>]}
+2023-04-15 06:49:02.136579 (Thread-148): 06:49:02  Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '8e56c7fc-6ef3-42f7-ae13-0513b6153959', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fc4e5636850>]}
+2023-04-15 06:49:02.137072 (Thread-148): 06:49:02  Found 5 models, 0 tests, 0 snapshots, 0 analyses, 292 macros, 0 operations, 0 seed files, 6 sources, 0 exposures, 0 metrics
+2023-04-15 06:49:02.137393 (Thread-148): 06:49:02  Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '8e56c7fc-6ef3-42f7-ae13-0513b6153959', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fc4e576f040>]}
+2023-04-15 06:49:02.163489 (Thread-148): 06:49:02  The selection criterion '2+dbt_project.yml+2' does not match any nodes
+2023-04-15 06:49:02.163832 (Thread-148): 06:49:02  No nodes selected!
+2023-04-15 06:49:02.165499 (Thread-148): sending response (<Response 2494 bytes [200 OK]>) to 10.0.191.177
+2023-04-15 06:49:02.790523 (Thread-149): handling status request
+2023-04-15 06:49:02.791068 (Thread-149): 06:49:02  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '8e56c7fc-6ef3-42f7-ae13-0513b6153959', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fc4e56a27f0>]}
+2023-04-15 06:49:02.791659 (Thread-149): sending response (<Response 5155 bytes [200 OK]>) to 10.0.191.177
+2023-04-15 06:49:02.800985 (Thread-150): handling list request
+2023-04-15 06:49:02.801342 (Thread-150): 06:49:02  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '8e56c7fc-6ef3-42f7-ae13-0513b6153959', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fc4e56a2b50>]}
+2023-04-15 06:49:02.805852 (Thread-151): handling status request
+2023-04-15 06:49:02.806276 (Thread-151): 06:49:02  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '8e56c7fc-6ef3-42f7-ae13-0513b6153959', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fc4e56daeb0>]}
+2023-04-15 06:49:02.806909 (Thread-151): sending response (<Response 5155 bytes [200 OK]>) to 10.0.191.177
+2023-04-15 06:49:02.835407 (Thread-150): 06:49:02  Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '8e56c7fc-6ef3-42f7-ae13-0513b6153959', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fc4e567b4c0>]}
+2023-04-15 06:49:02.835735 (Thread-150): 06:49:02  Found 5 models, 0 tests, 0 snapshots, 0 analyses, 292 macros, 0 operations, 0 seed files, 6 sources, 0 exposures, 0 metrics
+2023-04-15 06:49:02.835966 (Thread-150): 06:49:02  Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '8e56c7fc-6ef3-42f7-ae13-0513b6153959', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fc4e5733100>]}
+2023-04-15 06:49:02.838592 (Thread-150): sending response (<Response 5772 bytes [200 OK]>) to 10.0.191.177
+2023-04-15 06:49:04.049465 (Thread-152): handling status request
+2023-04-15 06:49:04.050043 (Thread-152): 06:49:04  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '8e56c7fc-6ef3-42f7-ae13-0513b6153959', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fc4e56b6b80>]}
+2023-04-15 06:49:04.050664 (Thread-152): sending response (<Response 5155 bytes [200 OK]>) to 10.0.191.177
+2023-04-15 06:49:04.080110 (Thread-153): handling ps request
+2023-04-15 06:49:04.080490 (Thread-153): 06:49:04  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '8e56c7fc-6ef3-42f7-ae13-0513b6153959', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fc4e56b62e0>]}
+2023-04-15 06:49:04.081596 (Thread-153): sending response (<Response 10315 bytes [200 OK]>) to 10.0.191.177
+2023-04-15 06:49:04.459324 (Thread-154): handling ps request
+2023-04-15 06:49:04.459820 (Thread-154): 06:49:04  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '8e56c7fc-6ef3-42f7-ae13-0513b6153959', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fc4e56b62b0>]}
+2023-04-15 06:49:04.460982 (Thread-154): sending response (<Response 10315 bytes [200 OK]>) to 10.0.191.177
+2023-04-15 06:49:04.465413 (Thread-155): handling compile_sql request
+2023-04-15 06:49:04.465790 (Thread-155): 06:49:04  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '8e56c7fc-6ef3-42f7-ae13-0513b6153959', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fc4e569ed60>]}
+2023-04-15 06:49:06.709085 (Thread-155): sending response (<Response 133 bytes [200 OK]>) to 10.0.191.177
+2023-04-15 06:49:06.747682 (MainThread): 06:49:06  Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '38b0db4d-5e52-4082-9b07-e5e6c2b28d11', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fb659d6cd60>]}
+2023-04-15 06:49:06.748286 (MainThread): 06:49:06  Found 5 models, 0 tests, 0 snapshots, 0 analyses, 292 macros, 0 operations, 0 seed files, 6 sources, 0 exposures, 0 metrics
+2023-04-15 06:49:06.749606 (Thread-1): 06:49:06  Acquiring new postgres connection 'rpc.valmi_postgres.request'
+2023-04-15 06:49:06.749857 (Thread-1): 06:49:06  Began compiling node rpc.valmi_postgres.request
+2023-04-15 06:49:06.760700 (Thread-1): 06:49:06  On "rpc.valmi_postgres.request": cache miss for schema "dvdrental.valmi_scratch_computed_", this is inefficient
+2023-04-15 06:49:06.761253 (Thread-1): 06:49:06  checksum: 9f5971860ea7956c5d0d162f1c96671df61b5ad9db5c4152918680483cec5347, vars: {}, profile: user, target: None, version: 1.4.5
+2023-04-15 06:49:07.094746 (Thread-1): 06:49:07  Using postgres connection "rpc.valmi_postgres.request"
+2023-04-15 06:49:07.094958 (Thread-1): 06:49:07  On rpc.valmi_postgres.request: BEGIN
+2023-04-15 06:49:07.095101 (Thread-1): 06:49:07  Opening a new connection, currently in state init
+2023-04-15 06:49:07.180726 (Thread-156): handling ps request
+2023-04-15 06:49:07.181387 (Thread-156): 06:49:07  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '8e56c7fc-6ef3-42f7-ae13-0513b6153959', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fc4e56b5f70>]}
+2023-04-15 06:49:07.183220 (Thread-156): sending response (<Response 10841 bytes [200 OK]>) to 10.0.191.177
+2023-04-15 06:49:07.216027 (Thread-157): handling ps request
+2023-04-15 06:49:07.216374 (Thread-157): 06:49:07  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '8e56c7fc-6ef3-42f7-ae13-0513b6153959', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fc4e56b5310>]}
+2023-04-15 06:49:07.217367 (Thread-157): sending response (<Response 10842 bytes [200 OK]>) to 10.0.191.177
+2023-04-15 06:49:07.536252 (Thread-158): handling status request
+2023-04-15 06:49:07.536733 (Thread-158): 06:49:07  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '8e56c7fc-6ef3-42f7-ae13-0513b6153959', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fc4e56b5df0>]}
+2023-04-15 06:49:07.537353 (Thread-158): sending response (<Response 5155 bytes [200 OK]>) to 10.0.191.177
+2023-04-15 06:49:07.726938 (Thread-1): 06:49:07  SQL status: BEGIN in 1 seconds
+2023-04-15 06:49:07.727168 (Thread-1): 06:49:07  Using postgres connection "rpc.valmi_postgres.request"
+2023-04-15 06:49:07.727304 (Thread-1): 06:49:07  On rpc.valmi_postgres.request: select
+      'dvdrental' as database,
+      tablename as name,
+      schemaname as schema,
+      'table' as type
+    from pg_tables
+    where schemaname ilike 'valmi_scratch_computed_'
+    union all
+    select
+      'dvdrental' as database,
+      viewname as name,
+      schemaname as schema,
+      'view' as type
+    from pg_views
+    where schemaname ilike 'valmi_scratch_computed_'
+  
+2023-04-15 06:49:07.729093 (Thread-159): handling poll request
+2023-04-15 06:49:07.729518 (Thread-159): 06:49:07  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '8e56c7fc-6ef3-42f7-ae13-0513b6153959', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fc4e56b5eb0>]}
+2023-04-15 06:49:07.730189 (Thread-159): sending response (<Response 4682 bytes [200 OK]>) to 10.0.191.177
+2023-04-15 06:49:07.764181 (Thread-160): handling poll request
+2023-04-15 06:49:07.764564 (Thread-160): 06:49:07  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '8e56c7fc-6ef3-42f7-ae13-0513b6153959', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fc4e56b53a0>]}
+2023-04-15 06:49:07.765130 (Thread-160): sending response (<Response 4682 bytes [200 OK]>) to 10.0.191.177
+2023-04-15 06:49:07.833135 (Thread-1): 06:49:07  SQL status: SELECT 109 in 0 seconds
+2023-04-15 06:49:07.837060 (Thread-1): 06:49:07  with database=dvdrental, schema=valmi_scratch_computed_, relations=[ReferenceKeyMsg(database='dvdrental', schema='valmi_scratch_computed_', identifier='finalized_snapshot_a6aebc8e-34ad-40e8-96b4-9c7cfc701b9e'), ReferenceKeyMsg(database='dvdrental', schema='valmi_scratch_computed_', identifier='ignored_snapshot_6f1eb8f2-bde8-4f86-b9a9-5e90b4c6b3ca'), ReferenceKeyMsg(database='dvdrental', schema='valmi_scratch_computed_', identifier='transit_snapshot_81c71230-a34f-4b63-9d8d-9958085ec82d'), ReferenceKeyMsg(database='dvdrental', schema='valmi_scratch_computed_', identifier='finalized_snapshot'), ReferenceKeyMsg(database='dvdrental', schema='valmi_scratch_computed_', identifier='ignored_snapshot_98593ab9-441b-4fcd-bb03-d17cbb5c41c5'), ReferenceKeyMsg(database='dvdrental', schema='valmi_scratch_computed_', identifier='ignored_snapshot_d8a92753-96a9-4628-b7b1-9dff536d359b'), ReferenceKeyMsg(database='dvdrental', schema='valmi_scratch_computed_', identifier='finalized_snapshot_7d62d6db-f1f1-4d85-925b-ef7e44a93373'), ReferenceKeyMsg(database='dvdrental', schema='valmi_scratch_computed_', identifier='transit_snapshot_7d62d6db-f1f1-4d85-925b-ef7e44a93373'), ReferenceKeyMsg(database='dvdrental', schema='valmi_scratch_computed_', identifier='ignored_snapshot_58582048-cf3f-4d26-86d3-53c0a37c171b'), ReferenceKeyMsg(database='dvdrental', schema='valmi_scratch_computed_', identifier='ignored_snapshot_25d8f567-5287-4d62-9af3-af85ff14d740'), ReferenceKeyMsg(database='dvdrental', schema='valmi_scratch_computed_', identifier='sync_metrics_25d8f567-5287-4d62-9af3-af85ff14d740'), ReferenceKeyMsg(database='dvdrental', schema='valmi_scratch_computed_', identifier='sync_metrics_81c71230-a34f-4b63-9d8d-9958085ec82d'), ReferenceKeyMsg(database='dvdrental', schema='valmi_scratch_computed_', identifier='ignored_snapshot_a6aebc8e-34ad-40e8-96b4-9c7cfc701b9e'), ReferenceKeyMsg(database='dvdrental', schema='valmi_scratch_computed_', identifier='ignored_snapshot_872e14d3-239d-412c-aaa3-15ba7f5a1c0f'), ReferenceKeyMsg(database='dvdrental', schema='valmi_scratch_computed_', identifier='transit_snapshot_10681d30-a951-41cc-bf54-da4bed09e0c2'), ReferenceKeyMsg(database='dvdrental', schema='valmi_scratch_computed_', identifier='finalized_snapshot_cd3cd64a-02c9-4345-8399-292a4680a848'), ReferenceKeyMsg(database='dvdrental', schema='valmi_scratch_computed_', identifier='ignored_snapshot'), ReferenceKeyMsg(database='dvdrental', schema='valmi_scratch_computed_', identifier='transit_snapshot'), ReferenceKeyMsg(database='dvdrental', schema='valmi_scratch_computed_', identifier='finalized_snapshot_81c71230-a34f-4b63-9d8d-9958085ec82d'), ReferenceKeyMsg(database='dvdrental', schema='valmi_scratch_computed_', identifier='transit_snapshot_a6aebc8e-34ad-40e8-96b4-9c7cfc701b9e'), ReferenceKeyMsg(database='dvdrental', schema='valmi_scratch_computed_', identifier='transit_snapshot_98593ab9-441b-4fcd-bb03-d17cbb5c41c5'), ReferenceKeyMsg(database='dvdrental', schema='valmi_scratch_computed_', identifier='sync_metrics_10681d30-a951-41cc-bf54-da4bed09e0c2'), ReferenceKeyMsg(database='dvdrental', schema='valmi_scratch_computed_', identifier='ignored_snapshot_cd3cd64a-02c9-4345-8399-292a4680a848'), ReferenceKeyMsg(database='dvdrental', schema='valmi_scratch_computed_', identifier='finalized_snapshot_49e6c558-1824-48c5-bfde-bca5d0732656'), ReferenceKeyMsg(database='dvdrental', schema='valmi_scratch_computed_', identifier='ignored_snapshot_fa8df245-aec0-44aa-ad6a-b811b2dfa620'), ReferenceKeyMsg(database='dvdrental', schema='valmi_scratch_computed_', identifier='sync_metrics_fa8df245-aec0-44aa-ad6a-b811b2dfa620'), ReferenceKeyMsg(database='dvdrental', schema='valmi_scratch_computed_', identifier='finalized_snapshot_d8a92753-96a9-4628-b7b1-9dff536d359b'), ReferenceKeyMsg(database='dvdrental', schema='valmi_scratch_computed_', identifier='ignored_snapshot_49e6c558-1824-48c5-bfde-bca5d0732656'), ReferenceKeyMsg(database='dvdrental', schema='valmi_scratch_computed_', identifier='transit_snapshot_49e6c558-1824-48c5-bfde-bca5d0732656'), ReferenceKeyMsg(database='dvdrental', schema='valmi_scratch_computed_', identifier='sync_metrics_a6aebc8e-34ad-40e8-96b4-9c7cfc701b9e'), ReferenceKeyMsg(database='dvdrental', schema='valmi_scratch_computed_', identifier='sync_metrics_98593ab9-441b-4fcd-bb03-d17cbb5c41c5'), ReferenceKeyMsg(database='dvdrental', schema='valmi_scratch_computed_', identifier='transit_snapshot_6f1eb8f2-bde8-4f86-b9a9-5e90b4c6b3ca'), ReferenceKeyMsg(database='dvdrental', schema='valmi_scratch_computed_', identifier='ignored_snapshot_7d62d6db-f1f1-4d85-925b-ef7e44a93373'), ReferenceKeyMsg(database='dvdrental', schema='valmi_scratch_computed_', identifier='sync_metrics_7d62d6db-f1f1-4d85-925b-ef7e44a93373'), ReferenceKeyMsg(database='dvdrental', schema='valmi_scratch_computed_', identifier='ignored_snapshot_5674b69a-f346-44cb-aa76-dce2125226c9'), ReferenceKeyMsg(database='dvdrental', schema='valmi_scratch_computed_', identifier='sync_metrics_58582048-cf3f-4d26-86d3-53c0a37c171b'), ReferenceKeyMsg(database='dvdrental', schema='valmi_scratch_computed_', identifier='transit_snapshot_5674b69a-f346-44cb-aa76-dce2125226c9'), ReferenceKeyMsg(database='dvdrental', schema='valmi_scratch_computed_', identifier='finalized_snapshot_3a8d2bca-3f0c-4b73-865b-92104bd98479'), ReferenceKeyMsg(database='dvdrental', schema='valmi_scratch_computed_', identifier='ignored_snapshot_3a8d2bca-3f0c-4b73-865b-92104bd98479'), ReferenceKeyMsg(database='dvdrental', schema='valmi_scratch_computed_', identifier='transit_snapshot_3a8d2bca-3f0c-4b73-865b-92104bd98479'), ReferenceKeyMsg(database='dvdrental', schema='valmi_scratch_computed_', identifier='sync_metrics_3a8d2bca-3f0c-4b73-865b-92104bd98479'), ReferenceKeyMsg(database='dvdrental', schema='valmi_scratch_computed_', identifier='finalized_snapshot_33fce3dd-9eca-482e-8034-cd7759fdb53c'), ReferenceKeyMsg(database='dvdrental', schema='valmi_scratch_computed_', identifier='sync_metrics_49e6c558-1824-48c5-bfde-bca5d0732656'), ReferenceKeyMsg(database='dvdrental', schema='valmi_scratch_computed_', identifier='ignored_snapshot_81c71230-a34f-4b63-9d8d-9958085ec82d'), ReferenceKeyMsg(database='dvdrental', schema='valmi_scratch_computed_', identifier='finalized_snapshot_98593ab9-441b-4fcd-bb03-d17cbb5c41c5'), ReferenceKeyMsg(database='dvdrental', schema='valmi_scratch_computed_', identifier='finalized_snapshot_6f1eb8f2-bde8-4f86-b9a9-5e90b4c6b3ca'), ReferenceKeyMsg(database='dvdrental', schema='valmi_scratch_computed_', identifier='finalized_snapshot_5674b69a-f346-44cb-aa76-dce2125226c9'), ReferenceKeyMsg(database='dvdrental', schema='valmi_scratch_computed_', identifier='sync_metrics_6f1eb8f2-bde8-4f86-b9a9-5e90b4c6b3ca'), ReferenceKeyMsg(database='dvdrental', schema='valmi_scratch_computed_', identifier='finalized_snapshot_58582048-cf3f-4d26-86d3-53c0a37c171b'), ReferenceKeyMsg(database='dvdrental', schema='valmi_scratch_computed_', identifier='transit_snapshot_58582048-cf3f-4d26-86d3-53c0a37c171b'), ReferenceKeyMsg(database='dvdrental', schema='valmi_scratch_computed_', identifier='sync_metrics_5674b69a-f346-44cb-aa76-dce2125226c9'), ReferenceKeyMsg(database='dvdrental', schema='valmi_scratch_computed_', identifier='finalized_snapshot_25d8f567-5287-4d62-9af3-af85ff14d740'), ReferenceKeyMsg(database='dvdrental', schema='valmi_scratch_computed_', identifier='transit_snapshot_25d8f567-5287-4d62-9af3-af85ff14d740'), ReferenceKeyMsg(database='dvdrental', schema='valmi_scratch_computed_', identifier='ignored_snapshot_33fce3dd-9eca-482e-8034-cd7759fdb53c'), ReferenceKeyMsg(database='dvdrental', schema='valmi_scratch_computed_', identifier='transit_snapshot_872e14d3-239d-412c-aaa3-15ba7f5a1c0f'), ReferenceKeyMsg(database='dvdrental', schema='valmi_scratch_computed_', identifier='transit_snapshot_cd3cd64a-02c9-4345-8399-292a4680a848'), ReferenceKeyMsg(database='dvdrental', schema='valmi_scratch_computed_', identifier='finalized_snapshot_10681d30-a951-41cc-bf54-da4bed09e0c2'), ReferenceKeyMsg(database='dvdrental', schema='valmi_scratch_computed_', identifier='finalized_snapshot_4d280b44-0e34-4085-86d6-107d9372314f'), ReferenceKeyMsg(database='dvdrental', schema='valmi_scratch_computed_', identifier='delete_snapshot'), ReferenceKeyMsg(database='dvdrental', schema='valmi_scratch_computed_', identifier='init'), ReferenceKeyMsg(database='dvdrental', schema='valmi_scratch_computed_', identifier='transit_snapshot_4d280b44-0e34-4085-86d6-107d9372314f'), ReferenceKeyMsg(database='dvdrental', schema='valmi_scratch_computed_', identifier='sync_metrics'), ReferenceKeyMsg(database='dvdrental', schema='valmi_scratch_computed_', identifier='finalized_snapshot_872e14d3-239d-412c-aaa3-15ba7f5a1c0f'), ReferenceKeyMsg(database='dvdrental', schema='valmi_scratch_computed_', identifier='transit_snapshot_33fce3dd-9eca-482e-8034-cd7759fdb53c'), ReferenceKeyMsg(database='dvdrental', schema='valmi_scratch_computed_', identifier='sync_metrics_33fce3dd-9eca-482e-8034-cd7759fdb53c'), ReferenceKeyMsg(database='dvdrental', schema='valmi_scratch_computed_', identifier='sync_metrics_872e14d3-239d-412c-aaa3-15ba7f5a1c0f'), ReferenceKeyMsg(database='dvdrental', schema='valmi_scratch_computed_', identifier='transit_snapshot_d8a92753-96a9-4628-b7b1-9dff536d359b'), ReferenceKeyMsg(database='dvdrental', schema='valmi_scratch_computed_', identifier='ignored_snapshot_10681d30-a951-41cc-bf54-da4bed09e0c2'), ReferenceKeyMsg(database='dvdrental', schema='valmi_scratch_computed_', identifier='sync_metrics_cd3cd64a-02c9-4345-8399-292a4680a848'), ReferenceKeyMsg(database='dvdrental', schema='valmi_scratch_computed_', identifier='finalized_snapshot_fa8df245-aec0-44aa-ad6a-b811b2dfa620'), ReferenceKeyMsg(database='dvdrental', schema='valmi_scratch_computed_', identifier='transit_snapshot_fa8df245-aec0-44aa-ad6a-b811b2dfa620'), ReferenceKeyMsg(database='dvdrental', schema='valmi_scratch_computed_', identifier='ignored_snapshot_4d280b44-0e34-4085-86d6-107d9372314f'), ReferenceKeyMsg(database='dvdrental', schema='valmi_scratch_computed_', identifier='sync_metrics_4d280b44-0e34-4085-86d6-107d9372314f'), ReferenceKeyMsg(database='dvdrental', schema='valmi_scratch_computed_', identifier='sync_metrics_d8a92753-96a9-4628-b7b1-9dff536d359b'), ReferenceKeyMsg(database='dvdrental', schema='valmi_scratch_computed_', identifier='stg_snapshot'), ReferenceKeyMsg(database='dvdrental', schema='valmi_scratch_computed_', identifier='stg_snapshot_81c71230-a34f-4b63-9d8d-9958085ec82d'), ReferenceKeyMsg(database='dvdrental', schema='valmi_scratch_computed_', identifier='init_a6aebc8e-34ad-40e8-96b4-9c7cfc701b9e'), ReferenceKeyMsg(database='dvdrental', schema='valmi_scratch_computed_', identifier='stg_snapshot_6f1eb8f2-bde8-4f86-b9a9-5e90b4c6b3ca'), ReferenceKeyMsg(database='dvdrental', schema='valmi_scratch_computed_', identifier='init_7d62d6db-f1f1-4d85-925b-ef7e44a93373'), ReferenceKeyMsg(database='dvdrental', schema='valmi_scratch_computed_', identifier='stg_snapshot_10681d30-a951-41cc-bf54-da4bed09e0c2'), ReferenceKeyMsg(database='dvdrental', schema='valmi_scratch_computed_', identifier='stg_snapshot_a6aebc8e-34ad-40e8-96b4-9c7cfc701b9e'), ReferenceKeyMsg(database='dvdrental', schema='valmi_scratch_computed_', identifier='stg_snapshot_98593ab9-441b-4fcd-bb03-d17cbb5c41c5'), ReferenceKeyMsg(database='dvdrental', schema='valmi_scratch_computed_', identifier='init_d8a92753-96a9-4628-b7b1-9dff536d359b'), ReferenceKeyMsg(database='dvdrental', schema='valmi_scratch_computed_', identifier='init_cd3cd64a-02c9-4345-8399-292a4680a848'), ReferenceKeyMsg(database='dvdrental', schema='valmi_scratch_computed_', identifier='stg_snapshot_872e14d3-239d-412c-aaa3-15ba7f5a1c0f'), ReferenceKeyMsg(database='dvdrental', schema='valmi_scratch_computed_', identifier='stg_snapshot_d8a92753-96a9-4628-b7b1-9dff536d359b'), ReferenceKeyMsg(database='dvdrental', schema='valmi_scratch_computed_', identifier='stg_snapshot_4d280b44-0e34-4085-86d6-107d9372314f'), ReferenceKeyMsg(database='dvdrental', schema='valmi_scratch_computed_', identifier='init_49e6c558-1824-48c5-bfde-bca5d0732656'), ReferenceKeyMsg(database='dvdrental', schema='valmi_scratch_computed_', identifier='stg_snapshot_49e6c558-1824-48c5-bfde-bca5d0732656'), ReferenceKeyMsg(database='dvdrental', schema='valmi_scratch_computed_', identifier='init_81c71230-a34f-4b63-9d8d-9958085ec82d'), ReferenceKeyMsg(database='dvdrental', schema='valmi_scratch_computed_', identifier='stg_snapshot_cd3cd64a-02c9-4345-8399-292a4680a848'), ReferenceKeyMsg(database='dvdrental', schema='valmi_scratch_computed_', identifier='stg_snapshot_58582048-cf3f-4d26-86d3-53c0a37c171b'), ReferenceKeyMsg(database='dvdrental', schema='valmi_scratch_computed_', identifier='init_3a8d2bca-3f0c-4b73-865b-92104bd98479'), ReferenceKeyMsg(database='dvdrental', schema='valmi_scratch_computed_', identifier='stg_snapshot_3a8d2bca-3f0c-4b73-865b-92104bd98479'), ReferenceKeyMsg(database='dvdrental', schema='valmi_scratch_computed_', identifier='stg_snapshot_25d8f567-5287-4d62-9af3-af85ff14d740'), ReferenceKeyMsg(database='dvdrental', schema='valmi_scratch_computed_', identifier='init_98593ab9-441b-4fcd-bb03-d17cbb5c41c5'), ReferenceKeyMsg(database='dvdrental', schema='valmi_scratch_computed_', identifier='init_6f1eb8f2-bde8-4f86-b9a9-5e90b4c6b3ca'), ReferenceKeyMsg(database='dvdrental', schema='valmi_scratch_computed_', identifier='init_58582048-cf3f-4d26-86d3-53c0a37c171b'), ReferenceKeyMsg(database='dvdrental', schema='valmi_scratch_computed_', identifier='stg_snapshot_7d62d6db-f1f1-4d85-925b-ef7e44a93373'), ReferenceKeyMsg(database='dvdrental', schema='valmi_scratch_computed_', identifier='init_5674b69a-f346-44cb-aa76-dce2125226c9'), ReferenceKeyMsg(database='dvdrental', schema='valmi_scratch_computed_', identifier='stg_snapshot_5674b69a-f346-44cb-aa76-dce2125226c9'), ReferenceKeyMsg(database='dvdrental', schema='valmi_scratch_computed_', identifier='init_25d8f567-5287-4d62-9af3-af85ff14d740'), ReferenceKeyMsg(database='dvdrental', schema='valmi_scratch_computed_', identifier='init_10681d30-a951-41cc-bf54-da4bed09e0c2'), ReferenceKeyMsg(database='dvdrental', schema='valmi_scratch_computed_', identifier='stg_snapshot_fa8df245-aec0-44aa-ad6a-b811b2dfa620'), ReferenceKeyMsg(database='dvdrental', schema='valmi_scratch_computed_', identifier='init_4d280b44-0e34-4085-86d6-107d9372314f'), ReferenceKeyMsg(database='dvdrental', schema='valmi_scratch_computed_', identifier='init_33fce3dd-9eca-482e-8034-cd7759fdb53c'), ReferenceKeyMsg(database='dvdrental', schema='valmi_scratch_computed_', identifier='stg_snapshot_33fce3dd-9eca-482e-8034-cd7759fdb53c'), ReferenceKeyMsg(database='dvdrental', schema='valmi_scratch_computed_', identifier='init_872e14d3-239d-412c-aaa3-15ba7f5a1c0f'), ReferenceKeyMsg(database='dvdrental', schema='valmi_scratch_computed_', identifier='init_fa8df245-aec0-44aa-ad6a-b811b2dfa620')]
+2023-04-15 06:49:07.838636 (Thread-1): 06:49:07  Timing info for rpc.valmi_postgres.request (compile): 2023-04-15 06:49:06.749906 => 2023-04-15 06:49:07.838463
+2023-04-15 06:49:07.838869 (Thread-1): 06:49:07  Began executing node rpc.valmi_postgres.request
+2023-04-15 06:49:07.839034 (Thread-1): 06:49:07  Timing info for rpc.valmi_postgres.request (execute): 2023-04-15 06:49:07.838917 => 2023-04-15 06:49:07.838935
+2023-04-15 06:49:07.839201 (Thread-1): 06:49:07  On rpc.valmi_postgres.request: ROLLBACK
+2023-04-15 06:49:07.942809 (Thread-1): 06:49:07  On rpc.valmi_postgres.request: Close
+2023-04-15 06:49:08.149242 (Thread-161): handling status request
+2023-04-15 06:49:08.149728 (Thread-161): 06:49:08  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '8e56c7fc-6ef3-42f7-ae13-0513b6153959', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fc4e2f718b0>]}
+2023-04-15 06:49:08.150306 (Thread-161): sending response (<Response 5155 bytes [200 OK]>) to 10.0.191.177
+2023-04-15 06:49:09.280585 (Thread-162): handling poll request
+2023-04-15 06:49:09.281082 (Thread-162): 06:49:09  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '8e56c7fc-6ef3-42f7-ae13-0513b6153959', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fc4e2f71250>]}
+2023-04-15 06:49:09.282172 (Thread-162): sending response (<Response 31223 bytes [200 OK]>) to 10.0.191.177
+2023-04-15 06:49:09.669424 (Thread-163): handling ps request
+2023-04-15 06:49:09.669986 (Thread-163): 06:49:09  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '8e56c7fc-6ef3-42f7-ae13-0513b6153959', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fc4e56b52b0>]}
+2023-04-15 06:49:09.671171 (Thread-163): sending response (<Response 10867 bytes [200 OK]>) to 10.0.191.177
+2023-04-15 06:49:10.060015 (Thread-164): handling status request
+2023-04-15 06:49:10.060521 (Thread-164): 06:49:10  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '8e56c7fc-6ef3-42f7-ae13-0513b6153959', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fc4e2f71a30>]}
+2023-04-15 06:49:10.061097 (Thread-164): sending response (<Response 5155 bytes [200 OK]>) to 10.0.191.177
+2023-04-15 06:49:10.249770 (Thread-165): handling poll request
+2023-04-15 06:49:10.250239 (Thread-165): 06:49:10  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '8e56c7fc-6ef3-42f7-ae13-0513b6153959', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fc4e56b5c70>]}
+2023-04-15 06:49:10.251174 (Thread-165): sending response (<Response 35475 bytes [200 OK]>) to 10.0.191.177
+2023-04-15 06:49:10.808430 (Thread-166): handling status request
+2023-04-15 06:49:10.808848 (Thread-166): 06:49:10  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '8e56c7fc-6ef3-42f7-ae13-0513b6153959', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fc4e56b5bb0>]}
+2023-04-15 06:49:10.809355 (Thread-166): sending response (<Response 5155 bytes [200 OK]>) to 10.0.191.177
+2023-04-15 06:49:54.086786 (Thread-167): 06:49:54  checksum: 9f5971860ea7956c5d0d162f1c96671df61b5ad9db5c4152918680483cec5347, vars: {}, profile: user, target: None, version: 1.4.5
+2023-04-15 06:49:54.122228 (Thread-167): 06:49:54  Partial parsing enabled: 0 files deleted, 0 files added, 1 files changed.
+2023-04-15 06:49:54.122759 (Thread-167): 06:49:54  Partial parsing: updated file: valmi_postgres://models/staging/stg_snapshot.sql
+2023-04-15 06:49:54.128354 (Thread-167): 06:49:54  1603: static parser failed on staging/stg_snapshot.sql
+2023-04-15 06:49:54.141602 (Thread-167): 06:49:54  1602: parser fallback to jinja rendering on staging/stg_snapshot.sql
+2023-04-15 06:49:54.187117 (Thread-167): 06:49:54  Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '8e56c7fc-6ef3-42f7-ae13-0513b6153959', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fc4e2e25bb0>]}
+2023-04-15 06:49:54.477884 (Thread-168): handling status request
+2023-04-15 06:49:54.478412 (Thread-168): 06:49:54  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '8e56c7fc-6ef3-42f7-ae13-0513b6153959', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fc4e2f1aca0>]}
+2023-04-15 06:49:54.478964 (Thread-168): sending response (<Response 2219 bytes [200 OK]>) to 10.0.191.177
+2023-04-15 06:50:10.994814 (Thread-169): handling status request
+2023-04-15 06:50:10.995303 (Thread-169): 06:50:10  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '8e56c7fc-6ef3-42f7-ae13-0513b6153959', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fc4e2f1abb0>]}
+2023-04-15 06:50:10.995790 (Thread-169): sending response (<Response 2219 bytes [200 OK]>) to 10.0.191.177
+2023-04-15 06:50:30.263915 (Thread-170): handling status request
+2023-04-15 06:50:30.264440 (Thread-170): 06:50:30  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '8e56c7fc-6ef3-42f7-ae13-0513b6153959', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fc4e2f1aa90>]}
+2023-04-15 06:50:30.264937 (Thread-170): sending response (<Response 2219 bytes [200 OK]>) to 10.0.191.177
+2023-04-15 06:50:33.791058 (Thread-171): handling compile_sql request
+2023-04-15 06:50:33.791551 (Thread-171): 06:50:33  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '8e56c7fc-6ef3-42f7-ae13-0513b6153959', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fc4e2f1a970>]}
+2023-04-15 06:50:33.813069 (Thread-172): handling ps request
+2023-04-15 06:50:33.814701 (Thread-172): 06:50:33  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '8e56c7fc-6ef3-42f7-ae13-0513b6153959', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fc4e2e8f0d0>]}
+2023-04-15 06:50:33.816950 (Thread-172): sending response (<Response 11399 bytes [200 OK]>) to 10.0.191.177
+2023-04-15 06:50:34.274125 (Thread-173): handling poll request
+2023-04-15 06:50:34.274645 (Thread-173): 06:50:34  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '8e56c7fc-6ef3-42f7-ae13-0513b6153959', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fc4e561a370>]}
+2023-04-15 06:50:34.275217 (Thread-173): sending response (<Response 437 bytes [200 OK]>) to 10.0.191.177
+2023-04-15 06:50:34.639284 (Thread-174): handling status request
+2023-04-15 06:50:34.639775 (Thread-174): 06:50:34  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '8e56c7fc-6ef3-42f7-ae13-0513b6153959', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fc4e56b6e80>]}
+2023-04-15 06:50:34.640365 (Thread-174): sending response (<Response 2219 bytes [200 OK]>) to 10.0.191.177
+2023-04-15 06:50:34.768734 (Thread-175): handling ps request
+2023-04-15 06:50:34.769089 (Thread-175): 06:50:34  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '8e56c7fc-6ef3-42f7-ae13-0513b6153959', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fc4e56b60a0>]}
+2023-04-15 06:50:34.770226 (Thread-175): sending response (<Response 11399 bytes [200 OK]>) to 10.0.191.177
+2023-04-15 06:50:36.013050 (Thread-171): sending response (<Response 133 bytes [200 OK]>) to 10.0.191.177
+2023-04-15 06:50:36.053277 (MainThread): 06:50:36  Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '61f3e7c7-76d4-4e82-86ed-dad56c4f5460', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f4f5c040fa0>]}
+2023-04-15 06:50:36.053854 (MainThread): 06:50:36  Found 5 models, 0 tests, 0 snapshots, 0 analyses, 292 macros, 0 operations, 0 seed files, 6 sources, 0 exposures, 0 metrics
+2023-04-15 06:50:36.055179 (Thread-1): 06:50:36  Acquiring new postgres connection 'rpc.valmi_postgres.request'
+2023-04-15 06:50:36.055410 (Thread-1): 06:50:36  Began compiling node rpc.valmi_postgres.request
+2023-04-15 06:50:36.066263 (Thread-1): 06:50:36  On "rpc.valmi_postgres.request": cache miss for schema "dvdrental.valmi_scratch_computed_", this is inefficient
+2023-04-15 06:50:36.066804 (Thread-1): 06:50:36  checksum: 9f5971860ea7956c5d0d162f1c96671df61b5ad9db5c4152918680483cec5347, vars: {}, profile: user, target: None, version: 1.4.5
+2023-04-15 06:50:36.397658 (Thread-1): 06:50:36  Using postgres connection "rpc.valmi_postgres.request"
+2023-04-15 06:50:36.397846 (Thread-1): 06:50:36  On rpc.valmi_postgres.request: BEGIN
+2023-04-15 06:50:36.397981 (Thread-1): 06:50:36  Opening a new connection, currently in state init
+2023-04-15 06:50:36.448773 (Thread-176): handling ps request
+2023-04-15 06:50:36.449453 (Thread-176): 06:50:36  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '8e56c7fc-6ef3-42f7-ae13-0513b6153959', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fc4e56b5d90>]}
+2023-04-15 06:50:36.449972 (Thread-177): handling ps request
+2023-04-15 06:50:36.452743 (Thread-177): 06:50:36  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '8e56c7fc-6ef3-42f7-ae13-0513b6153959', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fc4e2e1c160>]}
+2023-04-15 06:50:36.475844 (Thread-176): sending response (<Response 11394 bytes [200 OK]>) to 10.0.191.177
+2023-04-15 06:50:36.476911 (Thread-177): sending response (<Response 11394 bytes [200 OK]>) to 10.0.191.177
+2023-04-15 06:50:36.746235 (Thread-178): handling poll request
+2023-04-15 06:50:36.746586 (Thread-178): 06:50:36  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '8e56c7fc-6ef3-42f7-ae13-0513b6153959', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fc4e56b5d90>]}
+2023-04-15 06:50:36.747058 (Thread-178): sending response (<Response 3446 bytes [200 OK]>) to 10.0.191.177
+2023-04-15 06:50:36.846745 (Thread-179): handling status request
+2023-04-15 06:50:36.847083 (Thread-179): 06:50:36  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '8e56c7fc-6ef3-42f7-ae13-0513b6153959', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fc4e2e78fd0>]}
+2023-04-15 06:50:36.847472 (Thread-179): sending response (<Response 2219 bytes [200 OK]>) to 10.0.191.177
+2023-04-15 06:50:36.946660 (Thread-180): handling poll request
+2023-04-15 06:50:36.946980 (Thread-180): 06:50:36  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '8e56c7fc-6ef3-42f7-ae13-0513b6153959', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fc4e2e78f40>]}
+2023-04-15 06:50:36.947423 (Thread-180): sending response (<Response 3446 bytes [200 OK]>) to 10.0.191.177
+2023-04-15 06:50:37.026750 (Thread-1): 06:50:37  SQL status: BEGIN in 1 seconds
+2023-04-15 06:50:37.026966 (Thread-1): 06:50:37  Using postgres connection "rpc.valmi_postgres.request"
+2023-04-15 06:50:37.027096 (Thread-1): 06:50:37  On rpc.valmi_postgres.request: select
+      'dvdrental' as database,
+      tablename as name,
+      schemaname as schema,
+      'table' as type
+    from pg_tables
+    where schemaname ilike 'valmi_scratch_computed_'
+    union all
+    select
+      'dvdrental' as database,
+      viewname as name,
+      schemaname as schema,
+      'view' as type
+    from pg_views
+    where schemaname ilike 'valmi_scratch_computed_'
+  
+2023-04-15 06:50:37.135395 (Thread-1): 06:50:37  SQL status: SELECT 109 in 0 seconds
+2023-04-15 06:50:37.139348 (Thread-1): 06:50:37  with database=dvdrental, schema=valmi_scratch_computed_, relations=[ReferenceKeyMsg(database='dvdrental', schema='valmi_scratch_computed_', identifier='finalized_snapshot_a6aebc8e-34ad-40e8-96b4-9c7cfc701b9e'), ReferenceKeyMsg(database='dvdrental', schema='valmi_scratch_computed_', identifier='ignored_snapshot_6f1eb8f2-bde8-4f86-b9a9-5e90b4c6b3ca'), ReferenceKeyMsg(database='dvdrental', schema='valmi_scratch_computed_', identifier='transit_snapshot_81c71230-a34f-4b63-9d8d-9958085ec82d'), ReferenceKeyMsg(database='dvdrental', schema='valmi_scratch_computed_', identifier='finalized_snapshot'), ReferenceKeyMsg(database='dvdrental', schema='valmi_scratch_computed_', identifier='ignored_snapshot_98593ab9-441b-4fcd-bb03-d17cbb5c41c5'), ReferenceKeyMsg(database='dvdrental', schema='valmi_scratch_computed_', identifier='finalized_snapshot_7d62d6db-f1f1-4d85-925b-ef7e44a93373'), ReferenceKeyMsg(database='dvdrental', schema='valmi_scratch_computed_', identifier='transit_snapshot_7d62d6db-f1f1-4d85-925b-ef7e44a93373'), ReferenceKeyMsg(database='dvdrental', schema='valmi_scratch_computed_', identifier='ignored_snapshot_58582048-cf3f-4d26-86d3-53c0a37c171b'), ReferenceKeyMsg(database='dvdrental', schema='valmi_scratch_computed_', identifier='ignored_snapshot_25d8f567-5287-4d62-9af3-af85ff14d740'), ReferenceKeyMsg(database='dvdrental', schema='valmi_scratch_computed_', identifier='sync_metrics_25d8f567-5287-4d62-9af3-af85ff14d740'), ReferenceKeyMsg(database='dvdrental', schema='valmi_scratch_computed_', identifier='sync_metrics_81c71230-a34f-4b63-9d8d-9958085ec82d'), ReferenceKeyMsg(database='dvdrental', schema='valmi_scratch_computed_', identifier='ignored_snapshot_a6aebc8e-34ad-40e8-96b4-9c7cfc701b9e'), ReferenceKeyMsg(database='dvdrental', schema='valmi_scratch_computed_', identifier='ignored_snapshot_872e14d3-239d-412c-aaa3-15ba7f5a1c0f'), ReferenceKeyMsg(database='dvdrental', schema='valmi_scratch_computed_', identifier='transit_snapshot_d8a92753-96a9-4628-b7b1-9dff536d359b'), ReferenceKeyMsg(database='dvdrental', schema='valmi_scratch_computed_', identifier='transit_snapshot_10681d30-a951-41cc-bf54-da4bed09e0c2'), ReferenceKeyMsg(database='dvdrental', schema='valmi_scratch_computed_', identifier='finalized_snapshot_cd3cd64a-02c9-4345-8399-292a4680a848'), ReferenceKeyMsg(database='dvdrental', schema='valmi_scratch_computed_', identifier='ignored_snapshot'), ReferenceKeyMsg(database='dvdrental', schema='valmi_scratch_computed_', identifier='transit_snapshot'), ReferenceKeyMsg(database='dvdrental', schema='valmi_scratch_computed_', identifier='finalized_snapshot_81c71230-a34f-4b63-9d8d-9958085ec82d'), ReferenceKeyMsg(database='dvdrental', schema='valmi_scratch_computed_', identifier='transit_snapshot_a6aebc8e-34ad-40e8-96b4-9c7cfc701b9e'), ReferenceKeyMsg(database='dvdrental', schema='valmi_scratch_computed_', identifier='transit_snapshot_98593ab9-441b-4fcd-bb03-d17cbb5c41c5'), ReferenceKeyMsg(database='dvdrental', schema='valmi_scratch_computed_', identifier='sync_metrics_10681d30-a951-41cc-bf54-da4bed09e0c2'), ReferenceKeyMsg(database='dvdrental', schema='valmi_scratch_computed_', identifier='sync_metrics_d8a92753-96a9-4628-b7b1-9dff536d359b'), ReferenceKeyMsg(database='dvdrental', schema='valmi_scratch_computed_', identifier='ignored_snapshot_cd3cd64a-02c9-4345-8399-292a4680a848'), ReferenceKeyMsg(database='dvdrental', schema='valmi_scratch_computed_', identifier='finalized_snapshot_49e6c558-1824-48c5-bfde-bca5d0732656'), ReferenceKeyMsg(database='dvdrental', schema='valmi_scratch_computed_', identifier='ignored_snapshot_fa8df245-aec0-44aa-ad6a-b811b2dfa620'), ReferenceKeyMsg(database='dvdrental', schema='valmi_scratch_computed_', identifier='sync_metrics_fa8df245-aec0-44aa-ad6a-b811b2dfa620'), ReferenceKeyMsg(database='dvdrental', schema='valmi_scratch_computed_', identifier='finalized_snapshot_d8a92753-96a9-4628-b7b1-9dff536d359b'), ReferenceKeyMsg(database='dvdrental', schema='valmi_scratch_computed_', identifier='ignored_snapshot_49e6c558-1824-48c5-bfde-bca5d0732656'), ReferenceKeyMsg(database='dvdrental', schema='valmi_scratch_computed_', identifier='transit_snapshot_49e6c558-1824-48c5-bfde-bca5d0732656'), ReferenceKeyMsg(database='dvdrental', schema='valmi_scratch_computed_', identifier='sync_metrics_a6aebc8e-34ad-40e8-96b4-9c7cfc701b9e'), ReferenceKeyMsg(database='dvdrental', schema='valmi_scratch_computed_', identifier='sync_metrics_98593ab9-441b-4fcd-bb03-d17cbb5c41c5'), ReferenceKeyMsg(database='dvdrental', schema='valmi_scratch_computed_', identifier='transit_snapshot_6f1eb8f2-bde8-4f86-b9a9-5e90b4c6b3ca'), ReferenceKeyMsg(database='dvdrental', schema='valmi_scratch_computed_', identifier='ignored_snapshot_7d62d6db-f1f1-4d85-925b-ef7e44a93373'), ReferenceKeyMsg(database='dvdrental', schema='valmi_scratch_computed_', identifier='sync_metrics_7d62d6db-f1f1-4d85-925b-ef7e44a93373'), ReferenceKeyMsg(database='dvdrental', schema='valmi_scratch_computed_', identifier='ignored_snapshot_5674b69a-f346-44cb-aa76-dce2125226c9'), ReferenceKeyMsg(database='dvdrental', schema='valmi_scratch_computed_', identifier='sync_metrics_58582048-cf3f-4d26-86d3-53c0a37c171b'), ReferenceKeyMsg(database='dvdrental', schema='valmi_scratch_computed_', identifier='transit_snapshot_5674b69a-f346-44cb-aa76-dce2125226c9'), ReferenceKeyMsg(database='dvdrental', schema='valmi_scratch_computed_', identifier='finalized_snapshot_3a8d2bca-3f0c-4b73-865b-92104bd98479'), ReferenceKeyMsg(database='dvdrental', schema='valmi_scratch_computed_', identifier='ignored_snapshot_3a8d2bca-3f0c-4b73-865b-92104bd98479'), ReferenceKeyMsg(database='dvdrental', schema='valmi_scratch_computed_', identifier='transit_snapshot_3a8d2bca-3f0c-4b73-865b-92104bd98479'), ReferenceKeyMsg(database='dvdrental', schema='valmi_scratch_computed_', identifier='sync_metrics_3a8d2bca-3f0c-4b73-865b-92104bd98479'), ReferenceKeyMsg(database='dvdrental', schema='valmi_scratch_computed_', identifier='finalized_snapshot_33fce3dd-9eca-482e-8034-cd7759fdb53c'), ReferenceKeyMsg(database='dvdrental', schema='valmi_scratch_computed_', identifier='sync_metrics_49e6c558-1824-48c5-bfde-bca5d0732656'), ReferenceKeyMsg(database='dvdrental', schema='valmi_scratch_computed_', identifier='ignored_snapshot_81c71230-a34f-4b63-9d8d-9958085ec82d'), ReferenceKeyMsg(database='dvdrental', schema='valmi_scratch_computed_', identifier='finalized_snapshot_98593ab9-441b-4fcd-bb03-d17cbb5c41c5'), ReferenceKeyMsg(database='dvdrental', schema='valmi_scratch_computed_', identifier='finalized_snapshot_6f1eb8f2-bde8-4f86-b9a9-5e90b4c6b3ca'), ReferenceKeyMsg(database='dvdrental', schema='valmi_scratch_computed_', identifier='finalized_snapshot_5674b69a-f346-44cb-aa76-dce2125226c9'), ReferenceKeyMsg(database='dvdrental', schema='valmi_scratch_computed_', identifier='sync_metrics_6f1eb8f2-bde8-4f86-b9a9-5e90b4c6b3ca'), ReferenceKeyMsg(database='dvdrental', schema='valmi_scratch_computed_', identifier='finalized_snapshot_58582048-cf3f-4d26-86d3-53c0a37c171b'), ReferenceKeyMsg(database='dvdrental', schema='valmi_scratch_computed_', identifier='transit_snapshot_58582048-cf3f-4d26-86d3-53c0a37c171b'), ReferenceKeyMsg(database='dvdrental', schema='valmi_scratch_computed_', identifier='sync_metrics_5674b69a-f346-44cb-aa76-dce2125226c9'), ReferenceKeyMsg(database='dvdrental', schema='valmi_scratch_computed_', identifier='finalized_snapshot_25d8f567-5287-4d62-9af3-af85ff14d740'), ReferenceKeyMsg(database='dvdrental', schema='valmi_scratch_computed_', identifier='transit_snapshot_25d8f567-5287-4d62-9af3-af85ff14d740'), ReferenceKeyMsg(database='dvdrental', schema='valmi_scratch_computed_', identifier='ignored_snapshot_33fce3dd-9eca-482e-8034-cd7759fdb53c'), ReferenceKeyMsg(database='dvdrental', schema='valmi_scratch_computed_', identifier='transit_snapshot_872e14d3-239d-412c-aaa3-15ba7f5a1c0f'), ReferenceKeyMsg(database='dvdrental', schema='valmi_scratch_computed_', identifier='transit_snapshot_cd3cd64a-02c9-4345-8399-292a4680a848'), ReferenceKeyMsg(database='dvdrental', schema='valmi_scratch_computed_', identifier='finalized_snapshot_10681d30-a951-41cc-bf54-da4bed09e0c2'), ReferenceKeyMsg(database='dvdrental', schema='valmi_scratch_computed_', identifier='finalized_snapshot_4d280b44-0e34-4085-86d6-107d9372314f'), ReferenceKeyMsg(database='dvdrental', schema='valmi_scratch_computed_', identifier='delete_snapshot'), ReferenceKeyMsg(database='dvdrental', schema='valmi_scratch_computed_', identifier='init'), ReferenceKeyMsg(database='dvdrental', schema='valmi_scratch_computed_', identifier='transit_snapshot_4d280b44-0e34-4085-86d6-107d9372314f'), ReferenceKeyMsg(database='dvdrental', schema='valmi_scratch_computed_', identifier='sync_metrics'), ReferenceKeyMsg(database='dvdrental', schema='valmi_scratch_computed_', identifier='finalized_snapshot_872e14d3-239d-412c-aaa3-15ba7f5a1c0f'), ReferenceKeyMsg(database='dvdrental', schema='valmi_scratch_computed_', identifier='transit_snapshot_33fce3dd-9eca-482e-8034-cd7759fdb53c'), ReferenceKeyMsg(database='dvdrental', schema='valmi_scratch_computed_', identifier='sync_metrics_33fce3dd-9eca-482e-8034-cd7759fdb53c'), ReferenceKeyMsg(database='dvdrental', schema='valmi_scratch_computed_', identifier='sync_metrics_872e14d3-239d-412c-aaa3-15ba7f5a1c0f'), ReferenceKeyMsg(database='dvdrental', schema='valmi_scratch_computed_', identifier='ignored_snapshot_d8a92753-96a9-4628-b7b1-9dff536d359b'), ReferenceKeyMsg(database='dvdrental', schema='valmi_scratch_computed_', identifier='ignored_snapshot_10681d30-a951-41cc-bf54-da4bed09e0c2'), ReferenceKeyMsg(database='dvdrental', schema='valmi_scratch_computed_', identifier='sync_metrics_cd3cd64a-02c9-4345-8399-292a4680a848'), ReferenceKeyMsg(database='dvdrental', schema='valmi_scratch_computed_', identifier='finalized_snapshot_fa8df245-aec0-44aa-ad6a-b811b2dfa620'), ReferenceKeyMsg(database='dvdrental', schema='valmi_scratch_computed_', identifier='transit_snapshot_fa8df245-aec0-44aa-ad6a-b811b2dfa620'), ReferenceKeyMsg(database='dvdrental', schema='valmi_scratch_computed_', identifier='ignored_snapshot_4d280b44-0e34-4085-86d6-107d9372314f'), ReferenceKeyMsg(database='dvdrental', schema='valmi_scratch_computed_', identifier='sync_metrics_4d280b44-0e34-4085-86d6-107d9372314f'), ReferenceKeyMsg(database='dvdrental', schema='valmi_scratch_computed_', identifier='stg_snapshot'), ReferenceKeyMsg(database='dvdrental', schema='valmi_scratch_computed_', identifier='stg_snapshot_81c71230-a34f-4b63-9d8d-9958085ec82d'), ReferenceKeyMsg(database='dvdrental', schema='valmi_scratch_computed_', identifier='init_a6aebc8e-34ad-40e8-96b4-9c7cfc701b9e'), ReferenceKeyMsg(database='dvdrental', schema='valmi_scratch_computed_', identifier='stg_snapshot_6f1eb8f2-bde8-4f86-b9a9-5e90b4c6b3ca'), ReferenceKeyMsg(database='dvdrental', schema='valmi_scratch_computed_', identifier='init_7d62d6db-f1f1-4d85-925b-ef7e44a93373'), ReferenceKeyMsg(database='dvdrental', schema='valmi_scratch_computed_', identifier='stg_snapshot_10681d30-a951-41cc-bf54-da4bed09e0c2'), ReferenceKeyMsg(database='dvdrental', schema='valmi_scratch_computed_', identifier='stg_snapshot_d8a92753-96a9-4628-b7b1-9dff536d359b'), ReferenceKeyMsg(database='dvdrental', schema='valmi_scratch_computed_', identifier='stg_snapshot_a6aebc8e-34ad-40e8-96b4-9c7cfc701b9e'), ReferenceKeyMsg(database='dvdrental', schema='valmi_scratch_computed_', identifier='stg_snapshot_98593ab9-441b-4fcd-bb03-d17cbb5c41c5'), ReferenceKeyMsg(database='dvdrental', schema='valmi_scratch_computed_', identifier='init_cd3cd64a-02c9-4345-8399-292a4680a848'), ReferenceKeyMsg(database='dvdrental', schema='valmi_scratch_computed_', identifier='stg_snapshot_872e14d3-239d-412c-aaa3-15ba7f5a1c0f'), ReferenceKeyMsg(database='dvdrental', schema='valmi_scratch_computed_', identifier='stg_snapshot_4d280b44-0e34-4085-86d6-107d9372314f'), ReferenceKeyMsg(database='dvdrental', schema='valmi_scratch_computed_', identifier='init_49e6c558-1824-48c5-bfde-bca5d0732656'), ReferenceKeyMsg(database='dvdrental', schema='valmi_scratch_computed_', identifier='stg_snapshot_49e6c558-1824-48c5-bfde-bca5d0732656'), ReferenceKeyMsg(database='dvdrental', schema='valmi_scratch_computed_', identifier='init_81c71230-a34f-4b63-9d8d-9958085ec82d'), ReferenceKeyMsg(database='dvdrental', schema='valmi_scratch_computed_', identifier='stg_snapshot_cd3cd64a-02c9-4345-8399-292a4680a848'), ReferenceKeyMsg(database='dvdrental', schema='valmi_scratch_computed_', identifier='stg_snapshot_58582048-cf3f-4d26-86d3-53c0a37c171b'), ReferenceKeyMsg(database='dvdrental', schema='valmi_scratch_computed_', identifier='init_3a8d2bca-3f0c-4b73-865b-92104bd98479'), ReferenceKeyMsg(database='dvdrental', schema='valmi_scratch_computed_', identifier='stg_snapshot_3a8d2bca-3f0c-4b73-865b-92104bd98479'), ReferenceKeyMsg(database='dvdrental', schema='valmi_scratch_computed_', identifier='stg_snapshot_25d8f567-5287-4d62-9af3-af85ff14d740'), ReferenceKeyMsg(database='dvdrental', schema='valmi_scratch_computed_', identifier='init_98593ab9-441b-4fcd-bb03-d17cbb5c41c5'), ReferenceKeyMsg(database='dvdrental', schema='valmi_scratch_computed_', identifier='init_6f1eb8f2-bde8-4f86-b9a9-5e90b4c6b3ca'), ReferenceKeyMsg(database='dvdrental', schema='valmi_scratch_computed_', identifier='init_58582048-cf3f-4d26-86d3-53c0a37c171b'), ReferenceKeyMsg(database='dvdrental', schema='valmi_scratch_computed_', identifier='stg_snapshot_7d62d6db-f1f1-4d85-925b-ef7e44a93373'), ReferenceKeyMsg(database='dvdrental', schema='valmi_scratch_computed_', identifier='init_5674b69a-f346-44cb-aa76-dce2125226c9'), ReferenceKeyMsg(database='dvdrental', schema='valmi_scratch_computed_', identifier='stg_snapshot_5674b69a-f346-44cb-aa76-dce2125226c9'), ReferenceKeyMsg(database='dvdrental', schema='valmi_scratch_computed_', identifier='init_25d8f567-5287-4d62-9af3-af85ff14d740'), ReferenceKeyMsg(database='dvdrental', schema='valmi_scratch_computed_', identifier='init_10681d30-a951-41cc-bf54-da4bed09e0c2'), ReferenceKeyMsg(database='dvdrental', schema='valmi_scratch_computed_', identifier='stg_snapshot_fa8df245-aec0-44aa-ad6a-b811b2dfa620'), ReferenceKeyMsg(database='dvdrental', schema='valmi_scratch_computed_', identifier='init_4d280b44-0e34-4085-86d6-107d9372314f'), ReferenceKeyMsg(database='dvdrental', schema='valmi_scratch_computed_', identifier='init_33fce3dd-9eca-482e-8034-cd7759fdb53c'), ReferenceKeyMsg(database='dvdrental', schema='valmi_scratch_computed_', identifier='stg_snapshot_33fce3dd-9eca-482e-8034-cd7759fdb53c'), ReferenceKeyMsg(database='dvdrental', schema='valmi_scratch_computed_', identifier='init_872e14d3-239d-412c-aaa3-15ba7f5a1c0f'), ReferenceKeyMsg(database='dvdrental', schema='valmi_scratch_computed_', identifier='init_fa8df245-aec0-44aa-ad6a-b811b2dfa620'), ReferenceKeyMsg(database='dvdrental', schema='valmi_scratch_computed_', identifier='init_d8a92753-96a9-4628-b7b1-9dff536d359b')]
+2023-04-15 06:50:37.140912 (Thread-1): 06:50:37  Timing info for rpc.valmi_postgres.request (compile): 2023-04-15 06:50:36.055458 => 2023-04-15 06:50:37.140741
+2023-04-15 06:50:37.141145 (Thread-1): 06:50:37  Began executing node rpc.valmi_postgres.request
+2023-04-15 06:50:37.141310 (Thread-1): 06:50:37  Timing info for rpc.valmi_postgres.request (execute): 2023-04-15 06:50:37.141193 => 2023-04-15 06:50:37.141211
+2023-04-15 06:50:37.141475 (Thread-1): 06:50:37  On rpc.valmi_postgres.request: ROLLBACK
+2023-04-15 06:50:37.244496 (Thread-1): 06:50:37  On rpc.valmi_postgres.request: Close
+2023-04-15 06:50:38.380520 (Thread-181): handling poll request
+2023-04-15 06:50:38.381010 (Thread-181): 06:50:38  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '8e56c7fc-6ef3-42f7-ae13-0513b6153959', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fc4e2e1c7c0>]}
+2023-04-15 06:50:38.382063 (Thread-181): sending response (<Response 32509 bytes [200 OK]>) to 10.0.191.177
+2023-04-15 06:50:38.976044 (Thread-182): handling ps request
+2023-04-15 06:50:38.976536 (Thread-182): 06:50:38  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '8e56c7fc-6ef3-42f7-ae13-0513b6153959', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fc4e2e1cb80>]}
+2023-04-15 06:50:38.977715 (Thread-182): sending response (<Response 11419 bytes [200 OK]>) to 10.0.191.177
+2023-04-15 06:50:39.158848 (Thread-183): handling poll request
+2023-04-15 06:50:39.159234 (Thread-183): 06:50:39  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '8e56c7fc-6ef3-42f7-ae13-0513b6153959', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fc4e2e1c880>]}
+2023-04-15 06:50:39.160146 (Thread-183): sending response (<Response 35525 bytes [200 OK]>) to 10.0.191.177
+2023-04-15 06:50:39.402778 (Thread-184): handling status request
+2023-04-15 06:50:39.403153 (Thread-184): 06:50:39  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '8e56c7fc-6ef3-42f7-ae13-0513b6153959', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fc4e2e1cee0>]}
+2023-04-15 06:50:39.403582 (Thread-184): sending response (<Response 2219 bytes [200 OK]>) to 10.0.191.177
+2023-04-15 06:51:02.440033 (Thread-185): handling status request
+2023-04-15 06:51:02.440543 (Thread-185): 06:51:02  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '8e56c7fc-6ef3-42f7-ae13-0513b6153959', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fc4e2e1cfa0>]}
+2023-04-15 06:51:02.441043 (Thread-185): sending response (<Response 2219 bytes [200 OK]>) to 10.0.191.177
+2023-04-15 06:51:12.033217 (Thread-186): handling status request
+2023-04-15 06:51:12.033726 (Thread-186): 06:51:12  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '8e56c7fc-6ef3-42f7-ae13-0513b6153959', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fc4e2e1c430>]}
+2023-04-15 06:51:12.034244 (Thread-186): sending response (<Response 2219 bytes [200 OK]>) to 10.0.191.177
+2023-04-15 06:52:12.097723 (Thread-187): handling status request
+2023-04-15 06:52:12.098238 (Thread-187): 06:52:12  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '8e56c7fc-6ef3-42f7-ae13-0513b6153959', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fc4e2f60610>]}
+2023-04-15 06:52:12.098735 (Thread-187): sending response (<Response 2219 bytes [200 OK]>) to 10.0.191.177
+2023-04-15 06:52:45.564948 (Thread-188): handling status request
+2023-04-15 06:52:45.565507 (Thread-188): 06:52:45  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '8e56c7fc-6ef3-42f7-ae13-0513b6153959', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fc4e57332b0>]}
+2023-04-15 06:52:45.566023 (Thread-188): sending response (<Response 2219 bytes [200 OK]>) to 10.0.191.177
+2023-04-15 06:54:08.340986 (Thread-189): handling status request
+2023-04-15 06:54:08.342780 (Thread-189): 06:54:08  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '8e56c7fc-6ef3-42f7-ae13-0513b6153959', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fc4e2f60970>]}
+2023-04-15 06:54:08.343311 (Thread-189): sending response (<Response 2219 bytes [200 OK]>) to 10.0.191.177
+2023-04-15 06:54:58.229139 (Thread-190): handling status request
+2023-04-15 06:54:58.229627 (Thread-190): 06:54:58  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '8e56c7fc-6ef3-42f7-ae13-0513b6153959', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fc4e2f60850>]}
+2023-04-15 06:54:58.230110 (Thread-190): sending response (<Response 2219 bytes [200 OK]>) to 10.0.191.177
+2023-04-15 06:54:59.897242 (Thread-191): handling status request
+2023-04-15 06:54:59.898369 (Thread-191): 06:54:59  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '8e56c7fc-6ef3-42f7-ae13-0513b6153959', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fc4e2e007f0>]}
+2023-04-15 06:54:59.898890 (Thread-191): sending response (<Response 2219 bytes [200 OK]>) to 10.0.191.177
+2023-04-15 06:54:59.976693 (Thread-192): handling ps request
+2023-04-15 06:54:59.977176 (Thread-192): 06:54:59  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '8e56c7fc-6ef3-42f7-ae13-0513b6153959', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fc4e2f1a100>]}
+2023-04-15 06:54:59.978400 (Thread-192): sending response (<Response 11419 bytes [200 OK]>) to 10.0.191.177
+2023-04-15 06:55:00.240073 (Thread-193): handling ps request
+2023-04-15 06:55:00.240563 (Thread-193): 06:55:00  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '8e56c7fc-6ef3-42f7-ae13-0513b6153959', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fc4e2e25e20>]}
+2023-04-15 06:55:00.241802 (Thread-193): sending response (<Response 11419 bytes [200 OK]>) to 10.0.191.177
+2023-04-15 06:55:00.348971 (Thread-194): handling status request
+2023-04-15 06:55:00.349418 (Thread-194): 06:55:00  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '8e56c7fc-6ef3-42f7-ae13-0513b6153959', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fc4e2f1ab50>]}
+2023-04-15 06:55:00.349909 (Thread-194): sending response (<Response 2219 bytes [200 OK]>) to 10.0.191.177
+2023-04-15 06:55:15.056634 (Thread-195): 06:55:15  checksum: 9f5971860ea7956c5d0d162f1c96671df61b5ad9db5c4152918680483cec5347, vars: {}, profile: user, target: None, version: 1.4.5
+2023-04-15 06:55:15.091709 (Thread-195): 06:55:15  Partial parsing enabled: 0 files deleted, 0 files added, 1 files changed.
+2023-04-15 06:55:15.092212 (Thread-195): 06:55:15  Partial parsing: updated file: valmi_postgres://models/staging/stg_snapshot.sql
+2023-04-15 06:55:15.098533 (Thread-195): 06:55:15  1603: static parser failed on staging/stg_snapshot.sql
+2023-04-15 06:55:15.111150 (Thread-195): 06:55:15  1602: parser fallback to jinja rendering on staging/stg_snapshot.sql
+2023-04-15 06:55:15.173037 (Thread-195): 06:55:15  Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '8e56c7fc-6ef3-42f7-ae13-0513b6153959', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fc4e06d09d0>]}
+2023-04-15 06:55:15.424875 (Thread-196): handling status request
+2023-04-15 06:55:15.425344 (Thread-196): 06:55:15  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '8e56c7fc-6ef3-42f7-ae13-0513b6153959', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fc4e074ed30>]}
+2023-04-15 06:55:15.425843 (Thread-196): sending response (<Response 2219 bytes [200 OK]>) to 10.0.191.177
+2023-04-15 06:56:11.446655 (Thread-197): handling status request
+2023-04-15 06:56:11.447130 (Thread-197): 06:56:11  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '8e56c7fc-6ef3-42f7-ae13-0513b6153959', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fc4e074eca0>]}
+2023-04-15 06:56:11.447614 (Thread-197): sending response (<Response 2219 bytes [200 OK]>) to 10.0.191.177
+2023-04-15 06:56:11.965442 (Thread-198): handling ps request
+2023-04-15 06:56:11.965931 (Thread-198): 06:56:11  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '8e56c7fc-6ef3-42f7-ae13-0513b6153959', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fc4e074eb20>]}
+2023-04-15 06:56:11.967147 (Thread-198): sending response (<Response 11419 bytes [200 OK]>) to 10.0.191.177
+2023-04-15 06:56:11.985840 (Thread-199): handling ps request
+2023-04-15 06:56:11.986251 (Thread-199): 06:56:11  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '8e56c7fc-6ef3-42f7-ae13-0513b6153959', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fc4e074eee0>]}
+2023-04-15 06:56:11.987384 (Thread-199): sending response (<Response 11419 bytes [200 OK]>) to 10.0.191.177
+2023-04-15 06:56:12.138036 (Thread-200): handling status request
+2023-04-15 06:56:12.138531 (Thread-200): 06:56:12  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '8e56c7fc-6ef3-42f7-ae13-0513b6153959', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fc4e074eac0>]}
+2023-04-15 06:56:12.139019 (Thread-200): sending response (<Response 2219 bytes [200 OK]>) to 10.0.191.177
+2023-04-15 06:56:12.499903 (Thread-201): handling poll request
+2023-04-15 06:56:12.500407 (Thread-201): 06:56:12  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '8e56c7fc-6ef3-42f7-ae13-0513b6153959', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fc4e074eb20>]}
+2023-04-15 06:56:12.501413 (Thread-201): sending response (<Response 35525 bytes [200 OK]>) to 10.0.191.177
+2023-04-15 06:56:12.562702 (Thread-202): handling poll request
+2023-04-15 06:56:12.563071 (Thread-202): 06:56:12  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '8e56c7fc-6ef3-42f7-ae13-0513b6153959', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fc4e2e54be0>]}
+2023-04-15 06:56:12.563919 (Thread-202): sending response (<Response 35525 bytes [200 OK]>) to 10.0.191.177
+2023-04-15 06:56:12.938462 (Thread-203): handling status request
+2023-04-15 06:56:12.938948 (Thread-203): 06:56:12  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '8e56c7fc-6ef3-42f7-ae13-0513b6153959', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fc4e2e54d60>]}
+2023-04-15 06:56:12.939438 (Thread-203): sending response (<Response 2219 bytes [200 OK]>) to 10.0.191.177
+2023-04-15 06:56:15.603668 (Thread-204): handling ps request
+2023-04-15 06:56:15.604211 (Thread-204): 06:56:15  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '8e56c7fc-6ef3-42f7-ae13-0513b6153959', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fc4e2e54c70>]}
+2023-04-15 06:56:15.605462 (Thread-204): sending response (<Response 11419 bytes [200 OK]>) to 10.0.191.177
+2023-04-15 06:56:15.616546 (Thread-205): handling ps request
+2023-04-15 06:56:15.616919 (Thread-205): 06:56:15  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '8e56c7fc-6ef3-42f7-ae13-0513b6153959', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fc4e2e54880>]}
+2023-04-15 06:56:15.618010 (Thread-205): sending response (<Response 11419 bytes [200 OK]>) to 10.0.191.177
+2023-04-15 06:56:15.746511 (Thread-206): handling status request
+2023-04-15 06:56:15.747000 (Thread-206): 06:56:15  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '8e56c7fc-6ef3-42f7-ae13-0513b6153959', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fc4e2e54640>]}
+2023-04-15 06:56:15.768972 (Thread-206): sending response (<Response 2219 bytes [200 OK]>) to 10.0.191.177
+2023-04-15 06:56:15.794145 (Thread-207): handling status request
+2023-04-15 06:56:15.794545 (Thread-207): 06:56:15  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '8e56c7fc-6ef3-42f7-ae13-0513b6153959', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fc4e2e133d0>]}
+2023-04-15 06:56:15.794983 (Thread-207): sending response (<Response 2219 bytes [200 OK]>) to 10.0.191.177
+2023-04-15 06:56:15.799285 (Thread-208): handling list request
+2023-04-15 06:56:15.799608 (Thread-208): 06:56:15  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '8e56c7fc-6ef3-42f7-ae13-0513b6153959', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fc4e2e54c40>]}
+2023-04-15 06:56:15.836761 (Thread-208): 06:56:15  Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '8e56c7fc-6ef3-42f7-ae13-0513b6153959', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fc4e06d0be0>]}
+2023-04-15 06:56:15.837285 (Thread-208): 06:56:15  Found 5 models, 0 tests, 0 snapshots, 0 analyses, 292 macros, 0 operations, 0 seed files, 6 sources, 0 exposures, 0 metrics
+2023-04-15 06:56:15.837636 (Thread-208): 06:56:15  Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '8e56c7fc-6ef3-42f7-ae13-0513b6153959', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fc4e56b63a0>]}
+2023-04-15 06:56:15.839659 (Thread-208): sending response (<Response 4440 bytes [200 OK]>) to 10.0.191.177
+2023-04-15 07:00:28.585903 (Thread-209): handling status request
+2023-04-15 07:00:28.586910 (Thread-209): 07:00:28  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '8e56c7fc-6ef3-42f7-ae13-0513b6153959', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fc4e2e54970>]}
+2023-04-15 07:00:28.587434 (Thread-209): sending response (<Response 2219 bytes [200 OK]>) to 10.0.191.177
+2023-04-15 07:00:40.326173 (Thread-210): handling status request
+2023-04-15 07:00:40.326663 (Thread-210): 07:00:40  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '8e56c7fc-6ef3-42f7-ae13-0513b6153959', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fc4e06e2dc0>]}
+2023-04-15 07:00:40.327153 (Thread-210): sending response (<Response 2219 bytes [200 OK]>) to 10.0.191.177
+2023-04-15 07:05:59.281828 (Thread-211): handling status request
+2023-04-15 07:05:59.283633 (Thread-211): 07:05:59  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '8e56c7fc-6ef3-42f7-ae13-0513b6153959', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fc4e06e23d0>]}
+2023-04-15 07:05:59.284169 (Thread-211): sending response (<Response 2219 bytes [200 OK]>) to 10.0.191.177
+2023-04-15 07:06:19.471389 (Thread-212): handling status request
+2023-04-15 07:06:19.471925 (Thread-212): 07:06:19  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '8e56c7fc-6ef3-42f7-ae13-0513b6153959', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fc4e06e2700>]}
+2023-04-15 07:06:19.472443 (Thread-212): sending response (<Response 2219 bytes [200 OK]>) to 10.0.191.177
+2023-04-15 07:06:22.169524 (Thread-213): handling status request
+2023-04-15 07:06:22.170101 (Thread-213): 07:06:22  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '8e56c7fc-6ef3-42f7-ae13-0513b6153959', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fc4e06e22b0>]}
+2023-04-15 07:06:22.170602 (Thread-213): sending response (<Response 2219 bytes [200 OK]>) to 10.0.191.177
+2023-04-15 07:06:58.514268 (Thread-214): handling status request
+2023-04-15 07:06:58.514765 (Thread-214): 07:06:58  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '8e56c7fc-6ef3-42f7-ae13-0513b6153959', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fc4e06e24c0>]}
+2023-04-15 07:06:58.515258 (Thread-214): sending response (<Response 2219 bytes [200 OK]>) to 10.0.191.177
+2023-04-15 07:07:06.879103 (Thread-215): handling status request
+2023-04-15 07:07:06.879605 (Thread-215): 07:07:06  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '8e56c7fc-6ef3-42f7-ae13-0513b6153959', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fc4e06e2d60>]}
+2023-04-15 07:07:06.880152 (Thread-215): sending response (<Response 2219 bytes [200 OK]>) to 10.0.191.177
+2023-04-15 07:07:06.884640 (Thread-216): handling list request
+2023-04-15 07:07:06.884976 (Thread-216): 07:07:06  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '8e56c7fc-6ef3-42f7-ae13-0513b6153959', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fc4e06e2d90>]}
+2023-04-15 07:07:06.926149 (Thread-216): 07:07:06  Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '8e56c7fc-6ef3-42f7-ae13-0513b6153959', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fc4e06e25e0>]}
+2023-04-15 07:07:06.926626 (Thread-216): 07:07:06  Found 5 models, 0 tests, 0 snapshots, 0 analyses, 292 macros, 0 operations, 0 seed files, 6 sources, 0 exposures, 0 metrics
+2023-04-15 07:07:06.926941 (Thread-216): 07:07:06  Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '8e56c7fc-6ef3-42f7-ae13-0513b6153959', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fc4e06e2b20>]}
+2023-04-15 07:07:06.928844 (Thread-216): sending response (<Response 4217 bytes [200 OK]>) to 10.0.191.177
+2023-04-15 07:07:24.777939 (Thread-217): 07:07:24  checksum: 9f5971860ea7956c5d0d162f1c96671df61b5ad9db5c4152918680483cec5347, vars: {}, profile: user, target: None, version: 1.4.5
+2023-04-15 07:07:24.812970 (Thread-217): 07:07:24  Partial parsing enabled: 0 files deleted, 0 files added, 1 files changed.
+2023-04-15 07:07:24.813373 (Thread-217): 07:07:24  Partial parsing: updated file: valmi_postgres://models/staging/init.sql
+2023-04-15 07:07:24.818824 (Thread-217): 07:07:24  1603: static parser failed on staging/init.sql
+2023-04-15 07:07:24.836304 (Thread-217): 07:07:24  1602: parser fallback to jinja rendering on staging/init.sql
+2023-04-15 07:07:24.919234 (Thread-217): 07:07:24  Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '8e56c7fc-6ef3-42f7-ae13-0513b6153959', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fc4e0626e80>]}
+2023-04-15 07:07:25.172056 (Thread-218): handling status request
+2023-04-15 07:07:25.172502 (Thread-218): 07:07:25  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '8e56c7fc-6ef3-42f7-ae13-0513b6153959', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fc4e0662b20>]}
+2023-04-15 07:07:25.172982 (Thread-218): sending response (<Response 2195 bytes [200 OK]>) to 10.0.191.177
+2023-04-15 07:07:25.194643 (Thread-219): handling status request
+2023-04-15 07:07:25.194985 (Thread-219): 07:07:25  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '8e56c7fc-6ef3-42f7-ae13-0513b6153959', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fc4e0662a90>]}
+2023-04-15 07:07:25.195377 (Thread-219): sending response (<Response 2195 bytes [200 OK]>) to 10.0.191.177
+2023-04-15 07:07:25.201395 (Thread-220): handling list request
+2023-04-15 07:07:25.201715 (Thread-220): 07:07:25  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '8e56c7fc-6ef3-42f7-ae13-0513b6153959', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fc4e0662a30>]}
+2023-04-15 07:07:25.245241 (Thread-220): 07:07:25  Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '8e56c7fc-6ef3-42f7-ae13-0513b6153959', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fc4e06c87f0>]}
+2023-04-15 07:07:25.245765 (Thread-220): 07:07:25  Found 5 models, 0 tests, 0 snapshots, 0 analyses, 292 macros, 0 operations, 0 seed files, 6 sources, 0 exposures, 0 metrics
+2023-04-15 07:07:25.246077 (Thread-220): 07:07:25  Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '8e56c7fc-6ef3-42f7-ae13-0513b6153959', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fc4e7f05f40>]}
+2023-04-15 07:07:25.247942 (Thread-220): sending response (<Response 4373 bytes [200 OK]>) to 10.0.191.177
+2023-04-15 07:07:29.772097 (Thread-221): 07:07:29  checksum: 9f5971860ea7956c5d0d162f1c96671df61b5ad9db5c4152918680483cec5347, vars: {}, profile: user, target: None, version: 1.4.5
+2023-04-15 07:07:29.807680 (Thread-221): 07:07:29  Partial parsing enabled: 0 files deleted, 0 files added, 1 files changed.
+2023-04-15 07:07:29.808109 (Thread-221): 07:07:29  Partial parsing: updated file: valmi_postgres://models/staging/init.sql
+2023-04-15 07:07:29.813201 (Thread-221): 07:07:29  1603: static parser failed on staging/init.sql
+2023-04-15 07:07:29.831328 (Thread-221): 07:07:29  1602: parser fallback to jinja rendering on staging/init.sql
+2023-04-15 07:07:29.887505 (Thread-221): 07:07:29  Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '8e56c7fc-6ef3-42f7-ae13-0513b6153959', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fc4ddee5e80>]}
+2023-04-15 07:07:30.166721 (Thread-222): handling status request
+2023-04-15 07:07:30.167196 (Thread-222): 07:07:30  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '8e56c7fc-6ef3-42f7-ae13-0513b6153959', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fc4ddf1cf70>]}
+2023-04-15 07:07:30.167691 (Thread-222): sending response (<Response 2195 bytes [200 OK]>) to 10.0.191.177
+2023-04-15 07:07:30.205698 (Thread-223): handling status request
+2023-04-15 07:07:30.206151 (Thread-223): 07:07:30  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '8e56c7fc-6ef3-42f7-ae13-0513b6153959', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fc4ddf1caf0>]}
+2023-04-15 07:07:30.206629 (Thread-223): sending response (<Response 2195 bytes [200 OK]>) to 10.0.191.177
+2023-04-15 07:07:30.212043 (Thread-224): handling list request
+2023-04-15 07:07:30.212387 (Thread-224): 07:07:30  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '8e56c7fc-6ef3-42f7-ae13-0513b6153959', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fc4ddf1c5e0>]}
+2023-04-15 07:07:30.249180 (Thread-224): 07:07:30  Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '8e56c7fc-6ef3-42f7-ae13-0513b6153959', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fc4e061c550>]}
+2023-04-15 07:07:30.249798 (Thread-224): 07:07:30  Found 5 models, 0 tests, 0 snapshots, 0 analyses, 292 macros, 0 operations, 0 seed files, 6 sources, 0 exposures, 0 metrics
+2023-04-15 07:07:30.250143 (Thread-224): 07:07:30  Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '8e56c7fc-6ef3-42f7-ae13-0513b6153959', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fc4e06c88e0>]}
+2023-04-15 07:07:30.252208 (Thread-224): sending response (<Response 4602 bytes [200 OK]>) to 10.0.191.177
+2023-04-15 07:07:32.204315 (Thread-225): 07:07:32  checksum: 9f5971860ea7956c5d0d162f1c96671df61b5ad9db5c4152918680483cec5347, vars: {}, profile: user, target: None, version: 1.4.5
+2023-04-15 07:07:32.239398 (Thread-225): 07:07:32  Partial parsing enabled: 0 files deleted, 0 files added, 1 files changed.
+2023-04-15 07:07:32.239793 (Thread-225): 07:07:32  Partial parsing: updated file: valmi_postgres://models/staging/init.sql
+2023-04-15 07:07:32.245067 (Thread-225): 07:07:32  1603: static parser failed on staging/init.sql
+2023-04-15 07:07:32.262616 (Thread-225): 07:07:32  1602: parser fallback to jinja rendering on staging/init.sql
+2023-04-15 07:07:32.316535 (Thread-225): 07:07:32  Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '8e56c7fc-6ef3-42f7-ae13-0513b6153959', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fc4dde04160>]}
+2023-04-15 07:07:32.567122 (Thread-226): handling status request
+2023-04-15 07:07:32.567539 (Thread-226): 07:07:32  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '8e56c7fc-6ef3-42f7-ae13-0513b6153959', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fc4dde57fa0>]}
+2023-04-15 07:07:32.568038 (Thread-226): sending response (<Response 2195 bytes [200 OK]>) to 10.0.191.177
+2023-04-15 07:07:32.617376 (Thread-227): handling status request
+2023-04-15 07:07:32.617704 (Thread-227): 07:07:32  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '8e56c7fc-6ef3-42f7-ae13-0513b6153959', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fc4dde57f70>]}
+2023-04-15 07:07:32.618104 (Thread-227): sending response (<Response 2195 bytes [200 OK]>) to 10.0.191.177
+2023-04-15 07:07:32.623992 (Thread-228): handling list request
+2023-04-15 07:07:32.624298 (Thread-228): 07:07:32  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '8e56c7fc-6ef3-42f7-ae13-0513b6153959', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fc4dde57df0>]}
+2023-04-15 07:07:32.679527 (Thread-228): 07:07:32  Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '8e56c7fc-6ef3-42f7-ae13-0513b6153959', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fc4fbe947c0>]}
+2023-04-15 07:07:32.680056 (Thread-228): 07:07:32  Found 5 models, 0 tests, 0 snapshots, 0 analyses, 292 macros, 0 operations, 0 seed files, 6 sources, 0 exposures, 0 metrics
+2023-04-15 07:07:32.680365 (Thread-228): 07:07:32  Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '8e56c7fc-6ef3-42f7-ae13-0513b6153959', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fc4e06c88b0>]}
+2023-04-15 07:07:32.682227 (Thread-228): sending response (<Response 4598 bytes [200 OK]>) to 10.0.191.177
+2023-04-15 07:08:47.956817 (Thread-229): 07:08:47  checksum: 9f5971860ea7956c5d0d162f1c96671df61b5ad9db5c4152918680483cec5347, vars: {}, profile: user, target: None, version: 1.4.5
+2023-04-15 07:08:47.996884 (Thread-229): 07:08:47  Partial parsing enabled: 0 files deleted, 0 files added, 1 files changed.
+2023-04-15 07:08:47.997284 (Thread-229): 07:08:47  Partial parsing: updated file: valmi_postgres://models/staging/init.sql
+2023-04-15 07:08:48.188603 (Thread-229): 07:08:48  1603: static parser failed on staging/init.sql
+2023-04-15 07:08:48.206514 (Thread-229): 07:08:48  1602: parser fallback to jinja rendering on staging/init.sql
+2023-04-15 07:08:48.276482 (Thread-229): 07:08:48  Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '8e56c7fc-6ef3-42f7-ae13-0513b6153959', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fc4e5717160>]}
+2023-04-15 07:08:48.351599 (Thread-230): handling status request
+2023-04-15 07:08:48.352029 (Thread-230): 07:08:48  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '8e56c7fc-6ef3-42f7-ae13-0513b6153959', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fc4db6e9d30>]}
+2023-04-15 07:08:48.352501 (Thread-230): sending response (<Response 2195 bytes [200 OK]>) to 10.0.191.177
+2023-04-15 07:08:48.397406 (Thread-231): handling status request
+2023-04-15 07:08:48.397740 (Thread-231): 07:08:48  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '8e56c7fc-6ef3-42f7-ae13-0513b6153959', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fc4db6e9b80>]}
+2023-04-15 07:08:48.398147 (Thread-231): sending response (<Response 2195 bytes [200 OK]>) to 10.0.191.177
+2023-04-15 07:08:48.404848 (Thread-232): handling list request
+2023-04-15 07:08:48.405177 (Thread-232): 07:08:48  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '8e56c7fc-6ef3-42f7-ae13-0513b6153959', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fc4db6e9fd0>]}
+2023-04-15 07:08:48.441796 (Thread-232): 07:08:48  Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '8e56c7fc-6ef3-42f7-ae13-0513b6153959', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fc4e06dd8e0>]}
+2023-04-15 07:08:48.442328 (Thread-232): 07:08:48  Found 5 models, 0 tests, 0 snapshots, 0 analyses, 292 macros, 0 operations, 0 seed files, 6 sources, 0 exposures, 0 metrics
+2023-04-15 07:08:48.442643 (Thread-232): 07:08:48  Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '8e56c7fc-6ef3-42f7-ae13-0513b6153959', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fc4dde579a0>]}
+2023-04-15 07:08:48.444543 (Thread-232): sending response (<Response 4217 bytes [200 OK]>) to 10.0.191.177
+2023-04-15 07:08:53.977589 (Thread-233): handling status request
+2023-04-15 07:08:53.978090 (Thread-233): 07:08:53  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '8e56c7fc-6ef3-42f7-ae13-0513b6153959', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fc4ddde9e80>]}
+2023-04-15 07:08:53.978614 (Thread-233): sending response (<Response 2195 bytes [200 OK]>) to 10.0.191.177
+2023-04-15 07:08:53.983011 (Thread-234): handling list request
+2023-04-15 07:08:53.983336 (Thread-234): 07:08:53  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '8e56c7fc-6ef3-42f7-ae13-0513b6153959', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fc4db6eb250>]}
+2023-04-15 07:08:54.013624 (Thread-234): 07:08:54  Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '8e56c7fc-6ef3-42f7-ae13-0513b6153959', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fc4e5635fa0>]}
+2023-04-15 07:08:54.014167 (Thread-234): 07:08:54  Found 5 models, 0 tests, 0 snapshots, 0 analyses, 292 macros, 0 operations, 0 seed files, 6 sources, 0 exposures, 0 metrics
+2023-04-15 07:08:54.014491 (Thread-234): 07:08:54  Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '8e56c7fc-6ef3-42f7-ae13-0513b6153959', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fc4dde57940>]}
+2023-04-15 07:08:54.016433 (Thread-234): sending response (<Response 4440 bytes [200 OK]>) to 10.0.191.177
+2023-04-15 07:08:55.184234 (Thread-235): handling status request
+2023-04-15 07:08:55.184743 (Thread-235): 07:08:55  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '8e56c7fc-6ef3-42f7-ae13-0513b6153959', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fc4e56da1f0>]}
+2023-04-15 07:08:55.185254 (Thread-235): sending response (<Response 2195 bytes [200 OK]>) to 10.0.191.177
+2023-04-15 07:08:55.189555 (Thread-236): handling list request
+2023-04-15 07:08:55.189881 (Thread-236): 07:08:55  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '8e56c7fc-6ef3-42f7-ae13-0513b6153959', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fc4e56dab50>]}
+2023-04-15 07:08:55.223852 (Thread-236): 07:08:55  Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '8e56c7fc-6ef3-42f7-ae13-0513b6153959', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fc4e5717220>]}
+2023-04-15 07:08:55.224395 (Thread-236): 07:08:55  Found 5 models, 0 tests, 0 snapshots, 0 analyses, 292 macros, 0 operations, 0 seed files, 6 sources, 0 exposures, 0 metrics
+2023-04-15 07:08:55.224708 (Thread-236): 07:08:55  Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '8e56c7fc-6ef3-42f7-ae13-0513b6153959', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fc4ddde96a0>]}
+2023-04-15 07:08:55.225381 (Thread-236): 07:08:55  The selection criterion '2+finalize_transit_snapshot+2' does not match any nodes
+2023-04-15 07:08:55.225698 (Thread-236): 07:08:55  No nodes selected!
+2023-04-15 07:08:55.227178 (Thread-236): sending response (<Response 2504 bytes [200 OK]>) to 10.0.191.177
+2023-04-15 07:09:35.576481 (Thread-237): 07:09:35  checksum: 9f5971860ea7956c5d0d162f1c96671df61b5ad9db5c4152918680483cec5347, vars: {}, profile: user, target: None, version: 1.4.5
+2023-04-15 07:09:35.611320 (Thread-237): 07:09:35  Partial parsing enabled: 0 files deleted, 0 files added, 1 files changed.
+2023-04-15 07:09:35.611716 (Thread-237): 07:09:35  Partial parsing: updated file: valmi_postgres://models/staging/init.sql
+2023-04-15 07:09:35.617363 (Thread-237): 07:09:35  1603: static parser failed on staging/init.sql
+2023-04-15 07:09:35.634194 (Thread-237): 07:09:35  1602: parser fallback to jinja rendering on staging/init.sql
+2023-04-15 07:09:35.677913 (Thread-237): 07:09:35  Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '8e56c7fc-6ef3-42f7-ae13-0513b6153959', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fc4fbe94700>]}
+2023-04-15 07:09:35.963587 (Thread-238): handling status request
+2023-04-15 07:09:35.964035 (Thread-238): 07:09:35  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '8e56c7fc-6ef3-42f7-ae13-0513b6153959', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fc4e57995b0>]}
+2023-04-15 07:09:35.964523 (Thread-238): sending response (<Response 2195 bytes [200 OK]>) to 10.0.191.177
+2023-04-15 07:09:36.009067 (Thread-239): handling status request
+2023-04-15 07:09:36.009396 (Thread-239): 07:09:36  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '8e56c7fc-6ef3-42f7-ae13-0513b6153959', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fc4e57993d0>]}
+2023-04-15 07:09:36.009786 (Thread-239): sending response (<Response 2195 bytes [200 OK]>) to 10.0.191.177
+2023-04-15 07:09:36.015613 (Thread-240): handling list request
+2023-04-15 07:09:36.015941 (Thread-240): 07:09:36  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '8e56c7fc-6ef3-42f7-ae13-0513b6153959', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fc4e5799700>]}
+2023-04-15 07:09:36.050019 (Thread-240): 07:09:36  Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '8e56c7fc-6ef3-42f7-ae13-0513b6153959', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fc4e562f490>]}
+2023-04-15 07:09:36.050536 (Thread-240): 07:09:36  Found 5 models, 0 tests, 0 snapshots, 0 analyses, 292 macros, 0 operations, 0 seed files, 6 sources, 0 exposures, 0 metrics
+2023-04-15 07:09:36.050849 (Thread-240): 07:09:36  Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '8e56c7fc-6ef3-42f7-ae13-0513b6153959', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fc4e5635be0>]}
+2023-04-15 07:09:36.052676 (Thread-240): sending response (<Response 4217 bytes [200 OK]>) to 10.0.191.177
+2023-04-15 07:09:37.401091 (Thread-241): handling status request
+2023-04-15 07:09:37.401588 (Thread-241): 07:09:37  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '8e56c7fc-6ef3-42f7-ae13-0513b6153959', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fc4e562f310>]}
+2023-04-15 07:09:37.402095 (Thread-241): sending response (<Response 2195 bytes [200 OK]>) to 10.0.191.177
+2023-04-15 07:09:37.406453 (Thread-242): handling list request
+2023-04-15 07:09:37.406776 (Thread-242): 07:09:37  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '8e56c7fc-6ef3-42f7-ae13-0513b6153959', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fc4e7e56340>]}
+2023-04-15 07:09:37.437057 (Thread-242): 07:09:37  Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '8e56c7fc-6ef3-42f7-ae13-0513b6153959', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fc4e5710100>]}
+2023-04-15 07:09:37.437573 (Thread-242): 07:09:37  Found 5 models, 0 tests, 0 snapshots, 0 analyses, 292 macros, 0 operations, 0 seed files, 6 sources, 0 exposures, 0 metrics
+2023-04-15 07:09:37.437889 (Thread-242): 07:09:37  Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '8e56c7fc-6ef3-42f7-ae13-0513b6153959', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fc4e57994f0>]}
+2023-04-15 07:09:37.439793 (Thread-242): sending response (<Response 4440 bytes [200 OK]>) to 10.0.191.177
+2023-04-15 07:09:40.164964 (Thread-243): handling status request
+2023-04-15 07:09:40.165461 (Thread-243): 07:09:40  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '8e56c7fc-6ef3-42f7-ae13-0513b6153959', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fc4e5710520>]}
+2023-04-15 07:09:40.165959 (Thread-243): sending response (<Response 2195 bytes [200 OK]>) to 10.0.191.177
+2023-04-15 07:09:40.170949 (Thread-244): handling list request
+2023-04-15 07:09:40.171300 (Thread-244): 07:09:40  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '8e56c7fc-6ef3-42f7-ae13-0513b6153959', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fc4e7ed8bb0>]}
+2023-04-15 07:09:40.202179 (Thread-244): 07:09:40  Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '8e56c7fc-6ef3-42f7-ae13-0513b6153959', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fc4e562f310>]}
+2023-04-15 07:09:40.202695 (Thread-244): 07:09:40  Found 5 models, 0 tests, 0 snapshots, 0 analyses, 292 macros, 0 operations, 0 seed files, 6 sources, 0 exposures, 0 metrics
+2023-04-15 07:09:40.203006 (Thread-244): 07:09:40  Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '8e56c7fc-6ef3-42f7-ae13-0513b6153959', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fc4e5625040>]}
+2023-04-15 07:09:40.228267 (Thread-244): 07:09:40  The selection criterion '2+finalize_transit_snapshot+2' does not match any nodes
+2023-04-15 07:09:40.228597 (Thread-244): 07:09:40  No nodes selected!
+2023-04-15 07:09:40.230011 (Thread-244): sending response (<Response 2504 bytes [200 OK]>) to 10.0.191.177
+2023-04-15 07:09:51.987080 (Thread-245): 07:09:51  checksum: 9f5971860ea7956c5d0d162f1c96671df61b5ad9db5c4152918680483cec5347, vars: {}, profile: user, target: None, version: 1.4.5
+2023-04-15 07:09:52.023348 (Thread-245): 07:09:52  Partial parsing enabled: 0 files deleted, 0 files added, 1 files changed.
+2023-04-15 07:09:52.023754 (Thread-245): 07:09:52  Partial parsing: updated file: valmi_postgres://macros/finalize_transit_snapshot.sql
+2023-04-15 07:09:52.071399 (Thread-245): 07:09:52  Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '8e56c7fc-6ef3-42f7-ae13-0513b6153959', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fc4e7f05fa0>]}
+2023-04-15 07:09:52.394702 (Thread-246): handling status request
+2023-04-15 07:09:52.395150 (Thread-246): 07:09:52  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '8e56c7fc-6ef3-42f7-ae13-0513b6153959', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fc4fc1884f0>]}
+2023-04-15 07:09:52.395616 (Thread-246): sending response (<Response 1618 bytes [200 OK]>) to 10.0.191.177
+2023-04-15 07:09:52.443290 (Thread-247): handling status request
+2023-04-15 07:09:52.443639 (Thread-247): 07:09:52  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '8e56c7fc-6ef3-42f7-ae13-0513b6153959', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fc4fc1883a0>]}
+2023-04-15 07:09:52.444070 (Thread-247): sending response (<Response 1618 bytes [200 OK]>) to 10.0.191.177
+2023-04-15 07:09:52.450876 (Thread-248): handling list request
+2023-04-15 07:09:52.451200 (Thread-248): 07:09:52  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '8e56c7fc-6ef3-42f7-ae13-0513b6153959', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fc4fc1881f0>]}
+2023-04-15 07:09:52.482651 (Thread-248): 07:09:52  Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '8e56c7fc-6ef3-42f7-ae13-0513b6153959', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fc4fc16ab50>]}
+2023-04-15 07:09:52.483174 (Thread-248): 07:09:52  Found 5 models, 0 tests, 0 snapshots, 0 analyses, 292 macros, 0 operations, 0 seed files, 6 sources, 0 exposures, 0 metrics
+2023-04-15 07:09:52.483485 (Thread-248): 07:09:52  Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '8e56c7fc-6ef3-42f7-ae13-0513b6153959', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fc4e57100d0>]}
+2023-04-15 07:09:52.484143 (Thread-248): 07:09:52  The selection criterion '2+finalize_transit_snapshot+2' does not match any nodes
+2023-04-15 07:09:52.484449 (Thread-248): 07:09:52  No nodes selected!
+2023-04-15 07:09:52.485904 (Thread-248): sending response (<Response 2504 bytes [200 OK]>) to 10.0.191.177
+2023-04-15 07:10:02.605653 (Thread-249): 07:10:02  checksum: 9f5971860ea7956c5d0d162f1c96671df61b5ad9db5c4152918680483cec5347, vars: {}, profile: user, target: None, version: 1.4.5
+2023-04-15 07:10:02.642260 (Thread-249): 07:10:02  Partial parsing enabled: 0 files deleted, 0 files added, 1 files changed.
+2023-04-15 07:10:02.642701 (Thread-249): 07:10:02  Partial parsing: updated file: valmi_postgres://macros/finalize_transit_snapshot.sql
+2023-04-15 07:10:02.694738 (Thread-249): 07:10:02  Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '8e56c7fc-6ef3-42f7-ae13-0513b6153959', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fc4db70c2b0>]}
+2023-04-15 07:10:03.117076 (Thread-250): handling status request
+2023-04-15 07:10:03.117559 (Thread-250): 07:10:03  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '8e56c7fc-6ef3-42f7-ae13-0513b6153959', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fc4e56d2d00>]}
+2023-04-15 07:10:03.118037 (Thread-250): sending response (<Response 1618 bytes [200 OK]>) to 10.0.191.177
+2023-04-15 07:10:03.210614 (Thread-251): handling status request
+2023-04-15 07:10:03.211008 (Thread-251): 07:10:03  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '8e56c7fc-6ef3-42f7-ae13-0513b6153959', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fc4e56d2c10>]}
+2023-04-15 07:10:03.211437 (Thread-251): sending response (<Response 1618 bytes [200 OK]>) to 10.0.191.177
+2023-04-15 07:10:03.216979 (Thread-252): handling list request
+2023-04-15 07:10:03.217304 (Thread-252): 07:10:03  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '8e56c7fc-6ef3-42f7-ae13-0513b6153959', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fc4e56d2af0>]}
+2023-04-15 07:10:03.249743 (Thread-252): 07:10:03  Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '8e56c7fc-6ef3-42f7-ae13-0513b6153959', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fc4ef6af430>]}
+2023-04-15 07:10:03.250321 (Thread-252): 07:10:03  Found 5 models, 0 tests, 0 snapshots, 0 analyses, 292 macros, 0 operations, 0 seed files, 6 sources, 0 exposures, 0 metrics
+2023-04-15 07:10:03.250705 (Thread-252): 07:10:03  Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '8e56c7fc-6ef3-42f7-ae13-0513b6153959', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fc4fbea6040>]}
+2023-04-15 07:10:03.251387 (Thread-252): 07:10:03  The selection criterion '2+finalize_transit_snapshot+2' does not match any nodes
+2023-04-15 07:10:03.251697 (Thread-252): 07:10:03  No nodes selected!
+2023-04-15 07:10:03.253238 (Thread-252): sending response (<Response 2504 bytes [200 OK]>) to 10.0.191.177
+2023-04-15 07:10:08.894741 (Thread-253): handling status request
+2023-04-15 07:10:08.895301 (Thread-253): 07:10:08  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '8e56c7fc-6ef3-42f7-ae13-0513b6153959', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fc4fc3c89d0>]}
+2023-04-15 07:10:08.895804 (Thread-253): sending response (<Response 1618 bytes [200 OK]>) to 10.0.191.177
+2023-04-15 07:10:08.955433 (Thread-254): handling ps request
+2023-04-15 07:10:08.955971 (Thread-254): 07:10:08  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '8e56c7fc-6ef3-42f7-ae13-0513b6153959', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fc4fc3c8d60>]}
+2023-04-15 07:10:08.957451 (Thread-254): sending response (<Response 15213 bytes [200 OK]>) to 10.0.191.177
+2023-04-15 07:10:09.225117 (Thread-255): handling ps request
+2023-04-15 07:10:09.225606 (Thread-255): 07:10:09  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '8e56c7fc-6ef3-42f7-ae13-0513b6153959', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fc4fc3c8190>]}
+2023-04-15 07:10:09.227068 (Thread-255): sending response (<Response 15213 bytes [200 OK]>) to 10.0.191.177
+2023-04-15 07:10:09.384687 (Thread-256): handling status request
+2023-04-15 07:10:09.385178 (Thread-256): 07:10:09  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '8e56c7fc-6ef3-42f7-ae13-0513b6153959', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fc4fc11ee20>]}
+2023-04-15 07:10:09.385659 (Thread-256): sending response (<Response 1618 bytes [200 OK]>) to 10.0.191.177
+2023-04-15 07:10:09.563521 (Thread-257): handling poll request
+2023-04-15 07:10:09.564060 (Thread-257): 07:10:09  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '8e56c7fc-6ef3-42f7-ae13-0513b6153959', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fc4fc11eb80>]}
+2023-04-15 07:10:09.564596 (Thread-257): sending response (<Response 303 bytes [200 OK]>) to 10.0.191.177

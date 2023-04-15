@@ -1,22 +1,33 @@
 {% macro finalize_transit_snapshot() %}
-    {# delete the last transit snapshot keys#}
-    {% set query %}
-        DELETE FROM {{ source('scratch', var('finalized_snapshot')) }} WHERE {{ var("id_key") }} in 
-        (SELECT  {{ var("id_key") }}   
-            FROM  {{ source('scratch', var('transit_snapshot')) }}
-            WHERE _valmi_sync_op IN ('upsert')
-        )
-    {% endset %}
-    {% do run_query(query) %}
+    {%- set transit_relation = adapter.get_relation(
+        database=source("scratch", var("transit_snapshot")).database,
+        schema=source("scratch", var("transit_snapshot")).schema,
+        identifier=source("scratch", var("transit_snapshot")).name,
+    ) -%}
 
-    {# insert the new transit snapshot keys#}
-    {% set query %}
-        INSERT INTO {{ source('scratch', var('finalized_snapshot')) }} 
-        SELECT {{ ",".join(var("columns")) }} 
-        FROM {{ source('scratch', var('transit_snapshot')) }}
-        WHERE _valmi_sync_op IN ('upsert')
-    {% endset %}
-    {% do run_query(query) %}
+    {% if transit_relation is not none %}
+
+        {# delete the last transit snapshot keys#}
+        {% set query %}
+            DELETE FROM {{ source('scratch', var('finalized_snapshot')) }} WHERE {{ var("id_key") }} in 
+            (SELECT  {{ var("id_key") }}   
+                FROM  {{ source('scratch', var('transit_snapshot')) }}
+                WHERE _valmi_sync_op IN ('upsert')
+            )
+        {% endset %}
+        {% do run_query(query) %}
+
+        {# insert the new transit snapshot keys#}
+        {% set query %}
+            INSERT INTO {{ source('scratch', var('finalized_snapshot')) }} 
+            SELECT {{ ",".join(var("columns")) }} 
+            FROM {{ source('scratch', var('transit_snapshot')) }}
+            WHERE _valmi_sync_op IN ('upsert')
+        {% endset %}
+        {% do run_query(query) %}
+        
+    {% endif %}
+
 
     {# Keep this last to make the operations repeatable#}
     {% set query %}

@@ -48,6 +48,7 @@
             schema=source("scratch", var("finalized_snapshot")).schema,
             identifier=source("scratch", var("finalized_snapshot")).name,
         ) -%}
+        
         {% set delete_records_required = source_relation is not none %}
         {% if delete_records_required %}
 

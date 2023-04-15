@@ -35,7 +35,7 @@ vars:
   transit_snapshot: "transit_snapshot"
   cleanup_snapshot: "cleanup_snapshot"
 
-  full_refresh: "false"
+  full_refresh: "true"
   previous_run_status: "success"
 
   destination_sync_mode: "mirror"
