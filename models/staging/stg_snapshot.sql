@@ -69,7 +69,7 @@
 
         UNION ALL
         
-        select 'delete', DELETED.* from (
+        select 'delete'  AS _valmi_sync_op, DELETED.* from (
             select {{ ",".join(var("columns")) }}
             from {{ source("scratch", var("finalized_snapshot")) }}
 
