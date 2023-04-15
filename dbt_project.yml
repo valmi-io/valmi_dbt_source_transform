@@ -33,7 +33,7 @@ vars:
   stg_snapshot: "stg_snapshot"
   ignored_snapshot: "ignored_snapshot"
   transit_snapshot: "transit_snapshot"
-  delete_snapshot: "delete_snapshot"
+  cleanup_snapshot: "cleanup_snapshot"
 
   full_refresh: "false"
   previous_run_status: "success"

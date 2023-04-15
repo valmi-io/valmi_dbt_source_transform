@@ -13,7 +13,7 @@ sources:
       - name: finalized_snapshot 
       - name: transit_snapshot 
       - name: stg_snapshot
-      - name: delete_snapshot
+      - name: cleanup_snapshot
       - name: ignored_snapshot 
 
 models:

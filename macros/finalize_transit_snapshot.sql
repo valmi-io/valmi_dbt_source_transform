@@ -20,7 +20,7 @@
 
     {# Keep this last to make the operations repeatable#}
     {% set query %}
-        DROP TABLE IF EXISTS {{ source('scratch', var('delete_snapshot')) }} CASCADE
+        DROP TABLE IF EXISTS {{ source('scratch', var('cleanup_snapshot')) }} CASCADE
     {% endset %}
     {% do run_query(query) %}
 {% endmacro %}
