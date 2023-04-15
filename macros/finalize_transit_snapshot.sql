@@ -7,6 +7,17 @@
 
     {% if transit_relation is not none %}
 
+        {% if var("destination_sync_mode") == "mirror" %}
+            {% set query %}
+                DELETE FROM {{ source('scratch', var('finalized_snapshot')) }} WHERE {{ var("id_key") }} in 
+                (SELECT  {{ var("id_key") }}   
+                    FROM  {{ source('scratch', var('transit_snapshot')) }}
+                    WHERE _valmi_sync_op IN ('delete')
+                )
+            {% endset %}
+            {% do run_query(query) %}
+        {% endif %}
+
         {# delete the last transit snapshot keys#}
         {% set query %}
             DELETE FROM {{ source('scratch', var('finalized_snapshot')) }} WHERE {{ var("id_key") }} in 
@@ -26,16 +37,6 @@
         {% endset %}
         {% do run_query(query) %}
 
-        {% if var("destination_sync_mode") == "mirror" %}
-            {% set query %}
-                DELETE FROM {{ source('scratch', var('finalized_snapshot')) }} WHERE {{ var("id_key") }} in 
-                (SELECT  {{ var("id_key") }}   
-                    FROM  {{ source('scratch', var('transit_snapshot')) }}
-                    WHERE _valmi_sync_op IN ('delete')
-                )
-            {% endset %}
-            {% do run_query(query) %}
-        {% endif %}
 
         
     {% endif %}
