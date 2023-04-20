@@ -29339,3 +29339,438 @@ SELECT 0
 2023-04-20 15:36:54.254483 (Thread-469): handling status request
 2023-04-20 15:36:54.255002 (Thread-469): 15:36:54  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '78c8d211-1674-4ccd-bde0-20b6ff916b2a', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fdd5411b730>]}
 2023-04-20 15:36:54.255509 (Thread-469): sending response (<Response 2231 bytes [200 OK]>) to 10.0.132.151
+2023-04-20 15:37:07.712442 (Thread-470): 15:37:07  checksum: 0049c9ca814b191acba678e7b1a0d7a85eeac3e13700309cfc1ce1a2c78d3886, vars: {}, profile: user, target: None, version: 1.4.6
+2023-04-20 15:37:07.757462 (Thread-470): 15:37:07  Partial parsing enabled: 0 files deleted, 0 files added, 0 files changed.
+2023-04-20 15:37:07.757741 (Thread-470): 15:37:07  Partial parsing enabled, no changes found, skipping parsing
+2023-04-20 15:37:07.764200 (Thread-470): 15:37:07  Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '78c8d211-1674-4ccd-bde0-20b6ff916b2a', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fdd54279370>]}
+2023-04-20 15:37:08.171401 (Thread-471): handling status request
+2023-04-20 15:37:08.171920 (Thread-471): 15:37:08  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '78c8d211-1674-4ccd-bde0-20b6ff916b2a', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fdd541e2610>]}
+2023-04-20 15:37:08.172413 (Thread-471): sending response (<Response 1593 bytes [200 OK]>) to 10.0.132.151
+2023-04-20 15:47:22.174286 (Thread-472): handling status request
+2023-04-20 15:47:22.175867 (Thread-472): 15:47:22  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '78c8d211-1674-4ccd-bde0-20b6ff916b2a', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fdd541e2250>]}
+2023-04-20 15:47:22.176354 (Thread-472): sending response (<Response 1593 bytes [200 OK]>) to 10.0.132.151
+2023-04-20 15:59:13.624907 (Thread-473): handling status request
+2023-04-20 15:59:13.626495 (Thread-473): 15:59:13  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '78c8d211-1674-4ccd-bde0-20b6ff916b2a', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fdd54266820>]}
+2023-04-20 15:59:13.626992 (Thread-473): sending response (<Response 1593 bytes [200 OK]>) to 10.0.132.151
+2023-04-20 15:59:15.112889 (Thread-474): handling poll request
+2023-04-20 15:59:15.113401 (Thread-474): 15:59:15  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '78c8d211-1674-4ccd-bde0-20b6ff916b2a', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fdd54266340>]}
+2023-04-20 15:59:15.114463 (Thread-474): sending response (<Response 34814 bytes [200 OK]>) to 10.0.132.151
+2023-04-20 15:59:15.190896 (Thread-475): handling status request
+2023-04-20 15:59:15.191456 (Thread-475): 15:59:15  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '78c8d211-1674-4ccd-bde0-20b6ff916b2a', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fdd542669a0>]}
+2023-04-20 15:59:15.191920 (Thread-475): sending response (<Response 1593 bytes [200 OK]>) to 10.0.132.151
+2023-04-20 15:59:15.359411 (Thread-476): handling ps request
+2023-04-20 15:59:15.359900 (Thread-476): 15:59:15  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '78c8d211-1674-4ccd-bde0-20b6ff916b2a', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fdd541e2070>]}
+2023-04-20 15:59:15.361149 (Thread-476): sending response (<Response 14077 bytes [200 OK]>) to 10.0.132.151
+2023-04-20 15:59:15.378970 (Thread-477): handling ps request
+2023-04-20 15:59:15.379392 (Thread-477): 15:59:15  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '78c8d211-1674-4ccd-bde0-20b6ff916b2a', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fdd5438ee50>]}
+2023-04-20 15:59:15.380562 (Thread-477): sending response (<Response 14077 bytes [200 OK]>) to 10.0.132.151
+2023-04-20 15:59:15.753215 (Thread-478): handling status request
+2023-04-20 15:59:15.753698 (Thread-478): 15:59:15  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '78c8d211-1674-4ccd-bde0-20b6ff916b2a', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fdd541e2580>]}
+2023-04-20 15:59:15.754229 (Thread-478): sending response (<Response 1593 bytes [200 OK]>) to 10.0.132.151
+2023-04-20 16:00:16.433707 (Thread-479): 16:00:16  checksum: 0049c9ca814b191acba678e7b1a0d7a85eeac3e13700309cfc1ce1a2c78d3886, vars: {}, profile: user, target: None, version: 1.4.6
+2023-04-20 16:00:16.488767 (Thread-479): 16:00:16  Partial parsing enabled: 0 files deleted, 0 files added, 1 files changed.
+2023-04-20 16:00:16.489280 (Thread-479): 16:00:16  Partial parsing: updated file: valmi_postgres://models/transit/transit_snapshot.sql
+2023-04-20 16:00:16.495225 (Thread-479): 16:00:16  1603: static parser failed on transit/transit_snapshot.sql
+2023-04-20 16:00:16.506604 (Thread-479): 16:00:16  1602: parser fallback to jinja rendering on transit/transit_snapshot.sql
+2023-04-20 16:00:16.579744 (Thread-479): 16:00:16  Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '78c8d211-1674-4ccd-bde0-20b6ff916b2a', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fdd543291c0>]}
+2023-04-20 16:00:16.822240 (Thread-480): handling status request
+2023-04-20 16:00:16.822757 (Thread-480): 16:00:16  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '78c8d211-1674-4ccd-bde0-20b6ff916b2a', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fdd54259fd0>]}
+2023-04-20 16:00:16.823294 (Thread-480): sending response (<Response 2231 bytes [200 OK]>) to 10.0.132.151
+2023-04-20 16:00:20.114715 (Thread-481): handling status request
+2023-04-20 16:00:20.115218 (Thread-481): 16:00:20  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '78c8d211-1674-4ccd-bde0-20b6ff916b2a', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fdd92950370>]}
+2023-04-20 16:00:20.115696 (Thread-481): sending response (<Response 2231 bytes [200 OK]>) to 10.0.132.151
+2023-04-20 16:00:20.245173 (Thread-482): handling ps request
+2023-04-20 16:00:20.245647 (Thread-482): 16:00:20  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '78c8d211-1674-4ccd-bde0-20b6ff916b2a', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fdd92950760>]}
+2023-04-20 16:00:20.247020 (Thread-482): sending response (<Response 14077 bytes [200 OK]>) to 10.0.132.151
+2023-04-20 16:00:20.481775 (Thread-483): handling run_sql request
+2023-04-20 16:00:20.482365 (Thread-483): 16:00:20  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '78c8d211-1674-4ccd-bde0-20b6ff916b2a', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fdd92950fd0>]}
+2023-04-20 16:00:20.537051 (Thread-484): handling ps request
+2023-04-20 16:00:20.538360 (Thread-484): 16:00:20  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '78c8d211-1674-4ccd-bde0-20b6ff916b2a', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fdd54417f40>]}
+2023-04-20 16:00:20.540847 (Thread-484): sending response (<Response 14608 bytes [200 OK]>) to 10.0.132.151
+2023-04-20 16:00:21.201411 (Thread-485): handling poll request
+2023-04-20 16:00:21.201893 (Thread-485): 16:00:21  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '78c8d211-1674-4ccd-bde0-20b6ff916b2a', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fdd54417fd0>]}
+2023-04-20 16:00:21.202506 (Thread-485): sending response (<Response 441 bytes [200 OK]>) to 10.0.132.151
+2023-04-20 16:00:21.577162 (Thread-486): handling status request
+2023-04-20 16:00:21.577642 (Thread-486): 16:00:21  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '78c8d211-1674-4ccd-bde0-20b6ff916b2a', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fdd544179d0>]}
+2023-04-20 16:00:21.599811 (Thread-486): sending response (<Response 2231 bytes [200 OK]>) to 10.0.132.151
+2023-04-20 16:00:22.797419 (Thread-483): sending response (<Response 133 bytes [200 OK]>) to 10.0.132.151
+2023-04-20 16:00:22.837154 (MainThread): 16:00:22  Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '3aabfe8d-062a-4f1f-b5ae-31ec5263c38b', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fa06a0c29d0>]}
+2023-04-20 16:00:22.837770 (MainThread): 16:00:22  Found 5 models, 0 tests, 0 snapshots, 0 analyses, 292 macros, 0 operations, 0 seed files, 6 sources, 0 exposures, 0 metrics
+2023-04-20 16:00:22.839211 (Thread-1): 16:00:22  Acquiring new postgres connection 'rpc.valmi_postgres.request'
+2023-04-20 16:00:22.839439 (Thread-1): 16:00:22  Began compiling node rpc.valmi_postgres.request
+2023-04-20 16:00:22.849009 (Thread-1): 16:00:22  On "rpc.valmi_postgres.request": cache miss for schema "dvdrental.valmi_scratch_computed_", this is inefficient
+2023-04-20 16:00:22.849695 (Thread-1): 16:00:22  checksum: 0049c9ca814b191acba678e7b1a0d7a85eeac3e13700309cfc1ce1a2c78d3886, vars: {}, profile: user, target: None, version: 1.4.6
+2023-04-20 16:00:23.199349 (Thread-1): 16:00:23  Using postgres connection "rpc.valmi_postgres.request"
+2023-04-20 16:00:23.199573 (Thread-1): 16:00:23  On rpc.valmi_postgres.request: BEGIN
+2023-04-20 16:00:23.199793 (Thread-1): 16:00:23  Opening a new connection, currently in state init
+2023-04-20 16:00:23.302013 (Thread-487): handling ps request
+2023-04-20 16:00:23.302546 (Thread-487): 16:00:23  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '78c8d211-1674-4ccd-bde0-20b6ff916b2a', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fdd544172e0>]}
+2023-04-20 16:00:23.303939 (Thread-487): sending response (<Response 14604 bytes [200 OK]>) to 10.0.132.151
+2023-04-20 16:00:23.304835 (Thread-488): handling ps request
+2023-04-20 16:00:23.305476 (Thread-488): 16:00:23  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '78c8d211-1674-4ccd-bde0-20b6ff916b2a', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fdd9294c790>]}
+2023-04-20 16:00:23.306789 (Thread-488): sending response (<Response 14604 bytes [200 OK]>) to 10.0.132.151
+2023-04-20 16:00:23.677715 (Thread-489): handling status request
+2023-04-20 16:00:23.678277 (Thread-489): 16:00:23  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '78c8d211-1674-4ccd-bde0-20b6ff916b2a', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fdd542661c0>]}
+2023-04-20 16:00:23.678781 (Thread-489): sending response (<Response 2231 bytes [200 OK]>) to 10.0.132.151
+2023-04-20 16:00:23.825588 (Thread-490): handling poll request
+2023-04-20 16:00:23.825271 (Thread-1): 16:00:23  SQL status: BEGIN in 1 seconds
+2023-04-20 16:00:23.826458 (Thread-490): 16:00:23  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '78c8d211-1674-4ccd-bde0-20b6ff916b2a', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fdd54266100>]}
+2023-04-20 16:00:23.825499 (Thread-1): 16:00:23  Using postgres connection "rpc.valmi_postgres.request"
+2023-04-20 16:00:23.827293 (Thread-490): sending response (<Response 4022 bytes [200 OK]>) to 10.0.132.151
+2023-04-20 16:00:23.825627 (Thread-1): 16:00:23  On rpc.valmi_postgres.request: select
+      'dvdrental' as database,
+      tablename as name,
+      schemaname as schema,
+      'table' as type
+    from pg_tables
+    where schemaname ilike 'valmi_scratch_computed_'
+    union all
+    select
+      'dvdrental' as database,
+      viewname as name,
+      schemaname as schema,
+      'view' as type
+    from pg_views
+    where schemaname ilike 'valmi_scratch_computed_'
+  
+2023-04-20 16:00:23.837973 (Thread-491): handling poll request
+2023-04-20 16:00:23.838313 (Thread-491): 16:00:23  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '78c8d211-1674-4ccd-bde0-20b6ff916b2a', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fdd54115580>]}
+2023-04-20 16:00:23.838788 (Thread-491): sending response (<Response 4698 bytes [200 OK]>) to 10.0.132.151
+2023-04-20 16:00:23.935529 (Thread-1): 16:00:23  SQL status: SELECT 110 in 0 seconds
+2023-04-20 16:00:23.939544 (Thread-1): 16:00:23  with database=dvdrental, schema=valmi_scratch_computed_, relations=[ReferenceKeyMsg(database='dvdrental', schema='valmi_scratch_computed_', identifier='finalized_snapshot_a6aebc8e-34ad-40e8-96b4-9c7cfc701b9e'), ReferenceKeyMsg(database='dvdrental', schema='valmi_scratch_computed_', identifier='ignored_snapshot_6f1eb8f2-bde8-4f86-b9a9-5e90b4c6b3ca'), ReferenceKeyMsg(database='dvdrental', schema='valmi_scratch_computed_', identifier='transit_snapshot_81c71230-a34f-4b63-9d8d-9958085ec82d'), ReferenceKeyMsg(database='dvdrental', schema='valmi_scratch_computed_', identifier='ignored_snapshot_98593ab9-441b-4fcd-bb03-d17cbb5c41c5'), ReferenceKeyMsg(database='dvdrental', schema='valmi_scratch_computed_', identifier='finalized_snapshot_7d62d6db-f1f1-4d85-925b-ef7e44a93373'), ReferenceKeyMsg(database='dvdrental', schema='valmi_scratch_computed_', identifier='transit_snapshot_7d62d6db-f1f1-4d85-925b-ef7e44a93373'), ReferenceKeyMsg(database='dvdrental', schema='valmi_scratch_computed_', identifier='ignored_snapshot_58582048-cf3f-4d26-86d3-53c0a37c171b'), ReferenceKeyMsg(database='dvdrental', schema='valmi_scratch_computed_', identifier='ignored_snapshot_25d8f567-5287-4d62-9af3-af85ff14d740'), ReferenceKeyMsg(database='dvdrental', schema='valmi_scratch_computed_', identifier='sync_metrics_25d8f567-5287-4d62-9af3-af85ff14d740'), ReferenceKeyMsg(database='dvdrental', schema='valmi_scratch_computed_', identifier='sync_metrics_81c71230-a34f-4b63-9d8d-9958085ec82d'), ReferenceKeyMsg(database='dvdrental', schema='valmi_scratch_computed_', identifier='ignored_snapshot_d8a92753-96a9-4628-b7b1-9dff536d359b'), ReferenceKeyMsg(database='dvdrental', schema='valmi_scratch_computed_', identifier='ignored_snapshot_a6aebc8e-34ad-40e8-96b4-9c7cfc701b9e'), ReferenceKeyMsg(database='dvdrental', schema='valmi_scratch_computed_', identifier='ignored_snapshot_872e14d3-239d-412c-aaa3-15ba7f5a1c0f'), ReferenceKeyMsg(database='dvdrental', schema='valmi_scratch_computed_', identifier='sync_metrics'), ReferenceKeyMsg(database='dvdrental', schema='valmi_scratch_computed_', identifier='transit_snapshot_10681d30-a951-41cc-bf54-da4bed09e0c2'), ReferenceKeyMsg(database='dvdrental', schema='valmi_scratch_computed_', identifier='finalized_snapshot_cd3cd64a-02c9-4345-8399-292a4680a848'), ReferenceKeyMsg(database='dvdrental', schema='valmi_scratch_computed_', identifier='finalized_snapshot_81c71230-a34f-4b63-9d8d-9958085ec82d'), ReferenceKeyMsg(database='dvdrental', schema='valmi_scratch_computed_', identifier='transit_snapshot_a6aebc8e-34ad-40e8-96b4-9c7cfc701b9e'), ReferenceKeyMsg(database='dvdrental', schema='valmi_scratch_computed_', identifier='transit_snapshot_d8a92753-96a9-4628-b7b1-9dff536d359b'), ReferenceKeyMsg(database='dvdrental', schema='valmi_scratch_computed_', identifier='transit_snapshot_98593ab9-441b-4fcd-bb03-d17cbb5c41c5'), ReferenceKeyMsg(database='dvdrental', schema='valmi_scratch_computed_', identifier='ignored_snapshot'), ReferenceKeyMsg(database='dvdrental', schema='valmi_scratch_computed_', identifier='sync_metrics_10681d30-a951-41cc-bf54-da4bed09e0c2'), ReferenceKeyMsg(database='dvdrental', schema='valmi_scratch_computed_', identifier='ignored_snapshot_cd3cd64a-02c9-4345-8399-292a4680a848'), ReferenceKeyMsg(database='dvdrental', schema='valmi_scratch_computed_', identifier='finalized_snapshot_49e6c558-1824-48c5-bfde-bca5d0732656'), ReferenceKeyMsg(database='dvdrental', schema='valmi_scratch_computed_', identifier='ignored_snapshot_fa8df245-aec0-44aa-ad6a-b811b2dfa620'), ReferenceKeyMsg(database='dvdrental', schema='valmi_scratch_computed_', identifier='sync_metrics_fa8df245-aec0-44aa-ad6a-b811b2dfa620'), ReferenceKeyMsg(database='dvdrental', schema='valmi_scratch_computed_', identifier='finalized_snapshot_d8a92753-96a9-4628-b7b1-9dff536d359b'), ReferenceKeyMsg(database='dvdrental', schema='valmi_scratch_computed_', identifier='ignored_snapshot_49e6c558-1824-48c5-bfde-bca5d0732656'), ReferenceKeyMsg(database='dvdrental', schema='valmi_scratch_computed_', identifier='transit_snapshot_49e6c558-1824-48c5-bfde-bca5d0732656'), ReferenceKeyMsg(database='dvdrental', schema='valmi_scratch_computed_', identifier='sync_metrics_a6aebc8e-34ad-40e8-96b4-9c7cfc701b9e'), ReferenceKeyMsg(database='dvdrental', schema='valmi_scratch_computed_', identifier='sync_metrics_98593ab9-441b-4fcd-bb03-d17cbb5c41c5'), ReferenceKeyMsg(database='dvdrental', schema='valmi_scratch_computed_', identifier='transit_snapshot_6f1eb8f2-bde8-4f86-b9a9-5e90b4c6b3ca'), ReferenceKeyMsg(database='dvdrental', schema='valmi_scratch_computed_', identifier='ignored_snapshot_7d62d6db-f1f1-4d85-925b-ef7e44a93373'), ReferenceKeyMsg(database='dvdrental', schema='valmi_scratch_computed_', identifier='sync_metrics_7d62d6db-f1f1-4d85-925b-ef7e44a93373'), ReferenceKeyMsg(database='dvdrental', schema='valmi_scratch_computed_', identifier='ignored_snapshot_5674b69a-f346-44cb-aa76-dce2125226c9'), ReferenceKeyMsg(database='dvdrental', schema='valmi_scratch_computed_', identifier='sync_metrics_58582048-cf3f-4d26-86d3-53c0a37c171b'), ReferenceKeyMsg(database='dvdrental', schema='valmi_scratch_computed_', identifier='transit_snapshot_5674b69a-f346-44cb-aa76-dce2125226c9'), ReferenceKeyMsg(database='dvdrental', schema='valmi_scratch_computed_', identifier='finalized_snapshot_3a8d2bca-3f0c-4b73-865b-92104bd98479'), ReferenceKeyMsg(database='dvdrental', schema='valmi_scratch_computed_', identifier='ignored_snapshot_3a8d2bca-3f0c-4b73-865b-92104bd98479'), ReferenceKeyMsg(database='dvdrental', schema='valmi_scratch_computed_', identifier='transit_snapshot_3a8d2bca-3f0c-4b73-865b-92104bd98479'), ReferenceKeyMsg(database='dvdrental', schema='valmi_scratch_computed_', identifier='sync_metrics_3a8d2bca-3f0c-4b73-865b-92104bd98479'), ReferenceKeyMsg(database='dvdrental', schema='valmi_scratch_computed_', identifier='finalized_snapshot_33fce3dd-9eca-482e-8034-cd7759fdb53c'), ReferenceKeyMsg(database='dvdrental', schema='valmi_scratch_computed_', identifier='sync_metrics_49e6c558-1824-48c5-bfde-bca5d0732656'), ReferenceKeyMsg(database='dvdrental', schema='valmi_scratch_computed_', identifier='ignored_snapshot_81c71230-a34f-4b63-9d8d-9958085ec82d'), ReferenceKeyMsg(database='dvdrental', schema='valmi_scratch_computed_', identifier='finalized_snapshot_98593ab9-441b-4fcd-bb03-d17cbb5c41c5'), ReferenceKeyMsg(database='dvdrental', schema='valmi_scratch_computed_', identifier='sync_metrics_d8a92753-96a9-4628-b7b1-9dff536d359b'), ReferenceKeyMsg(database='dvdrental', schema='valmi_scratch_computed_', identifier='finalized_snapshot_6f1eb8f2-bde8-4f86-b9a9-5e90b4c6b3ca'), ReferenceKeyMsg(database='dvdrental', schema='valmi_scratch_computed_', identifier='finalized_snapshot_5674b69a-f346-44cb-aa76-dce2125226c9'), ReferenceKeyMsg(database='dvdrental', schema='valmi_scratch_computed_', identifier='sync_metrics_6f1eb8f2-bde8-4f86-b9a9-5e90b4c6b3ca'), ReferenceKeyMsg(database='dvdrental', schema='valmi_scratch_computed_', identifier='finalized_snapshot_58582048-cf3f-4d26-86d3-53c0a37c171b'), ReferenceKeyMsg(database='dvdrental', schema='valmi_scratch_computed_', identifier='transit_snapshot_58582048-cf3f-4d26-86d3-53c0a37c171b'), ReferenceKeyMsg(database='dvdrental', schema='valmi_scratch_computed_', identifier='sync_metrics_5674b69a-f346-44cb-aa76-dce2125226c9'), ReferenceKeyMsg(database='dvdrental', schema='valmi_scratch_computed_', identifier='finalized_snapshot_25d8f567-5287-4d62-9af3-af85ff14d740'), ReferenceKeyMsg(database='dvdrental', schema='valmi_scratch_computed_', identifier='transit_snapshot_25d8f567-5287-4d62-9af3-af85ff14d740'), ReferenceKeyMsg(database='dvdrental', schema='valmi_scratch_computed_', identifier='ignored_snapshot_33fce3dd-9eca-482e-8034-cd7759fdb53c'), ReferenceKeyMsg(database='dvdrental', schema='valmi_scratch_computed_', identifier='transit_snapshot_872e14d3-239d-412c-aaa3-15ba7f5a1c0f'), ReferenceKeyMsg(database='dvdrental', schema='valmi_scratch_computed_', identifier='cleanup_snapshot'), ReferenceKeyMsg(database='dvdrental', schema='valmi_scratch_computed_', identifier='finalized_snapshot'), ReferenceKeyMsg(database='dvdrental', schema='valmi_scratch_computed_', identifier='init'), ReferenceKeyMsg(database='dvdrental', schema='valmi_scratch_computed_', identifier='transit_snapshot_cd3cd64a-02c9-4345-8399-292a4680a848'), ReferenceKeyMsg(database='dvdrental', schema='valmi_scratch_computed_', identifier='finalized_snapshot_10681d30-a951-41cc-bf54-da4bed09e0c2'), ReferenceKeyMsg(database='dvdrental', schema='valmi_scratch_computed_', identifier='finalized_snapshot_4d280b44-0e34-4085-86d6-107d9372314f'), ReferenceKeyMsg(database='dvdrental', schema='valmi_scratch_computed_', identifier='delete_snapshot'), ReferenceKeyMsg(database='dvdrental', schema='valmi_scratch_computed_', identifier='transit_snapshot_4d280b44-0e34-4085-86d6-107d9372314f'), ReferenceKeyMsg(database='dvdrental', schema='valmi_scratch_computed_', identifier='finalized_snapshot_872e14d3-239d-412c-aaa3-15ba7f5a1c0f'), ReferenceKeyMsg(database='dvdrental', schema='valmi_scratch_computed_', identifier='transit_snapshot_33fce3dd-9eca-482e-8034-cd7759fdb53c'), ReferenceKeyMsg(database='dvdrental', schema='valmi_scratch_computed_', identifier='sync_metrics_33fce3dd-9eca-482e-8034-cd7759fdb53c'), ReferenceKeyMsg(database='dvdrental', schema='valmi_scratch_computed_', identifier='sync_metrics_872e14d3-239d-412c-aaa3-15ba7f5a1c0f'), ReferenceKeyMsg(database='dvdrental', schema='valmi_scratch_computed_', identifier='stg_snapshot'), ReferenceKeyMsg(database='dvdrental', schema='valmi_scratch_computed_', identifier='ignored_snapshot_10681d30-a951-41cc-bf54-da4bed09e0c2'), ReferenceKeyMsg(database='dvdrental', schema='valmi_scratch_computed_', identifier='sync_metrics_cd3cd64a-02c9-4345-8399-292a4680a848'), ReferenceKeyMsg(database='dvdrental', schema='valmi_scratch_computed_', identifier='finalized_snapshot_fa8df245-aec0-44aa-ad6a-b811b2dfa620'), ReferenceKeyMsg(database='dvdrental', schema='valmi_scratch_computed_', identifier='transit_snapshot_fa8df245-aec0-44aa-ad6a-b811b2dfa620'), ReferenceKeyMsg(database='dvdrental', schema='valmi_scratch_computed_', identifier='ignored_snapshot_4d280b44-0e34-4085-86d6-107d9372314f'), ReferenceKeyMsg(database='dvdrental', schema='valmi_scratch_computed_', identifier='sync_metrics_4d280b44-0e34-4085-86d6-107d9372314f'), ReferenceKeyMsg(database='dvdrental', schema='valmi_scratch_computed_', identifier='transit_snapshot'), ReferenceKeyMsg(database='dvdrental', schema='valmi_scratch_computed_', identifier='stg_snapshot_81c71230-a34f-4b63-9d8d-9958085ec82d'), ReferenceKeyMsg(database='dvdrental', schema='valmi_scratch_computed_', identifier='init_a6aebc8e-34ad-40e8-96b4-9c7cfc701b9e'), ReferenceKeyMsg(database='dvdrental', schema='valmi_scratch_computed_', identifier='init_d8a92753-96a9-4628-b7b1-9dff536d359b'), ReferenceKeyMsg(database='dvdrental', schema='valmi_scratch_computed_', identifier='stg_snapshot_6f1eb8f2-bde8-4f86-b9a9-5e90b4c6b3ca'), ReferenceKeyMsg(database='dvdrental', schema='valmi_scratch_computed_', identifier='init_7d62d6db-f1f1-4d85-925b-ef7e44a93373'), ReferenceKeyMsg(database='dvdrental', schema='valmi_scratch_computed_', identifier='stg_snapshot_10681d30-a951-41cc-bf54-da4bed09e0c2'), ReferenceKeyMsg(database='dvdrental', schema='valmi_scratch_computed_', identifier='stg_snapshot_a6aebc8e-34ad-40e8-96b4-9c7cfc701b9e'), ReferenceKeyMsg(database='dvdrental', schema='valmi_scratch_computed_', identifier='stg_snapshot_d8a92753-96a9-4628-b7b1-9dff536d359b'), ReferenceKeyMsg(database='dvdrental', schema='valmi_scratch_computed_', identifier='stg_snapshot_98593ab9-441b-4fcd-bb03-d17cbb5c41c5'), ReferenceKeyMsg(database='dvdrental', schema='valmi_scratch_computed_', identifier='init_cd3cd64a-02c9-4345-8399-292a4680a848'), ReferenceKeyMsg(database='dvdrental', schema='valmi_scratch_computed_', identifier='stg_snapshot_872e14d3-239d-412c-aaa3-15ba7f5a1c0f'), ReferenceKeyMsg(database='dvdrental', schema='valmi_scratch_computed_', identifier='stg_snapshot_4d280b44-0e34-4085-86d6-107d9372314f'), ReferenceKeyMsg(database='dvdrental', schema='valmi_scratch_computed_', identifier='init_49e6c558-1824-48c5-bfde-bca5d0732656'), ReferenceKeyMsg(database='dvdrental', schema='valmi_scratch_computed_', identifier='stg_snapshot_49e6c558-1824-48c5-bfde-bca5d0732656'), ReferenceKeyMsg(database='dvdrental', schema='valmi_scratch_computed_', identifier='init_81c71230-a34f-4b63-9d8d-9958085ec82d'), ReferenceKeyMsg(database='dvdrental', schema='valmi_scratch_computed_', identifier='stg_snapshot_cd3cd64a-02c9-4345-8399-292a4680a848'), ReferenceKeyMsg(database='dvdrental', schema='valmi_scratch_computed_', identifier='stg_snapshot_58582048-cf3f-4d26-86d3-53c0a37c171b'), ReferenceKeyMsg(database='dvdrental', schema='valmi_scratch_computed_', identifier='init_3a8d2bca-3f0c-4b73-865b-92104bd98479'), ReferenceKeyMsg(database='dvdrental', schema='valmi_scratch_computed_', identifier='stg_snapshot_3a8d2bca-3f0c-4b73-865b-92104bd98479'), ReferenceKeyMsg(database='dvdrental', schema='valmi_scratch_computed_', identifier='stg_snapshot_25d8f567-5287-4d62-9af3-af85ff14d740'), ReferenceKeyMsg(database='dvdrental', schema='valmi_scratch_computed_', identifier='init_98593ab9-441b-4fcd-bb03-d17cbb5c41c5'), ReferenceKeyMsg(database='dvdrental', schema='valmi_scratch_computed_', identifier='init_6f1eb8f2-bde8-4f86-b9a9-5e90b4c6b3ca'), ReferenceKeyMsg(database='dvdrental', schema='valmi_scratch_computed_', identifier='init_58582048-cf3f-4d26-86d3-53c0a37c171b'), ReferenceKeyMsg(database='dvdrental', schema='valmi_scratch_computed_', identifier='stg_snapshot_7d62d6db-f1f1-4d85-925b-ef7e44a93373'), ReferenceKeyMsg(database='dvdrental', schema='valmi_scratch_computed_', identifier='init_5674b69a-f346-44cb-aa76-dce2125226c9'), ReferenceKeyMsg(database='dvdrental', schema='valmi_scratch_computed_', identifier='stg_snapshot_5674b69a-f346-44cb-aa76-dce2125226c9'), ReferenceKeyMsg(database='dvdrental', schema='valmi_scratch_computed_', identifier='init_25d8f567-5287-4d62-9af3-af85ff14d740'), ReferenceKeyMsg(database='dvdrental', schema='valmi_scratch_computed_', identifier='init_10681d30-a951-41cc-bf54-da4bed09e0c2'), ReferenceKeyMsg(database='dvdrental', schema='valmi_scratch_computed_', identifier='stg_snapshot_fa8df245-aec0-44aa-ad6a-b811b2dfa620'), ReferenceKeyMsg(database='dvdrental', schema='valmi_scratch_computed_', identifier='init_4d280b44-0e34-4085-86d6-107d9372314f'), ReferenceKeyMsg(database='dvdrental', schema='valmi_scratch_computed_', identifier='init_33fce3dd-9eca-482e-8034-cd7759fdb53c'), ReferenceKeyMsg(database='dvdrental', schema='valmi_scratch_computed_', identifier='stg_snapshot_33fce3dd-9eca-482e-8034-cd7759fdb53c'), ReferenceKeyMsg(database='dvdrental', schema='valmi_scratch_computed_', identifier='init_872e14d3-239d-412c-aaa3-15ba7f5a1c0f'), ReferenceKeyMsg(database='dvdrental', schema='valmi_scratch_computed_', identifier='init_fa8df245-aec0-44aa-ad6a-b811b2dfa620')]
+2023-04-20 16:00:23.940959 (Thread-1): 16:00:23  Timing info for rpc.valmi_postgres.request (compile): 2023-04-20 16:00:22.839486 => 2023-04-20 16:00:23.940656
+2023-04-20 16:00:23.941190 (Thread-1): 16:00:23  Began executing node rpc.valmi_postgres.request
+2023-04-20 16:00:23.941349 (Thread-1): 16:00:23  Using postgres connection "rpc.valmi_postgres.request"
+2023-04-20 16:00:23.941474 (Thread-1): 16:00:23  On rpc.valmi_postgres.request: /*
+ * Copyright (c) 2023 valmi.io <https://github.com/valmi-io>
+ * 
+ * Created Date: Wednesday, March 22nd 2023, 12:49:11 am
+ * Author: Rajashekar Varkala @ valmi.io
+ * 
+ * Permission is hereby granted, free of charge, to any person obtaining a copy
+ * of this software and associated documentation files (the "Software"), to deal
+ * in the Software without restriction, including without limitation the rights
+ * to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+ * copies of the Software, and to permit persons to whom the Software is
+ * furnished to do so, subject to the following conditions:
+ * 
+ * The above copyright notice and this permission notice shall be included in all
+ * copies or substantial portions of the Software.
+ * 
+ * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+ * IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+ * FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+ * AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+ * LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+ * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+ * SOFTWARE.
+ */
+
+
+
+
+
+
+
+
+ 
+
+with
+    stg_snapshot as (select * from "dvdrental"."valmi_scratch_computed_"."stg_snapshot"),
+    ignored_snapshot as (select * from "dvdrental"."valmi_scratch_computed_"."ignored_snapshot")
+
+
+    , cleanup_snapshot as (select * from "dvdrental"."valmi_scratch_computed_"."cleanup_snapshot")
+
+
+select
+    row_number() over (order by CASE WHEN _valmi_sync_op = 'delete' THEN 1
+              WHEN _valmi_sync_op = 'upsert' THEN 2 
+              ELSE 4 END, customer_id) _valmi_row_num, COMBINED.* FROM
+
+    (   select   _valmi_sync_op, customer_id, email,first_name,activebool,last_update
+            from stg_snapshot
+            where customer_id not in 
+                (select customer_id 
+                from ignored_snapshot 
+                where  customer_id is not NULL)
+
+       
+        UNION ALL
+
+        select 'delete' AS _valmi_sync_op ,  customer_id, NULL,NULL,NULL,NULL
+        from cleanup_snapshot
+    
+    ) AS COMBINED
+
+    ORDER BY _valmi_row_num ASC
+limit 500
+/* limit added automatically by dbt cloud */
+2023-04-20 16:00:24.051595 (Thread-1): 16:00:24  SQL status: SELECT 500 in 0 seconds
+2023-04-20 16:00:24.065227 (Thread-1): 16:00:24  Timing info for rpc.valmi_postgres.request (execute): 2023-04-20 16:00:23.941236 => 2023-04-20 16:00:24.065031
+2023-04-20 16:00:24.065458 (Thread-1): 16:00:24  On rpc.valmi_postgres.request: ROLLBACK
+2023-04-20 16:00:24.168078 (Thread-1): 16:00:24  On rpc.valmi_postgres.request: Close
+2023-04-20 16:00:24.268842 (Thread-492): handling status request
+2023-04-20 16:00:24.269326 (Thread-492): 16:00:24  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '78c8d211-1674-4ccd-bde0-20b6ff916b2a', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fdd92953640>]}
+2023-04-20 16:00:24.269840 (Thread-492): sending response (<Response 2231 bytes [200 OK]>) to 10.0.132.151
+2023-04-20 16:00:25.345551 (Thread-493): handling poll request
+2023-04-20 16:00:25.346134 (Thread-493): 16:00:25  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '78c8d211-1674-4ccd-bde0-20b6ff916b2a', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fdd34657760>]}
+2023-04-20 16:00:25.348668 (Thread-493): sending response (<Response 59728 bytes [200 OK]>) to 10.0.132.151
+2023-04-20 16:00:25.807546 (Thread-494): handling ps request
+2023-04-20 16:00:25.808017 (Thread-494): 16:00:25  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '78c8d211-1674-4ccd-bde0-20b6ff916b2a', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fdd929536d0>]}
+2023-04-20 16:00:25.809329 (Thread-494): sending response (<Response 14629 bytes [200 OK]>) to 10.0.132.151
+2023-04-20 16:00:26.206378 (Thread-495): handling status request
+2023-04-20 16:00:26.206882 (Thread-495): 16:00:26  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '78c8d211-1674-4ccd-bde0-20b6ff916b2a', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fdd929539a0>]}
+2023-04-20 16:00:26.207394 (Thread-495): sending response (<Response 2231 bytes [200 OK]>) to 10.0.132.151
+2023-04-20 16:00:26.491269 (Thread-496): handling poll request
+2023-04-20 16:00:26.491752 (Thread-496): 16:00:26  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '78c8d211-1674-4ccd-bde0-20b6ff916b2a', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fdd92953a30>]}
+2023-04-20 16:00:26.494005 (Thread-496): sending response (<Response 63316 bytes [200 OK]>) to 10.0.132.151
+2023-04-20 16:00:27.079908 (Thread-497): handling status request
+2023-04-20 16:00:27.080411 (Thread-497): 16:00:27  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '78c8d211-1674-4ccd-bde0-20b6ff916b2a', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fdd92953be0>]}
+2023-04-20 16:00:27.080909 (Thread-497): sending response (<Response 2231 bytes [200 OK]>) to 10.0.132.151
+2023-04-20 16:00:27.288436 (Thread-498): handling ps request
+2023-04-20 16:00:27.288910 (Thread-498): 16:00:27  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '78c8d211-1674-4ccd-bde0-20b6ff916b2a', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fdd92953b50>]}
+2023-04-20 16:00:27.290271 (Thread-498): sending response (<Response 14629 bytes [200 OK]>) to 10.0.132.151
+2023-04-20 16:00:37.432265 (Thread-499): handling status request
+2023-04-20 16:00:37.432757 (Thread-499): 16:00:37  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '78c8d211-1674-4ccd-bde0-20b6ff916b2a', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fdd92953f10>]}
+2023-04-20 16:00:37.433244 (Thread-499): sending response (<Response 2231 bytes [200 OK]>) to 10.0.132.151
+2023-04-20 16:00:37.549760 (Thread-500): handling ps request
+2023-04-20 16:00:37.550279 (Thread-500): 16:00:37  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '78c8d211-1674-4ccd-bde0-20b6ff916b2a', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fdd92953fa0>]}
+2023-04-20 16:00:37.551596 (Thread-500): sending response (<Response 14629 bytes [200 OK]>) to 10.0.132.151
+2023-04-20 16:00:37.919768 (Thread-501): handling compile_sql request
+2023-04-20 16:00:37.920277 (Thread-501): 16:00:37  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '78c8d211-1674-4ccd-bde0-20b6ff916b2a', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fdd92953df0>]}
+2023-04-20 16:00:37.935665 (Thread-502): handling ps request
+2023-04-20 16:00:37.941087 (Thread-502): 16:00:37  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '78c8d211-1674-4ccd-bde0-20b6ff916b2a', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fdd9293bf10>]}
+2023-04-20 16:00:37.945344 (Thread-502): sending response (<Response 15169 bytes [200 OK]>) to 10.0.132.151
+2023-04-20 16:00:38.490687 (Thread-503): handling poll request
+2023-04-20 16:00:38.491181 (Thread-503): 16:00:38  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '78c8d211-1674-4ccd-bde0-20b6ff916b2a', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fdd54417be0>]}
+2023-04-20 16:00:38.491706 (Thread-503): sending response (<Response 445 bytes [200 OK]>) to 10.0.132.151
+2023-04-20 16:00:38.883637 (Thread-504): handling status request
+2023-04-20 16:00:38.884223 (Thread-504): 16:00:38  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '78c8d211-1674-4ccd-bde0-20b6ff916b2a', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fdd92953b50>]}
+2023-04-20 16:00:38.884831 (Thread-504): sending response (<Response 2231 bytes [200 OK]>) to 10.0.132.151
+2023-04-20 16:00:40.207969 (Thread-501): sending response (<Response 133 bytes [200 OK]>) to 10.0.132.151
+2023-04-20 16:00:40.246952 (MainThread): 16:00:40  Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '0dd35e37-5a42-422b-adc7-b5a8675ee3dd', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f5caa16b2b0>]}
+2023-04-20 16:00:40.247565 (MainThread): 16:00:40  Found 5 models, 0 tests, 0 snapshots, 0 analyses, 292 macros, 0 operations, 0 seed files, 6 sources, 0 exposures, 0 metrics
+2023-04-20 16:00:40.248916 (Thread-1): 16:00:40  Acquiring new postgres connection 'rpc.valmi_postgres.request'
+2023-04-20 16:00:40.249142 (Thread-1): 16:00:40  Began compiling node rpc.valmi_postgres.request
+2023-04-20 16:00:40.258708 (Thread-1): 16:00:40  On "rpc.valmi_postgres.request": cache miss for schema "dvdrental.valmi_scratch_computed_", this is inefficient
+2023-04-20 16:00:40.259298 (Thread-1): 16:00:40  checksum: 0049c9ca814b191acba678e7b1a0d7a85eeac3e13700309cfc1ce1a2c78d3886, vars: {}, profile: user, target: None, version: 1.4.6
+2023-04-20 16:00:40.611791 (Thread-1): 16:00:40  Using postgres connection "rpc.valmi_postgres.request"
+2023-04-20 16:00:40.612000 (Thread-1): 16:00:40  On rpc.valmi_postgres.request: BEGIN
+2023-04-20 16:00:40.612165 (Thread-1): 16:00:40  Opening a new connection, currently in state init
+2023-04-20 16:00:40.721375 (Thread-505): handling ps request
+2023-04-20 16:00:40.721882 (Thread-505): 16:00:40  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '78c8d211-1674-4ccd-bde0-20b6ff916b2a', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fdd92953c10>]}
+2023-04-20 16:00:40.723351 (Thread-505): sending response (<Response 15164 bytes [200 OK]>) to 10.0.132.151
+2023-04-20 16:00:40.728109 (Thread-506): handling ps request
+2023-04-20 16:00:40.728447 (Thread-506): 16:00:40  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '78c8d211-1674-4ccd-bde0-20b6ff916b2a', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fdd92953610>]}
+2023-04-20 16:00:40.729592 (Thread-506): sending response (<Response 15164 bytes [200 OK]>) to 10.0.132.151
+2023-04-20 16:00:41.005700 (Thread-507): handling poll request
+2023-04-20 16:00:41.006302 (Thread-507): 16:00:41  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '78c8d211-1674-4ccd-bde0-20b6ff916b2a', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fdd9293bfa0>]}
+2023-04-20 16:00:41.006898 (Thread-507): sending response (<Response 3454 bytes [200 OK]>) to 10.0.132.151
+2023-04-20 16:00:41.166482 (Thread-508): handling status request
+2023-04-20 16:00:41.166966 (Thread-508): 16:00:41  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '78c8d211-1674-4ccd-bde0-20b6ff916b2a', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fdd92953850>]}
+2023-04-20 16:00:41.167470 (Thread-508): sending response (<Response 2231 bytes [200 OK]>) to 10.0.132.151
+2023-04-20 16:00:41.234810 (Thread-1): 16:00:41  SQL status: BEGIN in 1 seconds
+2023-04-20 16:00:41.235117 (Thread-1): 16:00:41  Using postgres connection "rpc.valmi_postgres.request"
+2023-04-20 16:00:41.235307 (Thread-1): 16:00:41  On rpc.valmi_postgres.request: select
+      'dvdrental' as database,
+      tablename as name,
+      schemaname as schema,
+      'table' as type
+    from pg_tables
+    where schemaname ilike 'valmi_scratch_computed_'
+    union all
+    select
+      'dvdrental' as database,
+      viewname as name,
+      schemaname as schema,
+      'view' as type
+    from pg_views
+    where schemaname ilike 'valmi_scratch_computed_'
+  
+2023-04-20 16:00:41.340603 (Thread-509): handling poll request
+2023-04-20 16:00:41.341131 (Thread-509): 16:00:41  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '78c8d211-1674-4ccd-bde0-20b6ff916b2a', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fdd92953c40>]}
+2023-04-20 16:00:41.341807 (Thread-509): sending response (<Response 4702 bytes [200 OK]>) to 10.0.132.151
+2023-04-20 16:00:41.345328 (Thread-1): 16:00:41  SQL status: SELECT 110 in 0 seconds
+2023-04-20 16:00:41.349641 (Thread-1): 16:00:41  with database=dvdrental, schema=valmi_scratch_computed_, relations=[ReferenceKeyMsg(database='dvdrental', schema='valmi_scratch_computed_', identifier='finalized_snapshot_a6aebc8e-34ad-40e8-96b4-9c7cfc701b9e'), ReferenceKeyMsg(database='dvdrental', schema='valmi_scratch_computed_', identifier='ignored_snapshot_6f1eb8f2-bde8-4f86-b9a9-5e90b4c6b3ca'), ReferenceKeyMsg(database='dvdrental', schema='valmi_scratch_computed_', identifier='transit_snapshot_81c71230-a34f-4b63-9d8d-9958085ec82d'), ReferenceKeyMsg(database='dvdrental', schema='valmi_scratch_computed_', identifier='ignored_snapshot_98593ab9-441b-4fcd-bb03-d17cbb5c41c5'), ReferenceKeyMsg(database='dvdrental', schema='valmi_scratch_computed_', identifier='finalized_snapshot_7d62d6db-f1f1-4d85-925b-ef7e44a93373'), ReferenceKeyMsg(database='dvdrental', schema='valmi_scratch_computed_', identifier='transit_snapshot_7d62d6db-f1f1-4d85-925b-ef7e44a93373'), ReferenceKeyMsg(database='dvdrental', schema='valmi_scratch_computed_', identifier='ignored_snapshot_58582048-cf3f-4d26-86d3-53c0a37c171b'), ReferenceKeyMsg(database='dvdrental', schema='valmi_scratch_computed_', identifier='ignored_snapshot_25d8f567-5287-4d62-9af3-af85ff14d740'), ReferenceKeyMsg(database='dvdrental', schema='valmi_scratch_computed_', identifier='sync_metrics_25d8f567-5287-4d62-9af3-af85ff14d740'), ReferenceKeyMsg(database='dvdrental', schema='valmi_scratch_computed_', identifier='sync_metrics_81c71230-a34f-4b63-9d8d-9958085ec82d'), ReferenceKeyMsg(database='dvdrental', schema='valmi_scratch_computed_', identifier='ignored_snapshot_d8a92753-96a9-4628-b7b1-9dff536d359b'), ReferenceKeyMsg(database='dvdrental', schema='valmi_scratch_computed_', identifier='ignored_snapshot_a6aebc8e-34ad-40e8-96b4-9c7cfc701b9e'), ReferenceKeyMsg(database='dvdrental', schema='valmi_scratch_computed_', identifier='ignored_snapshot_872e14d3-239d-412c-aaa3-15ba7f5a1c0f'), ReferenceKeyMsg(database='dvdrental', schema='valmi_scratch_computed_', identifier='sync_metrics'), ReferenceKeyMsg(database='dvdrental', schema='valmi_scratch_computed_', identifier='transit_snapshot_10681d30-a951-41cc-bf54-da4bed09e0c2'), ReferenceKeyMsg(database='dvdrental', schema='valmi_scratch_computed_', identifier='finalized_snapshot_cd3cd64a-02c9-4345-8399-292a4680a848'), ReferenceKeyMsg(database='dvdrental', schema='valmi_scratch_computed_', identifier='finalized_snapshot_81c71230-a34f-4b63-9d8d-9958085ec82d'), ReferenceKeyMsg(database='dvdrental', schema='valmi_scratch_computed_', identifier='transit_snapshot_a6aebc8e-34ad-40e8-96b4-9c7cfc701b9e'), ReferenceKeyMsg(database='dvdrental', schema='valmi_scratch_computed_', identifier='transit_snapshot_d8a92753-96a9-4628-b7b1-9dff536d359b'), ReferenceKeyMsg(database='dvdrental', schema='valmi_scratch_computed_', identifier='transit_snapshot_98593ab9-441b-4fcd-bb03-d17cbb5c41c5'), ReferenceKeyMsg(database='dvdrental', schema='valmi_scratch_computed_', identifier='ignored_snapshot'), ReferenceKeyMsg(database='dvdrental', schema='valmi_scratch_computed_', identifier='sync_metrics_10681d30-a951-41cc-bf54-da4bed09e0c2'), ReferenceKeyMsg(database='dvdrental', schema='valmi_scratch_computed_', identifier='ignored_snapshot_cd3cd64a-02c9-4345-8399-292a4680a848'), ReferenceKeyMsg(database='dvdrental', schema='valmi_scratch_computed_', identifier='finalized_snapshot_49e6c558-1824-48c5-bfde-bca5d0732656'), ReferenceKeyMsg(database='dvdrental', schema='valmi_scratch_computed_', identifier='ignored_snapshot_fa8df245-aec0-44aa-ad6a-b811b2dfa620'), ReferenceKeyMsg(database='dvdrental', schema='valmi_scratch_computed_', identifier='sync_metrics_fa8df245-aec0-44aa-ad6a-b811b2dfa620'), ReferenceKeyMsg(database='dvdrental', schema='valmi_scratch_computed_', identifier='finalized_snapshot_d8a92753-96a9-4628-b7b1-9dff536d359b'), ReferenceKeyMsg(database='dvdrental', schema='valmi_scratch_computed_', identifier='ignored_snapshot_49e6c558-1824-48c5-bfde-bca5d0732656'), ReferenceKeyMsg(database='dvdrental', schema='valmi_scratch_computed_', identifier='transit_snapshot_49e6c558-1824-48c5-bfde-bca5d0732656'), ReferenceKeyMsg(database='dvdrental', schema='valmi_scratch_computed_', identifier='sync_metrics_a6aebc8e-34ad-40e8-96b4-9c7cfc701b9e'), ReferenceKeyMsg(database='dvdrental', schema='valmi_scratch_computed_', identifier='sync_metrics_98593ab9-441b-4fcd-bb03-d17cbb5c41c5'), ReferenceKeyMsg(database='dvdrental', schema='valmi_scratch_computed_', identifier='transit_snapshot_6f1eb8f2-bde8-4f86-b9a9-5e90b4c6b3ca'), ReferenceKeyMsg(database='dvdrental', schema='valmi_scratch_computed_', identifier='ignored_snapshot_7d62d6db-f1f1-4d85-925b-ef7e44a93373'), ReferenceKeyMsg(database='dvdrental', schema='valmi_scratch_computed_', identifier='sync_metrics_7d62d6db-f1f1-4d85-925b-ef7e44a93373'), ReferenceKeyMsg(database='dvdrental', schema='valmi_scratch_computed_', identifier='ignored_snapshot_5674b69a-f346-44cb-aa76-dce2125226c9'), ReferenceKeyMsg(database='dvdrental', schema='valmi_scratch_computed_', identifier='sync_metrics_58582048-cf3f-4d26-86d3-53c0a37c171b'), ReferenceKeyMsg(database='dvdrental', schema='valmi_scratch_computed_', identifier='transit_snapshot_5674b69a-f346-44cb-aa76-dce2125226c9'), ReferenceKeyMsg(database='dvdrental', schema='valmi_scratch_computed_', identifier='finalized_snapshot_3a8d2bca-3f0c-4b73-865b-92104bd98479'), ReferenceKeyMsg(database='dvdrental', schema='valmi_scratch_computed_', identifier='ignored_snapshot_3a8d2bca-3f0c-4b73-865b-92104bd98479'), ReferenceKeyMsg(database='dvdrental', schema='valmi_scratch_computed_', identifier='transit_snapshot_3a8d2bca-3f0c-4b73-865b-92104bd98479'), ReferenceKeyMsg(database='dvdrental', schema='valmi_scratch_computed_', identifier='sync_metrics_3a8d2bca-3f0c-4b73-865b-92104bd98479'), ReferenceKeyMsg(database='dvdrental', schema='valmi_scratch_computed_', identifier='finalized_snapshot_33fce3dd-9eca-482e-8034-cd7759fdb53c'), ReferenceKeyMsg(database='dvdrental', schema='valmi_scratch_computed_', identifier='sync_metrics_49e6c558-1824-48c5-bfde-bca5d0732656'), ReferenceKeyMsg(database='dvdrental', schema='valmi_scratch_computed_', identifier='ignored_snapshot_81c71230-a34f-4b63-9d8d-9958085ec82d'), ReferenceKeyMsg(database='dvdrental', schema='valmi_scratch_computed_', identifier='finalized_snapshot_98593ab9-441b-4fcd-bb03-d17cbb5c41c5'), ReferenceKeyMsg(database='dvdrental', schema='valmi_scratch_computed_', identifier='sync_metrics_d8a92753-96a9-4628-b7b1-9dff536d359b'), ReferenceKeyMsg(database='dvdrental', schema='valmi_scratch_computed_', identifier='finalized_snapshot_6f1eb8f2-bde8-4f86-b9a9-5e90b4c6b3ca'), ReferenceKeyMsg(database='dvdrental', schema='valmi_scratch_computed_', identifier='finalized_snapshot_5674b69a-f346-44cb-aa76-dce2125226c9'), ReferenceKeyMsg(database='dvdrental', schema='valmi_scratch_computed_', identifier='sync_metrics_6f1eb8f2-bde8-4f86-b9a9-5e90b4c6b3ca'), ReferenceKeyMsg(database='dvdrental', schema='valmi_scratch_computed_', identifier='finalized_snapshot_58582048-cf3f-4d26-86d3-53c0a37c171b'), ReferenceKeyMsg(database='dvdrental', schema='valmi_scratch_computed_', identifier='transit_snapshot_58582048-cf3f-4d26-86d3-53c0a37c171b'), ReferenceKeyMsg(database='dvdrental', schema='valmi_scratch_computed_', identifier='sync_metrics_5674b69a-f346-44cb-aa76-dce2125226c9'), ReferenceKeyMsg(database='dvdrental', schema='valmi_scratch_computed_', identifier='finalized_snapshot_25d8f567-5287-4d62-9af3-af85ff14d740'), ReferenceKeyMsg(database='dvdrental', schema='valmi_scratch_computed_', identifier='transit_snapshot_25d8f567-5287-4d62-9af3-af85ff14d740'), ReferenceKeyMsg(database='dvdrental', schema='valmi_scratch_computed_', identifier='ignored_snapshot_33fce3dd-9eca-482e-8034-cd7759fdb53c'), ReferenceKeyMsg(database='dvdrental', schema='valmi_scratch_computed_', identifier='transit_snapshot_872e14d3-239d-412c-aaa3-15ba7f5a1c0f'), ReferenceKeyMsg(database='dvdrental', schema='valmi_scratch_computed_', identifier='cleanup_snapshot'), ReferenceKeyMsg(database='dvdrental', schema='valmi_scratch_computed_', identifier='finalized_snapshot'), ReferenceKeyMsg(database='dvdrental', schema='valmi_scratch_computed_', identifier='init'), ReferenceKeyMsg(database='dvdrental', schema='valmi_scratch_computed_', identifier='transit_snapshot_cd3cd64a-02c9-4345-8399-292a4680a848'), ReferenceKeyMsg(database='dvdrental', schema='valmi_scratch_computed_', identifier='finalized_snapshot_10681d30-a951-41cc-bf54-da4bed09e0c2'), ReferenceKeyMsg(database='dvdrental', schema='valmi_scratch_computed_', identifier='finalized_snapshot_4d280b44-0e34-4085-86d6-107d9372314f'), ReferenceKeyMsg(database='dvdrental', schema='valmi_scratch_computed_', identifier='delete_snapshot'), ReferenceKeyMsg(database='dvdrental', schema='valmi_scratch_computed_', identifier='transit_snapshot_4d280b44-0e34-4085-86d6-107d9372314f'), ReferenceKeyMsg(database='dvdrental', schema='valmi_scratch_computed_', identifier='finalized_snapshot_872e14d3-239d-412c-aaa3-15ba7f5a1c0f'), ReferenceKeyMsg(database='dvdrental', schema='valmi_scratch_computed_', identifier='transit_snapshot_33fce3dd-9eca-482e-8034-cd7759fdb53c'), ReferenceKeyMsg(database='dvdrental', schema='valmi_scratch_computed_', identifier='sync_metrics_33fce3dd-9eca-482e-8034-cd7759fdb53c'), ReferenceKeyMsg(database='dvdrental', schema='valmi_scratch_computed_', identifier='sync_metrics_872e14d3-239d-412c-aaa3-15ba7f5a1c0f'), ReferenceKeyMsg(database='dvdrental', schema='valmi_scratch_computed_', identifier='stg_snapshot'), ReferenceKeyMsg(database='dvdrental', schema='valmi_scratch_computed_', identifier='ignored_snapshot_10681d30-a951-41cc-bf54-da4bed09e0c2'), ReferenceKeyMsg(database='dvdrental', schema='valmi_scratch_computed_', identifier='sync_metrics_cd3cd64a-02c9-4345-8399-292a4680a848'), ReferenceKeyMsg(database='dvdrental', schema='valmi_scratch_computed_', identifier='finalized_snapshot_fa8df245-aec0-44aa-ad6a-b811b2dfa620'), ReferenceKeyMsg(database='dvdrental', schema='valmi_scratch_computed_', identifier='transit_snapshot_fa8df245-aec0-44aa-ad6a-b811b2dfa620'), ReferenceKeyMsg(database='dvdrental', schema='valmi_scratch_computed_', identifier='ignored_snapshot_4d280b44-0e34-4085-86d6-107d9372314f'), ReferenceKeyMsg(database='dvdrental', schema='valmi_scratch_computed_', identifier='sync_metrics_4d280b44-0e34-4085-86d6-107d9372314f'), ReferenceKeyMsg(database='dvdrental', schema='valmi_scratch_computed_', identifier='transit_snapshot'), ReferenceKeyMsg(database='dvdrental', schema='valmi_scratch_computed_', identifier='stg_snapshot_81c71230-a34f-4b63-9d8d-9958085ec82d'), ReferenceKeyMsg(database='dvdrental', schema='valmi_scratch_computed_', identifier='init_a6aebc8e-34ad-40e8-96b4-9c7cfc701b9e'), ReferenceKeyMsg(database='dvdrental', schema='valmi_scratch_computed_', identifier='init_d8a92753-96a9-4628-b7b1-9dff536d359b'), ReferenceKeyMsg(database='dvdrental', schema='valmi_scratch_computed_', identifier='stg_snapshot_6f1eb8f2-bde8-4f86-b9a9-5e90b4c6b3ca'), ReferenceKeyMsg(database='dvdrental', schema='valmi_scratch_computed_', identifier='init_7d62d6db-f1f1-4d85-925b-ef7e44a93373'), ReferenceKeyMsg(database='dvdrental', schema='valmi_scratch_computed_', identifier='stg_snapshot_10681d30-a951-41cc-bf54-da4bed09e0c2'), ReferenceKeyMsg(database='dvdrental', schema='valmi_scratch_computed_', identifier='stg_snapshot_a6aebc8e-34ad-40e8-96b4-9c7cfc701b9e'), ReferenceKeyMsg(database='dvdrental', schema='valmi_scratch_computed_', identifier='stg_snapshot_d8a92753-96a9-4628-b7b1-9dff536d359b'), ReferenceKeyMsg(database='dvdrental', schema='valmi_scratch_computed_', identifier='stg_snapshot_98593ab9-441b-4fcd-bb03-d17cbb5c41c5'), ReferenceKeyMsg(database='dvdrental', schema='valmi_scratch_computed_', identifier='init_cd3cd64a-02c9-4345-8399-292a4680a848'), ReferenceKeyMsg(database='dvdrental', schema='valmi_scratch_computed_', identifier='stg_snapshot_872e14d3-239d-412c-aaa3-15ba7f5a1c0f'), ReferenceKeyMsg(database='dvdrental', schema='valmi_scratch_computed_', identifier='stg_snapshot_4d280b44-0e34-4085-86d6-107d9372314f'), ReferenceKeyMsg(database='dvdrental', schema='valmi_scratch_computed_', identifier='init_49e6c558-1824-48c5-bfde-bca5d0732656'), ReferenceKeyMsg(database='dvdrental', schema='valmi_scratch_computed_', identifier='stg_snapshot_49e6c558-1824-48c5-bfde-bca5d0732656'), ReferenceKeyMsg(database='dvdrental', schema='valmi_scratch_computed_', identifier='init_81c71230-a34f-4b63-9d8d-9958085ec82d'), ReferenceKeyMsg(database='dvdrental', schema='valmi_scratch_computed_', identifier='stg_snapshot_cd3cd64a-02c9-4345-8399-292a4680a848'), ReferenceKeyMsg(database='dvdrental', schema='valmi_scratch_computed_', identifier='stg_snapshot_58582048-cf3f-4d26-86d3-53c0a37c171b'), ReferenceKeyMsg(database='dvdrental', schema='valmi_scratch_computed_', identifier='init_3a8d2bca-3f0c-4b73-865b-92104bd98479'), ReferenceKeyMsg(database='dvdrental', schema='valmi_scratch_computed_', identifier='stg_snapshot_3a8d2bca-3f0c-4b73-865b-92104bd98479'), ReferenceKeyMsg(database='dvdrental', schema='valmi_scratch_computed_', identifier='stg_snapshot_25d8f567-5287-4d62-9af3-af85ff14d740'), ReferenceKeyMsg(database='dvdrental', schema='valmi_scratch_computed_', identifier='init_98593ab9-441b-4fcd-bb03-d17cbb5c41c5'), ReferenceKeyMsg(database='dvdrental', schema='valmi_scratch_computed_', identifier='init_6f1eb8f2-bde8-4f86-b9a9-5e90b4c6b3ca'), ReferenceKeyMsg(database='dvdrental', schema='valmi_scratch_computed_', identifier='init_58582048-cf3f-4d26-86d3-53c0a37c171b'), ReferenceKeyMsg(database='dvdrental', schema='valmi_scratch_computed_', identifier='stg_snapshot_7d62d6db-f1f1-4d85-925b-ef7e44a93373'), ReferenceKeyMsg(database='dvdrental', schema='valmi_scratch_computed_', identifier='init_5674b69a-f346-44cb-aa76-dce2125226c9'), ReferenceKeyMsg(database='dvdrental', schema='valmi_scratch_computed_', identifier='stg_snapshot_5674b69a-f346-44cb-aa76-dce2125226c9'), ReferenceKeyMsg(database='dvdrental', schema='valmi_scratch_computed_', identifier='init_25d8f567-5287-4d62-9af3-af85ff14d740'), ReferenceKeyMsg(database='dvdrental', schema='valmi_scratch_computed_', identifier='init_10681d30-a951-41cc-bf54-da4bed09e0c2'), ReferenceKeyMsg(database='dvdrental', schema='valmi_scratch_computed_', identifier='stg_snapshot_fa8df245-aec0-44aa-ad6a-b811b2dfa620'), ReferenceKeyMsg(database='dvdrental', schema='valmi_scratch_computed_', identifier='init_4d280b44-0e34-4085-86d6-107d9372314f'), ReferenceKeyMsg(database='dvdrental', schema='valmi_scratch_computed_', identifier='init_33fce3dd-9eca-482e-8034-cd7759fdb53c'), ReferenceKeyMsg(database='dvdrental', schema='valmi_scratch_computed_', identifier='stg_snapshot_33fce3dd-9eca-482e-8034-cd7759fdb53c'), ReferenceKeyMsg(database='dvdrental', schema='valmi_scratch_computed_', identifier='init_872e14d3-239d-412c-aaa3-15ba7f5a1c0f'), ReferenceKeyMsg(database='dvdrental', schema='valmi_scratch_computed_', identifier='init_fa8df245-aec0-44aa-ad6a-b811b2dfa620')]
+2023-04-20 16:00:41.351212 (Thread-1): 16:00:41  Timing info for rpc.valmi_postgres.request (compile): 2023-04-20 16:00:40.249190 => 2023-04-20 16:00:41.351030
+2023-04-20 16:00:41.351479 (Thread-1): 16:00:41  Began executing node rpc.valmi_postgres.request
+2023-04-20 16:00:41.351672 (Thread-1): 16:00:41  Timing info for rpc.valmi_postgres.request (execute): 2023-04-20 16:00:41.351542 => 2023-04-20 16:00:41.351560
+2023-04-20 16:00:41.351839 (Thread-1): 16:00:41  On rpc.valmi_postgres.request: ROLLBACK
+2023-04-20 16:00:41.454964 (Thread-1): 16:00:41  On rpc.valmi_postgres.request: Close
+2023-04-20 16:00:42.835392 (Thread-510): handling poll request
+2023-04-20 16:00:42.835882 (Thread-510): 16:00:42  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '78c8d211-1674-4ccd-bde0-20b6ff916b2a', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fdd9294f5e0>]}
+2023-04-20 16:00:42.836913 (Thread-510): sending response (<Response 30696 bytes [200 OK]>) to 10.0.132.151
+2023-04-20 16:00:43.307939 (Thread-511): handling ps request
+2023-04-20 16:00:43.308422 (Thread-511): 16:00:43  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '78c8d211-1674-4ccd-bde0-20b6ff916b2a', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fdd9294f6d0>]}
+2023-04-20 16:00:43.309841 (Thread-511): sending response (<Response 15189 bytes [200 OK]>) to 10.0.132.151
+2023-04-20 16:00:43.498889 (Thread-512): handling poll request
+2023-04-20 16:00:43.499403 (Thread-512): 16:00:43  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '78c8d211-1674-4ccd-bde0-20b6ff916b2a', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fdd9294f970>]}
+2023-04-20 16:00:43.500347 (Thread-512): sending response (<Response 34960 bytes [200 OK]>) to 10.0.132.151
+2023-04-20 16:00:43.692606 (Thread-513): handling status request
+2023-04-20 16:00:43.693069 (Thread-513): 16:00:43  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '78c8d211-1674-4ccd-bde0-20b6ff916b2a', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fdd9294fa00>]}
+2023-04-20 16:00:43.693543 (Thread-513): sending response (<Response 2231 bytes [200 OK]>) to 10.0.132.151
+2023-04-20 16:00:47.686972 (Thread-514): handling status request
+2023-04-20 16:00:47.687474 (Thread-514): 16:00:47  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '78c8d211-1674-4ccd-bde0-20b6ff916b2a', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fdd9294fa30>]}
+2023-04-20 16:00:47.687959 (Thread-514): sending response (<Response 2231 bytes [200 OK]>) to 10.0.132.151
+2023-04-20 16:00:47.765520 (Thread-515): handling ps request
+2023-04-20 16:00:47.766077 (Thread-515): 16:00:47  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '78c8d211-1674-4ccd-bde0-20b6ff916b2a', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fdd9294fcd0>]}
+2023-04-20 16:00:47.767545 (Thread-515): sending response (<Response 15189 bytes [200 OK]>) to 10.0.132.151
+2023-04-20 16:00:48.045032 (Thread-516): handling ps request
+2023-04-20 16:00:48.045523 (Thread-516): 16:00:48  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '78c8d211-1674-4ccd-bde0-20b6ff916b2a', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fdd9294fee0>]}
+2023-04-20 16:00:48.059430 (Thread-517): handling run_sql request
+2023-04-20 16:00:48.059924 (Thread-517): 16:00:48  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '78c8d211-1674-4ccd-bde0-20b6ff916b2a', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fdd541f2b20>]}
+2023-04-20 16:00:48.069911 (Thread-516): sending response (<Response 15189 bytes [200 OK]>) to 10.0.132.151
+2023-04-20 16:00:50.357403 (Thread-517): sending response (<Response 133 bytes [200 OK]>) to 10.0.132.151
+2023-04-20 16:00:50.396504 (MainThread): 16:00:50  Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '36a82189-0a3c-47b8-b2a7-cee6ea43dc1a', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f399352a730>]}
+2023-04-20 16:00:50.397133 (MainThread): 16:00:50  Found 5 models, 0 tests, 0 snapshots, 0 analyses, 292 macros, 0 operations, 0 seed files, 6 sources, 0 exposures, 0 metrics
+2023-04-20 16:00:50.398532 (Thread-1): 16:00:50  Acquiring new postgres connection 'rpc.valmi_postgres.request'
+2023-04-20 16:00:50.398810 (Thread-1): 16:00:50  Began compiling node rpc.valmi_postgres.request
+2023-04-20 16:00:50.408494 (Thread-1): 16:00:50  On "rpc.valmi_postgres.request": cache miss for schema "dvdrental.valmi_scratch_computed_", this is inefficient
+2023-04-20 16:00:50.409081 (Thread-1): 16:00:50  checksum: 0049c9ca814b191acba678e7b1a0d7a85eeac3e13700309cfc1ce1a2c78d3886, vars: {}, profile: user, target: None, version: 1.4.6
+2023-04-20 16:00:50.752295 (Thread-1): 16:00:50  Using postgres connection "rpc.valmi_postgres.request"
+2023-04-20 16:00:50.752512 (Thread-1): 16:00:50  On rpc.valmi_postgres.request: BEGIN
+2023-04-20 16:00:50.752650 (Thread-1): 16:00:50  Opening a new connection, currently in state init
+2023-04-20 16:00:50.829710 (Thread-518): handling ps request
+2023-04-20 16:00:50.830453 (Thread-518): 16:00:50  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '78c8d211-1674-4ccd-bde0-20b6ff916b2a', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fdd541f2880>]}
+2023-04-20 16:00:50.832665 (Thread-518): sending response (<Response 15716 bytes [200 OK]>) to 10.0.132.151
+2023-04-20 16:00:50.869861 (Thread-519): handling ps request
+2023-04-20 16:00:50.870397 (Thread-519): 16:00:50  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '78c8d211-1674-4ccd-bde0-20b6ff916b2a', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fdd541f2700>]}
+2023-04-20 16:00:50.871741 (Thread-519): sending response (<Response 15716 bytes [200 OK]>) to 10.0.132.151
+2023-04-20 16:00:51.214808 (Thread-520): handling status request
+2023-04-20 16:00:51.215342 (Thread-520): 16:00:51  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '78c8d211-1674-4ccd-bde0-20b6ff916b2a', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fdd541ed370>]}
+2023-04-20 16:00:51.215918 (Thread-520): sending response (<Response 2231 bytes [200 OK]>) to 10.0.132.151
+2023-04-20 16:00:51.364328 (Thread-521): handling poll request
+2023-04-20 16:00:51.364823 (Thread-521): 16:00:51  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '78c8d211-1674-4ccd-bde0-20b6ff916b2a', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fdd541ed280>]}
+2023-04-20 16:00:51.365430 (Thread-521): sending response (<Response 3450 bytes [200 OK]>) to 10.0.132.151
+2023-04-20 16:00:51.374699 (Thread-1): 16:00:51  SQL status: BEGIN in 1 seconds
+2023-04-20 16:00:51.374925 (Thread-1): 16:00:51  Using postgres connection "rpc.valmi_postgres.request"
+2023-04-20 16:00:51.375059 (Thread-1): 16:00:51  On rpc.valmi_postgres.request: select
+      'dvdrental' as database,
+      tablename as name,
+      schemaname as schema,
+      'table' as type
+    from pg_tables
+    where schemaname ilike 'valmi_scratch_computed_'
+    union all
+    select
+      'dvdrental' as database,
+      viewname as name,
+      schemaname as schema,
+      'view' as type
+    from pg_views
+    where schemaname ilike 'valmi_scratch_computed_'
+  
+2023-04-20 16:00:51.469572 (Thread-522): handling poll request
+2023-04-20 16:00:51.470063 (Thread-522): 16:00:51  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '78c8d211-1674-4ccd-bde0-20b6ff916b2a', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fdd541ed2e0>]}
+2023-04-20 16:00:51.470697 (Thread-522): sending response (<Response 4698 bytes [200 OK]>) to 10.0.132.151
+2023-04-20 16:00:51.481619 (Thread-1): 16:00:51  SQL status: SELECT 110 in 0 seconds
+2023-04-20 16:00:51.485711 (Thread-1): 16:00:51  with database=dvdrental, schema=valmi_scratch_computed_, relations=[ReferenceKeyMsg(database='dvdrental', schema='valmi_scratch_computed_', identifier='finalized_snapshot_a6aebc8e-34ad-40e8-96b4-9c7cfc701b9e'), ReferenceKeyMsg(database='dvdrental', schema='valmi_scratch_computed_', identifier='ignored_snapshot_6f1eb8f2-bde8-4f86-b9a9-5e90b4c6b3ca'), ReferenceKeyMsg(database='dvdrental', schema='valmi_scratch_computed_', identifier='transit_snapshot_81c71230-a34f-4b63-9d8d-9958085ec82d'), ReferenceKeyMsg(database='dvdrental', schema='valmi_scratch_computed_', identifier='ignored_snapshot_98593ab9-441b-4fcd-bb03-d17cbb5c41c5'), ReferenceKeyMsg(database='dvdrental', schema='valmi_scratch_computed_', identifier='finalized_snapshot_7d62d6db-f1f1-4d85-925b-ef7e44a93373'), ReferenceKeyMsg(database='dvdrental', schema='valmi_scratch_computed_', identifier='transit_snapshot_7d62d6db-f1f1-4d85-925b-ef7e44a93373'), ReferenceKeyMsg(database='dvdrental', schema='valmi_scratch_computed_', identifier='ignored_snapshot_58582048-cf3f-4d26-86d3-53c0a37c171b'), ReferenceKeyMsg(database='dvdrental', schema='valmi_scratch_computed_', identifier='ignored_snapshot_25d8f567-5287-4d62-9af3-af85ff14d740'), ReferenceKeyMsg(database='dvdrental', schema='valmi_scratch_computed_', identifier='sync_metrics_25d8f567-5287-4d62-9af3-af85ff14d740'), ReferenceKeyMsg(database='dvdrental', schema='valmi_scratch_computed_', identifier='sync_metrics_81c71230-a34f-4b63-9d8d-9958085ec82d'), ReferenceKeyMsg(database='dvdrental', schema='valmi_scratch_computed_', identifier='ignored_snapshot_d8a92753-96a9-4628-b7b1-9dff536d359b'), ReferenceKeyMsg(database='dvdrental', schema='valmi_scratch_computed_', identifier='ignored_snapshot_a6aebc8e-34ad-40e8-96b4-9c7cfc701b9e'), ReferenceKeyMsg(database='dvdrental', schema='valmi_scratch_computed_', identifier='ignored_snapshot_872e14d3-239d-412c-aaa3-15ba7f5a1c0f'), ReferenceKeyMsg(database='dvdrental', schema='valmi_scratch_computed_', identifier='sync_metrics'), ReferenceKeyMsg(database='dvdrental', schema='valmi_scratch_computed_', identifier='transit_snapshot_10681d30-a951-41cc-bf54-da4bed09e0c2'), ReferenceKeyMsg(database='dvdrental', schema='valmi_scratch_computed_', identifier='finalized_snapshot_cd3cd64a-02c9-4345-8399-292a4680a848'), ReferenceKeyMsg(database='dvdrental', schema='valmi_scratch_computed_', identifier='finalized_snapshot_81c71230-a34f-4b63-9d8d-9958085ec82d'), ReferenceKeyMsg(database='dvdrental', schema='valmi_scratch_computed_', identifier='transit_snapshot_a6aebc8e-34ad-40e8-96b4-9c7cfc701b9e'), ReferenceKeyMsg(database='dvdrental', schema='valmi_scratch_computed_', identifier='transit_snapshot_d8a92753-96a9-4628-b7b1-9dff536d359b'), ReferenceKeyMsg(database='dvdrental', schema='valmi_scratch_computed_', identifier='transit_snapshot_98593ab9-441b-4fcd-bb03-d17cbb5c41c5'), ReferenceKeyMsg(database='dvdrental', schema='valmi_scratch_computed_', identifier='ignored_snapshot'), ReferenceKeyMsg(database='dvdrental', schema='valmi_scratch_computed_', identifier='sync_metrics_10681d30-a951-41cc-bf54-da4bed09e0c2'), ReferenceKeyMsg(database='dvdrental', schema='valmi_scratch_computed_', identifier='ignored_snapshot_cd3cd64a-02c9-4345-8399-292a4680a848'), ReferenceKeyMsg(database='dvdrental', schema='valmi_scratch_computed_', identifier='finalized_snapshot_49e6c558-1824-48c5-bfde-bca5d0732656'), ReferenceKeyMsg(database='dvdrental', schema='valmi_scratch_computed_', identifier='ignored_snapshot_fa8df245-aec0-44aa-ad6a-b811b2dfa620'), ReferenceKeyMsg(database='dvdrental', schema='valmi_scratch_computed_', identifier='sync_metrics_fa8df245-aec0-44aa-ad6a-b811b2dfa620'), ReferenceKeyMsg(database='dvdrental', schema='valmi_scratch_computed_', identifier='finalized_snapshot_d8a92753-96a9-4628-b7b1-9dff536d359b'), ReferenceKeyMsg(database='dvdrental', schema='valmi_scratch_computed_', identifier='ignored_snapshot_49e6c558-1824-48c5-bfde-bca5d0732656'), ReferenceKeyMsg(database='dvdrental', schema='valmi_scratch_computed_', identifier='transit_snapshot_49e6c558-1824-48c5-bfde-bca5d0732656'), ReferenceKeyMsg(database='dvdrental', schema='valmi_scratch_computed_', identifier='sync_metrics_a6aebc8e-34ad-40e8-96b4-9c7cfc701b9e'), ReferenceKeyMsg(database='dvdrental', schema='valmi_scratch_computed_', identifier='sync_metrics_98593ab9-441b-4fcd-bb03-d17cbb5c41c5'), ReferenceKeyMsg(database='dvdrental', schema='valmi_scratch_computed_', identifier='transit_snapshot_6f1eb8f2-bde8-4f86-b9a9-5e90b4c6b3ca'), ReferenceKeyMsg(database='dvdrental', schema='valmi_scratch_computed_', identifier='ignored_snapshot_7d62d6db-f1f1-4d85-925b-ef7e44a93373'), ReferenceKeyMsg(database='dvdrental', schema='valmi_scratch_computed_', identifier='sync_metrics_7d62d6db-f1f1-4d85-925b-ef7e44a93373'), ReferenceKeyMsg(database='dvdrental', schema='valmi_scratch_computed_', identifier='ignored_snapshot_5674b69a-f346-44cb-aa76-dce2125226c9'), ReferenceKeyMsg(database='dvdrental', schema='valmi_scratch_computed_', identifier='sync_metrics_58582048-cf3f-4d26-86d3-53c0a37c171b'), ReferenceKeyMsg(database='dvdrental', schema='valmi_scratch_computed_', identifier='transit_snapshot_5674b69a-f346-44cb-aa76-dce2125226c9'), ReferenceKeyMsg(database='dvdrental', schema='valmi_scratch_computed_', identifier='finalized_snapshot_3a8d2bca-3f0c-4b73-865b-92104bd98479'), ReferenceKeyMsg(database='dvdrental', schema='valmi_scratch_computed_', identifier='ignored_snapshot_3a8d2bca-3f0c-4b73-865b-92104bd98479'), ReferenceKeyMsg(database='dvdrental', schema='valmi_scratch_computed_', identifier='transit_snapshot_3a8d2bca-3f0c-4b73-865b-92104bd98479'), ReferenceKeyMsg(database='dvdrental', schema='valmi_scratch_computed_', identifier='sync_metrics_3a8d2bca-3f0c-4b73-865b-92104bd98479'), ReferenceKeyMsg(database='dvdrental', schema='valmi_scratch_computed_', identifier='finalized_snapshot_33fce3dd-9eca-482e-8034-cd7759fdb53c'), ReferenceKeyMsg(database='dvdrental', schema='valmi_scratch_computed_', identifier='sync_metrics_49e6c558-1824-48c5-bfde-bca5d0732656'), ReferenceKeyMsg(database='dvdrental', schema='valmi_scratch_computed_', identifier='ignored_snapshot_81c71230-a34f-4b63-9d8d-9958085ec82d'), ReferenceKeyMsg(database='dvdrental', schema='valmi_scratch_computed_', identifier='finalized_snapshot_98593ab9-441b-4fcd-bb03-d17cbb5c41c5'), ReferenceKeyMsg(database='dvdrental', schema='valmi_scratch_computed_', identifier='sync_metrics_d8a92753-96a9-4628-b7b1-9dff536d359b'), ReferenceKeyMsg(database='dvdrental', schema='valmi_scratch_computed_', identifier='finalized_snapshot_6f1eb8f2-bde8-4f86-b9a9-5e90b4c6b3ca'), ReferenceKeyMsg(database='dvdrental', schema='valmi_scratch_computed_', identifier='finalized_snapshot_5674b69a-f346-44cb-aa76-dce2125226c9'), ReferenceKeyMsg(database='dvdrental', schema='valmi_scratch_computed_', identifier='sync_metrics_6f1eb8f2-bde8-4f86-b9a9-5e90b4c6b3ca'), ReferenceKeyMsg(database='dvdrental', schema='valmi_scratch_computed_', identifier='finalized_snapshot_58582048-cf3f-4d26-86d3-53c0a37c171b'), ReferenceKeyMsg(database='dvdrental', schema='valmi_scratch_computed_', identifier='transit_snapshot_58582048-cf3f-4d26-86d3-53c0a37c171b'), ReferenceKeyMsg(database='dvdrental', schema='valmi_scratch_computed_', identifier='sync_metrics_5674b69a-f346-44cb-aa76-dce2125226c9'), ReferenceKeyMsg(database='dvdrental', schema='valmi_scratch_computed_', identifier='finalized_snapshot_25d8f567-5287-4d62-9af3-af85ff14d740'), ReferenceKeyMsg(database='dvdrental', schema='valmi_scratch_computed_', identifier='transit_snapshot_25d8f567-5287-4d62-9af3-af85ff14d740'), ReferenceKeyMsg(database='dvdrental', schema='valmi_scratch_computed_', identifier='ignored_snapshot_33fce3dd-9eca-482e-8034-cd7759fdb53c'), ReferenceKeyMsg(database='dvdrental', schema='valmi_scratch_computed_', identifier='transit_snapshot_872e14d3-239d-412c-aaa3-15ba7f5a1c0f'), ReferenceKeyMsg(database='dvdrental', schema='valmi_scratch_computed_', identifier='cleanup_snapshot'), ReferenceKeyMsg(database='dvdrental', schema='valmi_scratch_computed_', identifier='finalized_snapshot'), ReferenceKeyMsg(database='dvdrental', schema='valmi_scratch_computed_', identifier='init'), ReferenceKeyMsg(database='dvdrental', schema='valmi_scratch_computed_', identifier='transit_snapshot_cd3cd64a-02c9-4345-8399-292a4680a848'), ReferenceKeyMsg(database='dvdrental', schema='valmi_scratch_computed_', identifier='finalized_snapshot_10681d30-a951-41cc-bf54-da4bed09e0c2'), ReferenceKeyMsg(database='dvdrental', schema='valmi_scratch_computed_', identifier='finalized_snapshot_4d280b44-0e34-4085-86d6-107d9372314f'), ReferenceKeyMsg(database='dvdrental', schema='valmi_scratch_computed_', identifier='delete_snapshot'), ReferenceKeyMsg(database='dvdrental', schema='valmi_scratch_computed_', identifier='transit_snapshot_4d280b44-0e34-4085-86d6-107d9372314f'), ReferenceKeyMsg(database='dvdrental', schema='valmi_scratch_computed_', identifier='finalized_snapshot_872e14d3-239d-412c-aaa3-15ba7f5a1c0f'), ReferenceKeyMsg(database='dvdrental', schema='valmi_scratch_computed_', identifier='transit_snapshot_33fce3dd-9eca-482e-8034-cd7759fdb53c'), ReferenceKeyMsg(database='dvdrental', schema='valmi_scratch_computed_', identifier='sync_metrics_33fce3dd-9eca-482e-8034-cd7759fdb53c'), ReferenceKeyMsg(database='dvdrental', schema='valmi_scratch_computed_', identifier='sync_metrics_872e14d3-239d-412c-aaa3-15ba7f5a1c0f'), ReferenceKeyMsg(database='dvdrental', schema='valmi_scratch_computed_', identifier='stg_snapshot'), ReferenceKeyMsg(database='dvdrental', schema='valmi_scratch_computed_', identifier='ignored_snapshot_10681d30-a951-41cc-bf54-da4bed09e0c2'), ReferenceKeyMsg(database='dvdrental', schema='valmi_scratch_computed_', identifier='sync_metrics_cd3cd64a-02c9-4345-8399-292a4680a848'), ReferenceKeyMsg(database='dvdrental', schema='valmi_scratch_computed_', identifier='finalized_snapshot_fa8df245-aec0-44aa-ad6a-b811b2dfa620'), ReferenceKeyMsg(database='dvdrental', schema='valmi_scratch_computed_', identifier='transit_snapshot_fa8df245-aec0-44aa-ad6a-b811b2dfa620'), ReferenceKeyMsg(database='dvdrental', schema='valmi_scratch_computed_', identifier='ignored_snapshot_4d280b44-0e34-4085-86d6-107d9372314f'), ReferenceKeyMsg(database='dvdrental', schema='valmi_scratch_computed_', identifier='sync_metrics_4d280b44-0e34-4085-86d6-107d9372314f'), ReferenceKeyMsg(database='dvdrental', schema='valmi_scratch_computed_', identifier='transit_snapshot'), ReferenceKeyMsg(database='dvdrental', schema='valmi_scratch_computed_', identifier='stg_snapshot_81c71230-a34f-4b63-9d8d-9958085ec82d'), ReferenceKeyMsg(database='dvdrental', schema='valmi_scratch_computed_', identifier='init_a6aebc8e-34ad-40e8-96b4-9c7cfc701b9e'), ReferenceKeyMsg(database='dvdrental', schema='valmi_scratch_computed_', identifier='init_d8a92753-96a9-4628-b7b1-9dff536d359b'), ReferenceKeyMsg(database='dvdrental', schema='valmi_scratch_computed_', identifier='stg_snapshot_6f1eb8f2-bde8-4f86-b9a9-5e90b4c6b3ca'), ReferenceKeyMsg(database='dvdrental', schema='valmi_scratch_computed_', identifier='init_7d62d6db-f1f1-4d85-925b-ef7e44a93373'), ReferenceKeyMsg(database='dvdrental', schema='valmi_scratch_computed_', identifier='stg_snapshot_10681d30-a951-41cc-bf54-da4bed09e0c2'), ReferenceKeyMsg(database='dvdrental', schema='valmi_scratch_computed_', identifier='stg_snapshot_a6aebc8e-34ad-40e8-96b4-9c7cfc701b9e'), ReferenceKeyMsg(database='dvdrental', schema='valmi_scratch_computed_', identifier='stg_snapshot_d8a92753-96a9-4628-b7b1-9dff536d359b'), ReferenceKeyMsg(database='dvdrental', schema='valmi_scratch_computed_', identifier='stg_snapshot_98593ab9-441b-4fcd-bb03-d17cbb5c41c5'), ReferenceKeyMsg(database='dvdrental', schema='valmi_scratch_computed_', identifier='init_cd3cd64a-02c9-4345-8399-292a4680a848'), ReferenceKeyMsg(database='dvdrental', schema='valmi_scratch_computed_', identifier='stg_snapshot_872e14d3-239d-412c-aaa3-15ba7f5a1c0f'), ReferenceKeyMsg(database='dvdrental', schema='valmi_scratch_computed_', identifier='stg_snapshot_4d280b44-0e34-4085-86d6-107d9372314f'), ReferenceKeyMsg(database='dvdrental', schema='valmi_scratch_computed_', identifier='init_49e6c558-1824-48c5-bfde-bca5d0732656'), ReferenceKeyMsg(database='dvdrental', schema='valmi_scratch_computed_', identifier='stg_snapshot_49e6c558-1824-48c5-bfde-bca5d0732656'), ReferenceKeyMsg(database='dvdrental', schema='valmi_scratch_computed_', identifier='init_81c71230-a34f-4b63-9d8d-9958085ec82d'), ReferenceKeyMsg(database='dvdrental', schema='valmi_scratch_computed_', identifier='stg_snapshot_cd3cd64a-02c9-4345-8399-292a4680a848'), ReferenceKeyMsg(database='dvdrental', schema='valmi_scratch_computed_', identifier='stg_snapshot_58582048-cf3f-4d26-86d3-53c0a37c171b'), ReferenceKeyMsg(database='dvdrental', schema='valmi_scratch_computed_', identifier='init_3a8d2bca-3f0c-4b73-865b-92104bd98479'), ReferenceKeyMsg(database='dvdrental', schema='valmi_scratch_computed_', identifier='stg_snapshot_3a8d2bca-3f0c-4b73-865b-92104bd98479'), ReferenceKeyMsg(database='dvdrental', schema='valmi_scratch_computed_', identifier='stg_snapshot_25d8f567-5287-4d62-9af3-af85ff14d740'), ReferenceKeyMsg(database='dvdrental', schema='valmi_scratch_computed_', identifier='init_98593ab9-441b-4fcd-bb03-d17cbb5c41c5'), ReferenceKeyMsg(database='dvdrental', schema='valmi_scratch_computed_', identifier='init_6f1eb8f2-bde8-4f86-b9a9-5e90b4c6b3ca'), ReferenceKeyMsg(database='dvdrental', schema='valmi_scratch_computed_', identifier='init_58582048-cf3f-4d26-86d3-53c0a37c171b'), ReferenceKeyMsg(database='dvdrental', schema='valmi_scratch_computed_', identifier='stg_snapshot_7d62d6db-f1f1-4d85-925b-ef7e44a93373'), ReferenceKeyMsg(database='dvdrental', schema='valmi_scratch_computed_', identifier='init_5674b69a-f346-44cb-aa76-dce2125226c9'), ReferenceKeyMsg(database='dvdrental', schema='valmi_scratch_computed_', identifier='stg_snapshot_5674b69a-f346-44cb-aa76-dce2125226c9'), ReferenceKeyMsg(database='dvdrental', schema='valmi_scratch_computed_', identifier='init_25d8f567-5287-4d62-9af3-af85ff14d740'), ReferenceKeyMsg(database='dvdrental', schema='valmi_scratch_computed_', identifier='init_10681d30-a951-41cc-bf54-da4bed09e0c2'), ReferenceKeyMsg(database='dvdrental', schema='valmi_scratch_computed_', identifier='stg_snapshot_fa8df245-aec0-44aa-ad6a-b811b2dfa620'), ReferenceKeyMsg(database='dvdrental', schema='valmi_scratch_computed_', identifier='init_4d280b44-0e34-4085-86d6-107d9372314f'), ReferenceKeyMsg(database='dvdrental', schema='valmi_scratch_computed_', identifier='init_33fce3dd-9eca-482e-8034-cd7759fdb53c'), ReferenceKeyMsg(database='dvdrental', schema='valmi_scratch_computed_', identifier='stg_snapshot_33fce3dd-9eca-482e-8034-cd7759fdb53c'), ReferenceKeyMsg(database='dvdrental', schema='valmi_scratch_computed_', identifier='init_872e14d3-239d-412c-aaa3-15ba7f5a1c0f'), ReferenceKeyMsg(database='dvdrental', schema='valmi_scratch_computed_', identifier='init_fa8df245-aec0-44aa-ad6a-b811b2dfa620')]
+2023-04-20 16:00:51.487257 (Thread-1): 16:00:51  Timing info for rpc.valmi_postgres.request (compile): 2023-04-20 16:00:50.398867 => 2023-04-20 16:00:51.487082
+2023-04-20 16:00:51.487477 (Thread-1): 16:00:51  Began executing node rpc.valmi_postgres.request
+2023-04-20 16:00:51.487633 (Thread-1): 16:00:51  Using postgres connection "rpc.valmi_postgres.request"
+2023-04-20 16:00:51.487758 (Thread-1): 16:00:51  On rpc.valmi_postgres.request: /*
+ * Copyright (c) 2023 valmi.io <https://github.com/valmi-io>
+ * 
+ * Created Date: Wednesday, March 22nd 2023, 12:49:11 am
+ * Author: Rajashekar Varkala @ valmi.io
+ * 
+ * Permission is hereby granted, free of charge, to any person obtaining a copy
+ * of this software and associated documentation files (the "Software"), to deal
+ * in the Software without restriction, including without limitation the rights
+ * to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+ * copies of the Software, and to permit persons to whom the Software is
+ * furnished to do so, subject to the following conditions:
+ * 
+ * The above copyright notice and this permission notice shall be included in all
+ * copies or substantial portions of the Software.
+ * 
+ * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+ * IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+ * FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+ * AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+ * LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+ * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+ * SOFTWARE.
+ */
+
+
+
+
+
+
+
+
+ 
+
+with
+    stg_snapshot as (select * from "dvdrental"."valmi_scratch_computed_"."stg_snapshot"),
+    ignored_snapshot as (select * from "dvdrental"."valmi_scratch_computed_"."ignored_snapshot")
+
+
+    , cleanup_snapshot as (select * from "dvdrental"."valmi_scratch_computed_"."cleanup_snapshot")
+
+
+select
+    row_number() over (order by CASE WHEN _valmi_sync_op = 'delete' THEN 1
+              WHEN _valmi_sync_op = 'upsert' THEN 2 
+              ELSE 4 END, customer_id) _valmi_row_num, COMBINED.* FROM
+
+    (   select   _valmi_sync_op, customer_id, email,first_name,activebool,last_update
+            from stg_snapshot
+            where customer_id not in 
+                (select customer_id 
+                from ignored_snapshot 
+                where  customer_id is not NULL)
+
+       
+        UNION ALL
+
+        select 'delete' AS _valmi_sync_op ,  customer_id, NULL,NULL,NULL,NULL
+        from cleanup_snapshot
+    
+    ) AS COMBINED
+
+    ORDER BY _valmi_row_num ASC
+limit 500
+/* limit added automatically by dbt cloud */
+2023-04-20 16:00:51.594935 (Thread-1): 16:00:51  SQL status: SELECT 500 in 0 seconds
+2023-04-20 16:00:51.608925 (Thread-1): 16:00:51  Timing info for rpc.valmi_postgres.request (execute): 2023-04-20 16:00:51.487523 => 2023-04-20 16:00:51.608731
+2023-04-20 16:00:51.609151 (Thread-1): 16:00:51  On rpc.valmi_postgres.request: ROLLBACK
+2023-04-20 16:00:51.711789 (Thread-1): 16:00:51  On rpc.valmi_postgres.request: Close
+2023-04-20 16:00:51.840931 (Thread-523): handling status request
+2023-04-20 16:00:51.841436 (Thread-523): 16:00:51  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '78c8d211-1674-4ccd-bde0-20b6ff916b2a', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fdd9294f8e0>]}
+2023-04-20 16:00:51.841965 (Thread-523): sending response (<Response 2231 bytes [200 OK]>) to 10.0.132.151
+2023-04-20 16:00:52.876097 (Thread-524): handling poll request
+2023-04-20 16:00:52.876583 (Thread-524): 16:00:52  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '78c8d211-1674-4ccd-bde0-20b6ff916b2a', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fdd9294fb50>]}
+2023-04-20 16:00:52.878996 (Thread-524): sending response (<Response 60300 bytes [200 OK]>) to 10.0.132.151
+2023-04-20 16:00:53.324693 (Thread-525): handling ps request
+2023-04-20 16:00:53.325199 (Thread-525): 16:00:53  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '78c8d211-1674-4ccd-bde0-20b6ff916b2a', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fdd9294fac0>]}
+2023-04-20 16:00:53.326627 (Thread-525): sending response (<Response 15741 bytes [200 OK]>) to 10.0.132.151
+2023-04-20 16:00:53.709016 (Thread-526): handling status request
+2023-04-20 16:00:53.709502 (Thread-526): 16:00:53  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '78c8d211-1674-4ccd-bde0-20b6ff916b2a', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fdd929536a0>]}
+2023-04-20 16:00:53.710030 (Thread-526): sending response (<Response 2231 bytes [200 OK]>) to 10.0.132.151
+2023-04-20 16:00:53.930247 (Thread-527): handling poll request
+2023-04-20 16:00:53.930750 (Thread-527): 16:00:53  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '78c8d211-1674-4ccd-bde0-20b6ff916b2a', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fdd92953ca0>]}
+2023-04-20 16:00:53.932928 (Thread-527): sending response (<Response 63316 bytes [200 OK]>) to 10.0.132.151
+2023-04-20 16:00:54.499589 (Thread-528): handling status request
+2023-04-20 16:00:54.500083 (Thread-528): 16:00:54  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '78c8d211-1674-4ccd-bde0-20b6ff916b2a', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fdd92953ee0>]}
+2023-04-20 16:00:54.500592 (Thread-528): sending response (<Response 2231 bytes [200 OK]>) to 10.0.132.151
+2023-04-20 16:00:54.650614 (Thread-529): handling ps request
+2023-04-20 16:00:54.651121 (Thread-529): 16:00:54  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '78c8d211-1674-4ccd-bde0-20b6ff916b2a', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fdd9294fc10>]}
+2023-04-20 16:00:54.652449 (Thread-529): sending response (<Response 15741 bytes [200 OK]>) to 10.0.132.151
+2023-04-20 16:01:14.124892 (Thread-530): handling status request
+2023-04-20 16:01:14.125407 (Thread-530): 16:01:14  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '78c8d211-1674-4ccd-bde0-20b6ff916b2a', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fdd9293be80>]}
+2023-04-20 16:01:14.125938 (Thread-530): sending response (<Response 2231 bytes [200 OK]>) to 10.0.132.151
+2023-04-20 16:01:22.914559 (Thread-531): handling status request
+2023-04-20 16:01:22.915052 (Thread-531): 16:01:22  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '78c8d211-1674-4ccd-bde0-20b6ff916b2a', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fdd9294f7c0>]}
+2023-04-20 16:01:22.915547 (Thread-531): sending response (<Response 2231 bytes [200 OK]>) to 10.0.132.151
+2023-04-20 16:01:23.018874 (Thread-532): handling ps request
+2023-04-20 16:01:23.019386 (Thread-532): 16:01:23  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '78c8d211-1674-4ccd-bde0-20b6ff916b2a', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fdd9294f400>]}
+2023-04-20 16:01:23.020770 (Thread-532): sending response (<Response 15741 bytes [200 OK]>) to 10.0.132.151
+2023-04-20 16:01:23.222490 (Thread-533): handling ps request
+2023-04-20 16:01:23.222992 (Thread-533): 16:01:23  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '78c8d211-1674-4ccd-bde0-20b6ff916b2a', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fdd9294fc70>]}
+2023-04-20 16:01:23.224549 (Thread-533): sending response (<Response 15741 bytes [200 OK]>) to 10.0.132.151
+2023-04-20 16:01:23.391962 (Thread-534): handling status request
+2023-04-20 16:01:23.392473 (Thread-534): 16:01:23  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '78c8d211-1674-4ccd-bde0-20b6ff916b2a', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fdd92953610>]}
+2023-04-20 16:01:23.392981 (Thread-534): sending response (<Response 2231 bytes [200 OK]>) to 10.0.132.151
