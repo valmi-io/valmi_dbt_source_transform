@@ -66,4 +66,6 @@ select
         from cleanup_snapshot
     {% endif %}
     ) AS COMBINED
+
+    ORDER BY _valmi_row_num ASC;
  
