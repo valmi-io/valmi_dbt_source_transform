@@ -67,5 +67,5 @@ select
     {% endif %}
     ) AS COMBINED
 
-    ORDER BY _valmi_row_num ASC;
+    ORDER BY _valmi_row_num ASC
  
