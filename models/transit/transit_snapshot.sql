@@ -23,18 +23,47 @@
  * SOFTWARE.
  */
 
+{% set cleanup_relation_available = False %}
+
+{% if var("destination_sync_mode") == "mirror" %}
+    {%- set cleanup_relation = adapter.get_relation(
+                database=source("scratch", var("cleanup_snapshot")).database,
+                schema=source("scratch", var("cleanup_snapshot")).schema,
+                identifier=source("scratch", var("cleanup_snapshot")).name,
+        ) -%}
+            
+    {% set cleanup_relation_available = cleanup_relation is not none %}
+{% endif %}
+
+{# columns array without id_key #}
+{% set columns_arr =  var("columns") | select("ne",  var("id_key")) | list  %}
+{% set null_arr = ['NULL'] *  columns_arr   |  length %} 
+
 with
     stg_snapshot as (select * from {{  ref(var("stg_snapshot")) }}),
     ignored_snapshot as (select * from {{ ref(var("ignored_snapshot")) }})
 
+{% if cleanup_relation_available %}
+    , cleanup_snapshot as (select * from {{ source('scratch', var('cleanup_snapshot')) }})
+{% endif %}
+
 select
     row_number() over (order by CASE WHEN _valmi_sync_op = 'delete' THEN 1
               WHEN _valmi_sync_op = 'upsert' THEN 2 
-              ELSE 4 END, {{ var("id_key") }}) _valmi_row_num,
-    _valmi_sync_op,
-    {{ ",".join(var("columns")) }}
-from stg_snapshot
-where {{ var("id_key") }} not in 
-    (select {{ var("id_key") }} 
-    from ignored_snapshot 
-    where  {{ var("id_key") }} is not NULL)
+              ELSE 4 END, {{ var("id_key") }}) _valmi_row_num, COMBINED.* FROM
+
+    (   select   _valmi_sync_op, {{ var("id_key") }}, {{ ",".join(columns_arr) }}
+            from stg_snapshot
+            where {{ var("id_key") }} not in 
+                (select {{ var("id_key") }} 
+                from ignored_snapshot 
+                where  {{ var("id_key") }} is not NULL)
+
+    {% if cleanup_relation_available %}   
+        UNION ALL
+
+        select 'delete' AS _valmi_sync_op ,  {{ var("id_key") }}, {{ ",".join(null_arr) }}
+        from cleanup_snapshot
+    {% endif %}
+    ) AS COMBINED
+ 
