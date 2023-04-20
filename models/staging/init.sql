@@ -54,15 +54,21 @@
 
             {{ finalize_transit_snapshot() }}
 
+
             {# ID key cannot be changed by editing a Sync :: other columns can be changed#}
             {% set query %}
+                DROP TABLE IF EXISTS {{ source('scratch', var('cleanup_snapshot')) }} 
+            {% endset %}
+            {% do run_query(query) %}
+
+            {% set query %}
                 CREATE TABLE {{ source('scratch', var('cleanup_snapshot')) }}  
-                AS SELECT row_number() over (order by {{ var("id_key") }}) _valmi_row_num,
-                'delete' AS _valmi_sync_op, {{ var("id_key") }}
-                FROM {{ source("scratch", var("finalized_snapshot")) }}
+                AS  SELECT {{ var("id_key") }} 
+                FROM {{ source("scratch", var("finalized_snapshot")) }} 
             {% endset %}
             {% do run_query(query) %}
         {% endif %}
+
     {% endif %}
 
 
@@ -86,23 +92,13 @@
     
         {{ finalize_transit_snapshot() }}
 
-    {% endif %}
-
-    {% if var("destination_sync_mode") == "mirror" %}
-
-        {# Have the delete table #}
         {% set query %}
-            CREATE TABLE IF NOT EXISTS {{ source('scratch', var('cleanup_snapshot')) }}  
-            AS 
-            SELECT row_number() over (order by {{ var("id_key") }}) _valmi_row_num,
-            'delete' AS _valmi_sync_op, {{ var("id_key") }}
-            FROM {{ source("scratch", var("finalized_snapshot")) }}
-            LIMIT 0
+            DROP TABLE IF EXISTS {{ source('scratch', var('cleanup_snapshot')) }} 
         {% endset %}
         {% do run_query(query) %}
 
     {% endif %}
-    
+ 
 {% endif %}
 
 SELECT 0
