@@ -101,4 +101,4 @@
  
 {% endif %}
 
-SELECT 0
+SELECT 0 AS "init_column"
