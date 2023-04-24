@@ -50,6 +50,7 @@ with
 select
     row_number() over (order by CASE WHEN _valmi_sync_op = 'delete' THEN 1
               WHEN _valmi_sync_op = 'upsert' THEN 2 
+              WHEN _valmi_sync_op = 'append' THEN 3
               ELSE 4 END, {{ var("id_key") }}) _valmi_row_num, COMBINED.* FROM
 
     (   select   _valmi_sync_op, {{ var("id_key") }}, {{ ",".join(columns_arr) }}
