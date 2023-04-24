@@ -43,7 +43,7 @@
         select * from {{ ref( var("init")) }}
     )
 
-    {% if var("destination_sync_mode") == "upsert" %}
+    {% if var("destination_sync_mode") in ("upsert" ,'append','create','update') %}
 
         select 'upsert' AS _valmi_sync_op, ADDED.* from (
             select {{ ",".join(var("columns")) }}
@@ -55,18 +55,6 @@
             from {{ source("scratch", var("finalized_snapshot")) }}
             ) ADDED
 
-
-    {% elif var("destination_sync_mode") == "append" %}
-
-            select 'append' AS _valmi_sync_op, ADDED.* from (
-            select {{ ",".join(var("columns")) }}
-            from {{ source("aliased_source", var("source_table")) }}
-
-            except
-
-            select {{ ",".join(var("columns")) }}
-            from {{ source("scratch", var("finalized_snapshot")) }}
-            ) ADDED
 
     {% elif var("destination_sync_mode") == "mirror" %}
 
