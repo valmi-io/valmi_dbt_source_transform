@@ -23,7 +23,7 @@
             DELETE FROM {{ source('scratch', var('finalized_snapshot')) }} WHERE {{ var("id_key") }} in 
             (SELECT  {{ var("id_key") }}   
                 FROM  {{ source('scratch', var('transit_snapshot')) }}
-                WHERE _valmi_sync_op IN ('upsert')
+                WHERE _valmi_sync_op IN ('upsert', 'append')
             )
         {% endset %}
         {% do run_query(query) %}
@@ -33,7 +33,7 @@
             INSERT INTO {{ source('scratch', var('finalized_snapshot')) }} 
             SELECT {{ ",".join(var("columns")) }} 
             FROM {{ source('scratch', var('transit_snapshot')) }}
-            WHERE _valmi_sync_op IN ('upsert')
+            WHERE _valmi_sync_op IN ('upsert','append')
         {% endset %}
         {% do run_query(query) %}
 
