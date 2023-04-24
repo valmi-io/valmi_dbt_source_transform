@@ -55,6 +55,19 @@
             from {{ source("scratch", var("finalized_snapshot")) }}
             ) ADDED
 
+
+    {% elif var("destination_sync_mode") == "append" %}
+
+            select 'append' AS _valmi_sync_op, ADDED.* from (
+            select {{ ",".join(var("columns")) }}
+            from {{ source("aliased_source", var("source_table")) }}
+
+            except
+
+            select {{ ",".join(var("columns")) }}
+            from {{ source("scratch", var("finalized_snapshot")) }}
+            ) ADDED
+
     {% elif var("destination_sync_mode") == "mirror" %}
 
         select 'upsert'  AS _valmi_sync_op, ADDED.* from (
