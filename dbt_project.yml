@@ -38,7 +38,7 @@ vars:
   full_refresh: "true"
   previous_run_status: "success"
 
-  destination_sync_mode: "mirror"
+  destination_sync_mode: "update"
 
   columns: ["customer_id","email","first_name","activebool","last_update"]
   id_key: "customer_id" 

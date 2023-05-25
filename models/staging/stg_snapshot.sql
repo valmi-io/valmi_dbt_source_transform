@@ -45,7 +45,7 @@
 
     {% if var("destination_sync_mode") in ("upsert" ,'append','create','update') %}
 
-        select {{  var("destination_sync_mode") }}  AS _valmi_sync_op, ADDED.* from (
+        select '{{  var("destination_sync_mode") }}'  AS _valmi_sync_op, ADDED.* from (
             select {{ ",".join(var("columns")) }}
             from {{ source("aliased_source", var("source_table")) }}
 
