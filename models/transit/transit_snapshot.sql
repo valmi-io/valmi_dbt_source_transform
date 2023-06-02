@@ -56,7 +56,7 @@ select
               WHEN _valmi_sync_op =  'update' THEN 5
               ELSE 6 END, {{ var("id_key") }}) _valmi_row_num, COMBINED.* FROM
 
-    (   select   _valmi_sync_op, {{ ",".join(var("columns")) }}
+    (   select   _valmi_sync_op, {{ quote(columns_arr) }}
             from stg_snapshot
             where {{ var("id_key") }} not in 
                 (select {{ var("id_key") }} 
@@ -66,7 +66,7 @@ select
     {% if cleanup_relation_available %}   
         UNION ALL
 
-        select 'delete' AS _valmi_sync_op ,  {{ ",".join(null_arr) }}
+        select 'delete' AS _valmi_sync_op ,  {{ quote(null_arr) }}
         from cleanup_snapshot
     {% endif %}
     ) AS COMBINED

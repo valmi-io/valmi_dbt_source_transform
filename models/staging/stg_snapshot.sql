@@ -46,12 +46,12 @@
     {% if var("destination_sync_mode") in ("upsert" ,'append','create','update') %}
 
         select '{{  var("destination_sync_mode") }}'  AS _valmi_sync_op, ADDED.* from (
-            select {{ ",".join(var("columns")) }}
+            select {{ quote(var("columns")) }}
             from {{ source("aliased_source", var("source_table")) }}
 
             except
 
-            select {{ ",".join(var("columns")) }}
+            select {{ quote(var("columns")) }}
             from {{ source("scratch", var("finalized_snapshot")) }}
             ) ADDED
 
@@ -59,24 +59,24 @@
     {% elif var("destination_sync_mode") == "mirror" %}
 
         select 'upsert'  AS _valmi_sync_op, ADDED.* from (
-            select {{ ",".join(var("columns")) }}
+            select {{ quote(var("columns")) }}
             from {{ source("aliased_source", var("source_table")) }}
 
             except
 
-            select {{ ",".join(var("columns")) }}
+            select {{ quote(var("columns")) }}
             from {{ source("scratch", var("finalized_snapshot")) }}
             ) ADDED
 
         UNION ALL
          
         select 'delete'  AS _valmi_sync_op, DELETED.* from (
-            select {{ ",".join(var("columns")) }}
+            select {{ quote(var("columns")) }}
             from {{ source("scratch", var("finalized_snapshot")) }}
 
             except
 
-            select {{ ",".join(var("columns")) }}
+            select {{ quote(var("columns")) }}
             from {{ source("aliased_source", var("source_table")) }}
             
             ) DELETED

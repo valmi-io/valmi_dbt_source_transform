@@ -80,7 +80,7 @@
  
     {% set query %}
             CREATE TABLE {{ source('scratch', var('finalized_snapshot')) }}  
-            AS SELECT {{ ",".join(var("columns")) }} 
+            AS SELECT {{ quote(var("columns")) }}
             FROM {{ source("aliased_source", var("source_table")) }} 
             LIMIT 0
     {% endset %}

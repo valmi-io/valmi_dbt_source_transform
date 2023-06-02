@@ -31,7 +31,7 @@
         {# insert the new transit snapshot keys#}
         {% set query %}
             INSERT INTO {{ source('scratch', var('finalized_snapshot')) }} 
-            SELECT {{ ",".join(var("columns")) }} 
+            SELECT {{ quote(var("columns")) }} 
             FROM {{ source('scratch', var('transit_snapshot')) }}
             WHERE _valmi_sync_op IN ('upsert','append' ,'create','update')
         {% endset %}
