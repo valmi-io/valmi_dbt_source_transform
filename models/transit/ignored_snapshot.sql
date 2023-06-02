@@ -29,13 +29,13 @@ with source as (select * from {{ source("aliased_source", var("source_table")) }
 select {{ quote(var("columns")) }} , -100 AS error_code 
 from source
 where
-    {{ var("id_key") }}  in (
-        select {{ var("id_key") }}
+    {{ quote_single(var("id_key")) }}  in (
+        select {{ quote_single(var("id_key")) }}
         from
             (
-                select count(*), {{ var("id_key") }}
+                select count(*), {{ quote_single(var("id_key")) }}
                 from source
-                group by {{ var("id_key") }}
+                group by {{ quote_single(var("id_key")) }}
                 having count(*) > 1
             ) AS ID_COUNTS
     )
@@ -47,7 +47,7 @@ UNION ALL
 {# Null Keys : Code -120 #}
 select {{ quote(var("columns")) }} , -120 AS error_code 
 from source
-where  {{ var("id_key") }} IS  NULL
+where  {{ quote_single(var("id_key")) }} IS  NULL
 
 
 

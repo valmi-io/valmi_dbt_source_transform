@@ -63,7 +63,7 @@
 
             {% set query %}
                 CREATE TABLE {{ source('scratch', var('cleanup_snapshot')) }}  
-                AS  SELECT {{ var("id_key") }} 
+                AS  SELECT {{ quote_single(var("id_key")) }} 
                 FROM {{ source("scratch", var("finalized_snapshot")) }} 
             {% endset %}
             {% do run_query(query) %}
