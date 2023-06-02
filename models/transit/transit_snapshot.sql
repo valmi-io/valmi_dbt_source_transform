@@ -54,14 +54,14 @@ select
               WHEN _valmi_sync_op = 'append' THEN 3
               WHEN _valmi_sync_op =  'create' THEN 4 
               WHEN _valmi_sync_op =  'update' THEN 5
-              ELSE 6 END, {{ var("id_key") }}) _valmi_row_num, COMBINED.* FROM
+              ELSE 6 END, {{ quote_single(var("id_key")) }}) _valmi_row_num, COMBINED.* FROM
 
-    (   select   _valmi_sync_op, {{ quote(columns_arr) }}
+    (   select   _valmi_sync_op, {{ quote(var("columns")) }}
             from stg_snapshot
-            where {{ var("id_key") }} not in 
-                (select {{ var("id_key") }} 
+            where {{ quote_single(var("id_key")) }} not in 
+                (select {{ quote_single(var("id_key")) }} 
                 from ignored_snapshot 
-                where  {{ var("id_key") }} is not NULL)
+                where  {{ quote_single(var("id_key")) }} is not NULL)
 
     {% if cleanup_relation_available %}   
         UNION ALL
