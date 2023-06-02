@@ -37,7 +37,7 @@
 
 {# columns array without id_key #}
 {% set columns_arr =  var("columns") | select("ne",  var("id_key")) | list  %}
-{% set null_arr = ['NULL'] *  columns_arr   |  length %} 
+{% set null_arr = ["NULL"] *  columns_arr   |  length %} 
 {% set _ =  null_arr.insert(0, var("id_key")) %}
 
 with
@@ -66,7 +66,7 @@ select
     {% if cleanup_relation_available %}   
         UNION ALL
 
-        select 'delete' AS _valmi_sync_op ,  {{ quote(null_arr) }}
+        select 'delete' AS _valmi_sync_op ,  {{ ",".join(null_arr)   }}
         from cleanup_snapshot
     {% endif %}
     ) AS COMBINED
