@@ -23,7 +23,7 @@
  * SOFTWARE.
  */
 
-{% if var("full_refresh") == "true" %}
+{% if var("full_refresh") == true %}
     {% set do_full_refresh = true %}
 {% else %}
 
