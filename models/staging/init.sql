@@ -23,6 +23,19 @@
  * SOFTWARE.
  */
 
+{% if var("query") != none %}
+    {% set query %}
+        DROP TABLE IF EXISTS {{ source('aliased_source', var('source_table')) }} CASCADE
+    {% endset %}
+    {% do run_query(query) %}
+    {% set query %}
+        CREATE TABLE {{ source('aliased_source', var('source_table')) }} AS ({{ var("query") }})
+    {% endset %}
+    {% do run_query(query) %}
+{% endif %}
+
+
+
 {% if var("full_refresh") == true %}
     {% set do_full_refresh = true %}
 {% else %}

@@ -23,7 +23,9 @@
  * SOFTWARE.
  */
 
-with source as (select * from {{ source("aliased_source", var("source_table")) }})
+with init as ( -- This is to trigger init model before running this model
+        select * from {{ ref( var("init")) }}
+    ),  source as (select * from {{ source("aliased_source", var("source_table")) }})
 
 {# Duplicate keys : Code -100 #}
 select {{ quote(var("columns")) }} , -100 AS error_code 
