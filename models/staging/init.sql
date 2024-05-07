@@ -24,11 +24,11 @@
  */
 
 {% if var("query") != none %}
-    {% set query %}
+    {% set query %} 
         DROP TABLE IF EXISTS {{ source('aliased_source', var('source_table')) }} CASCADE
     {% endset %}
     {% do run_query(query) %}
-    {% set query %}
+    {% set query %} -- For snowflake wh, the query needs to be modified for it make it work
         CREATE TABLE {{ source('aliased_source', var('source_table')) }} AS ({{ var("query") }})
     {% endset %}
     {% do run_query(query) %}
