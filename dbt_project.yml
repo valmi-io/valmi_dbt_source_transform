@@ -29,6 +29,8 @@ models:
 vars:
   source_table: "customer"
   init: "init"
+  query: >
+    {{args['query']}}
   finalized_snapshot:  "finalized_snapshot"
   stg_snapshot: "stg_snapshot"
   ignored_snapshot: "ignored_snapshot"
